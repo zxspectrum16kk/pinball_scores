@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Language" content="en">
+  <title>Pinball Scores – Machines</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Pinball Scores – Machines</h1>
+
+    <nav aria-label="Pinball navigation">
+      <a href="index.html" aria-current="page">Machines</a>
+      <a href="overall.html">Leaderboard</a>
+      <a href="h2h.html">Head-to-Head</a>
+      <a href="players.html">Settings</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <p class="note">
+      Data sourced from
+      <a href="https://pinballleague.uk" target="_blank" rel="noopener noreferrer">pinballleague.uk</a>.
+      Pinball machine stats and player information have been exported into JSON format for use in this app.
+    </p>
+
+    <div class="info">
+      <b>Note:</b> Only players selected in <b>Settings</b> appear as columns here.
+      Trophies and scores on this page are calculated using the currently selected players.
+    </div>
+
+    <!-- Global hint: which players are currently selected -->
+    <p id="selected-players-summary" class="note"></p>
+
+    <button id="reset-sort">Reset sort</button>
+
+    <div class="table-wrapper">
+      <table id="league-table">
+        <thead>
+          <tr id="league-header-row"></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <p class="note">
+      Data last updated: <span class="data-last-updated"></span>
+    </p>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

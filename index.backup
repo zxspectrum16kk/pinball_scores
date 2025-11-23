@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Language" content="en">
+  <title>Pinball Scores – Machines</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f5f5f5;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 26px;
+    }
+
+    nav {
+      margin-bottom: 15px;
+      font-size: 14px;
+    }
+
+    nav a {
+      margin-right: 10px;
+      text-decoration: none;
+      color: #0077cc;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    p {
+      margin: 0 0 10px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .note {
+      margin: 10px 0 10px;
+      font-size: 13px;
+      color: #444;
+      line-height: 1.4;
+    }
+
+    .note a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    .note a:hover {
+      text-decoration: underline;
+    }
+
+    .info {
+      background: #ffffff;
+      border-left: 4px solid #0077cc;
+      padding: 10px 12px;
+      margin: 10px 0 20px;
+      font-size: 13px;
+      color: #444;
+      line-height: 1.4;
+    }
+
+    .table-wrapper {
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      margin-bottom: 20px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      min-width: 600px;
+      background: #fff;
+    }
+
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      white-space: nowrap;
+    }
+
+    tbody tr:nth-child(odd) {
+      background: #fafafa;
+    }
+
+    th {
+      background: #eee;
+      cursor: pointer;
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      user-select: none;
+    }
+
+    th .arrow {
+      font-size: 10px;
+      margin-left: 5px;
+      opacity: 0.6;
+    }
+
+    /* Right-align numeric columns (all except Machine) */
+    #league-table td:nth-child(n+2) {
+      text-align: right;
+    }
+
+    /* Player names in header (links) will inherit heading style */
+    th a {
+      color: inherit;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    th a:hover {
+      text-decoration: underline;
+    }
+
+    #reset-sort {
+      margin: 10px 0 20px;
+      padding: 8px 14px;
+      font-size: 14px;
+      cursor: pointer;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background: #fff;
+    }
+
+    #reset-sort:hover {
+      background: #f0f0f0;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+        font-size: 14px;
+      }
+
+      h1 {
+        font-size: 22px;
+      }
+
+      th, td {
+        padding: 6px 8px;
+      }
+
+      table {
+        min-width: 500px;
+      }
+
+      #reset-sort {
+        width: 100%;
+        box-sizing: border-box;
+      }
+
+      .info {
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Pinball Scores – Machines</h1>
+
+  <nav>
+    <a href="index.html"><b>Machines</b></a>
+    <a href="overall.html">Leaderboard</a>
+    <a href="h2h.html">Head-to-Head</a>
+    <a href="players.html">Settings</a>
+  </nav>
+
+  <p class="note">
+    Data sourced from
+    <a href="https://pinballleague.uk" target="_blank" rel="noopener noreferrer">pinballleague.uk</a>.
+    Pinball machine stats and player information have been exported into JSON format for use in this app.
+  </p>
+
+  <div class="info">
+    <b>Note:</b> Only players selected in <b>Settings</b> appear as columns here.
+    Trophies and scores on this page are calculated using the currently selected players.
+  </div>
+
+  <button id="reset-sort">Reset sort</button>
+
+  <div class="table-wrapper">
+    <table id="league-table">
+      <thead>
+        <!-- Header cells are built dynamically by app.js -->
+        <tr id="league-header-row"></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+</html>

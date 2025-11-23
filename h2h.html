@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Language" content="en">
+  <title>Pinball Scores – Head-to-Head</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Head-to-head pinball matchups and win counts between players.">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Pinball Scores – Head-to-Head</h1>
+
+    <nav aria-label="Pinball Scores navigation">
+      <a href="index.html">Machines</a>
+      <a href="overall.html">Leaderboard</a>
+      <a href="h2h.html" aria-current="page">Head-to-Head</a>
+      <a href="players.html">Settings</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <p id="selected-players-summary" class="note"></p>
+
+    <div class="table-wrapper">
+      <table id="h2h-table">
+        <caption>Head-to-head matchups between players</caption>
+        <thead>
+          <tr>
+            <th>Matchup</th>
+            <th>Wins</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="empty-state">
+            <td colspan="2">No matchups to show yet.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p class="note">
+      Data last updated: <span class="data-last-updated"></span>
+    </p>
+
+  </main>
+
+  <script src="app.js" defer></script>
+</body>
+
+</html>

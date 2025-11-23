@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Language" content="en">
+  <title>Pinball Scores – Machine Detail</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Pinball Scores – Machine Detail</h1>
+
+    <nav aria-label="Pinball Scores navigation">
+      <a href="index.html">Machines</a>
+      <a href="overall.html">Leaderboard</a>
+      <a href="h2h.html">Head-to-Head</a>
+      <a href="players.html">Settings</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="info">
+      <b>Note:</b> Machine detail always shows stats for all tracked players (Craig, Luke, Paul, Richard, Jane),
+      regardless of which players are currently selected in <b>Settings</b>.
+    </div>
+
+    <div id="machine-detail"></div>
+
+    <p class="note">
+      Data last updated: <span class="data-last-updated"></span>
+    </p>
+  </main>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>

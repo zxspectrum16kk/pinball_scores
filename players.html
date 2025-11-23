@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Language" content="en">
+  <title>Pinball Scores – Settings</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Pinball Scores – Settings</h1>
+
+    <nav aria-label="Pinball Scores navigation">
+      <a href="index.html">Machines</a>
+      <a href="overall.html">Leaderboard</a>
+      <a href="h2h.html">Head-to-Head</a>
+      <a href="players.html" aria-current="page">Settings</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="info">
+      <b>Note:</b> Your player selection affects the <b>Machines</b>,
+      <b>Leaderboard</b>, and <b>Head-to-Head</b> pages.
+      <br>
+      Player Profile and Machine Detail always show all players for full accuracy.
+    </div>
+
+    <div class="card">
+      <p>
+        Choose which players should appear on the main <b>Machines</b>,
+        <b>Leaderboard</b>, and <b>Head-to-Head</b> pages.
+        By default, Craig, Luke and Paul are selected.
+      </p>
+
+      <div id="players-list"></div>
+
+      <div class="settings-actions">
+        <button id="save-btn">Save selection</button>
+        <button id="reset-btn">Reset to default (Craig, Luke, Paul)</button>
+      </div>
+
+      <div id="status"></div>
+    </div>
+
+    <p class="note">
+      Data last updated: <span class="data-last-updated"></span>
+    </p>
+
+  </main>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>

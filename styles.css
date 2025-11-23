@@ -1,0 +1,416 @@
+/* ===========================
+   GLOBAL LAYOUT
+   =========================== */
+
+:root {
+    --accent: #0077cc;
+    --bg-page: #f5f5f5;
+    --bg-table: #ffffff;
+    --bg-header: #eeeeee;
+    --border: #cccccc;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: var(--bg-page);
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.4;
+    color: #222;
+}
+
+h1,
+h2 {
+    margin-top: 0;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+/* ===========================
+   LINKS
+   =========================== */
+
+a {
+    color: var(--accent);
+}
+
+td a {
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+/* ===========================
+   NAVIGATION
+   =========================== */
+
+nav {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+nav a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 4px 8px;
+    text-decoration: none;
+    color: var(--accent);
+    border-radius: 4px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a[aria-current="page"] {
+    font-weight: bold;
+    background: #ddeeff;
+    text-decoration: none;
+}
+
+/* ===========================
+   INFO / NOTES
+   =========================== */
+
+.note {
+    margin: 10px 0 10px;
+    font-size: 13px;
+    color: #444;
+    line-height: 1.4;
+}
+
+.info {
+    background: #ffffff;
+    border-left: 4px solid var(--accent);
+    padding: 10px 12px;
+    margin: 10px 0 20px;
+    font-size: 13px;
+    color: #444;
+    line-height: 1.4;
+}
+
+/* ===========================
+   TABLE WRAPPERS
+   =========================== */
+
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 10px;
+    padding-bottom: 4px;
+}
+
+table {
+    border-collapse: collapse;
+    width: max-content;
+    min-width: 100%;
+    background: var(--bg-table);
+}
+
+/* ===========================
+   TABLE CELLS
+   =========================== */
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid var(--border);
+    white-space: nowrap;
+    text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+    background: #fafafa;
+}
+
+th {
+    background: var(--bg-header);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    cursor: pointer;
+}
+
+/* Dynamic sort arrow (added by JS) */
+th .arrow {
+    margin-left: 5px;
+    font-size: 10px;
+    opacity: 0.8;
+}
+
+/* Static sortable hint BEFORE sorting */
+th span:first-child::after {
+    content: " ⬍";
+    font-size: 10px;
+    opacity: 0.35;
+    margin-left: 4px;
+}
+
+/* When sorted → REMOVE static hint (avoid double icons) */
+th[data-sort-dir] span:first-child::after {
+    content: "";
+}
+
+/* Hover effect */
+th:hover {
+    background: #e5e5e5;
+}
+
+th:hover span:first-child {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+th:hover .arrow {
+    opacity: 1;
+}
+
+/* Highlight sorted column */
+th.sorted-col {
+    background: #dbe8ff;
+}
+
+tbody td.sorted-col {
+    background: #f0f5ff;
+}
+
+/* Numeric alignment */
+#league-table td:nth-child(n+2),
+#overall-table td:nth-child(n+2),
+#machine-player-table td:nth-child(n+2),
+#player-machines-table td:nth-child(n+2) {
+    text-align: right;
+}
+
+/* Empty state */
+.empty-state {
+    text-align: center;
+    font-style: italic;
+}
+
+caption {
+    text-align: left;
+    padding-bottom: 6px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* ===========================
+   BUTTONS
+   =========================== */
+
+button,
+input[type="button"],
+input[type="submit"] {
+    padding: 8px 14px;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    background: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #f0f0f0;
+}
+
+#reset-sort {
+    margin: 10px 0 20px;
+}
+
+/* ===========================
+   SUMMARY BOXES
+   =========================== */
+
+.summary {
+    background: #fff;
+    padding: 12px 14px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 6px 20px;
+}
+
+.summary-item strong {
+    display: block;
+    font-size: 13px;
+    color: #555;
+}
+
+.summary-item span {
+    font-size: 15px;
+}
+
+/* ===========================
+   LEADERBOARD CHART
+   =========================== */
+
+#leaderboard-chart {
+    margin-top: 25px;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 14px 16px;
+}
+
+#leaderboard-chart h2 {
+    margin: 0 0 12px;
+    font-size: 18px;
+}
+
+.chart-player-block {
+    margin: 20px 0;
+    padding: 10px;
+    background: #ffffff;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+}
+
+.chart-player-name {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.chart-row {
+    display: flex;
+    align-items: center;
+    margin: 6px 0;
+    font-size: 13px;
+}
+
+.chart-label {
+    width: 140px;
+    flex-shrink: 0;
+}
+
+.chart-bar-outer {
+    flex: 1;
+    height: 12px;
+    border: 1px solid var(--border);
+    margin: 0 10px;
+    border-radius: 6px;
+    background: #f0f0f0;
+    overflow: hidden;
+}
+
+.chart-bar-inner {
+    height: 100%;
+    border-radius: 6px;
+    background: var(--accent);
+    transition: width 0.3s ease-out;
+}
+
+.chart-value {
+    width: 70px;
+    flex-shrink: 0;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+
+.bar-wins {
+    background: #0077cc;
+}
+
+.bar-above {
+    background: #22aa44;
+}
+
+.bar-played {
+    background: #cc7700;
+}
+
+/* ===========================
+   H2H WINNER HIGHLIGHT
+   =========================== */
+
+.h2h-ahead-a td:nth-child(1),
+.h2h-ahead-a td:nth-child(2) {
+    font-weight: bold;
+    color: #0077cc;
+}
+
+.h2h-ahead-b td:nth-child(1),
+.h2h-ahead-b td:nth-child(2) {
+    font-weight: bold;
+    color: #22aa44;
+}
+
+/* ===========================
+   SETTINGS PAGE
+   =========================== */
+
+.card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 14px 16px;
+    margin-bottom: 20px;
+}
+
+#players-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    margin: 10px 0 15px;
+}
+
+#players-list label {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#status {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #444;
+}
+
+/* ===========================
+   RESPONSIVE
+   =========================== */
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    th,
+    td {
+        padding: 6px 8px;
+    }
+
+    .chart-label {
+        width: 110px;
+    }
+
+    .chart-value {
+        width: 60px;
+    }
+
+    #reset-sort {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

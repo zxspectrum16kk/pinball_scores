@@ -7,7 +7,11 @@ const PLAYER_CONFIG = [
   { id: 'luke', label: 'Luke', file: 'data/Luke_static.json' },
   { id: 'paul', label: 'Paul', file: 'data/Paul_static.json' },
   { id: 'richard', label: 'Richard', file: 'data/Richard_static.json' },
-  { id: 'jane', label: 'Jane', file: 'data/Jane_static.json' }
+  { id: 'jane', label: 'Jane', file: 'data/Jane_static.json' },
+  { id: 'alan', label: 'Alan', file: 'data/Alan_static.json' },
+  { id: 'clare', label: 'Clare', file: 'data/Clare_static.json' },
+  { id: 'andyb', label: 'Andyb', file: 'data/Andyb_static.json' },
+  { id: 'mattyb', label: 'Mattyb', file: 'data/Mattyb_static.json' }
 ];
 
 const ALL_PLAYERS = PLAYER_CONFIG.map(p => p.label);

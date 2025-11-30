@@ -2,20 +2,9 @@
 // Single script for all pages (no modules)
 
 // ==== Player config / settings ====
-const PLAYER_CONFIG = [
-  { id: 'craig', label: 'Craig', file: 'data/Craig_static.json' },
-  { id: 'luke', label: 'Luke', file: 'data/Luke_static.json' },
-  { id: 'paul', label: 'Paul', file: 'data/Paul_static.json' },
-  { id: 'richard', label: 'Richard', file: 'data/Richard_static.json' },
-  { id: 'jane', label: 'Jane', file: 'data/Jane_static.json' },
-  { id: 'alan', label: 'Alan', file: 'data/Alan_static.json' },
-  { id: 'clare', label: 'Clare', file: 'data/Clare_static.json' },
-  { id: 'andyb', label: 'Andyb', file: 'data/Andyb_static.json' },
-  { id: 'mattyb', label: 'Mattyb', file: 'data/Mattyb_static.json' }
-];
-
-const ALL_PLAYERS = PLAYER_CONFIG.map(p => p.label);
-const DEFAULT_PLAYERS = ['Craig', 'Luke', 'Paul'];
+let PLAYER_CONFIG = [];
+let ALL_PLAYERS = [];
+let DEFAULT_PLAYERS = [];
 const STORAGE_KEY = 'pinballSelectedPlayers';
 
 // Update this whenever you refresh JSON exports
@@ -997,24 +986,37 @@ document.addEventListener('DOMContentLoaded', () => {
   const hasProfile = document.getElementById('player-profile');
   const hasSelector = document.getElementById('players-list');
 
-  renderSelectedPlayersSummary();
-  renderLastUpdated();
+  // Load player config first
+  fetchJson('data/players.json')
+    .then(players => {
+      PLAYER_CONFIG = players;
+      ALL_PLAYERS = PLAYER_CONFIG.map(p => p.label);
+      // Default to first 3, or all if fewer than 3
+      DEFAULT_PLAYERS = ALL_PLAYERS.slice(0, 3);
+      if (DEFAULT_PLAYERS.length === 0) DEFAULT_PLAYERS = ALL_PLAYERS;
 
-  if (hasSelector) {
-    initPlayerSelectionPage();
-  }
+      renderSelectedPlayersSummary();
+      renderLastUpdated();
 
-  if (hasLeague || hasOverall || hasH2H || hasMachine || hasProfile) {
-    loadAllData()
-      .then(({ machines, stats }) => {
-        if (hasLeague) renderMachinesPage(machines);
-        if (hasOverall) renderOverallPage(machines, stats);
-        if (hasH2H) renderH2HPage(machines);
-        if (hasMachine) renderMachineDetailPage(machines);
-        if (hasProfile) renderPlayerProfilePage(machines, stats);
-      })
-      .catch(err => {
-        console.error('Error loading data:', err);
-      });
-  }
+      if (hasSelector) {
+        initPlayerSelectionPage();
+      }
+
+      if (hasLeague || hasOverall || hasH2H || hasMachine || hasProfile) {
+        return loadAllData()
+          .then(({ machines, stats }) => {
+            if (hasLeague) renderMachinesPage(machines);
+            if (hasOverall) renderOverallPage(machines, stats);
+            if (hasH2H) renderH2HPage(machines);
+            if (hasMachine) renderMachineDetailPage(machines);
+            if (hasProfile) renderPlayerProfilePage(machines, stats);
+          });
+      }
+    })
+    .catch(err => {
+      console.error('Error initializing app:', err);
+      // Fallback or user notification could go here
+      const main = document.querySelector('main');
+      if (main) main.innerHTML = '<p class="error">Failed to load player configuration. Please try again later.</p>';
+    });
 });

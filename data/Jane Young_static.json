@@ -1,0 +1,590 @@
+﻿[
+    {
+        "Machine ▲":  "Airborne",
+        "Plays":  1,
+        "Best":  90905320,
+        "Rank":  "38 / 193",
+        "% Top":  19.69
+    },
+    {
+        "Machine ▲":  "Apollo",
+        "Plays":  1,
+        "Best":  1522,
+        "Rank":  "21 / 35",
+        "% Top":  60
+    },
+    {
+        "Machine ▲":  "Attack from Mars",
+        "Plays":  2,
+        "Best":  3821931380,
+        "Rank":  "289 / 1,542",
+        "% Top":  18.74
+    },
+    {
+        "Machine ▲":  "Banzai Run",
+        "Plays":  3,
+        "Best":  987800,
+        "Rank":  "281 / 522",
+        "% Top":  53.83
+    },
+    {
+        "Machine ▲":  "Barracora",
+        "Plays":  1,
+        "Best":  409970,
+        "Rank":  "80 / 158",
+        "% Top":  50.63
+    },
+    {
+        "Machine ▲":  "Batman 66",
+        "Plays":  3,
+        "Best":  41171410,
+        "Rank":  "296 / 433",
+        "% Top":  68.36
+    },
+    {
+        "Machine ▲":  "Baywatch",
+        "Plays":  1,
+        "Best":  548898340,
+        "Rank":  "56 / 256",
+        "% Top":  21.88
+    },
+    {
+        "Machine ▲":  "Black Knight",
+        "Plays":  3,
+        "Best":  308530,
+        "Rank":  "75 / 222",
+        "% Top":  33.78
+    },
+    {
+        "Machine ▲":  "Blackwater 100",
+        "Plays":  2,
+        "Best":  1386050,
+        "Rank":  "53 / 130",
+        "% Top":  40.77
+    },
+    {
+        "Machine ▲":  "Bram Stoker\u0027s Dracula",
+        "Plays":  2,
+        "Best":  25468600,
+        "Rank":  "583 / 922",
+        "% Top":  63.23
+    },
+    {
+        "Machine ▲":  "Breakshot",
+        "Plays":  2,
+        "Best":  6277500,
+        "Rank":  "54 / 160",
+        "% Top":  33.75
+    },
+    {
+        "Machine ▲":  "Congo",
+        "Plays":  2,
+        "Best":  319471660,
+        "Rank":  "155 / 336",
+        "% Top":  46.13
+    },
+    {
+        "Machine ▲":  "CSI: Crime Scene Investigation",
+        "Plays":  1,
+        "Best":  8271430,
+        "Rank":  "67 / 144",
+        "% Top":  46.53
+    },
+    {
+        "Machine ▲":  "Deadpool",
+        "Plays":  1,
+        "Best":  5475210,
+        "Rank":  "554 / 558",
+        "% Top":  99.28
+    },
+    {
+        "Machine ▲":  "Eight Ball Deluxe",
+        "Plays":  1,
+        "Best":  801060,
+        "Rank":  "72 / 452",
+        "% Top":  15.93
+    },
+    {
+        "Machine ▲":  "Elektra",
+        "Plays":  1,
+        "Best":  302320,
+        "Rank":  "95 / 126",
+        "% Top":  75.4
+    },
+    {
+        "Machine ▲":  "Elvira\u0027s House of Horrors",
+        "Plays":  3,
+        "Best":  26931570,
+        "Rank":  "173 / 334",
+        "% Top":  51.8
+    },
+    {
+        "Machine ▲":  "F-14 Tomcat",
+        "Plays":  1,
+        "Best":  527530,
+        "Rank":  "364 / 714",
+        "% Top":  50.98
+    },
+    {
+        "Machine ▲":  "Fathom",
+        "Plays":  1,
+        "Best":  602360,
+        "Rank":  "129 / 478",
+        "% Top":  26.99
+    },
+    {
+        "Machine ▲":  "Fireball II",
+        "Plays":  2,
+        "Best":  353720,
+        "Rank":  "125 / 294",
+        "% Top":  42.52
+    },
+    {
+        "Machine ▲":  "Fish Tales",
+        "Plays":  3,
+        "Best":  52727030,
+        "Rank":  "499 / 1,596",
+        "% Top":  31.27
+    },
+    {
+        "Machine ▲":  "Flash",
+        "Plays":  2,
+        "Best":  236200,
+        "Rank":  "86 / 498",
+        "% Top":  17.27
+    },
+    {
+        "Machine ▲":  "Genie",
+        "Plays":  1,
+        "Best":  137740,
+        "Rank":  "49 / 83",
+        "% Top":  59.04
+    },
+    {
+        "Machine ▲":  "Ghostbusters",
+        "Plays":  3,
+        "Best":  231629040,
+        "Rank":  "69 / 597",
+        "% Top":  11.56
+    },
+    {
+        "Machine ▲":  "Gilligan\u0027s Island",
+        "Plays":  1,
+        "Best":  3607510,
+        "Rank":  "45 / 65",
+        "% Top":  69.23
+    },
+    {
+        "Machine ▲":  "Godzilla (Stern)",
+        "Plays":  6,
+        "Best":  118252860,
+        "Rank":  "328 / 842",
+        "% Top":  38.95
+    },
+    {
+        "Machine ▲":  "Guardians of the Galaxy",
+        "Plays":  1,
+        "Best":  62784180,
+        "Rank":  "203 / 500",
+        "% Top":  40.6
+    },
+    {
+        "Machine ▲":  "Guns N\u0027 Roses (Data East)",
+        "Plays":  2,
+        "Best":  498892260,
+        "Rank":  "65 / 117",
+        "% Top":  55.56
+    },
+    {
+        "Machine ▲":  "Harlem Globetrotters On Tour",
+        "Plays":  1,
+        "Best":  77200,
+        "Rank":  "79 / 111",
+        "% Top":  71.17
+    },
+    {
+        "Machine ▲":  "Haunted House",
+        "Plays":  3,
+        "Best":  131240,
+        "Rank":  "60 / 129",
+        "% Top":  46.51
+    },
+    {
+        "Machine ▲":  "Heat Wave",
+        "Plays":  1,
+        "Best":  1012,
+        "Rank":  "171 / 228",
+        "% Top":  75
+    },
+    {
+        "Machine ▲":  "Hot Line",
+        "Plays":  1,
+        "Best":  1563,
+        "Rank":  "28 / 35",
+        "% Top":  80
+    },
+    {
+        "Machine ▲":  "Indiana Jones (Williams)",
+        "Plays":  3,
+        "Best":  131511990,
+        "Rank":  "330 / 1,013",
+        "% Top":  32.58
+    },
+    {
+        "Machine ▲":  "Iron Maiden: Legacy of the Beast",
+        "Plays":  2,
+        "Best":  80959470,
+        "Rank":  "349 / 845",
+        "% Top":  41.3
+    },
+    {
+        "Machine ▲":  "Iron Man",
+        "Plays":  2,
+        "Best":  4879760,
+        "Rank":  "652 / 865",
+        "% Top":  75.38
+    },
+    {
+        "Machine ▲":  "James Bond 007",
+        "Plays":  1,
+        "Best":  19817160,
+        "Rank":  "97 / 137",
+        "% Top":  70.8
+    },
+    {
+        "Machine ▲":  "Jaws",
+        "Plays":  1,
+        "Best":  71076540,
+        "Rank":  "137 / 198",
+        "% Top":  69.19
+    },
+    {
+        "Machine ▲":  "Jokerz!",
+        "Plays":  1,
+        "Best":  365030,
+        "Rank":  "65 / 71",
+        "% Top":  91.55
+    },
+    {
+        "Machine ▲":  "Jungle Lord",
+        "Plays":  1,
+        "Best":  182190,
+        "Rank":  "176 / 363",
+        "% Top":  48.48
+    },
+    {
+        "Machine ▲":  "Jurassic Park (Stern)",
+        "Plays":  7,
+        "Best":  73586820,
+        "Rank":  "200 / 487",
+        "% Top":  41.07
+    },
+    {
+        "Machine ▲":  "Kings \u0026 Queens",
+        "Plays":  1,
+        "Best":  1693,
+        "Rank":  "3 / 33",
+        "% Top":  9.09
+    },
+    {
+        "Machine ▲":  "KISS (Stern)",
+        "Plays":  1,
+        "Best":  12530000,
+        "Rank":  "150 / 183",
+        "% Top":  81.97
+    },
+    {
+        "Machine ▲":  "Lord of the Rings",
+        "Plays":  1,
+        "Best":  16045800,
+        "Rank":  "333 / 713",
+        "% Top":  46.7
+    },
+    {
+        "Machine ▲":  "Lost World",
+        "Plays":  1,
+        "Best":  207790,
+        "Rank":  "29 / 91",
+        "% Top":  31.87
+    },
+    {
+        "Machine ▲":  "Medieval Madness",
+        "Plays":  1,
+        "Best":  30812730,
+        "Rank":  "363 / 1,491",
+        "% Top":  24.35
+    },
+    {
+        "Machine ▲":  "Monte Carlo (Gottlieb)",
+        "Plays":  2,
+        "Best":  392460,
+        "Rank":  "63 / 94",
+        "% Top":  67.02
+    },
+    {
+        "Machine ▲":  "Mr. \u0026 Mrs. Pac-Man",
+        "Plays":  1,
+        "Best":  187340,
+        "Rank":  "544 / 557",
+        "% Top":  97.67
+    },
+    {
+        "Machine ▲":  "Night Rider",
+        "Plays":  1,
+        "Best":  50070,
+        "Rank":  "19 / 40",
+        "% Top":  47.5
+    },
+    {
+        "Machine ▲":  "Paragon",
+        "Plays":  3,
+        "Best":  159630,
+        "Rank":  "105 / 515",
+        "% Top":  20.39
+    },
+    {
+        "Machine ▲":  "Phantom of the Opera",
+        "Plays":  1,
+        "Best":  2380000,
+        "Rank":  "13 / 35",
+        "% Top":  37.14
+    },
+    {
+        "Machine ▲":  "Playboy (Bally)",
+        "Plays":  1,
+        "Best":  107410,
+        "Rank":  "63 / 150",
+        "% Top":  42
+    },
+    {
+        "Machine ▲":  "Police Force",
+        "Plays":  2,
+        "Best":  512050,
+        "Rank":  "154 / 176",
+        "% Top":  87.5
+    },
+    {
+        "Machine ▲":  "Pulp Fiction",
+        "Plays":  2,
+        "Best":  395990,
+        "Rank":  "68 / 151",
+        "% Top":  45.03
+    },
+    {
+        "Machine ▲":  "Revenge from Mars",
+        "Plays":  1,
+        "Best":  29637960,
+        "Rank":  "752 / 938",
+        "% Top":  80.17
+    },
+    {
+        "Machine ▲":  "Ripley\u0027s Believe it or Not!",
+        "Plays":  1,
+        "Best":  4133330,
+        "Rank":  "241 / 306",
+        "% Top":  78.76
+    },
+    {
+        "Machine ▲":  "Road Show",
+        "Plays":  3,
+        "Best":  714782650,
+        "Rank":  "136 / 1,282",
+        "% Top":  10.61
+    },
+    {
+        "Machine ▲":  "Robo-War",
+        "Plays":  1,
+        "Best":  554060,
+        "Rank":  "120 / 181",
+        "% Top":  66.3
+    },
+    {
+        "Machine ▲":  "Rocky and Bullwinkle",
+        "Plays":  3,
+        "Best":  128393450,
+        "Rank":  "124 / 535",
+        "% Top":  23.18
+    },
+    {
+        "Machine ▲":  "Rush",
+        "Plays":  1,
+        "Best":  19670770,
+        "Rank":  "172 / 278",
+        "% Top":  61.87
+    },
+    {
+        "Machine ▲":  "Seawitch",
+        "Plays":  1,
+        "Best":  1103880,
+        "Rank":  "11 / 77",
+        "% Top":  14.29
+    },
+    {
+        "Machine ▲":  "Sing Along",
+        "Plays":  1,
+        "Best":  769,
+        "Rank":  "356 / 391",
+        "% Top":  91.05
+    },
+    {
+        "Machine ▲":  "Space Shuttle (Williams)",
+        "Plays":  2,
+        "Best":  449070,
+        "Rank":  "44 / 95",
+        "% Top":  46.32
+    },
+    {
+        "Machine ▲":  "Spectrum",
+        "Plays":  4,
+        "Best":  141100,
+        "Rank":  "194 / 258",
+        "% Top":  75.19
+    },
+    {
+        "Machine ▲":  "Star Trek (Stern)",
+        "Plays":  2,
+        "Best":  58520450,
+        "Rank":  "203 / 925",
+        "% Top":  21.95
+    },
+    {
+        "Machine ▲":  "Star Wars Episode I",
+        "Plays":  1,
+        "Best":  20756780,
+        "Rank":  "80 / 139",
+        "% Top":  57.55
+    },
+    {
+        "Machine ▲":  "Stargate",
+        "Plays":  1,
+        "Best":  202262760,
+        "Rank":  "38 / 98",
+        "% Top":  38.78
+    },
+    {
+        "Machine ▲":  "Stranger Things",
+        "Plays":  3,
+        "Best":  88867570,
+        "Rank":  "169 / 361",
+        "% Top":  46.81
+    },
+    {
+        "Machine ▲":  "Tales from the Crypt",
+        "Plays":  2,
+        "Best":  298734560,
+        "Rank":  "28 / 336",
+        "% Top":  8.33
+    },
+    {
+        "Machine ▲":  "Tales of the Arabian Nights",
+        "Plays":  1,
+        "Best":  3107650,
+        "Rank":  "398 / 521",
+        "% Top":  76.39
+    },
+    {
+        "Machine ▲":  "The Addams Family",
+        "Plays":  8,
+        "Best":  56142890,
+        "Rank":  "1,102 / 2,388",
+        "% Top":  46.15
+    },
+    {
+        "Machine ▲":  "The Flintstones",
+        "Plays":  1,
+        "Best":  879012050,
+        "Rank":  "27 / 499",
+        "% Top":  5.41
+    },
+    {
+        "Machine ▲":  "The Getaway: High Speed II",
+        "Plays":  1,
+        "Best":  23772580,
+        "Rank":  "1,161 / 1,533",
+        "% Top":  75.73
+    },
+    {
+        "Machine ▲":  "The Party Zone",
+        "Plays":  1,
+        "Best":  7825250,
+        "Rank":  "168 / 281",
+        "% Top":  59.79
+    },
+    {
+        "Machine ▲":  "The Shadow",
+        "Plays":  3,
+        "Best":  110164220,
+        "Rank":  "771 / 1,209",
+        "% Top":  63.77
+    },
+    {
+        "Machine ▲":  "The Walking Dead",
+        "Plays":  5,
+        "Best":  52446480,
+        "Rank":  "254 / 919",
+        "% Top":  27.64
+    },
+    {
+        "Machine ▲":  "The Wizard of Oz",
+        "Plays":  3,
+        "Best":  129345,
+        "Rank":  "102 / 501",
+        "% Top":  20.36
+    },
+    {
+        "Machine ▲":  "Theatre of Magic",
+        "Plays":  2,
+        "Best":  154100260,
+        "Rank":  "540 / 630",
+        "% Top":  85.71
+    },
+    {
+        "Machine ▲":  "TRON",
+        "Plays":  1,
+        "Best":  11274770,
+        "Rank":  "549 / 952",
+        "% Top":  57.67
+    },
+    {
+        "Machine ▲":  "Twilight Zone",
+        "Plays":  5,
+        "Best":  198188850,
+        "Rank":  "662 / 2,441",
+        "% Top":  27.12
+    },
+    {
+        "Machine ▲":  "TX-Sector",
+        "Plays":  1,
+        "Best":  736990,
+        "Rank":  "196 / 280",
+        "% Top":  70
+    },
+    {
+        "Machine ▲":  "Whirlwind",
+        "Plays":  1,
+        "Best":  1097390,
+        "Rank":  "382 / 454",
+        "% Top":  84.14
+    },
+    {
+        "Machine ▲":  "White Water",
+        "Plays":  6,
+        "Best":  165937740,
+        "Rank":  "408 / 1,804",
+        "% Top":  22.62
+    },
+    {
+        "Machine ▲":  "Whoa Nellie!",
+        "Plays":  2,
+        "Best":  1394,
+        "Rank":  "122 / 251",
+        "% Top":  48.61
+    },
+    {
+        "Machine ▲":  "Willy Wonka \u0026 The Chocolate Factory",
+        "Plays":  1,
+        "Best":  139030,
+        "Rank":  "47 / 84",
+        "% Top":  55.95
+    }
+]

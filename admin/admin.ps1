@@ -233,6 +233,22 @@ function Show-PublishUpdates {
             Move-Item -Path $file.FullName -Destination $dest -Force
             Write-Host "Published: $($file.Name)" -ForegroundColor Green
         }
+
+        # Generate players.json
+        Write-Host "Updating players.json..." -ForegroundColor Cyan
+        $players = Get-Players
+        $playerConfig = @()
+        foreach ($p in $players) {
+            $playerConfig += [ordered]@{
+                id    = $p.Name.ToLower()
+                label = $p.Name
+                file  = "data/$($p.Name)_static.json"
+            }
+        }
+        $jsonPath = Join-Path $DataDir "players.json"
+        $playerConfig | ConvertTo-Json -Depth 5 | Set-Content -Path $jsonPath -Encoding UTF8
+        Write-Host "Updated players.json" -ForegroundColor Green
+
         Write-Host "Publishing complete." -ForegroundColor Green
         Pause
     }

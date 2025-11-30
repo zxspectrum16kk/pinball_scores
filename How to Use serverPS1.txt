@@ -1,0 +1,4 @@
+How to Use
+You can now run the server from anywhere and specify the project folder:
+
+c:\mytools\server.ps1 -Root c:\pinball_scores

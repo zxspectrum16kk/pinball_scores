@@ -93,6 +93,13 @@ The `server.ps1` script exposes the following API endpoints:
 - `GET /api/staged`: List files waiting in the staging area.
 - `POST /api/publish`: Move staged files to the live `data` folder.
 
+## 🔒 Privacy
+
+This project includes a privacy notice compliant with GDPR.
+- **Policy File**: `privacy.html`
+- **Link**: Accessible via the footer on all main pages.
+- **Data Handling**: No personal data is collected from visitors. Player data is sourced from public records at [pinballleague.uk](https://pinballleague.uk).
+
 ## 🌍 External Data
 
 All score and machine data is scraped from **Pinball League UK**.

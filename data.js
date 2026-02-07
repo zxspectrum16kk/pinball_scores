@@ -7,7 +7,7 @@ export let ALL_PLAYERS = [];
 export let DEFAULT_PLAYERS = [];
 
 // Update this whenever you refresh JSON exports
-export const DATA_LAST_UPDATED = '2026-01-12';
+export const DATA_LAST_UPDATED = '2026-02-07';
 
 const STORAGE_KEY = 'pinballSelectedPlayers';
 const MACHINE_SELECTION_KEY = 'pinballCustomMachineSelection';

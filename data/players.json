@@ -1,52 +1,47 @@
 ﻿[
     {
-        "id":  "craig",
-        "label":  "Craig",
-        "file":  "data/Craig_static.json"
+        "id": "craig",
+        "label": "Craig",
+        "file": "data/Craig_static.json"
     },
     {
-        "id":  "luke",
-        "label":  "Luke",
-        "file":  "data/Luke_static.json"
+        "id": "luke",
+        "label": "Luke",
+        "file": "data/Luke_static.json"
     },
     {
-        "id":  "paul",
-        "label":  "Paul",
-        "file":  "data/Paul_static.json"
+        "id": "paul",
+        "label": "Paul",
+        "file": "data/Paul_static.json"
     },
     {
-        "id":  "richard barber",
-        "label":  "Richard Barber",
-        "file":  "data/Richard Barber_static.json"
+        "id": "richard",
+        "label": "Richard",
+        "file": "data/Richard_static.json"
     },
     {
-        "id":  "jane young",
-        "label":  "Jane Young",
-        "file":  "data/Jane Young_static.json"
+        "id": "jane",
+        "label": "Jane",
+        "file": "data/Jane_static.json"
     },
     {
-        "id":  "andy bilton",
-        "label":  "Andy Bilton",
-        "file":  "data/Andy Bilton_static.json"
+        "id": "andy",
+        "label": "Andy",
+        "file": "data/Andy_static.json"
     },
     {
-        "id":  "matty bilton",
-        "label":  "Matty Bilton",
-        "file":  "data/Matty Bilton_static.json"
+        "id": "matty",
+        "label": "Matty",
+        "file": "data/Matty_static.json"
     },
     {
-        "id":  "alan jones",
-        "label":  "Alan Jones",
-        "file":  "data/Alan Jones_static.json"
+        "id": "clare",
+        "label": "Clare",
+        "file": "data/Clare_static.json"
     },
     {
-        "id":  "clare johnson",
-        "label":  "Clare Johnson",
-        "file":  "data/Clare Johnson_static.json"
-    },
-    {
-        "id":  "ryan abbot",
-        "label":  "Ryan Abbot",
-        "file":  "data/Ryan Abbot_static.json"
+        "id": "alan",
+        "label": "Alan",
+        "file": "data/Alan_static.json"
     }
 ]

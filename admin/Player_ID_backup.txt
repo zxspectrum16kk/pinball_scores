@@ -2,10 +2,10 @@ Player Name	Player ID
 Craig	1334
 Luke	1335
 Paul	1079
-Richard Barber	1180
-Jane Young	1216
-Andy Bilton	1101
-Matty Bilton	1100
-Clare Johnson	972
-Alan Jones	981
+Richard	1180
+Jane	1216
+Andy	1101
+Matty	1100
+Clare	972
+Alan	981
 Ryan Abbot	1245

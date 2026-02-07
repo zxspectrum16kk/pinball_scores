@@ -35,14 +35,14 @@
         "file":  "data/Matty Bilton_static.json"
     },
     {
-        "id":  "clare johnson",
-        "label":  "Clare Johnson",
-        "file":  "data/Clare Johnson_static.json"
-    },
-    {
         "id":  "alan jones",
         "label":  "Alan Jones",
         "file":  "data/Alan Jones_static.json"
+    },
+    {
+        "id":  "clare johnson",
+        "label":  "Clare Johnson",
+        "file":  "data/Clare Johnson_static.json"
     },
     {
         "id":  "ryan abbot",

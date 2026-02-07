@@ -6,17 +6,22 @@
   <meta http-equiv="Content-Language" content="en">
   <title>Pinball Scores – Player Profile</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="data:,">
+  <link rel="icon" href="bloglogo.png">
   <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
 </head>
 
 <body>
 
   <header>
-    <h1>Pinball Scores – Player Profile</h1>
+    <div class="header-content">
+      <img src="bloglogo.png" alt="Pinball Scores Logo" class="logo">
+      <h1>Pinball Scores – Player Profile</h1>
+    </div>
 
     <nav aria-label="Pinball Scores navigation">
       <a href="index.html">Machines</a>
+      <a href="custom_list.html">Custom List</a>
       <a href="overall.html">Leaderboard</a>
       <a href="h2h.html">Head-to-Head</a>
       <a href="players.html">Settings</a>
@@ -37,7 +42,16 @@
     </p>
   </main>
 
-  <script src="app.js"></script>
+  <script type="module" src="main.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+          .then((reg) => console.log('Service Worker registered.', reg))
+          .catch((err) => console.log('Service Worker registration failed.', err));
+      });
+    }
+  </script>
 
 </body>
 

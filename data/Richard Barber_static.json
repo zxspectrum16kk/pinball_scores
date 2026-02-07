@@ -29,10 +29,10 @@
     },
     {
         "Machine ▲":  "Banzai Run",
-        "Plays":  3,
+        "Plays":  4,
         "Best":  1532260,
-        "Rank":  "149 / 522",
-        "% Top":  28.54
+        "Rank":  "149 / 551",
+        "% Top":  27.04
     },
     {
         "Machine ▲":  "Barracora",
@@ -84,6 +84,13 @@
         "% Top":  13.75
     },
     {
+        "Machine ▲":  "Catacomb",
+        "Plays":  1,
+        "Best":  788510,
+        "Rank":  "16 / 29",
+        "% Top":  55.17
+    },
+    {
         "Machine ▲":  "Congo",
         "Plays":  2,
         "Best":  219108930,
@@ -122,8 +129,8 @@
         "Machine ▲":  "Elvira\u0027s House of Horrors",
         "Plays":  3,
         "Best":  159011970,
-        "Rank":  "18 / 334",
-        "% Top":  5.39
+        "Rank":  "20 / 345",
+        "% Top":  5.8
     },
     {
         "Machine ▲":  "F-14 Tomcat",
@@ -143,8 +150,8 @@
         "Machine ▲":  "Fireball II",
         "Plays":  2,
         "Best":  543080,
-        "Rank":  "68 / 294",
-        "% Top":  23.13
+        "Rank":  "68 / 315",
+        "% Top":  21.59
     },
     {
         "Machine ▲":  "Fish Tales",
@@ -155,10 +162,10 @@
     },
     {
         "Machine ▲":  "Flash",
-        "Plays":  2,
-        "Best":  103050,
-        "Rank":  "319 / 498",
-        "% Top":  64.06
+        "Plays":  3,
+        "Best":  420010,
+        "Rank":  "24 / 527",
+        "% Top":  4.55
     },
     {
         "Machine ▲":  "Genie",
@@ -185,8 +192,8 @@
         "Machine ▲":  "Godzilla (Stern)",
         "Plays":  7,
         "Best":  494846370,
-        "Rank":  "40 / 842",
-        "% Top":  4.75
+        "Rank":  "41 / 853",
+        "% Top":  4.81
     },
     {
         "Machine ▲":  "Guardians of the Galaxy",
@@ -239,10 +246,10 @@
     },
     {
         "Machine ▲":  "Indiana Jones (Williams)",
-        "Plays":  3,
+        "Plays":  4,
         "Best":  104944200,
-        "Rank":  "413 / 1,013",
-        "% Top":  40.77
+        "Rank":  "429 / 1,042",
+        "% Top":  41.17
     },
     {
         "Machine ▲":  "Iron Maiden: Legacy of the Beast",
@@ -260,10 +267,10 @@
     },
     {
         "Machine ▲":  "James Bond 007",
-        "Plays":  1,
-        "Best":  9942160,
-        "Rank":  "108 / 137",
-        "% Top":  78.83
+        "Plays":  2,
+        "Best":  49508260,
+        "Rank":  "82 / 166",
+        "% Top":  49.4
     },
     {
         "Machine ▲":  "Jaws",
@@ -274,10 +281,10 @@
     },
     {
         "Machine ▲":  "Jokerz!",
-        "Plays":  1,
+        "Plays":  2,
         "Best":  764140,
-        "Rank":  "47 / 71",
-        "% Top":  66.2
+        "Rank":  "62 / 100",
+        "% Top":  62
     },
     {
         "Machine ▲":  "Jungle Lord",
@@ -288,17 +295,17 @@
     },
     {
         "Machine ▲":  "Jurassic Park (Stern)",
-        "Plays":  7,
+        "Plays":  8,
         "Best":  137346710,
-        "Rank":  "106 / 487",
-        "% Top":  21.77
+        "Rank":  "111 / 516",
+        "% Top":  21.51
     },
     {
         "Machine ▲":  "Kings \u0026 Queens",
-        "Plays":  1,
-        "Best":  347,
-        "Rank":  "29 / 33",
-        "% Top":  87.88
+        "Plays":  2,
+        "Best":  389,
+        "Rank":  "51 / 62",
+        "% Top":  82.26
     },
     {
         "Machine ▲":  "KISS (Stern)",
@@ -357,6 +364,13 @@
         "% Top":  70
     },
     {
+        "Machine ▲":  "Nine Ball",
+        "Plays":  1,
+        "Best":  524200,
+        "Rank":  "30 / 101",
+        "% Top":  29.7
+    },
+    {
         "Machine ▲":  "Paragon",
         "Plays":  3,
         "Best":  104400,
@@ -379,17 +393,17 @@
     },
     {
         "Machine ▲":  "Police Force",
-        "Plays":  2,
+        "Plays":  3,
         "Best":  945150,
-        "Rank":  "114 / 176",
-        "% Top":  64.77
+        "Rank":  "126 / 205",
+        "% Top":  61.46
     },
     {
         "Machine ▲":  "Pulp Fiction",
         "Plays":  2,
         "Best":  1279810,
-        "Rank":  "18 / 151",
-        "% Top":  11.92
+        "Rank":  "21 / 162",
+        "% Top":  12.96
     },
     {
         "Machine ▲":  "Revenge from Mars",
@@ -400,17 +414,17 @@
     },
     {
         "Machine ▲":  "Ripley\u0027s Believe it or Not!",
-        "Plays":  3,
-        "Best":  18983180,
-        "Rank":  "29 / 306",
-        "% Top":  9.48
+        "Plays":  4,
+        "Best":  26301680,
+        "Rank":  "13 / 333",
+        "% Top":  3.9
     },
     {
         "Machine ▲":  "Road Show",
         "Plays":  3,
         "Best":  633152340,
-        "Rank":  "170 / 1,282",
-        "% Top":  13.26
+        "Rank":  "170 / 1,303",
+        "% Top":  13.05
     },
     {
         "Machine ▲":  "Robo-War",
@@ -449,17 +463,17 @@
     },
     {
         "Machine ▲":  "Space Shuttle (Williams)",
-        "Plays":  2,
+        "Plays":  3,
         "Best":  1095830,
-        "Rank":  "15 / 95",
-        "% Top":  15.79
+        "Rank":  "22 / 124",
+        "% Top":  17.74
     },
     {
         "Machine ▲":  "Spectrum",
-        "Plays":  4,
+        "Plays":  5,
         "Best":  484660,
-        "Rank":  "61 / 258",
-        "% Top":  23.64
+        "Rank":  "63 / 287",
+        "% Top":  21.95
     },
     {
         "Machine ▲":  "Star Trek (Stern)",
@@ -493,8 +507,8 @@
         "Machine ▲":  "Tales from the Crypt",
         "Plays":  2,
         "Best":  182450990,
-        "Rank":  "76 / 336",
-        "% Top":  22.62
+        "Rank":  "84 / 356",
+        "% Top":  23.6
     },
     {
         "Machine ▲":  "Tales of the Arabian Nights",
@@ -568,10 +582,10 @@
     },
     {
         "Machine ▲":  "Twilight Zone",
-        "Plays":  5,
+        "Plays":  6,
         "Best":  398442320,
-        "Rank":  "164 / 2,441",
-        "% Top":  6.72
+        "Rank":  "165 / 2,481",
+        "% Top":  6.65
     },
     {
         "Machine ▲":  "TX-Sector",
@@ -603,9 +617,9 @@
     },
     {
         "Machine ▲":  "Willy Wonka \u0026 The Chocolate Factory",
-        "Plays":  1,
+        "Plays":  2,
         "Best":  308010,
-        "Rank":  "33 / 84",
-        "% Top":  39.29
+        "Rank":  "46 / 113",
+        "% Top":  40.71
     }
 ]

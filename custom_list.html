@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Language" content="en">
+    <title>Pinball Scores – Custom List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="bloglogo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <style>
+        /* Page specific styles for the selector */
+        .selector-container {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+            background: #fdfdfd;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .check-item {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .controls {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        button.primary {
+            font-weight: bold;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button.primary:hover {
+            background-color: #0056b3;
+        }
+
+        #machine-filter {
+            padding: 5px;
+            width: 100%;
+            max-width: 300px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+            <img src="bloglogo.png" alt="Pinball Scores Logo" class="logo">
+            <h1>Pinball Scores – Custom List</h1>
+        </div>
+
+        <nav aria-label="Pinball navigation">
+            <a href="index.html">Machines</a>
+            <a href="custom_list.html" aria-current="page">Custom List</a>
+            <a href="overall.html">Leaderboard</a>
+            <a href="h2h.html">Head-to-Head</a>
+            <a href="players.html">Settings</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="info">
+            <b>Instructions:</b> Select the machines you want to track below, then click "Save & View".
+            The stats will be calculated for the players currently selected in <b>Settings</b>.
+        </div>
+
+        <details>
+            <summary style="cursor: pointer; font-weight: bold; margin-bottom: 10px;">Edit Selection</summary>
+
+            <input type="text" id="machine-filter" placeholder="Search machines...">
+
+            <div class="controls">
+                <button id="btn-select-all">Select All</button>
+                <button id="btn-deselect-all">Deselect All</button>
+                <button id="btn-save" class="primary">Save & View Stats</button>
+            </div>
+
+            <div id="machine-selector" class="selector-container">
+                <!-- Checkboxes injected here -->
+            </div>
+        </details>
+
+        <hr>
+
+        <h2>Selected Machines Stats</h2>
+        <p id="selection-summary"></p>
+
+        <div class="legend" style="margin-bottom: 10px; font-size: 13px; color: #666;">
+            <span class="text-success">Green</span> = High Score &nbsp;|&nbsp;
+            <span class="text-warning">Orange</span> = Above Average
+        </div>
+
+        <div class="table-wrapper">
+            <table id="custom-table">
+                <thead>
+                    <tr id="custom-header-row">
+                        <th>Machine</th>
+                        <th>Avg Score</th>
+                        <th>High Score</th>
+                        <!-- Player columns injected here -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Rows injected here -->
+                </tbody>
+            </table>
+        </div>
+
+        <p class="note">
+            The table displays individual best scores for each player selected in <strong>Settings</strong>.
+        </p>
+
+        <p class="note">
+            Data last updated: <span class="data-last-updated"></span>
+        </p>
+
+    </main>
+
+    <script type="module" src="main.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then((reg) => console.log('Service Worker registered.', reg))
+                    .catch((err) => console.log('Service Worker registration failed.', err));
+            });
+        }
+    </script>
+</body>
+
+</html>

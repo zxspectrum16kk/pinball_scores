@@ -6,17 +6,22 @@
   <meta http-equiv="Content-Language" content="en">
   <title>Pinball Scores – Settings</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="data:,">
+  <link rel="icon" href="bloglogo.png">
   <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
 </head>
 
 <body>
 
   <header>
-    <h1>Pinball Scores – Settings</h1>
+    <div class="header-content">
+      <img src="bloglogo.png" alt="Pinball Scores Logo" class="logo">
+      <h1>Pinball Scores – Settings</h1>
+    </div>
 
     <nav aria-label="Pinball Scores navigation">
       <a href="index.html">Machines</a>
+      <a href="custom_list.html">Custom List</a>
       <a href="overall.html">Leaderboard</a>
       <a href="h2h.html">Head-to-Head</a>
       <a href="players.html" aria-current="page">Settings</a>
@@ -46,6 +51,14 @@
         <button id="reset-btn">Reset to default (Craig, Luke, Paul)</button>
       </div>
 
+      <div style="margin-top: 30px; border-top: 1px solid #eee; padding-top: 20px;">
+        <h3>Troubleshooting</h3>
+        <p style="font-size: 13px; color: #666;">If you are experiencing issues with the app (e.g. old data, missing
+          pages), try resetting the app cache.</p>
+        <button id="factory-reset-btn" style="background: #dc3545; color: white;">Factory Reset App (Clear
+          Cache)</button>
+      </div>
+
       <div id="status"></div>
     </div>
 
@@ -55,7 +68,46 @@
 
   </main>
 
-  <script src="app.js"></script>
+  <script type="module" src="main.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+          .then((reg) => console.log('Service Worker registered.', reg))
+          .catch((err) => console.log('Service Worker registration failed.', err));
+      });
+    }
+
+    // Factory Reset Logic
+    const factoryResetBtn = document.getElementById('factory-reset-btn');
+    if (factoryResetBtn) {
+      factoryResetBtn.addEventListener('click', async () => {
+        if (!confirm('This will clear the app cache and reload the latest version. Continue?')) return;
+
+        factoryResetBtn.textContent = 'Clearing...';
+        factoryResetBtn.disabled = true;
+
+        // 1. Unregister Service Workers
+        if ('serviceWorker' in navigator) {
+          const registrations = await navigator.serviceWorker.getRegistrations();
+          for (let registration of registrations) {
+            await registration.unregister();
+          }
+        }
+
+        // 2. Clear Caches
+        if ('caches' in window) {
+          const keys = await caches.keys();
+          for (let key of keys) {
+            await caches.delete(key);
+          }
+        }
+
+        // 3. Reload Page (Force reload)
+        window.location.reload(true);
+      });
+    }
+  </script>
 
 </body>
 

@@ -6,17 +6,22 @@
   <meta http-equiv="Content-Language" content="en">
   <title>Pinball Scores – Leaderboard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="data:,">
+  <link rel="icon" href="bloglogo.png">
   <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
 </head>
 
 <body>
 
   <header>
-    <h1>Pinball Scores – Leaderboard</h1>
+    <div class="header-content">
+      <img src="bloglogo.png" alt="Pinball Scores Logo" class="logo">
+      <h1>Pinball Scores – Leaderboard</h1>
+    </div>
 
     <nav aria-label="Pinball navigation">
       <a href="index.html">Machines</a>
+      <a href="custom_list.html">Custom List</a>
       <a href="overall.html" aria-current="page">Leaderboard</a>
       <a href="h2h.html">Head-to-Head</a>
       <a href="players.html">Settings</a>
@@ -26,14 +31,14 @@
   <main>
 
     <div class="info">
-      <b>Note:</b> “Wins” and “Win %” only count matches
-      <i>against the players currently selected in Settings</i>.
-      Enable or disable players to change how these values are calculated.
+      <b>Note:</b> Stats are calculated using only the players currently selected in <b>Settings</b>.
     </div>
 
-    <p id="selected-players-summary" class="note"></p>
+    <div id="leaderboard-chart"></div>
 
-    <button id="reset-sort">Reset sort</button>
+    <div class="controls" style="margin: 20px 0;">
+      <button id="reset-sort">Reset Sort order</button>
+    </div>
 
     <div class="table-wrapper">
       <table id="overall-table">
@@ -47,11 +52,11 @@
             <th>Lifetime Highs</th>
           </tr>
         </thead>
-        <tbody></tbody>
+        <tbody>
+          <!-- Rows injected here -->
+        </tbody>
       </table>
     </div>
-
-    <div id="leaderboard-chart"></div>
 
     <p class="note">
       Data last updated: <span class="data-last-updated"></span>
@@ -59,7 +64,16 @@
 
   </main>
 
-  <script src="app.js"></script>
+  <script type="module" src="main.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+          .then((reg) => console.log('Service Worker registered.', reg))
+          .catch((err) => console.log('Service Worker registration failed.', err));
+      });
+    }
+  </script>
 </body>
 
 </html>

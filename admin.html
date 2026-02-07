@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pinball Scores – Admin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="bloglogo.png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .admin-section {
+            margin-bottom: 30px;
+        }
+
+        .admin-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .status-box {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            border-radius: 4px;
+            font-family: monospace;
+            min-height: 40px;
+            margin-top: 10px;
+            white-space: pre-wrap;
+        }
+
+        .file-list {
+            max-height: 200px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="bloglogo.png" alt="Pinball Scores Logo" class="logo">
+            <h1>Pinball Scores – Admin</h1>
+        </div>
+        <nav aria-label="Pinball navigation">
+            <a href="index.html">Machines</a>
+            <a href="custom_list.html">Custom List</a>
+            <a href="overall.html">Leaderboard</a>
+            <a href="h2h.html">Head-to-Head</a>
+            <a href="players.html">Settings</a>
+            <a href="admin.html" aria-current="page">Admin</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Management -->
+        <div class="card admin-section">
+            <div class="admin-header">
+                <h2>Manage Players</h2>
+            </div>
+            <div style="display: flex; gap: 10px; margin-bottom: 15px;">
+                <input type="text" id="new-player-name" placeholder="Player Name (e.g. Craig)">
+                <input type="text" id="new-player-id" placeholder="Player ID (e.g. 1334)">
+                <button id="btn-add-player" class="primary">Add Player</button>
+            </div>
+            <table id="admin-player-table" style="width: 100%;">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>ID</th>
+                        <th style="width: 80px;">Action</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <!-- Scrape -->
+        <div class="card admin-section">
+            <div class="admin-header">
+                <h2>Import Data (Scrape)</h2>
+            </div>
+            <p class="note">Select items to scrape from pinballleague.uk</p>
+
+            <div style="margin-bottom: 10px;">
+                <button id="btn-scrape-all" class="primary">Scrape ALL (Players + Machines)</button>
+                <button id="btn-scrape-selected">Scrape Selected</button>
+            </div>
+
+            <div class="selector-container" style="max-height: 200px; border: 1px solid #ddd; padding: 5px;">
+                <div class="check-item">
+                    <input type="checkbox" id="scrape-machines" value="MachineStats">
+                    <label for="scrape-machines"><strong>Game and score information (Machine Stats)</strong></label>
+                </div>
+                <div id="scrape-player-list"></div>
+            </div>
+
+            <div id="scrape-status" class="status-box" style="display:none;"></div>
+        </div>
+
+        <!-- Publish -->
+        <div class="card admin-section">
+            <div class="admin-header">
+                <h2>Review & Publish</h2>
+                <button id="btn-publish" class="primary" disabled>Publish Updates</button>
+            </div>
+            <p class="note">Files currently in staging area (data/temp). Click Publish to make them live.</p>
+            <table id="staged-files-table" style="width: 100%;">
+                <thead>
+                    <tr>
+                        <th>File Name</th>
+                        <th>Size</th>
+                        <th>Last Modified</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+    </main>
+    <script type="module" src="admin.js"></script>
+</body>
+
+</html>

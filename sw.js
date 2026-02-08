@@ -14,7 +14,8 @@ const ASSETS_TO_CACHE = [
     './data.js',
     './utils.js',
     './stats.js',
-    './bloglogo.png'
+    './icon-192.png',
+    './blog logo 300x200.png'
 ];
 
 // Install event - cache files

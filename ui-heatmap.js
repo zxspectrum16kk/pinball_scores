@@ -231,6 +231,7 @@ export function renderPlayerHeatmapPage(machines, stats) {
     processedMachines.forEach(m => {
       const perfClass = getPerformanceClass(m.performancePercent);
       const trophy = m.isLifetimeHigh ? ' 🏆' : '';
+      const star = (m.played && m.performancePercent >= 80 && !m.isLifetimeHigh) ? ' ⭐' : '';
       const perfBar = Math.min(100, m.performancePercent);
 
       // Check if player beat average
@@ -249,7 +250,7 @@ export function renderPlayerHeatmapPage(machines, stats) {
       html += `
         <tr>
           <td><a href="machine.html?machine=${encodeURIComponent(m.machine)}">${m.machine}</a></td>
-          <td>${bestDisplay}${trophy}</td>
+          <td>${bestDisplay}${trophy}${star}</td>
           <td>${playsDisplay}</td>
           <td class="perf-cell" title="${perfLabel}">
             <div class="perf-bar-container">

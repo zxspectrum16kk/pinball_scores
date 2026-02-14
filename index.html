@@ -34,20 +34,23 @@
       Colors show performance relative to each machine's high score.
     </div>
 
-    <div class="controls" style="margin-bottom: 20px; display: flex; flex-wrap: wrap; gap: 15px; align-items: center;">
-      <div style="display: flex; align-items: center;">
+    <div class="controls"
+      style="margin-bottom: 20px; display: flex; flex-wrap: wrap; gap: 25px; align-items: baseline;">
+      <div style="display: flex; align-items: baseline;">
         <label for="player-select-heatmap" style="margin-right: 5px; font-weight: bold;">Select Player:</label>
-        <select id="player-select-heatmap">
+        <select id="player-select-heatmap"
+          style="padding: 6px 12px; font-size: 15px; border-radius: 6px; border: 1px solid #d1d9e6;">
           <option value="">-- Loading --</option>
         </select>
       </div>
 
-      <div style="display: flex; align-items: center;">
+      <div style="display: flex; align-items: baseline;">
         <label for="machine-search" style="margin-right: 5px; font-weight: bold;">Search Machines:</label>
-        <input type="search" id="machine-search" placeholder="Filter by name..." style="width: 200px;">
+        <input type="search" id="machine-search" placeholder="Filter by name..."
+          style="width: 200px; padding: 6px 12px; font-size: 15px; border-radius: 6px; border: 1px solid #d1d9e6;">
       </div>
 
-      <div style="display: flex; align-items: center;">
+      <div style="display: flex; align-items: baseline;">
         <input type="checkbox" id="show-unplayed" style="margin-right: 5px;">
         <label for="show-unplayed" style="cursor: pointer;">Show Unplayed</label>
       </div>

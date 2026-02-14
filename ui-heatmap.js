@@ -11,6 +11,7 @@ export function renderPlayerHeatmapPage(machines, stats) {
   const container = document.getElementById('heatmap-container');
   const select = document.getElementById('player-select-heatmap');
   const unplayedCheck = document.getElementById('show-unplayed');
+  const searchInput = document.getElementById('machine-search');
 
   if (!container || !select) return;
 
@@ -97,6 +98,10 @@ export function renderPlayerHeatmapPage(machines, stats) {
     unplayedCheck.addEventListener('change', updateView);
   }
 
+  if (searchInput) {
+    searchInput.addEventListener('input', updateView);
+  }
+
   // Initial Render
   updateView();
 
@@ -141,10 +146,18 @@ export function renderPlayerHeatmapPage(machines, stats) {
       };
     });
 
-    // Filter
+    // Filter by unplayed
     const showUnplayed = unplayedCheck ? unplayedCheck.checked : false;
     if (!showUnplayed) {
       processedMachines = processedMachines.filter(m => m.played);
+    }
+
+    // Filter by search term
+    const searchTerm = searchInput ? searchInput.value.trim().toLowerCase() : '';
+    if (searchTerm) {
+      processedMachines = processedMachines.filter(m =>
+        m.machine.toLowerCase().includes(searchTerm)
+      );
     }
 
     // Sort (Default to Performance)

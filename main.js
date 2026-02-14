@@ -8,7 +8,8 @@ import {
     DEFAULT_PLAYERS,
     setPlayerConfig,
     setAllPlayers,
-    setDefaultPlayers
+    setDefaultPlayers,
+    getSelectedPlayers
 } from './data.js';
 
 import {
@@ -48,7 +49,7 @@ function loadAllData() {
             });
 
             const machines = buildMachineData(playerDataById, machineStats);
-            const { stats } = computeStatsFromMachines(machines);
+            const { stats } = computeStatsFromMachines(machines, getSelectedPlayers());
             return { machines, stats };
         });
 }

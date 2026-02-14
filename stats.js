@@ -69,7 +69,7 @@ export function buildMachineData(playerDataById, machineStats) {
     });
 }
 
-export function computeStatsFromMachines(machines) {
+export function computeStatsFromMachines(machines, selectedPlayers = null) {
     const stats = {};
     ALL_PLAYERS.forEach(name => {
         stats[name] = {
@@ -93,11 +93,25 @@ export function computeStatsFromMachines(machines) {
             };
         });
 
-        const winnerObj = scores.reduce(
-            (best, cur) => (cur.score > best.score ? cur : best),
-            { name: '', score: 0 }
-        );
-        const winner = winnerObj.score > 0 ? winnerObj.name : '';
+        // Determine winner relative to SELECTED players (or all if none specified)
+        let activeScores = scores;
+        if (selectedPlayers && selectedPlayers.length > 0) {
+            activeScores = scores.filter(s => selectedPlayers.includes(s.name));
+        }
+
+        // Refined Logic based on User Request:
+        // A "Group Win" only counts if at least one other player in the group has played it.
+        // So we need count of players with plays > 0 to be >= 2.
+        const playersWithScores = activeScores.filter(s => s.plays > 0 && s.score > 0).length;
+
+        let winner = '';
+        if (playersWithScores >= 2) {
+            const winnerObj = activeScores.reduce(
+                (best, cur) => (cur.score > best.score ? cur : best),
+                { name: '', score: 0 }
+            );
+            winner = winnerObj.score > 0 ? winnerObj.name : '';
+        }
 
         scores.forEach(s => {
             if (s.plays > 0) {

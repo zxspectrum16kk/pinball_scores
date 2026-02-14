@@ -84,6 +84,43 @@ td a:hover {
 }
 
 /* ===========================
+   SUMMARY GRID
+   =========================== */
+
+.summary-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: flex-start;
+}
+
+.summary-item {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px 15px;
+    min-width: 140px;
+    text-align: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* ===========================
+   LINKS
+   =========================== */
+
+a {
+    color: var(--accent);
+}
+
+td a {
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+/* ===========================
    NAVIGATION
    =========================== */
 

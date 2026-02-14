@@ -34,11 +34,18 @@
       Colors show performance relative to each machine's high score.
     </div>
 
-    <div class="controls" style="margin-bottom: 20px;">
-      <label for="player-select-heatmap" style="margin-right: 10px; font-weight: bold;">Select Player:</label>
-      <select id="player-select-heatmap">
-        <option value="">-- Loading --</option>
-      </select>
+    <div class="controls" style="margin-bottom: 20px; display: flex; flex-wrap: wrap; gap: 15px; align-items: center;">
+      <div>
+        <label for="player-select-heatmap" style="margin-right: 5px; font-weight: bold;">Select Player:</label>
+        <select id="player-select-heatmap">
+          <option value="">-- Loading --</option>
+        </select>
+      </div>
+
+      <div style="display: flex; align-items: center;">
+        <input type="checkbox" id="show-unplayed" style="margin-right: 5px;">
+        <label for="show-unplayed" style="cursor: pointer;">Show Unplayed</label>
+      </div>
     </div>
 
     <div id="heatmap-container">

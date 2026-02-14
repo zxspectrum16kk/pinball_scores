@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pinball-scores-v14';
+const CACHE_NAME = 'pinball-scores-v15';
 const ASSETS_TO_CACHE = [
     './',
     './index.html',

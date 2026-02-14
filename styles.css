@@ -691,22 +691,22 @@ details summary+input#machine-filter {
 
 /* Heatmap Colors */
 .perf-excellent {
-    background-color: #76e060;
+    background-color: #28a745;
 }
 
 /* Green */
 .perf-good {
-    background-color: #ffeb3b;
+    background-color: #8fd14f;
 }
 
 /* Light Green */
 .perf-average {
-    background-color: #ffbf00;
+    background-color: #ffc107;
 }
 
 /* Yellow */
 .perf-poor {
-    background-color: #ff4444;
+    background-color: #ff8585;
 }
 
 /* Red */

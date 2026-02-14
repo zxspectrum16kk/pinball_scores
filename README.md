@@ -24,7 +24,8 @@ The system is composed of two distinct subsystems:
 *   **Hosting**: Agnostic (Cloudflare Pages, GitHub Pages, Netlify).
 *   **Logic**: 100% Client-side JavaScript (ES Modules).
 *   **State Management**: Fetches static JSON files from the `/data` directory.
-*   **Offline Capability**: Service Worker (`sw.js`) caches all assets and data.
+*   **Offline Capability**: Service Worker (`sw.js`) caches all assets and data using a stale-while-revalidate strategy.
+*   **Offline Indicator**: Visual badge displays when the user is offline, showing cached data availability.
 
 ### 2.2 Local Admin Backend (The Management Layer)
 *   **Execution**: PowerShell Core script (`server.ps1`) running locally.
@@ -65,34 +66,74 @@ The application consists of several specialized views, each serving a distinct p
 | **Server** | .NET HttpListener | Embedded in `server.ps1`. Handles HTTP requests. |
 | **Module** | `admin_logic.psm1` | Encapsulates scraping logic and file operations. |
 
-## 6. Technical Workflows
+## 6. Offline Functionality
 
-### 6.1 Player Management
+This application is a **fully offline-capable Progressive Web App (PWA)**. Users can install it on their devices and access their pinball scores even without an internet connection.
+
+### 6.1 How It Works
+
+The offline functionality is powered by a **Service Worker** using the **Cache API** with intelligent caching strategies:
+
+#### Caching Strategies
+
+1.  **Data Files (Stale-While-Revalidate)**
+    *   **Target**: All `/data/*.json` files (player stats, machine data)
+    *   **Behavior**: Serves cached data immediately for instant load times, then fetches fresh data in the background and updates the cache for the next visit.
+    *   **Benefit**: Best of both worlds - instant performance + always updating.
+
+2.  **Navigation (Network-First with Offline Fallback)**
+    *   **Target**: HTML pages
+    *   **Behavior**: Attempts to fetch from network first. If offline, serves cached page. If page not cached, shows `offline.html` fallback.
+    *   **Benefit**: Fresh content when online, graceful degradation when offline.
+
+3.  **Static Assets (Cache-First)**
+    *   **Target**: CSS, JavaScript, images
+    *   **Behavior**: Serves from cache if available, otherwise fetches from network.
+    *   **Benefit**: Maximum performance for unchanging assets.
+
+### 6.2 User Experience
+
+*   **Online**: App loads normally with fresh data. Background updates happen silently.
+*   **Offline**: Red "📡 Offline" badge appears in top-right corner. Last synchronized data is displayed. All previously visited pages remain functional.
+*   **Reconnecting**: Offline badge disappears automatically. Fresh data is fetched in the background without user intervention.
+
+### 6.3 Technical Implementation
+
+*   **Service Worker**: `sw.js` manages two separate caches:
+    *   `pinball-scores-v{N}` - App shell (HTML, CSS, JS, images)
+    *   `pinball-data-v{N}` - Data files (JSON)
+*   **Offline Indicator**: `offline-indicator.js` listens to browser `online`/`offline` events and displays status badge.
+*   **Cache Management**: Old cache versions are automatically deleted when the service worker updates.
+*   **Storage Size**: ~900KB total (500KB app shell + 400KB data).
+
+## 7. Technical Workflows
+
+### 7.1 Player Management
 Players are managed via the local API, which updates the `playerid.txt` source of truth and regenerates the `players.json` registry.
 
 *   **Add Player**: Endpoint `POST /api/players` with `{ "name": "Name", "id": "123" }`.
 *   **Remove Player**: Endpoint `DELETE /api/players` with `{ "id": "123" }`.
 
-### 6.2 Data Scraping Pipeline
+### 7.2 Data Scraping Pipeline
 1.  **Request**: `POST /api/scrape` with target IDs.
 2.  **Fetch**: `Invoke-WebRequest` retrieves HTML from source.
 3.  **Parse**: Regex extraction of table data.
 4.  **Stage**: Serialized JSON saved to `data/temp/`.
 
-### 6.3 Publication Cycle
+### 7.3 Publication Cycle
 1.  **Review**: `GET /api/staged` checks `data/temp/`.
 2.  **Promote**: `POST /api/publish` moves files to `data/`.
 3.  **Deploy**: User commits `data/` changes to git/Cloudflare.
 
 ## 7. Privacy & Compliance
 
-Transparency is key. Even though this is a personal project, we believe in clear data practices.
+Transparency is key. Even though this is a personal project, I believe in clear data practices.
 
 *   **Policy**: [Privacy Notice](privacy.html)
 *   **Data Handling**: This application collects **no personal data** from visitors. It strictly displays public league data.
 *   **Compliance**: We respect the "Right to be Forgotten". Players can request removal from this view by contacting the maintainer, as detailed in the privacy policy.
 
-## 8. Open Development
+## 9. Open Development
 
 We believe in the principle of **Developing in the Open**. Even though this tool serves a small group of friends, sharing the source code allows others to learn from the architecture, suggest improvements, or fork it for their own leagues.
 

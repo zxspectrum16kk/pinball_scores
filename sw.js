@@ -1,4 +1,6 @@
-const CACHE_NAME = 'pinball-scores-v22';
+const CACHE_NAME = 'pinball-scores-v23';
+const DATA_CACHE_NAME = 'pinball-data-v1';
+
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
@@ -8,6 +10,7 @@ const ASSETS_TO_CACHE = [
     './player.html',
     './players.html',
     './machine.html',
+    './offline.html',
     './styles.css',
     './main.js',
     './ui.js',
@@ -36,26 +39,56 @@ self.addEventListener('install', (event) => {
     );
 });
 
-// Fetch event - serve from cache if available, otherwise fetch from network
-// Fetch event
+// Fetch event - intelligent caching strategy
 self.addEventListener('fetch', (event) => {
-    // For navigation requests (HTML pages), try network first, then cache
+    const url = new URL(event.request.url);
+
+    // Strategy 1: Data files - Stale-While-Revalidate
+    // Serve cached data immediately, then update cache in background
+    if (url.pathname.startsWith('/data/') && url.pathname.endsWith('.json')) {
+        event.respondWith(
+            caches.open(DATA_CACHE_NAME).then((cache) => {
+                return cache.match(event.request).then((cachedResponse) => {
+                    const fetchPromise = fetch(event.request)
+                        .then((networkResponse) => {
+                            // Update cache with fresh data
+                            if (networkResponse && networkResponse.status === 200) {
+                                cache.put(event.request, networkResponse.clone());
+                            }
+                            return networkResponse;
+                        })
+                        .catch(() => {
+                            // Network failed, return cached version
+                            console.log('[Service Worker] Network failed for', url.pathname, '- using cache');
+                            return cachedResponse;
+                        });
+
+                    // Return cached data immediately if available, otherwise wait for network
+                    return cachedResponse || fetchPromise;
+                });
+            })
+        );
+        return;
+    }
+
+    // Strategy 2: Navigation - Network first with offline fallback
     if (event.request.mode === 'navigate') {
         event.respondWith(
             fetch(event.request)
                 .catch(() => {
                     return caches.match(event.request)
                         .then((response) => {
+                            // If page is cached, return it
                             if (response) return response;
-                            // Optional: Return a offline.html here if you had one
-                            // return caches.match('./offline.html');
+                            // Otherwise show offline page
+                            return caches.match('./offline.html');
                         });
                 })
         );
         return;
     }
 
-    // For everything else (CSS, JS, Images), try cache first, then network
+    // Strategy 3: Static assets - Cache first
     event.respondWith(
         caches.match(event.request)
             .then((response) => {
@@ -69,10 +102,13 @@ self.addEventListener('fetch', (event) => {
 
 // Activate event - clean up old caches
 self.addEventListener('activate', (event) => {
+    const cacheWhitelist = [CACHE_NAME, DATA_CACHE_NAME];
+
     event.waitUntil(
         caches.keys().then((keyList) => {
             return Promise.all(keyList.map((key) => {
-                if (key !== CACHE_NAME) {
+                if (!cacheWhitelist.includes(key)) {
+                    console.log('[Service Worker] Deleting old cache:', key);
                     return caches.delete(key);
                 }
             }));

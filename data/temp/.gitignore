@@ -1,0 +1,5 @@
+# Ignore all JSON files in the temp staging directory
+*.json
+
+# Keep the .gitignore file itself
+!.gitignore

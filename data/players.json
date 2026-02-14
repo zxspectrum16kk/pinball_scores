@@ -43,5 +43,10 @@
         "id":  "alan",
         "label":  "Alan",
         "file":  "data/Alan_static.json"
+    },
+    {
+        "id":  "scott",
+        "label":  "Scott",
+        "file":  "data/Scott_static.json"
     }
 ]

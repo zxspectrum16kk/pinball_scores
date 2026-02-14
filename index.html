@@ -59,11 +59,33 @@
     </div>
 
     <div id="heatmap-container">
-      <!-- Heatmap content will be injected here -->
-      <div class="loading-container">
-        <div class="loading-spinner"></div>
-        <div class="loading-text">Loading performance data...</div>
+      <!-- Skeleton shown during loading -->
+      <div class="skeleton-loading" id="skeleton-loading">
+        <!-- Summary boxes skeleton -->
+        <div class="summary-grid" style="margin-bottom: 20px;">
+          <div class="summary-item skeleton skeleton-box"></div>
+          <div class="summary-item skeleton skeleton-box"></div>
+          <div class="summary-item skeleton skeleton-box"></div>
+          <div class="summary-item skeleton skeleton-box"></div>
+          <div class="summary-item skeleton skeleton-box"></div>
+        </div>
+
+        <!-- Table skeleton -->
+        <div class="table-wrapper">
+          <div class="skeleton skeleton-table-row"></div>
+          <div class="skeleton skeleton-table-row"></div>
+          <div class="skeleton skeleton-table-row"></div>
+          <div class="skeleton skeleton-table-row"></div>
+          <div class="skeleton skeleton-table-row"></div>
+          <div class="skeleton skeleton-table-row"></div>
+          <div class="skeleton skeleton-table-row"></div>
+          <div class="skeleton skeleton-table-row"></div>
+          <div class="skeleton skeleton-table-row"></div>
+          <div class="skeleton skeleton-table-row"></div>
+        </div>
       </div>
+
+      <!-- Actual content will be injected here -->
     </div>
 
     <p class="note">

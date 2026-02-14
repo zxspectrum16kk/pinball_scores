@@ -15,6 +15,12 @@ export function renderPlayerHeatmapPage(machines, stats) {
 
   if (!container || !select) return;
 
+  // Hide skeleton loading screen when content is ready
+  const skeleton = document.getElementById('skeleton-loading');
+  if (skeleton) {
+    skeleton.classList.add('hidden');
+  }
+
   // Fallback: If ALL_PLAYERS is empty, use keys from stats
   let allPlayers = ALL_PLAYERS;
   if (!allPlayers || allPlayers.length === 0) {

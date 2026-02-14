@@ -1,6 +1,6 @@
 // Player Performance Heat Map Page
 import { ALL_PLAYERS, getSelectedPlayers } from './data.js';
-import { fmtNumber } from './utils.js';
+import { fmtNumber, makeTableSortable } from './utils.js';
 
 // Helper function to convert player name to key
 function playerKeyFromName(name) {
@@ -200,7 +200,7 @@ export function renderPlayerHeatmapPage(machines, stats) {
       </div>
 
       <div class="table-wrapper">
-        <table class="heatmap-table">
+        <table id="heatmap-table" class="heatmap-table">
           <thead>
             <tr>
               <th>Machine</th>
@@ -255,6 +255,11 @@ export function renderPlayerHeatmapPage(machines, stats) {
     `;
 
     container.innerHTML = html;
+
+    // Enable table sorting
+    // Columns: 0=Machine, 1=Best Score, 2=Plays, 3=Performance %, 4=High Score, 5=Avg Score
+    // Numeric columns: 1, 2, 3, 4, 5 (all except Machine name)
+    makeTableSortable('heatmap-table', [1, 2, 3, 4, 5], { index: 3, direction: 'desc' });
   }
 
   function getPerformanceClass(percent) {

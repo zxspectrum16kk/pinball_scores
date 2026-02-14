@@ -28,8 +28,9 @@
         .controls {
             margin-bottom: 20px;
             display: flex;
-            gap: 10px;
+            gap: 25px;
             flex-wrap: wrap;
+            align-items: baseline;
         }
 
         .hidden {
@@ -40,18 +41,15 @@
             font-weight: bold;
             background-color: #007bff;
             color: white;
-            border: none;
-            padding: 8px 16px;
-            border-radius: 4px;
-            cursor: pointer;
+            border-color: #007bff;
         }
 
         button.primary:hover {
             background-color: #0056b3;
+            border-color: #0056b3;
         }
 
         #machine-filter {
-            padding: 5px;
             width: 100%;
             max-width: 300px;
             margin-bottom: 10px;
@@ -110,6 +108,7 @@
 
         <div class="table-wrapper">
             <table id="custom-table">
+                <caption>Custom machine selection statistics and player scores</caption>
                 <thead>
                     <tr id="custom-header-row">
                         <th>Machine</th>

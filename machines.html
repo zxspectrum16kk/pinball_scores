@@ -44,9 +44,9 @@
     <!-- Global hint: which players are currently selected -->
     <p id="selected-players-summary" class="note"></p>
 
-    <div class="controls" style="display: flex; gap: 10px; margin-bottom: 10px; align-items: center;">
-      <input type="search" id="machine-filter" placeholder="Filter machines..."
-        style="flex: 1; max-width: 300px; height: 34px; padding: 4px 8px;">
+    <div class="controls"
+      style="display: flex; gap: 25px; margin-bottom: 10px; align-items: baseline; flex-wrap: wrap;">
+      <input type="search" id="machine-filter" placeholder="Filter machines..." style="flex: 1; max-width: 300px;">
       <button id="reset-sort">Reset sort</button>
     </div>
 
@@ -57,6 +57,7 @@
 
     <div class="table-wrapper">
       <table id="league-table">
+        <caption>Pinball machine statistics and player scores</caption>
         <thead>
           <tr id="league-header-row"></tr>
         </thead>

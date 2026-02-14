@@ -170,6 +170,55 @@ nav a[aria-current="page"] {
 }
 
 /* ===========================
+   FORM CONTROLS (Standardized)
+   =========================== */
+
+/* Standard input styling */
+input[type="search"],
+input[type="text"] {
+    padding: 6px 12px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #d1d9e6;
+    font-family: inherit;
+}
+
+/* Standard button styling */
+button {
+    padding: 6px 12px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #d1d9e6;
+    background: #ffffff;
+    color: #333;
+    cursor: pointer;
+    font-family: inherit;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+button:hover {
+    background: #f5f5f5;
+    border-color: #b0b8c4;
+}
+
+button:active {
+    background: #e8e8e8;
+}
+
+/* Danger button variant */
+button.danger {
+    background: #dc3545;
+    color: white;
+    border-color: #dc3545;
+}
+
+button.danger:hover {
+    background: #c82333;
+    border-color: #bd2130;
+}
+
+
+/* ===========================
    TABLE WRAPPERS
    =========================== */
 

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="Content-Language" content="en">
-  <title>Pinball Scores – Machines</title>
+  <title>Pinball Scores – Player Performance</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="icon-192.png">
   <link rel="stylesheet" href="styles.css">
@@ -16,11 +16,12 @@
   <header>
     <div class="header-content">
       <img src="blog logo 300x200.png" alt="Pinball Scores Logo" class="logo">
-      <h1>Pinball Scores – Machines</h1>
+      <h1>Pinball Scores – Performance</h1>
     </div>
 
     <nav aria-label="Pinball navigation">
-      <a href="index.html" aria-current="page">Machines</a>
+      <a href="index.html" aria-current="page">Player Performance</a>
+      <a href="machines.html">Machines</a>
       <a href="custom_list.html">Custom List</a>
       <a href="overall.html">Leaderboard</a>
       <a href="h2h.html">Head-to-Head</a>
@@ -29,39 +30,19 @@
   </header>
 
   <main>
-
-    <p class="note">
-      Data sourced from
-      <a href="https://pinballleague.uk" target="_blank" rel="noopener noreferrer">pinballleague.uk</a>.
-      Pinball machine stats and player information have been exported into JSON format for use in this app.
-    </p>
-
-    <div class="info">
-      <b>Note:</b> Only players selected in <b>Settings</b> appear as columns here.
-      Trophies and scores on this page are calculated using the currently selected players.
+    <div class="controls" style="margin-bottom: 20px;">
+      <label for="player-select-heatmap" style="margin-right: 10px; font-weight: bold;">Select Player:</label>
+      <select id="player-select-heatmap" style="padding: 6px; font-size: 16px;">
+        <option value="">-- Loading --</option>
+      </select>
     </div>
 
-    <!-- Global hint: which players are currently selected -->
-    <p id="selected-players-summary" class="note"></p>
-
-    <div class="controls" style="display: flex; gap: 10px; margin-bottom: 10px; align-items: center;">
-      <input type="search" id="machine-filter" placeholder="Filter machines..."
-        style="flex: 1; max-width: 300px; height: 34px; padding: 4px 8px;">
-      <button id="reset-sort">Reset sort</button>
-    </div>
-
-    <div class="legend" style="margin-bottom: 10px; font-size: 13px; color: #666;">
-      <span class="text-success">Green</span> = High Score &nbsp;|&nbsp;
-      <span class="text-warning">Orange</span> = Above Average
-    </div>
-
-    <div class="table-wrapper">
-      <table id="league-table">
-        <thead>
-          <tr id="league-header-row"></tr>
-        </thead>
-        <tbody></tbody>
-      </table>
+    <div id="heatmap-container">
+      <!-- Heatmap content will be injected here -->
+      <div class="loading-container">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Loading performance data...</div>
+      </div>
     </div>
 
     <p class="note">
@@ -73,15 +54,7 @@
   </main>
 
   <script type="module" src="main.js"></script>
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js')
-          .then((reg) => console.log('Service Worker registered.', reg))
-          .catch((err) => console.log('Service Worker registration failed.', err));
-      });
-    }
-  </script>
+  <script src="update-notification.js"></script>
 </body>
 
 </html>

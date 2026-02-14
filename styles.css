@@ -221,7 +221,9 @@ tbody td.sorted-col {
 
 /* Machine Column Width */
 #league-table td:first-child,
-#league-table th:first-child {
+#league-table th:first-child,
+.heatmap-table td:first-child,
+.heatmap-table th:first-child {
     max-width: 25ch;
     /* Limit to approx 25 characters */
     overflow: hidden;
@@ -570,13 +572,153 @@ details summary+input#machine-filter {
     }
 }
 
-/* Score Coloring */
+.text-warning {
+    color: #e0a800;
+    font-weight: bold;
+}
+
 .text-success {
     color: #28a745;
     font-weight: bold;
 }
 
-.text-warning {
-    color: #e0a800;
+/* ===========================
+   LEADERBOARD ENHANCEMENTS
+   =========================== */
+
+/* Rank Column - CSS Counter */
+#overall-table {
+    counter-reset: rb-rank;
+}
+
+#overall-table tbody tr {
+    counter-increment: rb-rank;
+}
+
+.rank-cell {
+    text-align: center;
     font-weight: bold;
+    color: #888;
+    width: 50px;
+}
+
+.rank-cell::before {
+    content: counter(rb-rank);
+}
+
+/* Gold Highlight for Top Values */
+.highlight-gold {
+    color: #d4a017;
+    /* Gold/Dark Orange */
+    font-weight: bold;
+    background-color: #fff9e6;
+    /* Light yellow bg */
+}
+
+/* ===========================
+   HEATMAP / PERFORMANCE
+   =========================== */
+
+#player-select-heatmap {
+    margin-bottom: 20px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+}
+
+.heatmap-legend {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 13px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.legend-box {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.heatmap-table td {
+    vertical-align: middle;
+}
+
+.perf-cell {
+    width: 180px;
+}
+
+.perf-bar-container {
+    background: #eee;
+    height: 20px;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.perf-bar {
+    height: 100%;
+    transition: width 0.5s ease-out;
+}
+
+.perf-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 11px;
+    color: #222;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* Heatmap Colors */
+.perf-excellent {
+    background-color: #76e060;
+}
+
+/* Green */
+.perf-good {
+    background-color: #ffeb3b;
+}
+
+/* Light Green */
+.perf-average {
+    background-color: #ffbf00;
+}
+
+/* Yellow */
+.perf-poor {
+    background-color: #ff4444;
+}
+
+/* Red */
+
+@media (max-width: 600px) {
+    .heatmap-legend {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .perf-cell {
+        width: 120px;
+    }
 }

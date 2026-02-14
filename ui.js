@@ -81,7 +81,7 @@ export function renderMachinesPage(machines) {
 
   headerRow.appendChild(createHeaderCell('Machine'));
   selectedPlayers.forEach(name => {
-    const labelHtml = `<a href="player.html?player=${encodeURIComponent(name)}">${name}</a>`;
+    const labelHtml = `<a href="index.html?player=${encodeURIComponent(name)}">${name}</a>`;
     headerRow.appendChild(createHeaderCell(labelHtml));
   });
   headerRow.appendChild(createHeaderCell('Average Score'));
@@ -279,6 +279,32 @@ export function renderOverallPage(machines, stats) {
 
   tbody.innerHTML = '';
 
+  // Calculate max values for highlighting
+  let maxMachines = 0;
+  let maxWins = 0;
+  let maxWinPct = 0;
+  let maxAvgPer = 0;
+  let maxAbove = 0;
+  let maxHighs = 0;
+
+  selectedPlayers.forEach(name => {
+    const s = stats[name];
+    if (!s) return;
+
+    // Parse numeric values for comparison
+    const wins = winsMap[name] || 0;
+    const contested = contestedMap[name] || 0;
+    const winPctVal = contested > 0 ? (wins / contested) * 100 : 0;
+    const avgPerVal = parseFloat(s.avgPer) || 0;
+
+    if (s.machinesPlayed > maxMachines) maxMachines = s.machinesPlayed;
+    if (wins > maxWins) maxWins = wins;
+    if (winPctVal > maxWinPct) maxWinPct = winPctVal;
+    if (avgPerVal > maxAvgPer) maxAvgPer = avgPerVal;
+    if (s.aboveAvg > maxAbove) maxAbove = s.aboveAvg;
+    if (s.lifetimeHighs > maxHighs) maxHighs = s.lifetimeHighs;
+  });
+
   selectedPlayers.forEach(name => {
     const s = stats[name];
     if (!s) return;
@@ -286,113 +312,35 @@ export function renderOverallPage(machines, stats) {
     const machinesPlayed = s.machinesPlayed;
     const wins = winsMap[name] || 0;
     const contested = contestedMap[name] || 0;
-    const winPct = contested > 0 ? ((wins / contested) * 100).toFixed(1) + '%' : '0%';
+    const winPctVal = contested > 0 ? (wins / contested) * 100 : 0;
+    const winPct = contested > 0 ? winPctVal.toFixed(1) + '%' : '0%';
+    const avgPerVal = parseFloat(s.avgPer) || 0;
 
     const tr = document.createElement('tr');
     tr.innerHTML = `
+      <td class="rank-cell"></td>
       <td>
-        <a href="player.html?player=${encodeURIComponent(name)}">
+        <a href="index.html?player=${encodeURIComponent(name)}">
           ${name}
         </a>
       </td>
-      <td>${machinesPlayed}</td>
-      <td>${wins}</td>
-      <td>${winPct}</td>
-      <td>${s.aboveAvg}</td>
-      <td>${s.lifetimeHighs}</td>
+      <td class="${machinesPlayed === maxMachines && maxMachines > 0 ? 'highlight-gold' : ''}">${machinesPlayed}</td>
+      <td class="${wins === maxWins && maxWins > 0 ? 'highlight-gold' : ''}">${wins}</td>
+      <td class="${winPctVal === maxWinPct && maxWinPct > 0 ? 'highlight-gold' : ''}">${winPct}</td>
+      <td class="${avgPerVal === maxAvgPer && maxAvgPer > 0 ? 'highlight-gold' : ''}">${s.avgPer}</td>
+      <td class="${s.aboveAvg === maxAbove && maxAbove > 0 ? 'highlight-gold' : ''}">${s.aboveAvg}</td>
+      <td class="${s.lifetimeHighs === maxHighs && maxHighs > 0 ? 'highlight-gold' : ''}">${s.lifetimeHighs}</td>
     `;
     tbody.appendChild(tr);
   });
 
-  makeTableSortable('overall-table', [1, 2, 3, 4, 5], { index: 1, direction: 'desc' });
+  makeTableSortable('overall-table', [2, 3, 4, 5, 6, 7], { index: 2, direction: 'desc' });
 
   renderLeaderboardChart('leaderboard-chart', selectedPlayers, winsMap, contestedMap, stats);
 }
 
 // Head-to-Head – dynamic pairs based on selected players
-export function renderH2HPage(machines) {
-  const table = document.getElementById('h2h-table');
-  const tbody = table ? table.querySelector('tbody') : null;
-  if (!tbody) return;
 
-  const selectedPlayers = getSelectedPlayers();
-  tbody.innerHTML = '';
-
-  const headerCount = table.querySelectorAll('thead th').length || 2;
-
-  const pairs = [];
-  for (let i = 0; i < selectedPlayers.length; i++) {
-    for (let j = i + 1; j < selectedPlayers.length; j++) {
-      pairs.push([selectedPlayers[i], selectedPlayers[j]]);
-    }
-  }
-
-  if (pairs.length === 0) {
-    const colSpan = headerCount > 0 ? headerCount : 2;
-    tbody.innerHTML = `
-      <tr>
-        <td colspan="${colSpan}">
-          Select at least two players in Settings to see head-to-head stats.
-        </td>
-      </tr>`;
-    return;
-  }
-
-  pairs.forEach(([aName, bName]) => {
-    const aKey = playerKeyFromName(aName);
-    const bKey = playerKeyFromName(bName);
-
-    let aWins = 0;
-    let bWins = 0;
-    let contested = 0;
-
-    machines.forEach(m => {
-      const aData = m[aKey];
-      const bData = m[bKey];
-      if (!aData || !bData) return;
-      if (aData.plays > 0 && bData.plays > 0) {
-        contested++;
-        const aBest = aData.best || 0;
-        const bBest = bData.best || 0;
-        if (aBest > bBest) aWins++;
-        else if (bBest > aBest) bWins++;
-      }
-    });
-
-    const winPct =
-      contested > 0 ? ((aWins / contested) * 100).toFixed(1) + '%' : '0%';
-
-    const tr = document.createElement('tr');
-
-    if (headerCount >= 4) {
-      tr.innerHTML = `
-        <td>${aName} vs ${bName}</td>
-        <td>${aWins}–${bWins}</td>
-        <td>${contested}</td>
-        <td>${winPct}</td>
-      `;
-    } else {
-      tr.innerHTML = `
-        <td>${aName} vs ${bName}</td>
-        <td>${aWins}–${bWins}</td>
-      `;
-    }
-
-    if (aWins > bWins) {
-      tr.classList.add('h2h-ahead-a');
-    } else if (bWins > aWins) {
-      tr.classList.add('h2h-ahead-b');
-    }
-
-    tbody.appendChild(tr);
-  });
-
-  if (headerCount >= 4) {
-    makeTableSortable('h2h-table', [1, 2, 3], { index: 2, direction: 'desc' });
-  } else {
-    makeTableSortable('h2h-table', [1], { index: 1, direction: 'desc' });
-  }
-}
 
 // Machine detail page
 export function renderMachineDetailPage(machines) {
@@ -680,7 +628,7 @@ export function renderCustomListPage(machines, stats) {
       `;
       selectedPlayers.forEach(p => {
         const th = document.createElement('th');
-        th.textContent = p;
+        th.innerHTML = `<a href="index.html?player=${encodeURIComponent(p)}">${p}</a>`;
         headerRow.appendChild(th);
       });
     }
@@ -758,7 +706,7 @@ export function renderPlayerProfilePage(machines, stats) {
       <p>No or unknown player specified.</p>
       <p>Try one of:</p>
       <ul>
-        ${ALL_PLAYERS.map(p => `<li><a href="player.html?player=${encodeURIComponent(p)}">${p}</a></li>`).join('')}
+        ${ALL_PLAYERS.map(p => `<li><a href="index.html?player=${encodeURIComponent(p)}">${p}</a></li>`).join('')}
       </ul>
     `;
     return;

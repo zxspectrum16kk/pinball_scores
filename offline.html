@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Language" content="en">
+  <title>Offline – Pinball Scores</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .offline-container {
+      text-align: center;
+      padding: 40px 20px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .offline-icon {
+      font-size: 80px;
+      margin-bottom: 20px;
+      opacity: 0.6;
+    }
+
+    .offline-container h1 {
+      color: #444;
+      margin-bottom: 15px;
+    }
+
+    .offline-container p {
+      color: #666;
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 25px;
+    }
+
+    .offline-actions {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    .cached-pages {
+      margin-top: 40px;
+      text-align: left;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 20px;
+    }
+
+    .cached-pages h2 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      color: #444;
+    }
+
+    .cached-pages ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .cached-pages li {
+      padding: 10px 0;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    .cached-pages li:last-child {
+      border-bottom: none;
+    }
+
+    .cached-pages a {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 15px;
+    }
+
+    .cached-pages a:hover {
+      text-decoration: underline;
+    }
+
+    .status-indicator {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background: #ff6b6b;
+      border-radius: 50%;
+      margin-right: 8px;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.5;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="header-content">
+      <img src="blog logo 300x200.png" alt="Pinball Scores Logo" class="logo">
+      <h1>Pinball Scores</h1>
+    </div>
+  </header>
+
+  <main>
+    <div class="offline-container">
+      <div class="offline-icon">📡</div>
+      <h1><span class="status-indicator"></span>You're Offline</h1>
+      <p>
+        It looks like you've lost your internet connection. Don't worry – some pages and data may still be available from your device's cache.
+      </p>
+      <p>
+        Once you're back online, the app will automatically sync the latest scores and data.
+      </p>
+
+      <div class="offline-actions">
+        <button class="primary" onclick="window.location.reload()">Try Again</button>
+        <button onclick="window.location.href='index.html'">Go to Home</button>
+      </div>
+
+      <div class="cached-pages">
+        <h2>📦 Available Offline</h2>
+        <p class="note">These pages are cached and available without an internet connection:</p>
+        <ul>
+          <li><a href="index.html">🎮 Machines</a></li>
+          <li><a href="custom_list.html">📋 Custom List</a></li>
+          <li><a href="overall.html">🏆 Leaderboard</a></li>
+          <li><a href="h2h.html">⚔️ Head-to-Head</a></li>
+          <li><a href="players.html">⚙️ Settings</a></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    // Check online status and auto-reload when back online
+    window.addEventListener('online', () => {
+      console.log('Back online! Reloading...');
+      setTimeout(() => {
+        window.location.reload();
+      }, 1000);
+    });
+
+    // Update UI based on connection status
+    window.addEventListener('offline', () => {
+      console.log('Connection lost');
+    });
+
+    // Display current connection status
+    if (navigator.onLine) {
+      document.querySelector('.offline-container p').innerHTML = 
+        '<strong>You appear to be online now.</strong> Try refreshing the page to load the latest content.';
+    }
+  </script>
+
+</body>
+
+</html>

@@ -76,7 +76,10 @@ export function computeStatsFromMachines(machines) {
             machinesPlayed: 0,
             wins: 0,
             aboveAvg: 0,
-            lifetimeHighs: 0
+            lifetimeHighs: 0,
+            totalPerfPercent: 0,
+            perfCount: 0,
+            avgPer: 0
         };
     });
 
@@ -102,6 +105,13 @@ export function computeStatsFromMachines(machines) {
                 if (m.avgScore != null && s.score > m.avgScore) {
                     stats[s.name].aboveAvg++;
                 }
+
+                // Calculate performance % vs high score
+                if (m.highScore > 0) {
+                    const pct = (s.score / m.highScore) * 100;
+                    stats[s.name].totalPerfPercent += pct;
+                    stats[s.name].perfCount++;
+                }
             }
         });
 
@@ -116,6 +126,17 @@ export function computeStatsFromMachines(machines) {
                     stats[p.label].lifetimeHighs++;
                 }
             });
+        }
+
+
+    });
+
+    // Calculate final Average Performance %
+    Object.values(stats).forEach(s => {
+        if (s.perfCount > 0) {
+            s.avgPer = (s.totalPerfPercent / s.perfCount).toFixed(1) + '%';
+        } else {
+            s.avgPer = '0%';
         }
     });
 

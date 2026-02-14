@@ -30,7 +30,11 @@ export function getNumericField(row, patterns, defaultValue = 0) {
     for (const [key, value] of Object.entries(row)) {
         const lower = key.toLowerCase();
         if (patterns.some(p => lower.includes(p))) {
-            const num = Number(value);
+            let val = value;
+            if (typeof val === 'string') {
+                val = val.replace(/,/g, '');
+            }
+            const num = Number(val);
             if (!isNaN(num)) return num;
         }
     }
@@ -102,11 +106,14 @@ export function makeTableSortable(tableId, numericCols = [], defaultSort) {
 
     headers.forEach((th, index) => {
         if (!th.querySelector('.arrow')) {
-            const label = th.innerText;
-            th.innerHTML = `<span>${label}</span><span class="arrow"></span>`;
+            const labelHtml = th.innerHTML;
+            th.innerHTML = `<span>${labelHtml}</span><span class="arrow"></span>`;
         }
 
-        th.addEventListener('click', () => {
+        th.addEventListener('click', (e) => {
+            // If the user clicked a link (e.g. player name), don't sort
+            if (e.target.closest('a')) return;
+
             const currentDir = th.dataset.sortDir === 'asc' ? 'asc' : 'desc';
             const newDir = currentDir === 'asc' ? 'desc' : 'asc';
             th.dataset.sortDir = newDir;

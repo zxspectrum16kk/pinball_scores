@@ -22,11 +22,15 @@ import {
     initPlayerSelectionPage,
     renderMachinesPage,
     renderOverallPage,
-    renderH2HPage,
     renderMachineDetailPage,
     renderPlayerProfilePage,
+
     renderCustomListPage
 } from './ui.js';
+
+import {
+    renderPlayerHeatmapPage
+} from './ui-heatmap.js';
 
 
 function loadAllData() {
@@ -53,11 +57,12 @@ function loadAllData() {
 document.addEventListener('DOMContentLoaded', () => {
     const hasLeague = document.getElementById('league-table');
     const hasOverall = document.getElementById('overall-table');
-    const hasH2H = document.getElementById('h2h-table');
     const hasMachine = document.getElementById('machine-detail');
     const hasProfile = document.getElementById('player-profile');
+
     const hasSelector = document.getElementById('players-list');
     const hasCustomList = document.getElementById('machine-selector');
+    const hasHeatmap = document.getElementById('heatmap-container');
 
     // Load player config first
     fetchJson('data/players.json')
@@ -78,15 +83,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 initPlayerSelectionPage();
             }
 
-            if (hasLeague || hasOverall || hasH2H || hasMachine || hasProfile || hasCustomList) {
+            if (hasLeague || hasOverall || hasMachine || hasProfile || hasCustomList || hasHeatmap) {
                 return loadAllData()
                     .then(({ machines, stats }) => {
                         if (hasLeague) renderMachinesPage(machines);
                         if (hasOverall) renderOverallPage(machines, stats);
-                        if (hasH2H) renderH2HPage(machines);
                         if (hasMachine) renderMachineDetailPage(machines);
                         if (hasProfile) renderPlayerProfilePage(machines, stats);
+                        if (hasProfile) renderPlayerProfilePage(machines, stats);
                         if (hasCustomList) renderCustomListPage(machines, stats);
+                        if (hasHeatmap) renderPlayerHeatmapPage(machines, stats);
+
+                        // DEBUG: Inspect data quality
+                        console.log('DEBUG: Machines loaded:', machines.length);
+                        if (machines.length > 0) {
+                            console.log('DEBUG: First machine:', machines[0]);
+                        }
+                        console.log('DEBUG: Stats computed:', stats);
                     });
             }
         })

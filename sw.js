@@ -1,9 +1,9 @@
-const CACHE_NAME = 'pinball-scores-v2';
+const CACHE_NAME = 'pinball-scores-v11';
 const ASSETS_TO_CACHE = [
     './',
     './index.html',
+    './machines.html',
     './custom_list.html',
-    './h2h.html',
     './overall.html',
     './player.html',
     './players.html',
@@ -11,6 +11,7 @@ const ASSETS_TO_CACHE = [
     './styles.css',
     './main.js',
     './ui.js',
+    './ui-heatmap.js',
     './data.js',
     './utils.js',
     './stats.js',
@@ -20,12 +21,13 @@ const ASSETS_TO_CACHE = [
 
 // Install event - cache files
 self.addEventListener('install', (event) => {
+    // Force new SW to activate immediately
+    self.skipWaiting();
+
     event.waitUntil(
         caches.open(CACHE_NAME)
             .then((cache) => {
                 console.log('[Service Worker] Caching app shell');
-                // We use addAll instead of independent adds to ensure atomic consistency
-                // If any of these fail, the whole install fails, which is "good" because we don't want a broken cache
                 return cache.addAll(ASSETS_TO_CACHE);
             })
             .catch((err) => {
@@ -74,6 +76,9 @@ self.addEventListener('activate', (event) => {
                     return caches.delete(key);
                 }
             }));
+        }).then(() => {
+            // Take control of all clients immediately
+            return self.clients.claim();
         })
     );
 });

@@ -1,110 +1,102 @@
-# Pinball Scores Application
+# Pinball Scores Application - Technical Specification
 
-A modern, responsive Progressive Web App (PWA) for tracking, analyzing, and comparing pinball scores among a group of players. It features a robust backend for scraping data from external sources and a rich frontend for visualization.
+## 1. Project Overview
 
-## 🚀 Features
+**Pinball Scores** is a client-side Progressive Web App (PWA) designed for tracking and analyzing pinball league data. The application operates on a **Decoupled Architecture**, strictly separating the public runtime from the private management environment.
 
-### Frontend (User Interface)
-- **Machines Table**: View all machines with high scores, averages, and play counts.
-- **Leaderboard**: Overall player rankings based on aggregate performance.
-- **Head-to-Head**: Direct comparison between any two players.
-- **Player Profiles**: Detailed stats for individual players.
-- **Custom Lists**: Create and manage custom lists of machines.
-- **PWA Support**: Installable on mobile/desktop with offline capabilities.
-- **Responsive Design**: Works seamlessly on mobile and desktop.
+*   **Active Deployment**: [https://pinball-scores.pages.dev/](https://pinball-scores.pages.dev/)
 
-### Backend (Admin Tools)
-- **Web-Based Admin Interface**: Manage players and data without touching code.
-- **Player Management**: Add or remove players dynamically.
-- **Data Scraping**: 
-    - Scrapes real-time data from [Pinball League UK](https://pinballleague.uk).
-    - Supports individual player scraping and global machine stats.
-- **Staging & Publishing**: Review scraped data before publishing to the live site.
-- **API**: Custom PowerShell-based API for handling frontend requests.
+### 1.1 Origin Story
+This application is a bespoke tool built for **Craig, his son Luke, and a few mates**. It tackles a specific problem: enabling quick, friendly score comparisons during their pinball meetups. While the data comes from a public league, the view is tailored to their group's need for instant updates and personal best tracking.
 
-## 🛠 Technology Stack
+### 1.2 Architecture Rationale
+This project was designed with three core principles in mind: **Security, Performance, and Responsible Scraping**.
+
+*   **Security**: By generating static JSON files, we eliminate the need for a public database or backend server. There is **zero attack surface** on the live site—no SQL to inject, no servers to hack.
+*   **Performance**: The application consumes pre-computed JSON data. This is significantly faster than querying a database in real-time. Global CDNs (like Cloudflare) can cache these files at the edge, ensuring instant load times.
+*   **On-Demand Scraping**: We do not scrape data on every user visit. Instead, the admin triggers a scrape **on demand**. This approach respects the external data source (Pinball League UK) by minimizing traffic load.
+
+## 2. System Architecture
+
+The system is composed of two distinct subsystems:
+
+### 2.1 Static Frontend (The Client)
+*   **Hosting**: Agnostic (Cloudflare Pages, GitHub Pages, Netlify).
+*   **Logic**: 100% Client-side JavaScript (ES Modules).
+*   **State Management**: Fetches static JSON files from the `/data` directory.
+*   **Offline Capability**: Service Worker (`sw.js`) caches all assets and data.
+
+### 2.2 Local Admin Backend (The Management Layer)
+*   **Execution**: PowerShell Core script (`server.ps1`) running locally.
+*   **Server**: Custom .NET `HttpListener` exposing a local REST API.
+*   **Responsibility**: Handles all data ingestion, player management, and file publication.
+
+## 3. Application Map (User Guide)
+
+The application consists of several specialized views, each serving a distinct purpose for the players:
+
+*   **`index.html` (Home)**: The main dashboard. Provides a high-level overview of recent activity and quick links to other sections.
+*   **`machines.html` (Machines)**: A comprehensive catalog of all pinball machines played by the group. Useful for seeing global stats across all players.
+*   **`players.html` (Leaderboard)**: The competitive heart of the app. Displays rankings based on average scores, win rates, and total plays.
+*   **`player.html` (Player Profile)**: Deep dive into a single player's performance. Shows their best scores and history for every machine.
+*   **`custom_list.html` (Custom List)**: **Feature Highlight**. This page allows users to select a specific subset of machines (e.g., "The 5 machines at the next venue"). The app then filters all data to show insights *only* for those selected games, perfect for event-day strategy.
+*   **`admin.html` (Admin Dashboard)**: The private control room. Accessible only when running the local backend. Used to add players, scrape new data, and publish updates.
+
+## 4. Data Source & Provenance
+
+*   **Primary Source**: [Pinball League UK](https://pinballleague.uk)
+*   **Nature**: This application acts as a specialized **offline-first viewer** for data publicly available on the Pinball League UK website.
+*   **Sync Strategy**: Data is **snapshotted**. The app reflects the state of the league at the time of the last "Publish" action. It does not pull live data dynamically to the client.
+
+## 5. Technology Stack
 
 ### Frontend
-- **HTML5 & CSS3**: Semantic markup with a custom responsive design system (variables, flexbox/grid).
-- **JavaScript (ES6+)**: Vanilla JS modules for state management, data fetching, and UI rendering.
-- **Manifest & Service Worker**: Full PWA implementation for installability and offline caching.
+| Component | Technology | Description |
+| :--- | :--- | :--- |
+| **Markup** | HTML5 | Semantic structure with accessibility focus. |
+| **Styling** | CSS3 (Vanilla) | Uses CSS Variables (`:root`), Flexbox, and Grid. No preprocessors. |
+| **Scripting** | JavaScript (ES6+) | Native ES Modules. No bundlers (Webpack/Vite are **not** used). |
+| **PWA** | Service Worker | Cache-First strategy for assets; Network-First for data. |
 
 ### Backend
-- **PowerShell Typescript (PSM1)**: Core logic encapsulated in `admin/admin_logic.psm1`.
-- **PowerShell HTTP Server**: Custom lightweight HTTP server `server.ps1` that handles:
-    - Static file serving.
-    - RESTful API endpoints (`/api/players`, `/api/scrape`, `/api/publish`, etc.).
+| Component | Technology | Description |
+| :--- | :--- | :--- |
+| **Runtime** | PowerShell 7+ | Cross-platform scripting environment. |
+| **Server** | .NET HttpListener | Embedded in `server.ps1`. Handles HTTP requests. |
+| **Module** | `admin_logic.psm1` | Encapsulates scraping logic and file operations. |
 
-### Data
-- **JSON**: All data is stored in static JSON files in the `/data` directory.
-- **Source**: Player and machine data is sourced from [Pinball League UK](https://pinballleague.uk).
+## 6. Technical Workflows
 
-## 📂 File Structure
+### 6.1 Player Management
+Players are managed via the local API, which updates the `playerid.txt` source of truth and regenerates the `players.json` registry.
 
-```text
-c:\pinball_scores\
-├── admin\
-│   └── admin_logic.psm1    # Core backend logic (Scraping, CRUD, Publishing)
-├── data\
-│   ├── players.json        # List of active players (Generated)
-│   ├── temp\               # Staging area for scraped files
-│   └── *.json              # Live player and machine data
-├── admin.html              # Admin interface entry point
-├── admin.js                # Admin UI logic and API client
-├── data.js                 # Data fetching and state management
-├── index.html              # Main Machines list
-├── main.js                 # App entry point (Routing/Bootstrapping)
-├── manifest.json           # PWA Manifest
-├── server.ps1              # PowerShell Web Server + API Handler
-├── stats.js                # Statistics calculation engine
-├── styles.css              # Global styles
-├── sw.js                   # Service Worker (Caching strategy)
-└── ui.js                   # UI Rendering functions
-```
+*   **Add Player**: Endpoint `POST /api/players` with `{ "name": "Name", "id": "123" }`.
+*   **Remove Player**: Endpoint `DELETE /api/players` with `{ "id": "123" }`.
 
-## ⚡ How to Use (Local vs. Cloudflare)
+### 6.2 Data Scraping Pipeline
+1.  **Request**: `POST /api/scrape` with target IDs.
+2.  **Fetch**: `Invoke-WebRequest` retrieves HTML from source.
+3.  **Parse**: Regex extraction of table data.
+4.  **Stage**: Serialized JSON saved to `data/temp/`.
 
-**Important**: This application is designed to be hosted on **Cloudflare Pages** (or any static host), but the **Admin Tools** must be run **LOCALLY**.
+### 6.3 Publication Cycle
+1.  **Review**: `GET /api/staged` checks `data/temp/`.
+2.  **Promote**: `POST /api/publish` moves files to `data/`.
+3.  **Deploy**: User commits `data/` changes to git/Cloudflare.
 
-### Why?
-Cloudflare Pages hosts only *static files* (HTML, CSS, JS). It cannot run the PowerShell backend script (`server.ps1`) required for scraping data and managing players.
+## 7. Privacy & Compliance
 
-### The Workflow "Local CMS"
-1.  **Run Locally**: Open `server.ps1` on your computer.
-2.  **Manage Data**: Go to `http://localhost:8000/admin.html` to add players and scrape new scores.
-    *   *Note: The Admin page is hidden from the public execution.*
-3.  **Publish**: This updates the JSON files in your local `data` folder.
-4.  **Deploy**: Upload your entire `pinball_scores` folder to Cloudflare.
-5.  **View Live**: Your visitors see the updated scores on the live site!
+Transparency is key. Even though this is a personal project, we believe in clear data practices.
 
-### Running the Server Locally
-1.  Open PowerShell in the project root.
-2.  Run: `& "c:\mytools\server.ps1"`
-3.  Access the site at: `http://localhost:8000`
+*   **Policy**: [Privacy Notice](privacy.html)
+*   **Data Handling**: This application collects **no personal data** from visitors. It strictly displays public league data.
+*   **Compliance**: We respect the "Right to be Forgotten". Players can request removal from this view by contacting the maintainer, as detailed in the privacy policy.
 
-## 🛡 API Endpoints
+## 8. Open Development
 
-The `server.ps1` script exposes the following API endpoints:
+We believe in the principle of **Developing in the Open**. Even though this tool serves a small group of friends, sharing the source code allows others to learn from the architecture, suggest improvements, or fork it for their own leagues.
 
-- `GET /api/players`: Returns the list of configured players.
-- `POST /api/players`: Add a new player.
-- `DELETE /api/players`: Remove a player.
-- `POST /api/scrape`: Trigger scraping for selected targets.
-- `GET /api/staged`: List files waiting in the staging area.
-- `POST /api/publish`: Move staged files to the live `data` folder.
-
-## 🔒 Privacy
-
-This project includes a privacy notice compliant with GDPR.
-- **Policy File**: `privacy.html`
-- **Link**: Accessible via the footer on all main pages.
-- **Data Handling**: No personal data is collected from visitors. Player data is sourced from public records at [pinballleague.uk](https://pinballleague.uk).
-
-## 🌍 External Data
-
-All score and machine data is scraped from **Pinball League UK**.
-- Website: [https://pinballleague.uk](https://pinballleague.uk)
-- This application is a personal viewer for this data and is not affiliated with Pinball League UK.
+*   **Source Code**: [https://github.com/zxspectrum16kk/pinball_scores](https://github.com/zxspectrum16kk/pinball_scores)
 
 ---
-*Created for personal use. Maintainer: [Craig Cole]*
+*Maintained by: Craig Cole*

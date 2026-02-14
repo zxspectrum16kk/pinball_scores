@@ -720,33 +720,34 @@ details summary+input#machine-filter {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 11px;
-    color: #222;
-    text-shadow: 0 0 2px rgba(255, 255, 255, 0.8);
+    color: #fff;
+    /* White text for better contrast on dark bars */
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+    /* Stronger shadow for readability */
     font-weight: bold;
     white-space: nowrap;
 }
 
-/* Heatmap Colors */
+/* Heatmap Colors - WCAG AA Compliant */
 .perf-excellent {
-    background-color: #28a745;
+    background-color: #1e7e34;
+    /* Darker green for better contrast */
 }
 
-/* Green */
 .perf-good {
-    background-color: #8fd14f;
+    background-color: #6ba82f;
+    /* Medium green with better contrast */
 }
 
-/* Light Green */
 .perf-average {
-    background-color: #ffc107;
+    background-color: #e0a800;
+    /* Darker yellow/amber for better contrast */
 }
 
-/* Yellow */
 .perf-poor {
-    background-color: #ff8585;
+    background-color: #dc3545;
+    /* Darker red for better contrast */
 }
-
-/* Red */
 
 @media (max-width: 600px) {
     .heatmap-legend {

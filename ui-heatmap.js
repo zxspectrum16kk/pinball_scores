@@ -214,6 +214,7 @@ export function renderPlayerHeatmapPage(machines, stats) {
 
       <div class="table-wrapper">
         <table id="heatmap-table" class="heatmap-table">
+          <caption>Performance breakdown for ${playerName} across all pinball machines</caption>
           <thead>
             <tr>
               <th>Machine</th>
@@ -241,6 +242,7 @@ export function renderPlayerHeatmapPage(machines, stats) {
       const bestDisplay = m.played ? fmtNumber(m.best) : '-';
       const playsDisplay = m.played ? m.plays : '-';
       const pctDisplay = m.played ? m.performancePercent.toFixed(1) + '%' : '-';
+      const perfLabel = m.played ? getPerformanceLabel(m.performancePercent) : '';
       const barStyle = m.played ? `width: ${perfBar}%` : 'width: 0%';
       const barClass = m.played ? perfClass : '';
 
@@ -249,7 +251,7 @@ export function renderPlayerHeatmapPage(machines, stats) {
           <td><a href="machine.html?machine=${encodeURIComponent(m.machine)}">${m.machine}</a></td>
           <td>${bestDisplay}${trophy}</td>
           <td>${playsDisplay}</td>
-          <td class="perf-cell">
+          <td class="perf-cell" title="${perfLabel}">
             <div class="perf-bar-container">
               <div class="perf-bar ${barClass}" style="${barStyle}"></div>
               <span class="perf-text">${pctDisplay}</span>
@@ -280,5 +282,12 @@ export function renderPlayerHeatmapPage(machines, stats) {
     if (percent >= 60) return 'perf-good';
     if (percent >= 40) return 'perf-average';
     return 'perf-poor';
+  }
+
+  function getPerformanceLabel(percent) {
+    if (percent >= 80) return 'Excellent';
+    if (percent >= 60) return 'Good';
+    if (percent >= 40) return 'Average';
+    return 'Needs Work';
   }
 }

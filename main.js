@@ -94,16 +94,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         if (hasOverall) renderOverallPage(machines, stats);
                         if (hasMachine) renderMachineDetailPage(machines);
                         if (hasProfile) renderPlayerProfilePage(machines, stats);
-                        if (hasProfile) renderPlayerProfilePage(machines, stats);
                         if (hasCustomList) renderCustomListPage(machines, stats);
                         if (hasHeatmap) renderPlayerHeatmapPage(machines, stats);
-
-                        // DEBUG: Inspect data quality
-                        console.log('DEBUG: Machines loaded:', machines.length);
-                        if (machines.length > 0) {
-                            console.log('DEBUG: First machine:', machines[0]);
-                        }
-                        console.log('DEBUG: Stats computed:', stats);
                     });
             }
         })

@@ -339,9 +339,6 @@ export function renderOverallPage(machines, stats) {
   renderLeaderboardChart('leaderboard-chart', selectedPlayers, winsMap, contestedMap, stats);
 }
 
-// Head-to-Head – dynamic pairs based on selected players
-
-
 // Machine detail page
 export function renderMachineDetailPage(machines) {
   const container = document.getElementById('machine-detail');

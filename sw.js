@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pinball-scores-v25';
+const CACHE_NAME = 'pinball-scores-v26';
 const DATA_CACHE_NAME = 'pinball-data-v2';
 
 const ASSETS_TO_CACHE = [
@@ -11,6 +11,8 @@ const ASSETS_TO_CACHE = [
     './players.html',
     './machine.html',
     './offline.html',
+    './privacy.html',
+    './admin.html',
     './styles.css',
     './main.js',
     './ui.js',
@@ -18,8 +20,13 @@ const ASSETS_TO_CACHE = [
     './data.js',
     './utils.js',
     './stats.js',
+    './admin.js',
+    './offline-indicator.js',
+    './update-notification.js',
+    './register-sw.js',
     './icon-192.png',
     './blog logo 300x200.png',
+    './manifest.json',
     './data/players.json'
 ];
 

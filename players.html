@@ -71,15 +71,8 @@
 
   <script type="module" src="main.js"></script>
   <script src="offline-indicator.js"></script>
+  <script src="register-sw.js"></script>
   <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js')
-          .then((reg) => console.log('Service Worker registered.', reg))
-          .catch((err) => console.log('Service Worker registration failed.', err));
-      });
-    }
-
     // Factory Reset Logic
     const factoryResetBtn = document.getElementById('factory-reset-btn');
     if (factoryResetBtn) {
@@ -105,8 +98,8 @@
           }
         }
 
-        // 3. Reload Page (Force reload)
-        window.location.reload(true);
+        // 3. Reload Page
+        window.location.reload();
       });
     }
   </script>

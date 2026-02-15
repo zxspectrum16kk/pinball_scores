@@ -11,25 +11,6 @@
     --border: #d1d9e6;
 }
 
-/* Modern Input */
-input[type="text"],
-input[type="search"] {
-    padding: 6px 12px;
-    border-radius: 6px;
-    border: 1px solid var(--border);
-    background: #fff;
-    font-size: 15px;
-    box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.05);
-    transition: border-color 0.2s, box-shadow 0.2s;
-    outline: none;
-}
-
-input[type="text"]:focus,
-input[type="search"]:focus {
-    border-color: var(--accent);
-    box-shadow: 0 0 0 3px rgba(0, 119, 204, 0.15);
-}
-
 *,
 *::before,
 *::after {
@@ -65,22 +46,6 @@ header {
 .logo {
     height: 50px;
     width: auto;
-}
-
-/* ===========================
-   LINKS
-   =========================== */
-
-a {
-    color: var(--accent);
-}
-
-td a {
-    text-decoration: none;
-}
-
-td a:hover {
-    text-decoration: underline;
 }
 
 /* ===========================
@@ -179,30 +144,18 @@ input[type="text"] {
     padding: 6px 12px;
     font-size: 15px;
     border-radius: 6px;
-    border: 1px solid #d1d9e6;
+    border: 1px solid var(--border);
+    background: #fff;
     font-family: inherit;
+    box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.05);
+    transition: border-color 0.2s, box-shadow 0.2s;
+    outline: none;
 }
 
-/* Standard button styling */
-button {
-    padding: 6px 12px;
-    font-size: 15px;
-    border-radius: 6px;
-    border: 1px solid #d1d9e6;
-    background: #ffffff;
-    color: #333;
-    cursor: pointer;
-    font-family: inherit;
-    transition: background-color 0.2s, border-color 0.2s;
-}
-
-button:hover {
-    background: #f5f5f5;
-    border-color: #b0b8c4;
-}
-
-button:active {
-    background: #e8e8e8;
+input[type="search"]:focus,
+input[type="text"]:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(0, 119, 204, 0.15);
 }
 
 /* Danger button variant */

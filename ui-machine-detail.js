@@ -10,6 +10,13 @@ export function renderMachineDetailPage(machines) {
 
   if (!container || !select) return;
 
+  // Pre-compute difficulty ranks once (rank 1 = hardest)
+  const diffRanked = machines
+    .filter(m => m.avgScore && m.highScore)
+    .sort((a, b) => (a.avgScore / a.highScore) - (b.avgScore / b.highScore));
+  const diffTotal = diffRanked.length;
+  const diffRankMap = new Map(diffRanked.map((m, i) => [m.machine, i + 1]));
+
   // Populate dropdown if empty
   if (select.options.length <= 1) {
     machines.forEach(m => {
@@ -96,7 +103,7 @@ export function renderMachineDetailPage(machines) {
       <h2>${m.machine}</h2>
 
       <div class="summary">
-        <div class="summary-grid">
+        <div class="summary-grid summary-grid--3col">
           <div class="summary-item">
             <strong>Appearances</strong>
             <span>${appearances}</span>
@@ -116,6 +123,10 @@ export function renderMachineDetailPage(machines) {
           <div class="summary-item">
             <strong>High Score Player</strong>
             <span>${m.highPlayer || '—'}</span>
+          </div>
+          <div class="summary-item">
+            <strong>Difficulty Rank</strong>
+            <span>${diffRankMap.has(m.machine) ? `${diffRankMap.get(m.machine)} of ${diffTotal}` : '—'}</span>
           </div>
         </div>
       </div>

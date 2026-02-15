@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="Content-Language" content="en">
-  <title>Pinball Scores – Machine Detail</title>
+  <title>Pinball Scores – Machine Difficulty</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="icon-192.png">
   <link rel="stylesheet" href="styles.css">
@@ -16,41 +16,33 @@
   <header>
     <div class="header-content">
       <img src="blog logo 300x200.png" alt="Pinball Scores Logo" class="logo">
-      <h1>Pinball Scores – Machine Detail</h1>
+      <h1>Pinball Scores – Machine Difficulty</h1>
     </div>
 
-    <nav aria-label="Pinball Scores navigation">
+    <nav aria-label="Pinball navigation">
       <a href="index.html">Player Performance</a>
       <a href="machines.html">Machines</a>
       <a href="custom_list.html">Custom List</a>
       <a href="overall.html">Leaderboard</a>
-      <a href="difficulty.html">Machine Difficulty</a>
+      <a href="difficulty.html" aria-current="page">Machine Difficulty</a>
       <a href="players.html">Settings</a>
     </nav>
   </header>
 
   <main>
-    <div class="info">
-      <b>Note:</b> Only players selected in <b>Settings</b> appear on this page.
-      Select a game below to see detailed stats.
-    </div>
 
-    <div class="controls-row">
-      <label for="machine-select" class="control-label">Select Game:</label>
-      <select id="machine-select">
-        <option value="">-- Choose a Game --</option>
-      </select>
-    </div>
-
-    <div id="machine-detail"></div>
+    <div id="difficulty-ranking"></div>
 
     <p class="note">
       Data last updated: <span class="data-last-updated"></span>
+      <br><br>
+      <a href="privacy.html">Privacy Policy</a>
     </p>
+
   </main>
 
-  <script src="offline-indicator.js"></script>
   <script type="module" src="main.js"></script>
+  <script src="offline-indicator.js"></script>
   <script src="register-sw.js"></script>
 </body>
 

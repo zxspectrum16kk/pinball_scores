@@ -497,6 +497,10 @@ details summary+input#machine-filter {
     gap: 6px 20px;
 }
 
+.summary-grid--3col {
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .summary-item strong {
     display: block;
     font-size: 13px;

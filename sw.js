@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pinball-scores-v27';
+const CACHE_NAME = 'pinball-scores-v28';
 const DATA_CACHE_NAME = 'pinball-data-v2';
 
 const ASSETS_TO_CACHE = [
@@ -23,6 +23,8 @@ const ASSETS_TO_CACHE = [
     './ui-player-profile.js',
     './ui-players.js',
     './ui-heatmap.js',
+    './ui-difficulty.js',
+    './difficulty.html',
     './data.js',
     './utils.js',
     './stats.js',

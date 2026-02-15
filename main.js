@@ -26,6 +26,7 @@ import { renderCustomListPage } from './ui-custom-list.js';
 import { renderPlayerProfilePage } from './ui-player-profile.js';
 import { initPlayerSelectionPage } from './ui-players.js';
 import { renderPlayerHeatmapPage } from './ui-heatmap.js';
+import { renderDifficultyPage } from './ui-difficulty.js';
 
 
 function loadAllData() {
@@ -68,6 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const hasSelector = document.getElementById('players-list');
     const hasCustomList = document.getElementById('machine-selector');
     const hasHeatmap = document.getElementById('heatmap-container');
+    const hasDifficulty = document.getElementById('difficulty-ranking');
 
     // Load player config first
     fetchJson('data/players.json')
@@ -90,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 initPlayerSelectionPage();
             }
 
-            if (hasLeague || hasOverall || hasMachine || hasProfile || hasCustomList || hasHeatmap) {
+            if (hasLeague || hasOverall || hasMachine || hasProfile || hasCustomList || hasHeatmap || hasDifficulty) {
                 return loadAllData()
                     .then(({ machines, stats, failedPlayers }) => {
                         if (failedPlayers.length > 0) renderDataWarning(failedPlayers);
@@ -100,12 +102,17 @@ document.addEventListener('DOMContentLoaded', () => {
                         if (hasProfile) renderPlayerProfilePage(machines, stats);
                         if (hasCustomList) renderCustomListPage(machines, stats);
                         if (hasHeatmap) renderPlayerHeatmapPage(machines, stats);
+                        if (hasDifficulty) renderDifficultyPage(machines);
+                    })
+                    .catch(err => {
+                        console.error('Error loading score data:', err);
+                        const main = document.querySelector('main');
+                        if (main) main.innerHTML = '<p class="error">Failed to load score data. Try a normal refresh (F5). If the problem persists, check your connection.</p>';
                     });
             }
         })
         .catch(err => {
-            console.error('Error initializing app:', err);
-            // Fallback or user notification could go here
+            console.error('Error loading player configuration:', err);
             const main = document.querySelector('main');
             if (main) main.innerHTML = '<p class="error">Failed to load player configuration. Please try again later.</p>';
         });

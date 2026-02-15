@@ -1179,6 +1179,29 @@ details summary+input#machine-filter {
     margin: 0 auto;
 }
 
+@media (prefers-reduced-motion: reduce) {
+    .skeleton,
+    .trophy-icon,
+    .perf-bar,
+    .status-indicator {
+        animation: none;
+    }
+
+    .perf-bar,
+    .chart-bar-inner,
+    .update-notification,
+    .update-btn,
+    .update-dismiss,
+    button,
+    input[type="button"],
+    input[type="submit"],
+    .check-item,
+    input[type="search"],
+    input[type="text"] {
+        transition: none;
+    }
+}
+
 .page-actions-center {
     text-align: center;
     margin-top: 30px;

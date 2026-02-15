@@ -116,6 +116,9 @@ export function makeTableSortable(tableId, numericCols = [], defaultSort) {
             const labelHtml = th.innerHTML;
             th.innerHTML = `<span>${labelHtml}</span><span class="arrow"></span>`;
         }
+        if (!th.hasAttribute('aria-sort')) {
+            th.setAttribute('aria-sort', 'none');
+        }
 
         th.addEventListener('click', (e) => {
             // If the user clicked a link (e.g. player name), don't sort
@@ -128,7 +131,7 @@ export function makeTableSortable(tableId, numericCols = [], defaultSort) {
             headers.forEach(h => {
                 if (h !== th) {
                     delete h.dataset.sortDir;
-                    h.removeAttribute('aria-sort');
+                    h.setAttribute('aria-sort', 'none');
                     const arrow = h.querySelector('.arrow');
                     if (arrow) arrow.textContent = '';
                 }

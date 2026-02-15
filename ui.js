@@ -41,6 +41,15 @@ export function renderLastUpdated() {
   });
 }
 
+export function renderDataWarning(failedPlayers) {
+  const main = document.querySelector('main');
+  if (!main) return;
+  const banner = document.createElement('p');
+  banner.className = 'error';
+  banner.textContent = `Could not load data for: ${failedPlayers.join(', ')}. Their scores will be missing.`;
+  main.insertBefore(banner, main.firstChild);
+}
+
 
 // ===== Page-specific rendering =====
 

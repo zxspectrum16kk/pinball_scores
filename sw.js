@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pinball-scores-v24';
+const CACHE_NAME = 'pinball-scores-v25';
 const DATA_CACHE_NAME = 'pinball-data-v2';
 
 const ASSETS_TO_CACHE = [
@@ -19,7 +19,8 @@ const ASSETS_TO_CACHE = [
     './utils.js',
     './stats.js',
     './icon-192.png',
-    './blog logo 300x200.png'
+    './blog logo 300x200.png',
+    './data/players.json'
 ];
 
 // Install event - cache files
@@ -56,7 +57,7 @@ self.addEventListener('fetch', (event) => {
                     return networkResponse;
                 })
                 .catch(() => {
-                    return caches.open(DATA_CACHE_NAME).then((cache) => cache.match(event.request));
+                    return caches.match(event.request);
                 })
         );
         return;

@@ -21,12 +21,12 @@ import {
 import {
     renderSelectedPlayersSummary,
     renderLastUpdated,
+    renderDataWarning,
     initPlayerSelectionPage,
     renderMachinesPage,
     renderOverallPage,
     renderMachineDetailPage,
     renderPlayerProfilePage,
-
     renderCustomListPage
 } from './ui.js';
 
@@ -39,19 +39,29 @@ function loadAllData() {
     const playerPromises = PLAYER_CONFIG.map(p => fetchJson(p.file));
     const machineStatsPromise = fetchJson('data/MachineStats_static.json');
 
-    return Promise.all([...playerPromises, machineStatsPromise])
+    return Promise.allSettled([...playerPromises, machineStatsPromise])
         .then(results => {
-            const machineStats = results[PLAYER_CONFIG.length];
-            const playerResults = results.slice(0, PLAYER_CONFIG.length);
+            const machineStatsResult = results[PLAYER_CONFIG.length];
+            if (machineStatsResult.status === 'rejected') {
+                throw new Error('Failed to load machine stats: ' + machineStatsResult.reason);
+            }
+            const machineStats = machineStatsResult.value;
 
             const playerDataById = {};
+            const failedPlayers = [];
             PLAYER_CONFIG.forEach((p, idx) => {
-                playerDataById[p.id] = playerResults[idx];
+                const result = results[idx];
+                if (result.status === 'fulfilled') {
+                    playerDataById[p.id] = result.value;
+                } else {
+                    failedPlayers.push(p.label);
+                    console.warn(`Failed to load data for ${p.label}:`, result.reason);
+                }
             });
 
             const machines = buildMachineData(playerDataById, machineStats);
             const { stats } = computeStatsFromMachines(machines, getSelectedPlayers());
-            return { machines, stats };
+            return { machines, stats, failedPlayers };
         });
 }
 
@@ -89,7 +99,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (hasLeague || hasOverall || hasMachine || hasProfile || hasCustomList || hasHeatmap) {
                 return loadAllData()
-                    .then(({ machines, stats }) => {
+                    .then(({ machines, stats, failedPlayers }) => {
+                        if (failedPlayers.length > 0) renderDataWarning(failedPlayers);
                         if (hasLeague) renderMachinesPage(machines);
                         if (hasOverall) renderOverallPage(machines, stats);
                         if (hasMachine) renderMachineDetailPage(machines);

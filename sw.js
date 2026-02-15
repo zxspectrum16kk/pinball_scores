@@ -1,5 +1,5 @@
-const CACHE_NAME = 'pinball-scores-v23';
-const DATA_CACHE_NAME = 'pinball-data-v1';
+const CACHE_NAME = 'pinball-scores-v24';
+const DATA_CACHE_NAME = 'pinball-data-v2';
 
 const ASSETS_TO_CACHE = [
     './',
@@ -43,7 +43,26 @@ self.addEventListener('install', (event) => {
 self.addEventListener('fetch', (event) => {
     const url = new URL(event.request.url);
 
-    // Strategy 1: Data files - Stale-While-Revalidate
+    // Strategy 1a: players.json - Network first (must always be fresh for lastUpdated date)
+    if (url.pathname.endsWith('/data/players.json')) {
+        event.respondWith(
+            fetch(event.request)
+                .then((networkResponse) => {
+                    if (networkResponse && networkResponse.status === 200) {
+                        caches.open(DATA_CACHE_NAME).then((cache) => {
+                            cache.put(event.request, networkResponse.clone());
+                        });
+                    }
+                    return networkResponse;
+                })
+                .catch(() => {
+                    return caches.open(DATA_CACHE_NAME).then((cache) => cache.match(event.request));
+                })
+        );
+        return;
+    }
+
+    // Strategy 1b: Other data files - Stale-While-Revalidate
     // Serve cached data immediately, then update cache in background
     if (url.pathname.startsWith('/data/') && url.pathname.endsWith('.json')) {
         event.respondWith(

@@ -748,7 +748,7 @@ export function renderPlayerProfilePage(machines, stats) {
           <span>${s.aboveAvg}</span>
         </div>
         <div class="summary-item">
-          <strong>Lifetime Highs</strong>
+          <strong>👑 High Scores</strong>
           <span>${s.lifetimeHighs}</span>
         </div>
       </div>

@@ -200,12 +200,12 @@ export function renderPlayerHeatmapPage(machines, stats) {
             <span>${playerStats.machinesPlayed}</span>
           </div>
           <div class="summary-item">
-            <strong>Lifetime Highs</strong>
+            <strong>👑 High Scores</strong>
             <span>${playerStats.lifetimeHighs}</span>
           </div>
           <div class="summary-item">
             <strong>Above Average</strong>
-            <span>${playerStats.aboveAvg}</span>
+            <span>${playerStats.aboveAvg}${playerStats.machinesPlayed > 0 ? ` (${Math.round((playerStats.aboveAvg / playerStats.machinesPlayed) * 100)}%)` : ''}</span>
           </div>
         </div>
       </div>

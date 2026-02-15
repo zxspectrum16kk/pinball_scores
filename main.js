@@ -9,6 +9,7 @@ import {
     setPlayerConfig,
     setAllPlayers,
     setDefaultPlayers,
+    setDataLastUpdated,
     getSelectedPlayers
 } from './data.js';
 
@@ -67,7 +68,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Load player config first
     fetchJson('data/players.json')
-        .then(players => {
+        .then(config => {
+            const players = config.players;
+            setDataLastUpdated(config.lastUpdated);
             setPlayerConfig(players);
             const all = players.map(p => p.label);
             setAllPlayers(all);

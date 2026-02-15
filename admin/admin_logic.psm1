@@ -47,8 +47,12 @@ function Update-PlayersJson {
             file  = "data/$($p.Name)_static.json"
         }
     }
+    $output = [ordered]@{
+        lastUpdated = (Get-Date -Format "yyyy-MM-dd")
+        players     = $playerConfig
+    }
     $jsonPath = Join-Path $DataDir "players.json"
-    $playerConfig | ConvertTo-Json -Depth 5 | Set-Content -Path $jsonPath -Encoding UTF8
+    $output | ConvertTo-Json -Depth 5 | Set-Content -Path $jsonPath -Encoding UTF8
 }
 
 function Add-Player {

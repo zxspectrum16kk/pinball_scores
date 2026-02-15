@@ -18,21 +18,14 @@ import {
     computeStatsFromMachines
 } from './stats.js';
 
-import {
-    renderSelectedPlayersSummary,
-    renderLastUpdated,
-    renderDataWarning,
-    initPlayerSelectionPage,
-    renderMachinesPage,
-    renderOverallPage,
-    renderMachineDetailPage,
-    renderPlayerProfilePage,
-    renderCustomListPage
-} from './ui.js';
-
-import {
-    renderPlayerHeatmapPage
-} from './ui-heatmap.js';
+import { renderSelectedPlayersSummary, renderLastUpdated, renderDataWarning } from './ui.js';
+import { renderMachinesPage } from './ui-machines.js';
+import { renderOverallPage } from './ui-leaderboard.js';
+import { renderMachineDetailPage } from './ui-machine-detail.js';
+import { renderCustomListPage } from './ui-custom-list.js';
+import { renderPlayerProfilePage } from './ui-player-profile.js';
+import { initPlayerSelectionPage } from './ui-players.js';
+import { renderPlayerHeatmapPage } from './ui-heatmap.js';
 
 
 function loadAllData() {

@@ -69,7 +69,13 @@ export function buildMachineData(playerDataById, machineStats) {
     });
 }
 
+let _statsCache = null;
+let _statsCacheKey = null;
+
 export function computeStatsFromMachines(machines, selectedPlayers = null) {
+    const cacheKey = JSON.stringify(selectedPlayers);
+    if (_statsCache !== null && _statsCacheKey === cacheKey) return _statsCache;
+
     const stats = {};
     ALL_PLAYERS.forEach(name => {
         stats[name] = {
@@ -154,5 +160,7 @@ export function computeStatsFromMachines(machines, selectedPlayers = null) {
         }
     });
 
-    return { stats };
+    _statsCache = { stats };
+    _statsCacheKey = cacheKey;
+    return _statsCache;
 }

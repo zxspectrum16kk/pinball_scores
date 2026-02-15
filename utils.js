@@ -53,6 +53,13 @@ export function findMachineByName(machines, name) {
     );
 }
 
+export function getScoreClass(best, avgScore, highScore) {
+    if (!best || !highScore) return '';
+    if (best >= highScore) return 'text-success';
+    if (avgScore && best >= avgScore) return 'text-warning';
+    return '';
+}
+
 // ===== Sorting helper =====
 export function makeTableSortable(tableId, numericCols = [], defaultSort) {
     const table = document.getElementById(tableId);

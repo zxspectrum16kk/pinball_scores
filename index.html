@@ -36,25 +36,23 @@
         rel="noopener noreferrer">pinballleague.uk</a>.
     </div>
 
-    <div class="controls"
-      style="margin-bottom: 20px; display: flex; flex-wrap: wrap; gap: 25px; align-items: baseline;">
-      <div style="display: flex; align-items: baseline;">
-        <label for="player-select-heatmap" style="margin-right: 5px; font-weight: bold;">Select Player:</label>
-        <select id="player-select-heatmap"
-          style="padding: 6px 12px; font-size: 15px; border-radius: 6px; border: 1px solid #d1d9e6;">
+    <div class="controls">
+      <div class="control-group">
+        <label for="player-select-heatmap" class="control-label">Select Player:</label>
+        <select id="player-select-heatmap" class="control-input">
           <option value="">-- Loading --</option>
         </select>
       </div>
 
-      <div style="display: flex; align-items: baseline;">
-        <label for="machine-search" style="margin-right: 5px; font-weight: bold;">Search Machines:</label>
+      <div class="control-group">
+        <label for="machine-search" class="control-label">Search Machines:</label>
         <input type="search" id="machine-search" placeholder="Filter by name..."
-          style="width: 200px; padding: 6px 12px; font-size: 15px; border-radius: 6px; border: 1px solid #d1d9e6;">
+          class="control-input control-input--search">
       </div>
 
-      <div style="display: flex; align-items: baseline;">
-        <input type="checkbox" id="show-unplayed" style="margin-right: 5px;">
-        <label for="show-unplayed" style="cursor: pointer;">Show Unplayed</label>
+      <div class="control-group">
+        <input type="checkbox" id="show-unplayed">
+        <label for="show-unplayed">Show Unplayed</label>
       </div>
     </div>
 
@@ -62,7 +60,7 @@
       <!-- Skeleton shown during loading -->
       <div class="skeleton-loading" id="skeleton-loading">
         <!-- Summary boxes skeleton -->
-        <div class="summary-grid" style="margin-bottom: 20px;">
+        <div class="summary-grid summary-grid--spaced">
           <div class="summary-item skeleton skeleton-box"></div>
           <div class="summary-item skeleton skeleton-box"></div>
           <div class="summary-item skeleton skeleton-box"></div>

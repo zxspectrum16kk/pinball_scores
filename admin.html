@@ -7,36 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="icon-192.png">
     <link rel="stylesheet" href="styles.css">
-    <style>
-        .admin-section {
-            margin-bottom: 30px;
-        }
-
-        .admin-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 15px;
-        }
-
-        .status-box {
-            background: #333;
-            color: #fff;
-            padding: 10px;
-            border-radius: 4px;
-            font-family: monospace;
-            min-height: 40px;
-            margin-top: 10px;
-            white-space: pre-wrap;
-        }
-
-        .file-list {
-            max-height: 200px;
-            overflow-y: auto;
-            border: 1px solid #ddd;
-            padding: 5px;
-        }
-    </style>
 </head>
 
 <body>
@@ -61,17 +31,17 @@
             <div class="admin-header">
                 <h2>Manage Players</h2>
             </div>
-            <div style="display: flex; gap: 10px; margin-bottom: 15px;">
+            <div class="admin-input-row">
                 <input type="text" id="new-player-name" placeholder="Player Name (e.g. Craig)">
                 <input type="text" id="new-player-id" placeholder="Player ID (e.g. 1334)">
                 <button id="btn-add-player" class="primary">Add Player</button>
             </div>
-            <table id="admin-player-table" style="width: 100%;">
+            <table id="admin-player-table" class="table-full-width">
                 <thead>
                     <tr>
                         <th>Name</th>
                         <th>ID</th>
-                        <th style="width: 80px;">Action</th>
+                        <th class="col-action">Action</th>
                     </tr>
                 </thead>
                 <tbody></tbody>
@@ -85,12 +55,12 @@
             </div>
             <p class="note">Select items to scrape from pinballleague.uk</p>
 
-            <div style="margin-bottom: 10px;">
+            <div class="admin-scrape-buttons">
                 <button id="btn-scrape-all" class="primary">Scrape ALL (Players + Machines)</button>
                 <button id="btn-scrape-selected">Scrape Selected</button>
             </div>
 
-            <div class="selector-container" style="max-height: 200px; border: 1px solid #ddd; padding: 5px;">
+            <div class="selector-container">
                 <div class="check-item">
                     <input type="checkbox" id="scrape-machines" value="MachineStats">
                     <label for="scrape-machines"><strong>Game and score information (Machine Stats)</strong></label>
@@ -108,7 +78,7 @@
                 <button id="btn-publish" class="primary" disabled>Publish Updates</button>
             </div>
             <p class="note">Files currently in staging area (data/temp). Click Publish to make them live.</p>
-            <table id="staged-files-table" style="width: 100%;">
+            <table id="staged-files-table" class="table-full-width">
                 <thead>
                     <tr>
                         <th>File Name</th>
@@ -120,7 +90,7 @@
             </table>
         </div>
 
-        <p class="note" style="text-align:center; margin-top: 20px;">
+        <p class="note note-center">
             <a href="privacy.html">Privacy Policy</a>
         </p>
     </main>

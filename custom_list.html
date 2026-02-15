@@ -9,52 +9,6 @@
     <link rel="icon" href="icon-192.png">
     <link rel="stylesheet" href="styles.css">
     <link rel="manifest" href="manifest.json">
-    <style>
-        /* Page specific styles for the selector */
-        .selector-container {
-            border: 1px solid #ccc;
-            padding: 10px;
-            margin-bottom: 20px;
-            background: #fdfdfd;
-            max-height: 300px;
-            overflow-y: auto;
-        }
-
-        .check-item {
-            display: block;
-            margin-bottom: 5px;
-        }
-
-        .controls {
-            margin-bottom: 20px;
-            display: flex;
-            gap: 25px;
-            flex-wrap: wrap;
-            align-items: baseline;
-        }
-
-        .hidden {
-            display: none;
-        }
-
-        button.primary {
-            font-weight: bold;
-            background-color: #007bff;
-            color: white;
-            border-color: #007bff;
-        }
-
-        button.primary:hover {
-            background-color: #0056b3;
-            border-color: #0056b3;
-        }
-
-        #machine-filter {
-            width: 100%;
-            max-width: 300px;
-            margin-bottom: 10px;
-        }
-    </style>
 </head>
 
 <body>
@@ -81,7 +35,7 @@
         </div>
 
         <details>
-            <summary style="cursor: pointer; font-weight: bold; margin-bottom: 10px;">Edit Selection</summary>
+            <summary class="details-summary">Edit Selection</summary>
 
             <input type="text" id="machine-filter" placeholder="Search machines...">
 
@@ -101,7 +55,7 @@
         <h2>Selected Machines Stats</h2>
         <p id="selection-summary"></p>
 
-        <div class="legend" style="margin-bottom: 10px; font-size: 13px; color: #666;">
+        <div class="legend">
             <span class="text-success">Green</span> = High Score &nbsp;|&nbsp;
             <span class="text-warning">Orange</span> = Above Average
         </div>

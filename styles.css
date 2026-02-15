@@ -988,3 +988,245 @@ details summary+input#machine-filter {
         padding: 6px 12px;
     }
 }
+
+/* ===========================
+   CONTROLS / LAYOUT UTILITIES
+   =========================== */
+
+.controls {
+    display: flex;
+    gap: 25px;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.control-group {
+    display: flex;
+    align-items: baseline;
+}
+
+.control-label {
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.control-input {
+    padding: 6px 12px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #d1d9e6;
+}
+
+.control-input--search {
+    width: 200px;
+}
+
+.control-input--flex {
+    flex: 1;
+    max-width: 300px;
+}
+
+.controls input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.legend {
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #666;
+}
+
+.summary-grid--spaced {
+    margin-bottom: 20px;
+}
+
+.controls-row {
+    margin-bottom: 20px;
+}
+
+.details-summary {
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#machine-filter {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+/* ===========================
+   ADMIN PAGE
+   =========================== */
+
+.admin-section {
+    margin-bottom: 30px;
+}
+
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.admin-input-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.admin-scrape-buttons {
+    margin-bottom: 10px;
+}
+
+.status-box {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: monospace;
+    min-height: 40px;
+    margin-top: 10px;
+    white-space: pre-wrap;
+}
+
+.table-full-width {
+    width: 100%;
+}
+
+.col-action {
+    width: 80px;
+}
+
+.note-center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ===========================
+   OFFLINE PAGE
+   =========================== */
+
+.offline-container {
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.offline-icon {
+    font-size: 80px;
+    margin-bottom: 20px;
+    opacity: 0.6;
+}
+
+.offline-container h1 {
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.offline-container p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.offline-actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.cached-pages {
+    margin-top: 40px;
+    text-align: left;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.cached-pages h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.cached-pages ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cached-pages li {
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.cached-pages li:last-child {
+    border-bottom: none;
+}
+
+.cached-pages a {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.cached-pages a:hover {
+    text-decoration: underline;
+}
+
+.status-indicator {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #ff6b6b;
+    border-radius: 50%;
+    margin-right: 8px;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+/* ===========================
+   SETTINGS PAGE
+   =========================== */
+
+.troubleshooting-section {
+    margin-top: 30px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.troubleshooting-note {
+    font-size: 13px;
+    color: #666;
+}
+
+/* ===========================
+   PRIVACY PAGE
+   =========================== */
+
+.card-narrow {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.page-actions-center {
+    text-align: center;
+    margin-top: 30px;
+}

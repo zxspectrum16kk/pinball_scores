@@ -36,11 +36,14 @@ The system is composed of two distinct subsystems:
 
 The application consists of several specialized views, each serving a distinct purpose for the players:
 
-*   **`index.html` (Home)**: The main dashboard. Provides a high-level overview of recent activity and quick links to other sections.
+*   **`index.html` (Player Performance)**: The main dashboard. Shows a detailed performance table for each player across all machines, with **search filtering**, **table sorting**, **unplayed machine filter**, gradient score bars, and star indicators for personal bests. Includes skeleton loading screens with shimmer animations for a polished loading experience.
 *   **`machines.html` (Machines)**: A comprehensive catalog of all pinball machines played by the group. Useful for seeing global stats across all players.
-*   **`players.html` (Leaderboard)**: The competitive heart of the app. Displays rankings based on average scores, win rates, and total plays.
-*   **`player.html` (Player Profile)**: Deep dive into a single player's performance. Shows their best scores and history for every machine.
+*   **`machine.html` (Machine Detail)**: Deep dive into a single machine's stats, showing all player scores, high scores, and the machine's **difficulty ranking** sourced from the difficulty index.
+*   **`overall.html` (Leaderboard)**: The competitive heart of the app. Displays overall player rankings based on aggregate performance across all machines.
+*   **`difficulty.html` (Machine Difficulty)**: Ranks all machines by difficulty, calculated from player score distributions. Helps players understand which tables are the toughest and which are more forgiving.
+*   **`player.html` (Player Profile)**: Deep dive into a single player's performance. Shows their best scores and history for every machine, including **above-average percentage** indicators.
 *   **`custom_list.html` (Custom List)**: **Feature Highlight**. This page allows users to select a specific subset of machines (e.g., "The 5 machines at the next venue"). The app then filters all data to show insights *only* for those selected games, perfect for event-day strategy.
+*   **`players.html` (Settings)**: Player management and configuration options.
 *   **`admin.html` (Admin Dashboard)**: The private control room. Accessible only when running the local backend. Used to add players, scrape new data, and publish updates.
 
 ## 4. Data Source & Provenance
@@ -56,8 +59,8 @@ The application consists of several specialized views, each serving a distinct p
 | :--- | :--- | :--- |
 | **Markup** | HTML5 | Semantic structure with accessibility focus. |
 | **Styling** | CSS3 (Vanilla) | Uses CSS Variables (`:root`), Flexbox, and Grid. No preprocessors. |
-| **Scripting** | JavaScript (ES6+) | Native ES Modules. No bundlers (Webpack/Vite are **not** used). |
-| **PWA** | Service Worker | Cache-First strategy for assets; Network-First for data. |
+| **Scripting** | JavaScript (ES6+) | Native ES Modules, split into page-specific modules. No bundlers (Webpack/Vite are **not** used). |
+| **PWA** | Service Worker | Cache-First strategy for assets; Stale-While-Revalidate for data. |
 
 ### Backend
 | Component | Technology | Description |
@@ -106,26 +109,45 @@ The offline functionality is powered by a **Service Worker** using the **Cache A
 *   **Cache Management**: Old cache versions are automatically deleted when the service worker updates.
 *   **Storage Size**: ~900KB total (500KB app shell + 400KB data).
 
-## 7. Technical Workflows
+## 7. Accessibility & UX Enhancements
 
-### 7.1 Player Management
+The application includes several accessibility and user-experience improvements:
+
+*   **ARIA Support**: Full `aria-sort` attributes on sortable table columns, `aria-current="page"` on navigation links, and semantic HTML throughout.
+*   **Reduced Motion**: Respects `prefers-reduced-motion` media query, disabling shimmer animations and transitions for users who prefer reduced motion.
+*   **Skeleton Loading Screens**: Pages display shimmer-animated placeholder content while data loads, preventing layout shift and providing visual feedback.
+*   **Above-Average Indicators**: Player scores show percentage above or below the group average, giving instant context to raw numbers.
+
+## 8. Code Architecture
+
+The frontend JavaScript follows a modular, maintainable structure:
+
+*   **Page Modules**: `ui.js` has been split into dedicated page modules, each handling the logic for its specific view.
+*   **Score Helper**: Shared score calculation utilities extracted into a reusable helper module.
+*   **Memoized Stats**: Expensive statistical computations are memoized to avoid redundant recalculation.
+*   **Centralised SW Registration**: Service Worker registration is handled in a single shared location rather than per-page.
+*   **Consolidated Styles**: All inline styles and embedded style blocks have been moved into a single `styles.css` file.
+
+## 9. Technical Workflows
+
+### 9.1 Player Management
 Players are managed via the local API, which updates the `playerid.txt` source of truth and regenerates the `players.json` registry.
 
 *   **Add Player**: Endpoint `POST /api/players` with `{ "name": "Name", "id": "123" }`.
 *   **Remove Player**: Endpoint `DELETE /api/players` with `{ "id": "123" }`.
 
-### 7.2 Data Scraping Pipeline
+### 9.2 Data Scraping Pipeline
 1.  **Request**: `POST /api/scrape` with target IDs.
 2.  **Fetch**: `Invoke-WebRequest` retrieves HTML from source.
 3.  **Parse**: Regex extraction of table data.
 4.  **Stage**: Serialized JSON saved to `data/temp/`.
 
-### 7.3 Publication Cycle
+### 9.3 Publication Cycle
 1.  **Review**: `GET /api/staged` checks `data/temp/`.
 2.  **Promote**: `POST /api/publish` moves files to `data/`.
 3.  **Deploy**: User commits `data/` changes to git/Cloudflare.
 
-## 7. Privacy & Compliance
+## 10. Privacy & Compliance
 
 Transparency is key. Even though this is a personal project, I believe in clear data practices.
 
@@ -133,7 +155,7 @@ Transparency is key. Even though this is a personal project, I believe in clear 
 *   **Data Handling**: This application collects **no personal data** from visitors. It strictly displays public league data.
 *   **Compliance**: We respect the "Right to be Forgotten". Players can request removal from this view by contacting the maintainer, as detailed in the privacy policy.
 
-## 9. Open Development
+## 11. Open Development
 
 We believe in the principle of **Developing in the Open**. Even though this tool serves a small group of friends, sharing the source code allows others to learn from the architecture, suggest improvements, or fork it for their own leagues.
 

@@ -43,9 +43,13 @@ header {
     margin-bottom: 15px;
 }
 
+.header-content h1 {
+    margin: 0;
+}
+
 .logo {
-    height: 50px;
-    width: auto;
+    height: 100px;
+    width: 100px;
 }
 
 /* ===========================

@@ -2,18 +2,18 @@
     {
         "":  1,
         "Machine":  "Twilight Zone",
-        "Appearances":  114,
-        "Plays ▼":  2516,
-        "Average Score":  168230615,
+        "Appearances":  115,
+        "Plays ▼":  2536,
+        "Average Score":  168109344,
         "High Score":  2092332010,
         "Player":  "Andy Foster"
     },
     {
         "":  2,
         "Machine":  "The Addams Family",
-        "Appearances":  106,
-        "Plays ▼":  2387,
-        "Average Score":  68769856,
+        "Appearances":  108,
+        "Plays ▼":  2428,
+        "Average Score":  68412214,
         "High Score":  670932460,
         "Player":  "Martin Ayub"
     },
@@ -29,29 +29,29 @@
     {
         "":  4,
         "Machine":  "Fish Tales",
-        "Appearances":  71,
-        "Plays ▼":  1595,
-        "Average Score":  53072638,
+        "Appearances":  73,
+        "Plays ▼":  1649,
+        "Average Score":  52831425,
         "High Score":  820039540,
         "Player":  "Chris Edis"
     },
     {
         "":  5,
+        "Machine":  "The Getaway: High Speed II",
+        "Appearances":  77,
+        "Plays ▼":  1560,
+        "Average Score":  61291644,
+        "High Score":  778940440,
+        "Player":  "Scott Nesbitt"
+    },
+    {
+        "":  6,
         "Machine":  "Attack from Mars",
         "Appearances":  70,
         "Plays ▼":  1541,
         "Average Score":  2528874752,
         "High Score":  20277653890,
         "Player":  "Craig Pullen"
-    },
-    {
-        "":  6,
-        "Machine":  "The Getaway: High Speed II",
-        "Appearances":  76,
-        "Plays ▼":  1532,
-        "Average Score":  61531039,
-        "High Score":  778940440,
-        "Player":  "Scott Nesbitt"
     },
     {
         "":  7,
@@ -101,41 +101,50 @@
     {
         "":  12,
         "Machine":  "Spider-Man",
-        "Appearances":  52,
-        "Plays ▼":  1095,
-        "Average Score":  58393138,
+        "Appearances":  53,
+        "Plays ▼":  1121,
+        "Average Score":  58208397,
         "High Score":  879813430,
         "Player":  "Andy Foster"
     },
     {
         "":  13,
         "Machine":  "Indiana Jones (Williams)",
-        "Appearances":  53,
-        "Plays ▼":  1041,
-        "Average Score":  138300439,
+        "Appearances":  54,
+        "Plays ▼":  1062,
+        "Average Score":  137462396,
         "High Score":  4115059050,
         "Player":  "Andy Foster"
     },
     {
         "":  14,
         "Machine":  "Star Trek Next Generation",
-        "Appearances":  53,
-        "Plays ▼":  1010,
-        "Average Score":  418583253,
+        "Appearances":  55,
+        "Plays ▼":  1055,
+        "Average Score":  413570371,
         "High Score":  4543843070,
         "Player":  "Kate Rothwell-Jackson"
     },
     {
         "":  15,
         "Machine":  "Metallica",
-        "Appearances":  46,
-        "Plays ▼":  952,
-        "Average Score":  29533506,
+        "Appearances":  47,
+        "Plays ▼":  973,
+        "Average Score":  29230853,
         "High Score":  625197770,
         "Player":  "Donovan Delaney"
     },
     {
         "":  16,
+        "Machine":  "Revenge from Mars",
+        "Appearances":  48,
+        "Plays ▼":  958,
+        "Average Score":  82288821,
+        "High Score":  437458490,
+        "Player":  "Martyn Iles"
+    },
+    {
+        "":  17,
         "Machine":  "TRON",
         "Appearances":  39,
         "Plays ▼":  951,
@@ -144,49 +153,40 @@
         "Player":  "Andy Foster"
     },
     {
-        "":  17,
-        "Machine":  "Revenge from Mars",
-        "Appearances":  47,
-        "Plays ▼":  937,
-        "Average Score":  82930032,
-        "High Score":  437458490,
-        "Player":  "Martyn Iles"
-    },
-    {
         "":  18,
         "Machine":  "Star Trek (Stern)",
-        "Appearances":  41,
-        "Plays ▼":  924,
-        "Average Score":  40429505,
+        "Appearances":  42,
+        "Plays ▼":  950,
+        "Average Score":  40078431,
         "High Score":  373714010,
         "Player":  "Wayne Johns"
     },
     {
         "":  19,
         "Machine":  "Bram Stoker\u0027s Dracula",
-        "Appearances":  46,
-        "Plays ▼":  921,
-        "Average Score":  81208358,
+        "Appearances":  47,
+        "Plays ▼":  947,
+        "Average Score":  80816783,
         "High Score":  1269697480,
         "Player":  "Martin Ayub"
     },
     {
         "":  20,
+        "Machine":  "Godzilla (Stern)",
+        "Appearances":  43,
+        "Plays ▼":  938,
+        "Average Score":  146214815,
+        "High Score":  3609695400,
+        "Player":  "Wayne Johns"
+    },
+    {
+        "":  21,
         "Machine":  "The Walking Dead",
         "Appearances":  38,
         "Plays ▼":  918,
         "Average Score":  49014589,
         "High Score":  1067276120,
         "Player":  "Will Jarvis"
-    },
-    {
-        "":  21,
-        "Machine":  "Godzilla (Stern)",
-        "Appearances":  41,
-        "Plays ▼":  889,
-        "Average Score":  146979521,
-        "High Score":  3609695400,
-        "Player":  "Wayne Johns"
     },
     {
         "":  22,
@@ -236,9 +236,9 @@
     {
         "":  27,
         "Machine":  "Batman: The Dark Knight",
-        "Appearances":  41,
-        "Plays ▼":  799,
-        "Average Score":  32305545,
+        "Appearances":  42,
+        "Plays ▼":  820,
+        "Average Score":  31883509,
         "High Score":  381099130,
         "Player":  "Matt Vince"
     },
@@ -289,24 +289,42 @@
     },
     {
         "":  33,
-        "Machine":  "Dialed In!",
-        "Appearances":  24,
-        "Plays ▼":  601,
-        "Average Score":  308408,
-        "High Score":  4694000,
-        "Player":  "Will Jarvis"
-    },
-    {
-        "":  34,
         "Machine":  "Ghostbusters",
-        "Appearances":  22,
-        "Plays ▼":  596,
-        "Average Score":  102840035,
+        "Appearances":  23,
+        "Plays ▼":  622,
+        "Average Score":  104782485,
         "High Score":  2144519820,
         "Player":  "Paul Owen"
     },
     {
+        "":  34,
+        "Machine":  "Dialed In!",
+        "Appearances":  25,
+        "Plays ▼":  621,
+        "Average Score":  304278,
+        "High Score":  4694000,
+        "Player":  "Will Jarvis"
+    },
+    {
         "":  35,
+        "Machine":  "Mr. \u0026 Mrs. Pac-Man",
+        "Appearances":  25,
+        "Plays ▼":  581,
+        "Average Score":  628151,
+        "High Score":  4950670,
+        "Player":  "Josh Iles"
+    },
+    {
+        "":  35,
+        "Machine":  "Deadpool",
+        "Appearances":  24,
+        "Plays ▼":  581,
+        "Average Score":  137009977,
+        "High Score":  2570287470,
+        "Player":  "Wayne Johns"
+    },
+    {
+        "":  37,
         "Machine":  "X-Men",
         "Appearances":  26,
         "Plays ▼":  576,
@@ -315,7 +333,7 @@
         "Player":  "Martin Ayub"
     },
     {
-        "":  36,
+        "":  38,
         "Machine":  "Indianapolis 500",
         "Appearances":  27,
         "Plays ▼":  565,
@@ -324,31 +342,13 @@
         "Player":  "Andy Foster"
     },
     {
-        "":  37,
+        "":  39,
         "Machine":  "Earthshaker",
         "Appearances":  24,
         "Plays ▼":  562,
         "Average Score":  2893417,
         "High Score":  20695230,
         "Player":  "Martin Ayub"
-    },
-    {
-        "":  38,
-        "Machine":  "Deadpool",
-        "Appearances":  23,
-        "Plays ▼":  557,
-        "Average Score":  138840765,
-        "High Score":  2570287470,
-        "Player":  "Wayne Johns"
-    },
-    {
-        "":  39,
-        "Machine":  "Mr. \u0026 Mrs. Pac-Man",
-        "Appearances":  24,
-        "Plays ▼":  556,
-        "Average Score":  634943,
-        "High Score":  4950670,
-        "Player":  "Josh Iles"
     },
     {
         "":  40,
@@ -405,7 +405,25 @@
         "Player":  "Craig Pullen"
     },
     {
-        "":  46,
+        "":  45,
+        "Machine":  "The Wizard of Oz",
+        "Appearances":  20,
+        "Plays ▼":  526,
+        "Average Score":  99974,
+        "High Score":  2133058,
+        "Player":  "Nathan Garwood"
+    },
+    {
+        "":  47,
+        "Machine":  "Guardians of the Galaxy",
+        "Appearances":  26,
+        "Plays ▼":  525,
+        "Average Score":  93419683,
+        "High Score":  1668049510,
+        "Player":  "Andy Foster"
+    },
+    {
+        "":  47,
         "Machine":  "Taxi",
         "Appearances":  23,
         "Plays ▼":  525,
@@ -414,7 +432,7 @@
         "Player":  "Andy Foster"
     },
     {
-        "":  47,
+        "":  49,
         "Machine":  "Doctor Who",
         "Appearances":  30,
         "Plays ▼":  520,
@@ -423,7 +441,7 @@
         "Player":  "Keith Boreland"
     },
     {
-        "":  47,
+        "":  49,
         "Machine":  "Tales of the Arabian Nights",
         "Appearances":  21,
         "Plays ▼":  520,
@@ -432,7 +450,16 @@
         "Player":  "Andrew Stockdale"
     },
     {
-        "":  49,
+        "":  51,
+        "Machine":  "Bride of Pinbot",
+        "Appearances":  32,
+        "Plays ▼":  516,
+        "Average Score":  17746897,
+        "High Score":  1070563970,
+        "Player":  "David Fowler"
+    },
+    {
+        "":  51,
         "Machine":  "Jurassic Park (Stern)",
         "Appearances":  21,
         "Plays ▼":  516,
@@ -441,7 +468,7 @@
         "Player":  "Andy Foster"
     },
     {
-        "":  50,
+        "":  53,
         "Machine":  "No Fear: Dangerous Sports",
         "Appearances":  27,
         "Plays ▼":  509,
@@ -450,40 +477,13 @@
         "Player":  "Terry Sullivan"
     },
     {
-        "":  51,
-        "Machine":  "The Wizard of Oz",
-        "Appearances":  19,
-        "Plays ▼":  500,
-        "Average Score":  98091,
-        "High Score":  2133058,
-        "Player":  "Nathan Garwood"
-    },
-    {
-        "":  52,
+        "":  54,
         "Machine":  "The Flintstones",
         "Appearances":  26,
         "Plays ▼":  499,
         "Average Score":  354204074,
         "High Score":  3512312280,
         "Player":  "Tony Fitzgerald"
-    },
-    {
-        "":  52,
-        "Machine":  "Guardians of the Galaxy",
-        "Appearances":  25,
-        "Plays ▼":  499,
-        "Average Score":  94686523,
-        "High Score":  1668049510,
-        "Player":  "Andy Foster"
-    },
-    {
-        "":  54,
-        "Machine":  "Bride of Pinbot",
-        "Appearances":  31,
-        "Plays ▼":  496,
-        "Average Score":  18075103,
-        "High Score":  1070563970,
-        "Player":  "David Fowler"
     },
     {
         "":  55,
@@ -532,6 +532,15 @@
     },
     {
         "":  60,
+        "Machine":  "Game of Thrones",
+        "Appearances":  20,
+        "Plays ▼":  447,
+        "Average Score":  231049024,
+        "High Score":  2983854490,
+        "Player":  "Wayne Johns"
+    },
+    {
+        "":  61,
         "Machine":  "Dirty Harry",
         "Appearances":  22,
         "Plays ▼":  446,
@@ -540,7 +549,7 @@
         "Player":  "Craig Pullen"
     },
     {
-        "":  61,
+        "":  62,
         "Machine":  "Centaur",
         "Appearances":  21,
         "Plays ▼":  445,
@@ -549,7 +558,7 @@
         "Player":  "Richard Rothwell-Jackson"
     },
     {
-        "":  62,
+        "":  63,
         "Machine":  "Cirqus Voltaire",
         "Appearances":  20,
         "Plays ▼":  442,
@@ -558,21 +567,12 @@
         "Player":  "Martin Ayub"
     },
     {
-        "":  63,
+        "":  64,
         "Machine":  "Batman 66",
         "Appearances":  20,
         "Plays ▼":  432,
         "Average Score":  187515057,
         "High Score":  3667374870,
-        "Player":  "Wayne Johns"
-    },
-    {
-        "":  64,
-        "Machine":  "Game of Thrones",
-        "Appearances":  19,
-        "Plays ▼":  421,
-        "Average Score":  239939478,
-        "High Score":  2983854490,
         "Player":  "Wayne Johns"
     },
     {
@@ -594,7 +594,16 @@
         "Player":  "John Higgins"
     },
     {
-        "":  67,
+        "":  66,
+        "Machine":  "Johnny Mnemonic",
+        "Appearances":  17,
+        "Plays ▼":  384,
+        "Average Score":  1192333083,
+        "High Score":  13060616730,
+        "Player":  "Greg Mott"
+    },
+    {
+        "":  68,
         "Machine":  "Black Rose",
         "Appearances":  18,
         "Plays ▼":  383,
@@ -603,7 +612,7 @@
         "Player":  "Will Jarvis"
     },
     {
-        "":  67,
+        "":  68,
         "Machine":  "Champion Pub",
         "Appearances":  15,
         "Plays ▼":  383,
@@ -612,7 +621,7 @@
         "Player":  "CJ Brown"
     },
     {
-        "":  69,
+        "":  70,
         "Machine":  "Funhouse",
         "Appearances":  16,
         "Plays ▼":  373,
@@ -621,7 +630,7 @@
         "Player":  "Martin Ayub"
     },
     {
-        "":  70,
+        "":  71,
         "Machine":  "Jungle Lord",
         "Appearances":  13,
         "Plays ▼":  363,
@@ -630,7 +639,7 @@
         "Player":  "Will Jarvis"
     },
     {
-        "":  71,
+        "":  72,
         "Machine":  "Space Station",
         "Appearances":  14,
         "Plays ▼":  362,
@@ -639,16 +648,7 @@
         "Player":  "Chris Edis"
     },
     {
-        "":  72,
-        "Machine":  "Johnny Mnemonic",
-        "Appearances":  16,
-        "Plays ▼":  361,
-        "Average Score":  1191425544,
-        "High Score":  13060616730,
-        "Player":  "Greg Mott"
-    },
-    {
-        "":  72,
+        "":  73,
         "Machine":  "Stranger Things",
         "Appearances":  15,
         "Plays ▼":  361,
@@ -729,7 +729,34 @@
         "Player":  "Andy Foster"
     },
     {
-        "":  82,
+        "":  81,
+        "Machine":  "Rush",
+        "Appearances":  14,
+        "Plays ▼":  332,
+        "Average Score":  50598042,
+        "High Score":  347604360,
+        "Player":  "Jack Waycik"
+    },
+    {
+        "":  83,
+        "Machine":  "Star Wars (Stern)",
+        "Appearances":  15,
+        "Plays ▼":  326,
+        "Average Score":  283478138,
+        "High Score":  5403372220,
+        "Player":  "Luke Grayson"
+    },
+    {
+        "":  84,
+        "Machine":  "Xenon",
+        "Appearances":  17,
+        "Plays ▼":  317,
+        "Average Score":  809093,
+        "High Score":  21389718,
+        "Player":  "John Higgins"
+    },
+    {
+        "":  84,
         "Machine":  "Aerosmith",
         "Appearances":  17,
         "Plays ▼":  317,
@@ -738,7 +765,7 @@
         "Player":  "Will Jarvis"
     },
     {
-        "":  83,
+        "":  86,
         "Machine":  "Terminator 3: Rise of the Machines",
         "Appearances":  13,
         "Plays ▼":  314,
@@ -747,7 +774,7 @@
         "Player":  "Martin Ayub"
     },
     {
-        "":  84,
+        "":  87,
         "Machine":  "Joker Poker",
         "Appearances":  11,
         "Plays ▼":  311,
@@ -756,7 +783,7 @@
         "Player":  "Andy Foster"
     },
     {
-        "":  85,
+        "":  88,
         "Machine":  "Black Knight 2000",
         "Appearances":  13,
         "Plays ▼":  306,
@@ -765,7 +792,7 @@
         "Player":  "Martin Ayub"
     },
     {
-        "":  86,
+        "":  89,
         "Machine":  "Corvette",
         "Appearances":  14,
         "Plays ▼":  304,
@@ -774,16 +801,7 @@
         "Player":  "Martin Ayub"
     },
     {
-        "":  87,
-        "Machine":  "Star Wars (Stern)",
-        "Appearances":  14,
-        "Plays ▼":  300,
-        "Average Score":  275248261,
-        "High Score":  5403372220,
-        "Player":  "Luke Grayson"
-    },
-    {
-        "":  88,
+        "":  90,
         "Machine":  "NBA Fastbreak",
         "Appearances":  14,
         "Plays ▼":  297,
@@ -792,7 +810,7 @@
         "Player":  "Mike Kindler"
     },
     {
-        "":  89,
+        "":  91,
         "Machine":  "No Good Gofers",
         "Appearances":  14,
         "Plays ▼":  293,
@@ -801,7 +819,7 @@
         "Player":  "Ian Walmsley"
     },
     {
-        "":  90,
+        "":  92,
         "Machine":  "Rollercoaster Tycoon",
         "Appearances":  12,
         "Plays ▼":  290,
@@ -810,16 +828,7 @@
         "Player":  "Martin Ayub"
     },
     {
-        "":  91,
-        "Machine":  "Xenon",
-        "Appearances":  16,
-        "Plays ▼":  289,
-        "Average Score":  859608,
-        "High Score":  21389718,
-        "Player":  "John Higgins"
-    },
-    {
-        "":  92,
+        "":  93,
         "Machine":  "Spectrum",
         "Appearances":  11,
         "Plays ▼":  287,
@@ -828,7 +837,7 @@
         "Player":  "Garry Speight"
     },
     {
-        "":  93,
+        "":  94,
         "Machine":  "The Party Zone",
         "Appearances":  13,
         "Plays ▼":  281,
@@ -837,7 +846,7 @@
         "Player":  "Rich Mallett"
     },
     {
-        "":  94,
+        "":  95,
         "Machine":  "Terminator 2: Judgment Day",
         "Appearances":  12,
         "Plays ▼":  280,
@@ -846,7 +855,7 @@
         "Player":  "Craig Pullen"
     },
     {
-        "":  95,
+        "":  96,
         "Machine":  "TX-Sector",
         "Appearances":  13,
         "Plays ▼":  279,
@@ -855,16 +864,16 @@
         "Player":  "Adrian Donati"
     },
     {
-        "":  96,
-        "Machine":  "Rush",
-        "Appearances":  12,
+        "":  97,
+        "Machine":  "Foo Fighters",
+        "Appearances":  13,
         "Plays ▼":  278,
-        "Average Score":  52626765,
-        "High Score":  347604360,
-        "Player":  "Jack Waycik"
+        "Average Score":  86137473,
+        "High Score":  2015879530,
+        "Player":  "Wayne Johns"
     },
     {
-        "":  97,
+        "":  98,
         "Machine":  "The Who\u0027s Tommy Pinball Wizard",
         "Appearances":  11,
         "Plays ▼":  276,
@@ -873,7 +882,16 @@
         "Player":  "Will Barber"
     },
     {
-        "":  98,
+        "":  99,
+        "Machine":  "The Avengers",
+        "Appearances":  12,
+        "Plays ▼":  272,
+        "Average Score":  10427620,
+        "High Score":  134729030,
+        "Player":  "Nathan Garwood"
+    },
+    {
+        "":  100,
         "Machine":  "Star Wars (Data East)",
         "Appearances":  13,
         "Plays ▼":  269,
@@ -882,7 +900,16 @@
         "Player":  "Nick Marshall"
     },
     {
-        "":  99,
+        "":  100,
+        "Machine":  "The Mandalorian",
+        "Appearances":  12,
+        "Plays ▼":  269,
+        "Average Score":  65416602,
+        "High Score":  424860610,
+        "Player":  "Punk Stig"
+    },
+    {
+        "":  102,
         "Machine":  "Black Jack",
         "Appearances":  10,
         "Plays ▼":  267,
@@ -891,7 +918,7 @@
         "Player":  "Adam Lee"
     },
     {
-        "":  100,
+        "":  103,
         "Machine":  "Family Guy",
         "Appearances":  16,
         "Plays ▼":  260,
@@ -900,7 +927,7 @@
         "Player":  "Nick Marshall"
     },
     {
-        "":  101,
+        "":  104,
         "Machine":  "Baywatch",
         "Appearances":  13,
         "Plays ▼":  255,
@@ -909,7 +936,7 @@
         "Player":  "Peter Blakemore"
     },
     {
-        "":  101,
+        "":  104,
         "Machine":  "Circus",
         "Appearances":  10,
         "Plays ▼":  255,
@@ -918,16 +945,7 @@
         "Player":  "Chris Edis"
     },
     {
-        "":  103,
-        "Machine":  "Foo Fighters",
-        "Appearances":  12,
-        "Plays ▼":  252,
-        "Average Score":  82839520,
-        "High Score":  2015879530,
-        "Player":  "Wayne Johns"
-    },
-    {
-        "":  104,
+        "":  106,
         "Machine":  "Whoa Nellie!",
         "Appearances":  8,
         "Plays ▼":  250,
@@ -936,7 +954,7 @@
         "Player":  "Phil Dixon"
     },
     {
-        "":  105,
+        "":  107,
         "Machine":  "Hurricane",
         "Appearances":  14,
         "Plays ▼":  249,
@@ -945,16 +963,16 @@
         "Player":  "Will Jarvis"
     },
     {
-        "":  105,
-        "Machine":  "The Avengers",
+        "":  108,
+        "Machine":  "Lethal Weapon 3",
         "Appearances":  11,
-        "Plays ▼":  249,
-        "Average Score":  10411609,
-        "High Score":  134729030,
-        "Player":  "Nathan Garwood"
+        "Plays ▼":  239,
+        "Average Score":  55982435,
+        "High Score":  288649445,
+        "Player":  "Chris Bowers"
     },
     {
-        "":  107,
+        "":  109,
         "Machine":  "World Poker Tour",
         "Appearances":  8,
         "Plays ▼":  231,
@@ -963,7 +981,7 @@
         "Player":  "Andy Foster"
     },
     {
-        "":  108,
+        "":  110,
         "Machine":  "Nautilus",
         "Appearances":  9,
         "Plays ▼":  229,
@@ -972,7 +990,7 @@
         "Player":  "Phil Dixon"
     },
     {
-        "":  109,
+        "":  111,
         "Machine":  "Heat Wave",
         "Appearances":  7,
         "Plays ▼":  227,
@@ -981,7 +999,7 @@
         "Player":  "Adrian Donati"
     },
     {
-        "":  110,
+        "":  112,
         "Machine":  "Black Knight",
         "Appearances":  9,
         "Plays ▼":  222,
@@ -990,16 +1008,16 @@
         "Player":  "Ewan Meadows"
     },
     {
-        "":  111,
-        "Machine":  "The Mandalorian",
+        "":  113,
+        "Machine":  "Jaws",
         "Appearances":  10,
-        "Plays ▼":  217,
-        "Average Score":  68167029,
-        "High Score":  424860610,
-        "Player":  "Punk Stig"
+        "Plays ▼":  221,
+        "Average Score":  142511712,
+        "High Score":  867521220,
+        "Player":  "Graeme Burchael"
     },
     {
-        "":  111,
+        "":  114,
         "Machine":  "Playboy (Stern)",
         "Appearances":  9,
         "Plays ▼":  217,
@@ -1008,7 +1026,7 @@
         "Player":  "Martin Ayub"
     },
     {
-        "":  111,
+        "":  114,
         "Machine":  "Warlok",
         "Appearances":  8,
         "Plays ▼":  217,
@@ -1017,7 +1035,7 @@
         "Player":  "Will Jarvis"
     },
     {
-        "":  114,
+        "":  116,
         "Machine":  "Aladdin\u0027s Castle",
         "Appearances":  9,
         "Plays ▼":  214,
@@ -1026,16 +1044,7 @@
         "Player":  "Dave Langley"
     },
     {
-        "":  115,
-        "Machine":  "Lethal Weapon 3",
-        "Appearances":  10,
-        "Plays ▼":  213,
-        "Average Score":  55815953,
-        "High Score":  249426690,
-        "Player":  "Kate Rothwell-Jackson"
-    },
-    {
-        "":  116,
+        "":  117,
         "Machine":  "Mary Shelley\u0027s Frankenstein",
         "Appearances":  13,
         "Plays ▼":  208,
@@ -1044,7 +1053,7 @@
         "Player":  "Donovan Delaney"
     },
     {
-        "":  116,
+        "":  117,
         "Machine":  "The Incredible Hulk",
         "Appearances":  12,
         "Plays ▼":  208,
@@ -1053,7 +1062,16 @@
         "Player":  "Eric Ridley"
     },
     {
-        "":  118,
+        "":  119,
+        "Machine":  "Gorgar",
+        "Appearances":  9,
+        "Plays ▼":  205,
+        "Average Score":  151829,
+        "High Score":  566770,
+        "Player":  "Edward Emms"
+    },
+    {
+        "":  120,
         "Machine":  "Police Force",
         "Appearances":  10,
         "Plays ▼":  204,
@@ -1062,7 +1080,7 @@
         "Player":  "Darren Ball"
     },
     {
-        "":  118,
+        "":  120,
         "Machine":  "Wizard!",
         "Appearances":  8,
         "Plays ▼":  204,
@@ -1071,7 +1089,7 @@
         "Player":  "Ant Woodfield"
     },
     {
-        "":  118,
+        "":  120,
         "Machine":  "Total Nuclear Annihilation",
         "Appearances":  8,
         "Plays ▼":  204,
@@ -1080,7 +1098,7 @@
         "Player":  "David Tucker"
     },
     {
-        "":  121,
+        "":  123,
         "Machine":  "Medusa",
         "Appearances":  9,
         "Plays ▼":  203,
@@ -1089,16 +1107,16 @@
         "Player":  "Matt Vince"
     },
     {
-        "":  122,
-        "Machine":  "Jaws",
-        "Appearances":  9,
-        "Plays ▼":  198,
-        "Average Score":  137097787,
-        "High Score":  867521220,
-        "Player":  "Graeme Burchael"
+        "":  124,
+        "Machine":  "Guns N\u0027 Roses (JJP)",
+        "Appearances":  10,
+        "Plays ▼":  202,
+        "Average Score":  2545002,
+        "High Score":  61772230,
+        "Player":  "Kevin Saidla"
     },
     {
-        "":  122,
+        "":  125,
         "Machine":  "Pulp Fiction",
         "Appearances":  9,
         "Plays ▼":  198,
@@ -1107,7 +1125,7 @@
         "Player":  "Andy Brock"
     },
     {
-        "":  124,
+        "":  126,
         "Machine":  "WWF Royal Rumble",
         "Appearances":  12,
         "Plays ▼":  197,
@@ -1116,7 +1134,7 @@
         "Player":  "Andy Foster"
     },
     {
-        "":  124,
+        "":  126,
         "Machine":  "Swords of Fury",
         "Appearances":  11,
         "Plays ▼":  197,
@@ -1125,7 +1143,7 @@
         "Player":  "Krzysztof Gwiazda"
     },
     {
-        "":  126,
+        "":  128,
         "Machine":  "Alien Poker",
         "Appearances":  7,
         "Plays ▼":  195,
@@ -1134,7 +1152,7 @@
         "Player":  "Garry Speight"
     },
     {
-        "":  127,
+        "":  129,
         "Machine":  "Jackbot",
         "Appearances":  11,
         "Plays ▼":  194,
@@ -1143,7 +1161,7 @@
         "Player":  "Keith Boreland"
     },
     {
-        "":  127,
+        "":  129,
         "Machine":  "Varkon",
         "Appearances":  9,
         "Plays ▼":  194,
@@ -1152,7 +1170,7 @@
         "Player":  "David Dodds"
     },
     {
-        "":  127,
+        "":  129,
         "Machine":  "Eight Ball Champ",
         "Appearances":  7,
         "Plays ▼":  194,
@@ -1161,7 +1179,16 @@
         "Player":  "Ian Clarke"
     },
     {
-        "":  130,
+        "":  129,
+        "Machine":  "James Bond 007",
+        "Appearances":  7,
+        "Plays ▼":  194,
+        "Average Score":  112929206,
+        "High Score":  1642151670,
+        "Player":  "Andy Foster"
+    },
+    {
+        "":  133,
         "Machine":  "Airborne",
         "Appearances":  6,
         "Plays ▼":  193,
@@ -1170,7 +1197,7 @@
         "Player":  "Will Jarvis"
     },
     {
-        "":  131,
+        "":  134,
         "Machine":  "Jack in the Box",
         "Appearances":  7,
         "Plays ▼":  191,
@@ -1179,7 +1206,7 @@
         "Player":  "Chris Williams"
     },
     {
-        "":  131,
+        "":  134,
         "Machine":  "Night Moves",
         "Appearances":  7,
         "Plays ▼":  191,
@@ -1188,7 +1215,7 @@
         "Player":  "David Dutton"
     },
     {
-        "":  133,
+        "":  136,
         "Machine":  "Who Dunnit",
         "Appearances":  11,
         "Plays ▼":  190,
@@ -1197,7 +1224,7 @@
         "Player":  "Andy Foster"
     },
     {
-        "":  134,
+        "":  137,
         "Machine":  "Starship Troopers",
         "Appearances":  13,
         "Plays ▼":  189,
@@ -1206,7 +1233,16 @@
         "Player":  "Ross Hamilton"
     },
     {
-        "":  135,
+        "":  138,
+        "Machine":  "Arena",
+        "Appearances":  8,
+        "Plays ▼":  185,
+        "Average Score":  1784350,
+        "High Score":  6590720,
+        "Player":  "Paul Garner"
+    },
+    {
+        "":  138,
         "Machine":  "Playboy (Bally)",
         "Appearances":  7,
         "Plays ▼":  185,
@@ -1215,7 +1251,7 @@
         "Player":  "Carl Spiby"
     },
     {
-        "":  136,
+        "":  140,
         "Machine":  "Cow Poke",
         "Appearances":  7,
         "Plays ▼":  183,
@@ -1224,7 +1260,7 @@
         "Player":  "Andy Foster"
     },
     {
-        "":  137,
+        "":  141,
         "Machine":  "KISS (Stern)",
         "Appearances":  9,
         "Plays ▼":  182,
@@ -1233,16 +1269,7 @@
         "Player":  "Andy Foster"
     },
     {
-        "":  138,
-        "Machine":  "Guns N\u0027 Roses (JJP)",
-        "Appearances":  9,
-        "Plays ▼":  181,
-        "Average Score":  1756879,
-        "High Score":  58197042,
-        "Player":  "Steve Close"
-    },
-    {
-        "":  138,
+        "":  142,
         "Machine":  "Robo-War",
         "Appearances":  8,
         "Plays ▼":  181,
@@ -1251,7 +1278,16 @@
         "Player":  "Steven Kielty"
     },
     {
-        "":  140,
+        "":  143,
+        "Machine":  "Teenage Mutant Ninja Turtles (Stern)",
+        "Appearances":  8,
+        "Plays ▼":  180,
+        "Average Score":  6092203,
+        "High Score":  31629190,
+        "Player":  "Kate Rothwell-Jackson"
+    },
+    {
+        "":  144,
         "Machine":  "Apollo 13",
         "Appearances":  14,
         "Plays ▼":  179,
@@ -1260,7 +1296,7 @@
         "Player":  "Derek Penn"
     },
     {
-        "":  141,
+        "":  145,
         "Machine":  "Robocop",
         "Appearances":  7,
         "Plays ▼":  178,
@@ -1269,7 +1305,7 @@
         "Player":  "Wayne Johns"
     },
     {
-        "":  142,
+        "":  146,
         "Machine":  "Goldeneye",
         "Appearances":  10,
         "Plays ▼":  177,
@@ -1278,7 +1314,7 @@
         "Player":  "Greg Mott"
     },
     {
-        "":  143,
+        "":  147,
         "Machine":  "Fortune",
         "Appearances":  10,
         "Plays ▼":  173,
@@ -1287,7 +1323,7 @@
         "Player":  "Scott Nesbitt"
     },
     {
-        "":  144,
+        "":  148,
         "Machine":  "Diner",
         "Appearances":  8,
         "Plays ▼":  170,
@@ -1296,7 +1332,7 @@
         "Player":  "Josh Iles"
     },
     {
-        "":  145,
+        "":  149,
         "Machine":  "Dr. Dude And His Excellent Ray",
         "Appearances":  7,
         "Plays ▼":  167,
@@ -1305,7 +1341,7 @@
         "Player":  "Will Jarvis"
     },
     {
-        "":  146,
+        "":  150,
         "Machine":  "The X Files",
         "Appearances":  9,
         "Plays ▼":  166,
@@ -1314,25 +1350,7 @@
         "Player":  "Eric Ridley"
     },
     {
-        "":  146,
-        "Machine":  "James Bond 007",
-        "Appearances":  6,
-        "Plays ▼":  166,
-        "Average Score":  117136534,
-        "High Score":  1642151670,
-        "Player":  "Andy Foster"
-    },
-    {
-        "":  148,
-        "Machine":  "Arena",
-        "Appearances":  7,
-        "Plays ▼":  164,
-        "Average Score":  1836197,
-        "High Score":  6590720,
-        "Player":  "Paul Garner"
-    },
-    {
-        "":  149,
+        "":  151,
         "Machine":  "Eight Ball",
         "Appearances":  6,
         "Plays ▼":  162,
@@ -1341,7 +1359,7 @@
         "Player":  "Kate Rothwell-Jackson"
     },
     {
-        "":  150,
+        "":  152,
         "Machine":  "Farfalla",
         "Appearances":  6,
         "Plays ▼":  161,
@@ -1350,16 +1368,7 @@
         "Player":  "Terry Sullivan"
     },
     {
-        "":  151,
-        "Machine":  "Teenage Mutant Ninja Turtles (Stern)",
-        "Appearances":  7,
-        "Plays ▼":  160,
-        "Average Score":  6095112,
-        "High Score":  31629190,
-        "Player":  "Kate Rothwell-Jackson"
-    },
-    {
-        "":  151,
+        "":  153,
         "Machine":  "Breakshot",
         "Appearances":  5,
         "Plays ▼":  160,
@@ -1368,7 +1377,7 @@
         "Player":  "Martyn Raison"
     },
     {
-        "":  153,
+        "":  154,
         "Machine":  "Barracora",
         "Appearances":  8,
         "Plays ▼":  158,
@@ -1377,7 +1386,7 @@
         "Player":  "Nathan Garwood"
     },
     {
-        "":  154,
+        "":  155,
         "Machine":  "Star Wars (2012 ROM)",
         "Appearances":  6,
         "Plays ▼":  155,
@@ -1386,7 +1395,7 @@
         "Player":  "Nick Marshall"
     },
     {
-        "":  155,
+        "":  156,
         "Machine":  "Avengers: Infinity Quest",
         "Appearances":  8,
         "Plays ▼":  154,
@@ -1395,7 +1404,7 @@
         "Player":  "Kevin Donovan"
     },
     {
-        "":  155,
+        "":  156,
         "Machine":  "Elvis",
         "Appearances":  6,
         "Plays ▼":  154,
@@ -1404,7 +1413,7 @@
         "Player":  "CJ Brown"
     },
     {
-        "":  157,
+        "":  158,
         "Machine":  "Batman Forever",
         "Appearances":  7,
         "Plays ▼":  153,
@@ -1413,7 +1422,7 @@
         "Player":  "John Higgins"
     },
     {
-        "":  158,
+        "":  159,
         "Machine":  "Transformers",
         "Appearances":  7,
         "Plays ▼":  152,
@@ -1423,15 +1432,15 @@
     },
     {
         "":  159,
-        "Machine":  "Gorgar",
-        "Appearances":  7,
-        "Plays ▼":  151,
-        "Average Score":  144266,
-        "High Score":  461810,
-        "Player":  "Ed Duckworth"
+        "Machine":  "Alien",
+        "Appearances":  6,
+        "Plays ▼":  152,
+        "Average Score":  15465329,
+        "High Score":  100178600,
+        "Player":  "Jason Poyntz"
     },
     {
-        "":  160,
+        "":  161,
         "Machine":  "Excalibur",
         "Appearances":  5,
         "Plays ▼":  150,
@@ -1440,7 +1449,7 @@
         "Player":  "David Dutton"
     },
     {
-        "":  161,
+        "":  162,
         "Machine":  "Future Spa",
         "Appearances":  8,
         "Plays ▼":  149,
@@ -1449,7 +1458,16 @@
         "Player":  "Roger Valentine"
     },
     {
-        "":  162,
+        "":  163,
+        "Machine":  "Pinbot",
+        "Appearances":  8,
+        "Plays ▼":  146,
+        "Average Score":  668073,
+        "High Score":  3512430,
+        "Player":  "Craig Pullen"
+    },
+    {
+        "":  163,
         "Machine":  "Big Buck Hunter Pro",
         "Appearances":  6,
         "Plays ▼":  146,
@@ -1458,7 +1476,7 @@
         "Player":  "Wayne Johns"
     },
     {
-        "":  163,
+        "":  165,
         "Machine":  "Radical!",
         "Appearances":  7,
         "Plays ▼":  145,
@@ -1467,7 +1485,7 @@
         "Player":  "Nick Marshall"
     },
     {
-        "":  164,
+        "":  166,
         "Machine":  "Spirit",
         "Appearances":  9,
         "Plays ▼":  144,
@@ -1476,7 +1494,7 @@
         "Player":  "Dan Lewell"
     },
     {
-        "":  164,
+        "":  166,
         "Machine":  "CSI: Crime Scene Investigation",
         "Appearances":  6,
         "Plays ▼":  144,
@@ -1485,7 +1503,7 @@
         "Player":  "Peter Blakemore"
     },
     {
-        "":  166,
+        "":  168,
         "Machine":  "Raven",
         "Appearances":  5,
         "Plays ▼":  143,
@@ -1494,16 +1512,16 @@
         "Player":  "Will Jarvis"
     },
     {
-        "":  167,
-        "Machine":  "Surf \u0027n Safari",
-        "Appearances":  6,
+        "":  169,
+        "Machine":  "Ski Jump",
+        "Appearances":  7,
         "Plays ▼":  139,
-        "Average Score":  14197622,
-        "High Score":  77683940,
-        "Player":  "Luke Grayson"
+        "Average Score":  1483642,
+        "High Score":  4145400,
+        "Player":  "Mike Henderson"
     },
     {
-        "":  167,
+        "":  169,
         "Machine":  "Pinball Magic",
         "Appearances":  6,
         "Plays ▼":  139,
@@ -1513,6 +1531,15 @@
     },
     {
         "":  169,
+        "Machine":  "Surf \u0027n Safari",
+        "Appearances":  6,
+        "Plays ▼":  139,
+        "Average Score":  14197622,
+        "High Score":  77683940,
+        "Player":  "Luke Grayson"
+    },
+    {
+        "":  172,
         "Machine":  "Star Wars Episode I",
         "Appearances":  7,
         "Plays ▼":  138,
@@ -1521,7 +1548,7 @@
         "Player":  "Nigel Lunt"
     },
     {
-        "":  169,
+        "":  172,
         "Machine":  "Shrek",
         "Appearances":  6,
         "Plays ▼":  138,
@@ -1530,7 +1557,7 @@
         "Player":  "Greg Mott"
     },
     {
-        "":  171,
+        "":  174,
         "Machine":  "Victory",
         "Appearances":  4,
         "Plays ▼":  136,
@@ -1539,7 +1566,7 @@
         "Player":  "Andy Foster"
     },
     {
-        "":  172,
+        "":  175,
         "Machine":  "Firepower",
         "Appearances":  5,
         "Plays ▼":  134,
@@ -1548,7 +1575,7 @@
         "Player":  "Jeremy Baynham"
     },
     {
-        "":  173,
+        "":  176,
         "Machine":  "Vector",
         "Appearances":  7,
         "Plays ▼":  132,
@@ -1557,7 +1584,7 @@
         "Player":  "Wayne Johns"
     },
     {
-        "":  173,
+        "":  176,
         "Machine":  "The Hobbit",
         "Appearances":  5,
         "Plays ▼":  132,
@@ -1566,7 +1593,7 @@
         "Player":  "Matt Vince"
     },
     {
-        "":  175,
+        "":  178,
         "Machine":  "Rollergames",
         "Appearances":  6,
         "Plays ▼":  131,
@@ -1575,7 +1602,7 @@
         "Player":  "Will Jarvis"
     },
     {
-        "":  176,
+        "":  179,
         "Machine":  "Blackwater 100",
         "Appearances":  4,
         "Plays ▼":  130,
@@ -1584,7 +1611,7 @@
         "Player":  "Andy Foster"
     },
     {
-        "":  177,
+        "":  180,
         "Machine":  "Haunted House",
         "Appearances":  4,
         "Plays ▼":  129,
@@ -1593,7 +1620,7 @@
         "Player":  "David Dutton"
     },
     {
-        "":  178,
+        "":  181,
         "Machine":  "Hearts and Spades",
         "Appearances":  4,
         "Plays ▼":  127,
@@ -1602,7 +1629,7 @@
         "Player":  "Garry Speight"
     },
     {
-        "":  179,
+        "":  182,
         "Machine":  "24",
         "Appearances":  5,
         "Plays ▼":  126,
@@ -1611,7 +1638,7 @@
         "Player":  "Andy Foster"
     },
     {
-        "":  180,
+        "":  183,
         "Machine":  "Elektra",
         "Appearances":  5,
         "Plays ▼":  125,
@@ -1620,7 +1647,7 @@
         "Player":  "Andy Foster"
     },
     {
-        "":  180,
+        "":  183,
         "Machine":  "The Sopranos",
         "Appearances":  5,
         "Plays ▼":  125,
@@ -1629,16 +1656,7 @@
         "Player":  "Tommy Mullins"
     },
     {
-        "":  182,
-        "Machine":  "Alien",
-        "Appearances":  5,
-        "Plays ▼":  124,
-        "Average Score":  16145585,
-        "High Score":  100178600,
-        "Player":  "Jason Poyntz"
-    },
-    {
-        "":  182,
+        "":  185,
         "Machine":  "Space Shuttle (Williams)",
         "Appearances":  4,
         "Plays ▼":  124,
@@ -1647,7 +1665,7 @@
         "Player":  "Eddie Lehan"
     },
     {
-        "":  184,
+        "":  186,
         "Machine":  "Jurassic Park (Data East)",
         "Appearances":  5,
         "Plays ▼":  123,
@@ -1656,7 +1674,7 @@
         "Player":  "Dan Pocklington"
     },
     {
-        "":  185,
+        "":  187,
         "Machine":  "Nip-It",
         "Appearances":  6,
         "Plays ▼":  121,
@@ -1665,7 +1683,7 @@
         "Player":  "David Bowery"
     },
     {
-        "":  186,
+        "":  188,
         "Machine":  "Alien Star",
         "Appearances":  4,
         "Plays ▼":  120,
@@ -1674,25 +1692,7 @@
         "Player":  "Andy Foster"
     },
     {
-        "":  187,
-        "Machine":  "Pinbot",
-        "Appearances":  7,
-        "Plays ▼":  118,
-        "Average Score":  712254,
-        "High Score":  3512430,
-        "Player":  "Craig Pullen"
-    },
-    {
-        "":  187,
-        "Machine":  "Ski Jump",
-        "Appearances":  6,
-        "Plays ▼":  118,
-        "Average Score":  1512299,
-        "High Score":  4145400,
-        "Player":  "Mike Henderson"
-    },
-    {
-        "":  187,
+        "":  189,
         "Machine":  "Elvira and The Party Monsters",
         "Appearances":  6,
         "Plays ▼":  118,
@@ -1701,7 +1701,7 @@
         "Player":  "Richard Hawley"
     },
     {
-        "":  187,
+        "":  189,
         "Machine":  "Meteor",
         "Appearances":  4,
         "Plays ▼":  118,
@@ -1945,6 +1945,15 @@
     },
     {
         "":  217,
+        "Machine":  "Bad Cats",
+        "Appearances":  5,
+        "Plays ▼":  97,
+        "Average Score":  3064373,
+        "High Score":  47055510,
+        "Player":  "Phil Dixon"
+    },
+    {
+        "":  217,
         "Machine":  "Fire Mountain",
         "Appearances":  4,
         "Plays ▼":  97,
@@ -1953,7 +1962,16 @@
         "Player":  "Andy Foster"
     },
     {
-        "":  218,
+        "":  219,
+        "Machine":  "The Munsters",
+        "Appearances":  4,
+        "Plays ▼":  95,
+        "Average Score":  15398956,
+        "High Score":  180473880,
+        "Player":  "Alan O\u0027Grady"
+    },
+    {
+        "":  220,
         "Machine":  "Monte Carlo (Gottlieb)",
         "Appearances":  3,
         "Plays ▼":  94,
@@ -1962,7 +1980,7 @@
         "Player":  "Will Jarvis"
     },
     {
-        "":  219,
+        "":  221,
         "Machine":  "Lost World",
         "Appearances":  3,
         "Plays ▼":  91,
@@ -1971,7 +1989,7 @@
         "Player":  "David Kay"
     },
     {
-        "":  220,
+        "":  222,
         "Machine":  "Monopoly",
         "Appearances":  5,
         "Plays ▼":  88,
@@ -1980,7 +1998,7 @@
         "Player":  "Paul Owen"
     },
     {
-        "":  220,
+        "":  222,
         "Machine":  "Class of 1812",
         "Appearances":  4,
         "Plays ▼":  88,
@@ -1989,7 +2007,7 @@
         "Player":  "James Watson"
     },
     {
-        "":  220,
+        "":  222,
         "Machine":  "Spring Break",
         "Appearances":  3,
         "Plays ▼":  88,
@@ -1998,7 +2016,7 @@
         "Player":  "Tom Fletcher"
     },
     {
-        "":  223,
+        "":  225,
         "Machine":  "Fireball",
         "Appearances":  3,
         "Plays ▼":  87,
@@ -2007,7 +2025,7 @@
         "Player":  "Mark Potter"
     },
     {
-        "":  224,
+        "":  226,
         "Machine":  "Cheetah",
         "Appearances":  3,
         "Plays ▼":  85,
@@ -2016,7 +2034,7 @@
         "Player":  "Garry Speight"
     },
     {
-        "":  225,
+        "":  227,
         "Machine":  "King Pin (Gottlieb 1973)",
         "Appearances":  3,
         "Plays ▼":  84,
@@ -2025,7 +2043,7 @@
         "Player":  "Shaun Harvey"
     },
     {
-        "":  225,
+        "":  227,
         "Machine":  "The Jetsons",
         "Appearances":  3,
         "Plays ▼":  84,
@@ -2034,7 +2052,7 @@
         "Player":  "Garry Speight"
     },
     {
-        "":  227,
+        "":  229,
         "Machine":  "Houdini: Master of Mystery",
         "Appearances":  5,
         "Plays ▼":  83,
@@ -2043,7 +2061,7 @@
         "Player":  "Ian Craig"
     },
     {
-        "":  227,
+        "":  229,
         "Machine":  "Dolly Parton",
         "Appearances":  4,
         "Plays ▼":  83,
@@ -2052,7 +2070,7 @@
         "Player":  "Dom Louis"
     },
     {
-        "":  227,
+        "":  229,
         "Machine":  "Genie",
         "Appearances":  3,
         "Plays ▼":  83,
@@ -2061,7 +2079,7 @@
         "Player":  "David Dodds"
     },
     {
-        "":  227,
+        "":  229,
         "Machine":  "Hook",
         "Appearances":  3,
         "Plays ▼":  83,
@@ -2070,7 +2088,7 @@
         "Player":  "Carl Spiby"
     },
     {
-        "":  227,
+        "":  229,
         "Machine":  "Queen\u0027s Castle",
         "Appearances":  3,
         "Plays ▼":  83,
@@ -2079,7 +2097,16 @@
         "Player":  "Leo Marshall"
     },
     {
-        "":  232,
+        "":  229,
+        "Machine":  "Gladiators",
+        "Appearances":  3,
+        "Plays ▼":  83,
+        "Average Score":  88584707,
+        "High Score":  751092770,
+        "Player":  "Nicolas Mobey"
+    },
+    {
+        "":  235,
         "Machine":  "Star Trek (Data East)",
         "Appearances":  4,
         "Plays ▼":  82,
@@ -2088,7 +2115,7 @@
         "Player":  "Phil Dixon"
     },
     {
-        "":  232,
+        "":  235,
         "Machine":  "Strikes and Spares",
         "Appearances":  4,
         "Plays ▼":  82,
@@ -2097,7 +2124,7 @@
         "Player":  "Richard Barber"
     },
     {
-        "":  234,
+        "":  237,
         "Machine":  "Laser War",
         "Appearances":  4,
         "Plays ▼":  81,
@@ -2106,7 +2133,7 @@
         "Player":  "Peter Blakemore"
     },
     {
-        "":  235,
+        "":  238,
         "Machine":  "Captain Fantastic",
         "Appearances":  3,
         "Plays ▼":  79,
@@ -2115,16 +2142,16 @@
         "Player":  "Daniel Bradford"
     },
     {
-        "":  236,
-        "Machine":  "Bad Cats",
-        "Appearances":  4,
-        "Plays ▼":  77,
-        "Average Score":  3193016,
-        "High Score":  47055510,
-        "Player":  "Phil Dixon"
+        "":  239,
+        "Machine":  "Popeye Saves The Earth",
+        "Appearances":  6,
+        "Plays ▼":  78,
+        "Average Score":  110672263,
+        "High Score":  550606420,
+        "Player":  "Keith Boreland"
     },
     {
-        "":  236,
+        "":  240,
         "Machine":  "Seawitch",
         "Appearances":  3,
         "Plays ▼":  77,
@@ -2133,7 +2160,7 @@
         "Player":  "Chris Williams"
     },
     {
-        "":  238,
+        "":  241,
         "Machine":  "Hot Tip",
         "Appearances":  4,
         "Plays ▼":  76,
@@ -2142,7 +2169,7 @@
         "Player":  "Ran Davies"
     },
     {
-        "":  238,
+        "":  241,
         "Machine":  "Galaxy",
         "Appearances":  3,
         "Plays ▼":  76,
@@ -2151,7 +2178,7 @@
         "Player":  "Krzysztof Gwiazda"
     },
     {
-        "":  238,
+        "":  241,
         "Machine":  "Night Rider",
         "Appearances":  3,
         "Plays ▼":  76,
@@ -2160,7 +2187,7 @@
         "Player":  "Will Jarvis"
     },
     {
-        "":  241,
+        "":  244,
         "Machine":  "Baseball",
         "Appearances":  5,
         "Plays ▼":  75,
@@ -2169,7 +2196,7 @@
         "Player":  "David Dutton"
     },
     {
-        "":  242,
+        "":  245,
         "Machine":  "Checkpoint",
         "Appearances":  4,
         "Plays ▼":  74,
@@ -2178,7 +2205,16 @@
         "Player":  "Ross Hamilton"
     },
     {
-        "":  243,
+        "":  245,
+        "Machine":  "Flight 2000",
+        "Appearances":  3,
+        "Plays ▼":  74,
+        "Average Score":  402047,
+        "High Score":  1747360,
+        "Player":  "Nicolas Mobey"
+    },
+    {
+        "":  247,
         "Machine":  "Scooby-Doo",
         "Appearances":  3,
         "Plays ▼":  72,
@@ -2187,7 +2223,7 @@
         "Player":  "Kevin Donovan"
     },
     {
-        "":  244,
+        "":  248,
         "Machine":  "Fun Park",
         "Appearances":  2,
         "Plays ▼":  71,
@@ -2196,7 +2232,7 @@
         "Player":  "Adrian Hufton"
     },
     {
-        "":  245,
+        "":  249,
         "Machine":  "The Uncanny X-Men",
         "Appearances":  3,
         "Plays ▼":  70,
@@ -2205,16 +2241,7 @@
         "Player":  "Matt Vince"
     },
     {
-        "":  245,
-        "Machine":  "The Munsters",
-        "Appearances":  3,
-        "Plays ▼":  70,
-        "Average Score":  14751953,
-        "High Score":  180473880,
-        "Player":  "Alan O\u0027Grady"
-    },
-    {
-        "":  247,
+        "":  250,
         "Machine":  "Cactus Canyon Continued",
         "Appearances":  5,
         "Plays ▼":  69,
@@ -2223,7 +2250,7 @@
         "Player":  "Andy Foster"
     },
     {
-        "":  247,
+        "":  250,
         "Machine":  "Atlantis",
         "Appearances":  4,
         "Plays ▼":  69,
@@ -2232,7 +2259,7 @@
         "Player":  "Kevin Donovan"
     },
     {
-        "":  247,
+        "":  250,
         "Machine":  "Count-Down",
         "Appearances":  4,
         "Plays ▼":  69,
@@ -2241,7 +2268,7 @@
         "Player":  "Peter Blakemore"
     },
     {
-        "":  247,
+        "":  250,
         "Machine":  "Magic Castle",
         "Appearances":  3,
         "Plays ▼":  69,
@@ -2250,7 +2277,7 @@
         "Player":  "James Watson"
     },
     {
-        "":  247,
+        "":  250,
         "Machine":  "Cosmic Gunfight",
         "Appearances":  2,
         "Plays ▼":  69,
@@ -2259,7 +2286,16 @@
         "Player":  "Stewart Judson"
     },
     {
-        "":  252,
+        "":  255,
+        "Machine":  "Oktoberfest",
+        "Appearances":  3,
+        "Plays ▼":  68,
+        "Average Score":  409838,
+        "High Score":  3366605,
+        "Player":  "Nathan Garwood"
+    },
+    {
+        "":  256,
         "Machine":  "Skill Pool",
         "Appearances":  2,
         "Plays ▼":  67,
@@ -2268,7 +2304,7 @@
         "Player":  "Ian Walmsley"
     },
     {
-        "":  253,
+        "":  257,
         "Machine":  "Gilligan\u0027s Island",
         "Appearances":  2,
         "Plays ▼":  65,
@@ -2277,7 +2313,16 @@
         "Player":  "Will Jarvis"
     },
     {
-        "":  254,
+        "":  258,
+        "Machine":  "King Kong",
+        "Appearances":  5,
+        "Plays ▼":  64,
+        "Average Score":  109520207,
+        "High Score":  598868750,
+        "Player":  "Wayne Johns"
+    },
+    {
+        "":  258,
         "Machine":  "Space Invaders",
         "Appearances":  3,
         "Plays ▼":  64,
@@ -2286,7 +2331,7 @@
         "Player":  "Julie Chambers"
     },
     {
-        "":  254,
+        "":  258,
         "Machine":  "The Beatles",
         "Appearances":  3,
         "Plays ▼":  64,
@@ -2295,7 +2340,7 @@
         "Player":  "Brad Attwood"
     },
     {
-        "":  256,
+        "":  261,
         "Machine":  "Black Hole",
         "Appearances":  6,
         "Plays ▼":  63,
@@ -2304,7 +2349,7 @@
         "Player":  "Steven Dale"
     },
     {
-        "":  257,
+        "":  262,
         "Machine":  "KISS",
         "Appearances":  4,
         "Plays ▼":  62,
@@ -2313,7 +2358,16 @@
         "Player":  "Phil Dixon"
     },
     {
-        "":  257,
+        "":  262,
+        "Machine":  "Iron Maiden",
+        "Appearances":  3,
+        "Plays ▼":  62,
+        "Average Score":  47355193,
+        "High Score":  511230510,
+        "Player":  "Andy Foster"
+    },
+    {
+        "":  262,
         "Machine":  "Kings \u0026 Queens",
         "Appearances":  2,
         "Plays ▼":  62,
@@ -2322,7 +2376,7 @@
         "Player":  "Steven Kielty"
     },
     {
-        "":  259,
+        "":  265,
         "Machine":  "Independence Day",
         "Appearances":  2,
         "Plays ▼":  61,
@@ -2331,7 +2385,7 @@
         "Player":  "Tim Thornton"
     },
     {
-        "":  260,
+        "":  266,
         "Machine":  "Solar Fire",
         "Appearances":  2,
         "Plays ▼":  60,
@@ -2340,25 +2394,7 @@
         "Player":  "Nick Marshall"
     },
     {
-        "":  261,
-        "Machine":  "Popeye Saves The Earth",
-        "Appearances":  5,
-        "Plays ▼":  58,
-        "Average Score":  117150704,
-        "High Score":  550606420,
-        "Player":  "Keith Boreland"
-    },
-    {
-        "":  261,
-        "Machine":  "Hollywood Heat",
-        "Appearances":  2,
-        "Plays ▼":  58,
-        "Average Score":  1290910,
-        "High Score":  5482920,
-        "Player":  "Andy Foster"
-    },
-    {
-        "":  261,
+        "":  267,
         "Machine":  "Post Time",
         "Appearances":  2,
         "Plays ▼":  58,
@@ -2367,7 +2403,16 @@
         "Player":  "Chris Bowers"
     },
     {
-        "":  264,
+        "":  267,
+        "Machine":  "Hollywood Heat",
+        "Appearances":  2,
+        "Plays ▼":  58,
+        "Average Score":  1290910,
+        "High Score":  5482920,
+        "Player":  "Andy Foster"
+    },
+    {
+        "":  269,
         "Machine":  "Pool Sharks",
         "Appearances":  4,
         "Plays ▼":  56,
@@ -2376,7 +2421,7 @@
         "Player":  "Eric Ridley"
     },
     {
-        "":  265,
+        "":  270,
         "Machine":  "John Wick",
         "Appearances":  3,
         "Plays ▼":  55,
@@ -2385,16 +2430,7 @@
         "Player":  "Matt Vince"
     },
     {
-        "":  265,
-        "Machine":  "Gladiators",
-        "Appearances":  2,
-        "Plays ▼":  55,
-        "Average Score":  77563532,
-        "High Score":  628234940,
-        "Player":  "Kevin Donovan"
-    },
-    {
-        "":  267,
+        "":  271,
         "Machine":  "South Park",
         "Appearances":  3,
         "Plays ▼":  54,
@@ -2403,7 +2439,7 @@
         "Player":  "Eric Ridley"
     },
     {
-        "":  268,
+        "":  272,
         "Machine":  "Party Animal",
         "Appearances":  3,
         "Plays ▼":  53,
@@ -2412,7 +2448,7 @@
         "Player":  "Eddie Lehan"
     },
     {
-        "":  269,
+        "":  273,
         "Machine":  "Stars",
         "Appearances":  5,
         "Plays ▼":  52,
@@ -2421,7 +2457,7 @@
         "Player":  "John Higgins"
     },
     {
-        "":  269,
+        "":  273,
         "Machine":  "Legends of Valhalla",
         "Appearances":  2,
         "Plays ▼":  52,
@@ -2430,7 +2466,25 @@
         "Player":  "David Tucker"
     },
     {
-        "":  271,
+        "":  275,
+        "Machine":  "WrestleMania",
+        "Appearances":  2,
+        "Plays ▼":  51,
+        "Average Score":  27372744,
+        "High Score":  90934700,
+        "Player":  "Brad Gessey"
+    },
+    {
+        "":  275,
+        "Machine":  "Dungeons \u0026 Dragons: The Tyrant\u0027s Eye",
+        "Appearances":  2,
+        "Plays ▼":  51,
+        "Average Score":  147066580,
+        "High Score":  511922660,
+        "Player":  "Pete Bennett"
+    },
+    {
+        "":  277,
         "Machine":  "Skateball",
         "Appearances":  3,
         "Plays ▼":  50,
@@ -2439,7 +2493,7 @@
         "Player":  "Will Jarvis"
     },
     {
-        "":  271,
+        "":  277,
         "Machine":  "Combat",
         "Appearances":  2,
         "Plays ▼":  50,
@@ -2448,7 +2502,7 @@
         "Player":  "Terry Sullivan"
     },
     {
-        "":  271,
+        "":  277,
         "Machine":  "Lightning",
         "Appearances":  2,
         "Plays ▼":  50,
@@ -2457,7 +2511,7 @@
         "Player":  "Eddie Mole"
     },
     {
-        "":  274,
+        "":  280,
         "Machine":  "Palooka",
         "Appearances":  2,
         "Plays ▼":  49,
@@ -2466,25 +2520,7 @@
         "Player":  "Garry Speight"
     },
     {
-        "":  275,
-        "Machine":  "Oktoberfest",
-        "Appearances":  2,
-        "Plays ▼":  48,
-        "Average Score":  408164,
-        "High Score":  3366605,
-        "Player":  "Nathan Garwood"
-    },
-    {
-        "":  276,
-        "Machine":  "Locomotion",
-        "Appearances":  2,
-        "Plays ▼":  47,
-        "Average Score":  227289,
-        "High Score":  618180,
-        "Player":  "Ulf Rokkan"
-    },
-    {
-        "":  276,
+        "":  281,
         "Machine":  "Mafia",
         "Appearances":  2,
         "Plays ▼":  47,
@@ -2493,16 +2529,16 @@
         "Player":  "Kevin Donovan"
     },
     {
-        "":  278,
-        "Machine":  "Flight 2000",
+        "":  281,
+        "Machine":  "Locomotion",
         "Appearances":  2,
-        "Plays ▼":  46,
-        "Average Score":  402261,
-        "High Score":  1747360,
-        "Player":  "Nicolas Mobey"
+        "Plays ▼":  47,
+        "Average Score":  227289,
+        "High Score":  618180,
+        "Player":  "Ulf Rokkan"
     },
     {
-        "":  279,
+        "":  283,
         "Machine":  "King of Diamonds",
         "Appearances":  2,
         "Plays ▼":  45,
@@ -2511,7 +2547,7 @@
         "Player":  "Mark Nairn"
     },
     {
-        "":  279,
+        "":  283,
         "Machine":  "Rick and Morty",
         "Appearances":  2,
         "Plays ▼":  45,
@@ -2520,7 +2556,7 @@
         "Player":  "Andy Foster"
     },
     {
-        "":  279,
+        "":  283,
         "Machine":  "Big Fair",
         "Appearances":  2,
         "Plays ▼":  45,
@@ -2529,7 +2565,7 @@
         "Player":  "Dave Langley"
     },
     {
-        "":  282,
+        "":  286,
         "Machine":  "Torpedo Alley",
         "Appearances":  2,
         "Plays ▼":  44,
@@ -2538,7 +2574,7 @@
         "Player":  "Luke Wells"
     },
     {
-        "":  282,
+        "":  286,
         "Machine":  "Spooky",
         "Appearances":  1,
         "Plays ▼":  44,
@@ -2547,7 +2583,7 @@
         "Player":  "David Fowler"
     },
     {
-        "":  284,
+        "":  288,
         "Machine":  "Escape from the Lost World",
         "Appearances":  4,
         "Plays ▼":  43,
@@ -2556,7 +2592,7 @@
         "Player":  "Michael Connechie"
     },
     {
-        "":  285,
+        "":  289,
         "Machine":  "Buckaroo",
         "Appearances":  4,
         "Plays ▼":  42,
@@ -2565,7 +2601,7 @@
         "Player":  "Dan Prachar"
     },
     {
-        "":  285,
+        "":  289,
         "Machine":  "Eye of the Tiger",
         "Appearances":  4,
         "Plays ▼":  42,
@@ -2574,7 +2610,7 @@
         "Player":  "Andy Sims"
     },
     {
-        "":  285,
+        "":  289,
         "Machine":  "Royal Guard",
         "Appearances":  4,
         "Plays ▼":  42,
@@ -2583,7 +2619,7 @@
         "Player":  "Peter Blakemore"
     },
     {
-        "":  285,
+        "":  289,
         "Machine":  "Ali",
         "Appearances":  2,
         "Plays ▼":  42,
@@ -2592,7 +2628,16 @@
         "Player":  "Paul Bergers"
     },
     {
-        "":  289,
+        "":  293,
+        "Machine":  "Operation: Thunder",
+        "Appearances":  2,
+        "Plays ▼":  41,
+        "Average Score":  27622565,
+        "High Score":  108237740,
+        "Player":  "Martin Ayub"
+    },
+    {
+        "":  293,
         "Machine":  "Evil Dead",
         "Appearances":  1,
         "Plays ▼":  41,
@@ -2601,7 +2646,7 @@
         "Player":  "Brad Attwood"
     },
     {
-        "":  289,
+        "":  293,
         "Machine":  "Star Wars: Fall of the Empire",
         "Appearances":  1,
         "Plays ▼":  41,
@@ -2610,7 +2655,7 @@
         "Player":  "Dan Pike"
     },
     {
-        "":  291,
+        "":  296,
         "Machine":  "Galactic Tank Force",
         "Appearances":  2,
         "Plays ▼":  40,
@@ -2619,7 +2664,7 @@
         "Player":  "Colin Clunie"
     },
     {
-        "":  291,
+        "":  296,
         "Machine":  "Aztec",
         "Appearances":  1,
         "Plays ▼":  40,
@@ -2628,7 +2673,7 @@
         "Player":  "Ulf Rokkan"
     },
     {
-        "":  293,
+        "":  298,
         "Machine":  "Quicksilver",
         "Appearances":  1,
         "Plays ▼":  39,
@@ -2637,16 +2682,7 @@
         "Player":  "David Fowler"
     },
     {
-        "":  294,
-        "Machine":  "King Kong",
-        "Appearances":  4,
-        "Plays ▼":  38,
-        "Average Score":  118059614,
-        "High Score":  598868750,
-        "Player":  "Wayne Johns"
-    },
-    {
-        "":  294,
+        "":  299,
         "Machine":  "Maverick",
         "Appearances":  2,
         "Plays ▼":  38,
@@ -2655,7 +2691,7 @@
         "Player":  "Will Barber"
     },
     {
-        "":  296,
+        "":  300,
         "Machine":  "Road Kings",
         "Appearances":  2,
         "Plays ▼":  37,
@@ -2664,7 +2700,7 @@
         "Player":  "Darren Ball"
     },
     {
-        "":  296,
+        "":  300,
         "Machine":  "Blue Chip",
         "Appearances":  1,
         "Plays ▼":  37,
@@ -2673,7 +2709,7 @@
         "Player":  "Will Jarvis"
     },
     {
-        "":  296,
+        "":  300,
         "Machine":  "Lady Luck",
         "Appearances":  1,
         "Plays ▼":  37,
@@ -2682,7 +2718,7 @@
         "Player":  "Garry Speight"
     },
     {
-        "":  296,
+        "":  300,
         "Machine":  "Big Deal",
         "Appearances":  1,
         "Plays ▼":  37,
@@ -2691,7 +2727,7 @@
         "Player":  "Andrew Broom"
     },
     {
-        "":  300,
+        "":  304,
         "Machine":  "Hot Wheels",
         "Appearances":  2,
         "Plays ▼":  36,
@@ -2700,16 +2736,7 @@
         "Player":  "Mark Slade"
     },
     {
-        "":  300,
-        "Machine":  "Iron Maiden",
-        "Appearances":  2,
-        "Plays ▼":  36,
-        "Average Score":  248108,
-        "High Score":  1100510,
-        "Player":  "Eddie Mole"
-    },
-    {
-        "":  300,
+        "":  304,
         "Machine":  "Harry Potter",
         "Appearances":  1,
         "Plays ▼":  36,
@@ -2718,7 +2745,7 @@
         "Player":  "Paul Barber"
     },
     {
-        "":  303,
+        "":  306,
         "Machine":  "Venom",
         "Appearances":  3,
         "Plays ▼":  35,
@@ -2727,7 +2754,7 @@
         "Player":  "George Bennett"
     },
     {
-        "":  303,
+        "":  306,
         "Machine":  "2001",
         "Appearances":  3,
         "Plays ▼":  35,
@@ -2736,7 +2763,7 @@
         "Player":  "Greg Mott"
     },
     {
-        "":  303,
+        "":  306,
         "Machine":  "Apollo",
         "Appearances":  1,
         "Plays ▼":  35,
@@ -2745,16 +2772,7 @@
         "Player":  "Andrew Ellis"
     },
     {
-        "":  303,
-        "Machine":  "Hot Line",
-        "Appearances":  1,
-        "Plays ▼":  35,
-        "Average Score":  2261,
-        "High Score":  4326,
-        "Player":  "Roger Valentine"
-    },
-    {
-        "":  303,
+        "":  306,
         "Machine":  "Phantom of the Opera",
         "Appearances":  1,
         "Plays ▼":  35,
@@ -2763,7 +2781,7 @@
         "Player":  "Paul Owen"
     },
     {
-        "":  303,
+        "":  306,
         "Machine":  "Kings of Steel",
         "Appearances":  1,
         "Plays ▼":  35,
@@ -2772,16 +2790,16 @@
         "Player":  "Garry Speight"
     },
     {
-        "":  309,
-        "Machine":  "Striker",
-        "Appearances":  2,
-        "Plays ▼":  34,
-        "Average Score":  92810932,
-        "High Score":  333442490,
-        "Player":  "Mark Armstrong"
+        "":  306,
+        "Machine":  "Hot Line",
+        "Appearances":  1,
+        "Plays ▼":  35,
+        "Average Score":  2261,
+        "High Score":  4326,
+        "Player":  "Roger Valentine"
     },
     {
-        "":  309,
+        "":  312,
         "Machine":  "The Lost World Jurassic Park",
         "Appearances":  2,
         "Plays ▼":  34,
@@ -2790,7 +2808,16 @@
         "Player":  "Philip Fryars"
     },
     {
-        "":  309,
+        "":  312,
+        "Machine":  "Striker",
+        "Appearances":  2,
+        "Plays ▼":  34,
+        "Average Score":  92810932,
+        "High Score":  333442490,
+        "Player":  "Mark Armstrong"
+    },
+    {
+        "":  312,
         "Machine":  "Austin Powers",
         "Appearances":  1,
         "Plays ▼":  34,
@@ -2799,7 +2826,7 @@
         "Player":  "Nick Hegarty"
     },
     {
-        "":  309,
+        "":  312,
         "Machine":  "Hot Hand",
         "Appearances":  1,
         "Plays ▼":  34,
@@ -2808,7 +2835,7 @@
         "Player":  "Graham Swaffield"
     },
     {
-        "":  313,
+        "":  316,
         "Machine":  "Batman (Data East)",
         "Appearances":  2,
         "Plays ▼":  33,
@@ -2817,7 +2844,7 @@
         "Player":  "Wayne Johns"
     },
     {
-        "":  313,
+        "":  316,
         "Machine":  "Toy Story 4",
         "Appearances":  2,
         "Plays ▼":  33,
@@ -2826,7 +2853,7 @@
         "Player":  "Clement Raigneau"
     },
     {
-        "":  313,
+        "":  316,
         "Machine":  "Fun Land",
         "Appearances":  1,
         "Plays ▼":  33,
@@ -2835,7 +2862,7 @@
         "Player":  "Andy Foster"
     },
     {
-        "":  316,
+        "":  319,
         "Machine":  "Cleopatra",
         "Appearances":  3,
         "Plays ▼":  32,
@@ -2844,7 +2871,7 @@
         "Player":  "Peter Blakemore"
     },
     {
-        "":  316,
+        "":  319,
         "Machine":  "Torch",
         "Appearances":  3,
         "Plays ▼":  32,
@@ -2853,7 +2880,7 @@
         "Player":  "Peter Blakemore"
     },
     {
-        "":  316,
+        "":  319,
         "Machine":  "Super Orbit",
         "Appearances":  1,
         "Plays ▼":  32,
@@ -2862,7 +2889,7 @@
         "Player":  "Phil Omerod"
     },
     {
-        "":  316,
+        "":  319,
         "Machine":  "Bounty Hunter",
         "Appearances":  1,
         "Plays ▼":  32,
@@ -2871,7 +2898,7 @@
         "Player":  "Martyn Raison"
     },
     {
-        "":  320,
+        "":  323,
         "Machine":  "Pink Panther",
         "Appearances":  2,
         "Plays ▼":  31,
@@ -2880,7 +2907,7 @@
         "Player":  "Tim Porter"
     },
     {
-        "":  321,
+        "":  324,
         "Machine":  "James Bond 007 (60th Anniversary)",
         "Appearances":  2,
         "Plays ▼":  30,
@@ -2889,7 +2916,7 @@
         "Player":  "Matt Vince"
     },
     {
-        "":  321,
+        "":  324,
         "Machine":  "Sky Kings",
         "Appearances":  1,
         "Plays ▼":  30,
@@ -2898,7 +2925,7 @@
         "Player":  "Paul Billings"
     },
     {
-        "":  321,
+        "":  324,
         "Machine":  "Dungeons \u0026 Dragons (Bally)",
         "Appearances":  1,
         "Plays ▼":  30,
@@ -2907,43 +2934,7 @@
         "Player":  "Luke Wells"
     },
     {
-        "":  324,
-        "Machine":  "Bronco",
-        "Appearances":  1,
-        "Plays ▼":  29,
-        "Average Score":  43870,
-        "High Score":  123650,
-        "Player":  "Ross Hamilton"
-    },
-    {
-        "":  324,
-        "Machine":  "Hit the Deck",
-        "Appearances":  1,
-        "Plays ▼":  29,
-        "Average Score":  58712,
-        "High Score":  277460,
-        "Player":  "Kate Rothwell-Jackson"
-    },
-    {
-        "":  324,
-        "Machine":  "Sharpshooter",
-        "Appearances":  1,
-        "Plays ▼":  29,
-        "Average Score":  150076,
-        "High Score":  387460,
-        "Player":  "Karim Cherif"
-    },
-    {
-        "":  324,
-        "Machine":  "Grand Lizard",
-        "Appearances":  1,
-        "Plays ▼":  29,
-        "Average Score":  652373,
-        "High Score":  2121220,
-        "Player":  "Timothy Raison"
-    },
-    {
-        "":  324,
+        "":  327,
         "Machine":  "Jive Time",
         "Appearances":  1,
         "Plays ▼":  29,
@@ -2952,7 +2943,7 @@
         "Player":  "Paul Garner"
     },
     {
-        "":  324,
+        "":  327,
         "Machine":  "Hokus Pokus",
         "Appearances":  1,
         "Plays ▼":  29,
@@ -2961,7 +2952,7 @@
         "Player":  "Jayne Raison"
     },
     {
-        "":  324,
+        "":  327,
         "Machine":  "World Fair",
         "Appearances":  1,
         "Plays ▼":  29,
@@ -2970,7 +2961,7 @@
         "Player":  "Daniel Omerod"
     },
     {
-        "":  324,
+        "":  327,
         "Machine":  "Catacomb",
         "Appearances":  1,
         "Plays ▼":  29,
@@ -2979,7 +2970,43 @@
         "Player":  "Paul Owen"
     },
     {
-        "":  332,
+        "":  327,
+        "Machine":  "Bronco",
+        "Appearances":  1,
+        "Plays ▼":  29,
+        "Average Score":  43870,
+        "High Score":  123650,
+        "Player":  "Ross Hamilton"
+    },
+    {
+        "":  327,
+        "Machine":  "Hit the Deck",
+        "Appearances":  1,
+        "Plays ▼":  29,
+        "Average Score":  58712,
+        "High Score":  277460,
+        "Player":  "Kate Rothwell-Jackson"
+    },
+    {
+        "":  327,
+        "Machine":  "Grand Lizard",
+        "Appearances":  1,
+        "Plays ▼":  29,
+        "Average Score":  652373,
+        "High Score":  2121220,
+        "Player":  "Timothy Raison"
+    },
+    {
+        "":  327,
+        "Machine":  "Sharpshooter",
+        "Appearances":  1,
+        "Plays ▼":  29,
+        "Average Score":  150076,
+        "High Score":  387460,
+        "Player":  "Karim Cherif"
+    },
+    {
+        "":  335,
         "Machine":  "Soccer",
         "Appearances":  1,
         "Plays ▼":  28,
@@ -2988,7 +3015,7 @@
         "Player":  "Andy Foster"
     },
     {
-        "":  332,
+        "":  335,
         "Machine":  "Tri Zone",
         "Appearances":  1,
         "Plays ▼":  28,
@@ -2997,7 +3024,7 @@
         "Player":  "Dave Langley"
     },
     {
-        "":  332,
+        "":  335,
         "Machine":  "Secret Service",
         "Appearances":  1,
         "Plays ▼":  28,
@@ -3006,7 +3033,7 @@
         "Player":  "Krzysztof Gwiazda"
     },
     {
-        "":  332,
+        "":  335,
         "Machine":  "Beat the Clock",
         "Appearances":  1,
         "Plays ▼":  28,
@@ -3015,7 +3042,7 @@
         "Player":  "Adrian Donati"
     },
     {
-        "":  336,
+        "":  339,
         "Machine":  "Alice Cooper\u0027s Nightmare Castle",
         "Appearances":  2,
         "Plays ▼":  27,
@@ -3024,16 +3051,7 @@
         "Player":  "Alan O\u0027Grady"
     },
     {
-        "":  336,
-        "Machine":  "WrestleMania",
-        "Appearances":  1,
-        "Plays ▼":  27,
-        "Average Score":  27376692,
-        "High Score":  53317820,
-        "Player":  "Ian Clarke"
-    },
-    {
-        "":  336,
+        "":  339,
         "Machine":  "Texas Chainsaw Massacre",
         "Appearances":  1,
         "Plays ▼":  27,
@@ -3042,7 +3060,7 @@
         "Player":  "Dave Large"
     },
     {
-        "":  339,
+        "":  341,
         "Machine":  "Playball",
         "Appearances":  2,
         "Plays ▼":  26,
@@ -3051,7 +3069,7 @@
         "Player":  "Ben Flynn"
     },
     {
-        "":  339,
+        "":  341,
         "Machine":  "Full Throttle",
         "Appearances":  1,
         "Plays ▼":  26,
@@ -3060,7 +3078,7 @@
         "Player":  "Chris Poyntz"
     },
     {
-        "":  339,
+        "":  341,
         "Machine":  "Doodle Bug",
         "Appearances":  1,
         "Plays ▼":  26,
@@ -3069,7 +3087,7 @@
         "Player":  "Vin Jauhal"
     },
     {
-        "":  339,
+        "":  341,
         "Machine":  "Metallica Remastered",
         "Appearances":  1,
         "Plays ▼":  26,
@@ -3078,7 +3096,7 @@
         "Player":  "Chris Poyntz"
     },
     {
-        "":  339,
+        "":  341,
         "Machine":  "High Roller Casino",
         "Appearances":  1,
         "Plays ▼":  26,
@@ -3087,25 +3105,7 @@
         "Player":  "Will Jarvis"
     },
     {
-        "":  344,
-        "Machine":  "Black Rose: Skull and Bones",
-        "Appearances":  1,
-        "Plays ▼":  25,
-        "Average Score":  117713775,
-        "High Score":  314234648,
-        "Player":  "Thomas Calvert"
-    },
-    {
-        "":  344,
-        "Machine":  "Gold Wings",
-        "Appearances":  1,
-        "Plays ▼":  25,
-        "Average Score":  1344433,
-        "High Score":  4569730,
-        "Player":  "Dave Moore"
-    },
-    {
-        "":  344,
+        "":  346,
         "Machine":  "Bugs Bunny\u0027s Birthday Ball",
         "Appearances":  1,
         "Plays ▼":  25,
@@ -3114,7 +3114,7 @@
         "Player":  "Daniel Gwynn Wood"
     },
     {
-        "":  344,
+        "":  346,
         "Machine":  "Cue Ball Wizard",
         "Appearances":  1,
         "Plays ▼":  25,
@@ -3123,7 +3123,34 @@
         "Player":  "Nicolas Mobey"
     },
     {
-        "":  344,
+        "":  346,
+        "Machine":  "Black Rose: Skull and Bones",
+        "Appearances":  1,
+        "Plays ▼":  25,
+        "Average Score":  117713775,
+        "High Score":  314234648,
+        "Player":  "Thomas Calvert"
+    },
+    {
+        "":  346,
+        "Machine":  "Gold Wings",
+        "Appearances":  1,
+        "Plays ▼":  25,
+        "Average Score":  1344433,
+        "High Score":  4569730,
+        "Player":  "Dave Moore"
+    },
+    {
+        "":  346,
+        "Machine":  "Blackout",
+        "Appearances":  1,
+        "Plays ▼":  25,
+        "Average Score":  409560,
+        "High Score":  884830,
+        "Player":  "Brad Gessey"
+    },
+    {
+        "":  346,
         "Machine":  "Pharaoh",
         "Appearances":  1,
         "Plays ▼":  25,
@@ -3132,7 +3159,7 @@
         "Player":  "Nick Marshall"
     },
     {
-        "":  344,
+        "":  346,
         "Machine":  "Hot Shots",
         "Appearances":  1,
         "Plays ▼":  25,
@@ -3141,7 +3168,7 @@
         "Player":  "Andy Foster"
     },
     {
-        "":  344,
+        "":  346,
         "Machine":  "Touchdown",
         "Appearances":  1,
         "Plays ▼":  25,
@@ -3150,7 +3177,7 @@
         "Player":  "Jim Lindsay"
     },
     {
-        "":  344,
+        "":  346,
         "Machine":  "Teenage Mutant Ninja Turtles (Data East)",
         "Appearances":  1,
         "Plays ▼":  25,
@@ -3159,16 +3186,7 @@
         "Player":  "Greg Mott"
     },
     {
-        "":  352,
-        "Machine":  "Last Action Hero",
-        "Appearances":  1,
-        "Plays ▼":  24,
-        "Average Score":  107214069,
-        "High Score":  265787900,
-        "Player":  "Nick Marshall"
-    },
-    {
-        "":  352,
+        "":  355,
         "Machine":  "Wing Ding",
         "Appearances":  1,
         "Plays ▼":  24,
@@ -3177,7 +3195,16 @@
         "Player":  "Chris Malcolm"
     },
     {
-        "":  352,
+        "":  355,
+        "Machine":  "Last Action Hero",
+        "Appearances":  1,
+        "Plays ▼":  24,
+        "Average Score":  107214069,
+        "High Score":  265787900,
+        "Player":  "Nick Marshall"
+    },
+    {
+        "":  355,
         "Machine":  "World Challenge Soccer",
         "Appearances":  1,
         "Plays ▼":  24,
@@ -3186,7 +3213,7 @@
         "Player":  "Greg Mott"
     },
     {
-        "":  352,
+        "":  355,
         "Machine":  "The Big Lebowski",
         "Appearances":  1,
         "Plays ▼":  24,
@@ -3195,7 +3222,7 @@
         "Player":  "Jason Pitt"
     },
     {
-        "":  352,
+        "":  355,
         "Machine":  "Heist",
         "Appearances":  1,
         "Plays ▼":  24,
@@ -3204,7 +3231,7 @@
         "Player":  "Stan Simpson"
     },
     {
-        "":  357,
+        "":  360,
         "Machine":  "Special Force",
         "Appearances":  1,
         "Plays ▼":  23,
@@ -3213,7 +3240,7 @@
         "Player":  "David Bowery"
     },
     {
-        "":  357,
+        "":  360,
         "Machine":  "Labyrinth",
         "Appearances":  1,
         "Plays ▼":  23,
@@ -3222,16 +3249,7 @@
         "Player":  "Paul Barber"
     },
     {
-        "":  357,
-        "Machine":  "Dungeons \u0026 Dragons: The Tyrant\u0027s Eye",
-        "Appearances":  1,
-        "Plays ▼":  23,
-        "Average Score":  172167429,
-        "High Score":  511922660,
-        "Player":  "Pete Bennett"
-    },
-    {
-        "":  357,
+        "":  360,
         "Machine":  "Sorcerer",
         "Appearances":  1,
         "Plays ▼":  23,
@@ -3240,7 +3258,7 @@
         "Player":  "Justin Walker"
     },
     {
-        "":  361,
+        "":  363,
         "Machine":  "Mystic",
         "Appearances":  1,
         "Plays ▼":  22,
@@ -3249,7 +3267,7 @@
         "Player":  "James Watson"
     },
     {
-        "":  361,
+        "":  363,
         "Machine":  "Frank Thomas\u0027 Big Hurt",
         "Appearances":  1,
         "Plays ▼":  22,
@@ -3258,7 +3276,7 @@
         "Player":  "Helmut Langenbruch"
     },
     {
-        "":  361,
+        "":  363,
         "Machine":  "Laser Ball",
         "Appearances":  1,
         "Plays ▼":  22,
@@ -3267,7 +3285,7 @@
         "Player":  "Dan Williams"
     },
     {
-        "":  361,
+        "":  363,
         "Machine":  "Cross Town",
         "Appearances":  1,
         "Plays ▼":  22,
@@ -3276,7 +3294,7 @@
         "Player":  "Dan Pocklington"
     },
     {
-        "":  361,
+        "":  363,
         "Machine":  "Star Wars Trilogy (Sega)",
         "Appearances":  1,
         "Plays ▼":  22,
@@ -3285,7 +3303,7 @@
         "Player":  "Jon Meggat"
     },
     {
-        "":  366,
+        "":  368,
         "Machine":  "Hotdoggin\u0027",
         "Appearances":  1,
         "Plays ▼":  21,
@@ -3294,7 +3312,7 @@
         "Player":  "Pete Bennett"
     },
     {
-        "":  366,
+        "":  368,
         "Machine":  "Target Alpha",
         "Appearances":  1,
         "Plays ▼":  21,
@@ -3303,7 +3321,7 @@
         "Player":  "Craig Hutchinson"
     },
     {
-        "":  366,
+        "":  368,
         "Machine":  "Old Chicago",
         "Appearances":  1,
         "Plays ▼":  21,
@@ -3312,7 +3330,7 @@
         "Player":  "Jon Carolan"
     },
     {
-        "":  366,
+        "":  368,
         "Machine":  "Godzilla (Sega)",
         "Appearances":  1,
         "Plays ▼":  21,
@@ -3321,7 +3339,7 @@
         "Player":  "Nick Marshall"
     },
     {
-        "":  370,
+        "":  372,
         "Machine":  "4 Square",
         "Appearances":  1,
         "Plays ▼":  20,
@@ -3330,7 +3348,16 @@
         "Player":  "Jennifer Hailstones"
     },
     {
-        "":  371,
+        "":  372,
+        "Machine":  "NBA (Stern)",
+        "Appearances":  1,
+        "Plays ▼":  20,
+        "Average Score":  4633481,
+        "High Score":  12847350,
+        "Player":  "Nathan Garwood"
+    },
+    {
+        "":  374,
         "Machine":  "Heavy Metal Meltdown",
         "Appearances":  2,
         "Plays ▼":  19,
@@ -3339,7 +3366,7 @@
         "Player":  "John Higgins"
     },
     {
-        "":  371,
+        "":  374,
         "Machine":  "Dealer\u0027s Choice",
         "Appearances":  1,
         "Plays ▼":  19,
@@ -3348,7 +3375,7 @@
         "Player":  "Will Jarvis"
     },
     {
-        "":  371,
+        "":  374,
         "Machine":  "Triple Strike",
         "Appearances":  1,
         "Plays ▼":  19,
@@ -3357,7 +3384,7 @@
         "Player":  "Simon Lowe"
     },
     {
-        "":  371,
+        "":  374,
         "Machine":  "Speakeasy",
         "Appearances":  1,
         "Plays ▼":  19,
@@ -3366,7 +3393,7 @@
         "Player":  "Wayne Johns"
     },
     {
-        "":  371,
+        "":  374,
         "Machine":  "Baby Doll",
         "Appearances":  1,
         "Plays ▼":  19,
@@ -3375,7 +3402,7 @@
         "Player":  "Will Jarvis"
     },
     {
-        "":  371,
+        "":  374,
         "Machine":  "Zip-a-Doo",
         "Appearances":  1,
         "Plays ▼":  19,
@@ -3384,25 +3411,7 @@
         "Player":  "Andy Foster"
     },
     {
-        "":  371,
-        "Machine":  "Twister",
-        "Appearances":  1,
-        "Plays ▼":  19,
-        "Average Score":  403041838,
-        "High Score":  1293750850,
-        "Player":  "Jon Meggat"
-    },
-    {
-        "":  371,
-        "Machine":  "Andromeda",
-        "Appearances":  1,
-        "Plays ▼":  19,
-        "Average Score":  310270,
-        "High Score":  1503590,
-        "Player":  "Nick Marshall"
-    },
-    {
-        "":  371,
+        "":  374,
         "Machine":  "Final Resistance",
         "Appearances":  1,
         "Plays ▼":  19,
@@ -3411,7 +3420,25 @@
         "Player":  "David Tucker"
     },
     {
-        "":  371,
+        "":  374,
+        "Machine":  "Twister",
+        "Appearances":  1,
+        "Plays ▼":  19,
+        "Average Score":  403041838,
+        "High Score":  1293750850,
+        "Player":  "Jon Meggat"
+    },
+    {
+        "":  374,
+        "Machine":  "Andromeda",
+        "Appearances":  1,
+        "Plays ▼":  19,
+        "Average Score":  310270,
+        "High Score":  1503590,
+        "Player":  "Nick Marshall"
+    },
+    {
+        "":  374,
         "Machine":  "Top Card",
         "Appearances":  1,
         "Plays ▼":  19,
@@ -3420,7 +3447,7 @@
         "Player":  "Andy Foster"
     },
     {
-        "":  381,
+        "":  384,
         "Machine":  "Big Guns",
         "Appearances":  1,
         "Plays ▼":  18,
@@ -3429,7 +3456,7 @@
         "Player":  "Martin Ayub"
     },
     {
-        "":  382,
+        "":  385,
         "Machine":  "Sky-Line",
         "Appearances":  2,
         "Plays ▼":  17,
@@ -3438,7 +3465,7 @@
         "Player":  "Dan Prachar"
     },
     {
-        "":  382,
+        "":  385,
         "Machine":  "Space Rider",
         "Appearances":  1,
         "Plays ▼":  17,
@@ -3447,7 +3474,7 @@
         "Player":  "Martin Wardle"
     },
     {
-        "":  382,
+        "":  385,
         "Machine":  "Centaur II",
         "Appearances":  1,
         "Plays ▼":  17,
@@ -3456,7 +3483,7 @@
         "Player":  "Paul Reddington"
     },
     {
-        "":  382,
+        "":  385,
         "Machine":  "Cyclone",
         "Appearances":  1,
         "Plays ▼":  17,
@@ -3465,7 +3492,7 @@
         "Player":  "Clement Raigneau"
     },
     {
-        "":  386,
+        "":  389,
         "Machine":  "Comet",
         "Appearances":  1,
         "Plays ▼":  16,
@@ -3474,7 +3501,7 @@
         "Player":  "Eddie Mole"
     },
     {
-        "":  386,
+        "":  389,
         "Machine":  "Time Machine",
         "Appearances":  1,
         "Plays ▼":  16,
@@ -3483,7 +3510,7 @@
         "Player":  "Nick Marshall"
     },
     {
-        "":  388,
+        "":  391,
         "Machine":  "Surf Champ",
         "Appearances":  1,
         "Plays ▼":  14,
@@ -3492,16 +3519,7 @@
         "Player":  "Michael Donati"
     },
     {
-        "":  389,
-        "Machine":  "Operation: Thunder",
-        "Appearances":  1,
-        "Plays ▼":  13,
-        "Average Score":  24664049,
-        "High Score":  108237740,
-        "Player":  "Martin Ayub"
-    },
-    {
-        "":  389,
+        "":  392,
         "Machine":  "Sinbad",
         "Appearances":  1,
         "Plays ▼":  13,
@@ -3510,7 +3528,7 @@
         "Player":  "Andrew Wilson"
     },
     {
-        "":  391,
+        "":  393,
         "Machine":  "Wild Fyre",
         "Appearances":  1,
         "Plays ▼":  11,
@@ -3519,7 +3537,7 @@
         "Player":  "Wayne Johns"
     },
     {
-        "":  391,
+        "":  393,
         "Machine":  "Fire!",
         "Appearances":  1,
         "Plays ▼":  11,
@@ -3528,16 +3546,7 @@
         "Player":  "Stuart Kabler"
     },
     {
-        "":  393,
-        "Machine":  "Mata Hari",
-        "Appearances":  1,
-        "Plays ▼":  10,
-        "Average Score":  269438,
-        "High Score":  668660,
-        "Player":  "John Gardiner"
-    },
-    {
-        "":  393,
+        "":  395,
         "Machine":  "Baby Pac-Man",
         "Appearances":  1,
         "Plays ▼":  10,
@@ -3547,6 +3556,15 @@
     },
     {
         "":  395,
+        "Machine":  "Mata Hari",
+        "Appearances":  1,
+        "Plays ▼":  10,
+        "Average Score":  269438,
+        "High Score":  668660,
+        "Player":  "John Gardiner"
+    },
+    {
+        "":  397,
         "Machine":  "Mars God of War",
         "Appearances":  3,
         "Plays ▼":  6,
@@ -3555,7 +3573,7 @@
         "Player":  "Garry Speight"
     },
     {
-        "":  396,
+        "":  398,
         "Machine":  "Tag Team",
         "Appearances":  2,
         "Plays ▼":  4,
@@ -3564,7 +3582,7 @@
         "Player":  "Will Jarvis"
     },
     {
-        "":  396,
+        "":  398,
         "Machine":  "The Ramones",
         "Appearances":  2,
         "Plays ▼":  4,
@@ -3573,7 +3591,7 @@
         "Player":  "Andy Foster"
     },
     {
-        "":  396,
+        "":  398,
         "Machine":  "Big House",
         "Appearances":  2,
         "Plays ▼":  4,
@@ -3582,7 +3600,7 @@
         "Player":  "David Dutton"
     },
     {
-        "":  399,
+        "":  401,
         "Machine":  "Viking",
         "Appearances":  1,
         "Plays ▼":  2,

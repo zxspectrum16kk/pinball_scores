@@ -31,27 +31,26 @@
 
     <main>
         <div class="info">
-            <b>Instructions:</b> Select the machines you want to track below, then click "Save & View".
-            The stats will be calculated for the players currently selected in <b>Settings</b>.
+            Select machines below — the table updates instantly. Click the <b>Select Machines</b> header to hide the selector. Players shown are those selected in <b>Settings</b>.
         </div>
 
-        <details>
-            <summary class="details-summary">Edit Selection</summary>
-
-            <input type="text" id="machine-filter" placeholder="Search machines...">
-
-            <div class="controls">
+        <div class="selector-panel">
+            <div class="selector-header" id="selector-toggle" role="button" aria-expanded="true" tabindex="0">
+                <span class="selector-title">Select Machines</span>
+                <div class="selector-header-right">
+                    <span id="selection-count" class="selection-count">0 selected</span>
+                    <span class="selector-chevron">▲</span>
+                </div>
+            </div>
+            <div class="selector-controls">
+                <input type="text" id="machine-filter" placeholder="Search machines...">
                 <button id="btn-select-all">Select All</button>
                 <button id="btn-deselect-all">Deselect All</button>
-                <button id="btn-save" class="primary">Save & View Stats</button>
             </div>
-
             <div id="machine-selector" class="selector-container">
                 <!-- Checkboxes injected here -->
             </div>
-        </details>
-
-        <hr>
+        </div>
 
         <h2>Selected Machines Stats</h2>
         <p id="selection-summary"></p>

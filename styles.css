@@ -320,8 +320,7 @@ tbody td.sorted-col {
 #league-table th:first-child,
 .heatmap-table td:first-child,
 .heatmap-table th:first-child {
-    max-width: 25ch;
-    /* Limit to approx 25 characters */
+    max-width: 23ch;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -421,24 +420,106 @@ button.primary:hover {
    ENHANCED MACHINE LIST
    =========================== */
 
-/* Sticky Search Bar */
-details summary+input#machine-filter {
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    margin-bottom: 0;
-    border-radius: 0;
-    border-width: 0 0 1px 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+.selector-panel {
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: #fff;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.selector-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    background: var(--bg-header);
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    user-select: none;
+}
+
+.selector-header:hover {
+    background: #e5eef8;
+}
+
+.selector-header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.selector-title {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.selection-count {
+    font-size: 13px;
+    color: #555;
+    background: #ddeeff;
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+
+.selector-chevron {
+    font-size: 11px;
+    color: #888;
+    transition: transform 0.2s;
+}
+
+.selector-panel.collapsed .selector-controls,
+.selector-panel.collapsed .selector-container {
+    display: none;
+}
+
+.selector-panel.collapsed .selector-header {
+    border-bottom: none;
+}
+
+.selector-panel.collapsed .selector-chevron {
+    transform: rotate(180deg);
+}
+
+.selector-controls {
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .selector-container {
     max-height: 400px;
     overflow-y: auto;
-    border: 1px solid var(--border);
-    border-top: none;
     background: #fff;
-    border-radius: 0 0 4px 4px;
+}
+
+.plays-count {
+    display: block;
+    font-size: 11px;
+    color: #888;
+    font-weight: normal;
+}
+
+tbody tr td.winner-cell {
+    background-color: #fff8e1;
+    font-weight: bold;
+}
+
+tbody tr.unplayed-row td {
+    color: #bbb;
+    font-style: italic;
+}
+
+.show-unplayed-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    white-space: nowrap;
 }
 
 /* List Item Styles */
@@ -1017,9 +1098,8 @@ details summary+input#machine-filter {
 }
 
 #machine-filter {
-    width: 100%;
     max-width: 300px;
-    margin-bottom: 10px;
+    flex: 1;
 }
 
 /* ===========================

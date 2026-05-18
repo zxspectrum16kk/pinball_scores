@@ -10,15 +10,31 @@ export function renderCustomListPage(machines, stats) {
   const summaryEl = document.getElementById('selection-summary');
   const btnSelectAll = document.getElementById('btn-select-all');
   const btnDeselectAll = document.getElementById('btn-deselect-all');
-  const btnSave = document.getElementById('btn-save');
   const searchInput = document.getElementById('machine-filter');
+  const countEl = document.getElementById('selection-count');
 
   if (!container || !tableBody) return;
 
   let currentSelection = getCustomMachineSelection();
 
-  // 1. Render Selector
   const allMachineNames = machines.map(m => m.machine).sort((a, b) => a.localeCompare(b));
+
+  function updateCount() {
+    if (countEl) {
+      countEl.textContent = `${currentSelection.length} of ${allMachineNames.length} selected`;
+    }
+  }
+
+  function saveAndRender() {
+    const checked = [];
+    container.querySelectorAll('input[type="checkbox"]').forEach(c => {
+      if (c.checked) checked.push(c.value);
+    });
+    currentSelection = checked;
+    setCustomMachineSelection(currentSelection);
+    updateCount();
+    renderTable();
+  }
 
   function renderCheckboxes(filterText = '') {
     container.innerHTML = '';
@@ -37,13 +53,12 @@ export function renderCustomListPage(machines, stats) {
       checkbox.value = name;
       checkbox.checked = currentSelection.includes(name);
 
-      if (checkbox.checked) {
-        div.classList.add('selected');
-      }
+      if (checkbox.checked) div.classList.add('selected');
 
       checkbox.addEventListener('change', () => {
         if (checkbox.checked) div.classList.add('selected');
         else div.classList.remove('selected');
+        saveAndRender();
       });
 
       div.addEventListener('click', (e) => {
@@ -65,18 +80,28 @@ export function renderCustomListPage(machines, stats) {
   }
 
   renderCheckboxes();
+  updateCount();
 
-  // Search filter
+  const toggleBtn = document.getElementById('selector-toggle');
+  const panel = toggleBtn?.closest('.selector-panel');
+  if (toggleBtn && panel) {
+    const toggle = () => {
+      const collapsed = panel.classList.toggle('collapsed');
+      toggleBtn.setAttribute('aria-expanded', String(!collapsed));
+    };
+    toggleBtn.addEventListener('click', toggle);
+    toggleBtn.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); }
+    });
+  }
+
   searchInput.addEventListener('input', (e) => {
     const term = e.target.value.toLowerCase();
-    const items = container.querySelectorAll('.check-item');
-    items.forEach(item => {
-      const text = item.textContent.toLowerCase();
-      item.classList.toggle('hidden', !text.includes(term));
+    container.querySelectorAll('.check-item').forEach(item => {
+      item.classList.toggle('hidden', !item.textContent.toLowerCase().includes(term));
     });
   });
 
-  // Select/Deselect All (respects filter)
   btnSelectAll.onclick = () => {
     container.querySelectorAll('input[type="checkbox"]').forEach(c => {
       if (!c.closest('.check-item').classList.contains('hidden')) {
@@ -84,6 +109,7 @@ export function renderCustomListPage(machines, stats) {
         c.closest('.check-item').classList.add('selected');
       }
     });
+    saveAndRender();
   };
 
   btnDeselectAll.onclick = () => {
@@ -93,30 +119,19 @@ export function renderCustomListPage(machines, stats) {
         c.closest('.check-item').classList.remove('selected');
       }
     });
+    saveAndRender();
   };
 
-  // Save & View
-  btnSave.onclick = () => {
-    const checked = [];
-    container.querySelectorAll('input[type="checkbox"]').forEach(c => {
-      if (c.checked) checked.push(c.value);
-    });
-    currentSelection = checked;
-    setCustomMachineSelection(currentSelection);
-    renderTable();
-  };
-
-  // 2. Render Table
   function renderTable() {
     tableBody.innerHTML = '';
     const headerRow = document.getElementById('custom-header-row');
 
     if (currentSelection.length === 0) {
-      summaryEl.textContent = 'No machines selected.';
+      if (summaryEl) summaryEl.textContent = 'No machines selected.';
       return;
     }
 
-    summaryEl.textContent = `Showing ${currentSelection.length} machine(s).`;
+    if (summaryEl) summaryEl.textContent = `Showing ${currentSelection.length} machine(s).`;
 
     const selectedPlayers = getSelectedPlayers();
 
@@ -159,13 +174,17 @@ export function renderCustomListPage(machines, stats) {
       selectedPlayers.forEach(pName => {
         const key = playerKeyFromName(pName);
         const best = m[key]?.best || 0;
+        const plays = m[key]?.plays || 0;
         const trophy = ' <span class="trophy-icon">🏆</span>';
         const isTeamBest = teamBest > 0 && best === teamBest;
 
         const cls = getScoreClass(best, avgScore, highScore);
         const scoreAttr = cls ? `class="${cls}"` : '';
+        const playsHtml = plays > 0
+          ? `<small class="plays-count">${plays} play${plays !== 1 ? 's' : ''}</small>`
+          : '';
 
-        html += `<td ${scoreAttr}>${best ? fmtNumber(best) : '-'}${isTeamBest ? trophy : ''}</td>`;
+        html += `<td ${scoreAttr}>${best ? fmtNumber(best) : '-'}${isTeamBest ? trophy : ''}${playsHtml}</td>`;
       });
 
       tr.innerHTML = html;
@@ -177,6 +196,5 @@ export function renderCustomListPage(machines, stats) {
     makeTableSortable('custom-table', numericCols);
   }
 
-  // Initial render of table
   renderTable();
 }

@@ -140,6 +140,13 @@
         "% Top":  42.9
     },
     {
+        "Machine \u0026#9650;":  "Dr. Dude And His Excellent Ray",
+        "Plays":  1,
+        "Best Score":  3041390,
+        "Rank":  "54 / 201",
+        "% Top":  26.87
+    },
+    {
         "Machine \u0026#9650;":  "Eight Ball Deluxe",
         "Plays":  1,
         "Best Score":  1442530,
@@ -155,10 +162,10 @@
     },
     {
         "Machine \u0026#9650;":  "Elvira\u0026#039;s House of Horrors",
-        "Plays":  3,
+        "Plays":  4,
         "Best Score":  159011970,
-        "Rank":  "21 / 375",
-        "% Top":  5.6
+        "Rank":  "25 / 409",
+        "% Top":  6.11
     },
     {
         "Machine \u0026#9650;":  "F-14 Tomcat",
@@ -183,10 +190,10 @@
     },
     {
         "Machine \u0026#9650;":  "Fish Tales",
-        "Plays":  3,
+        "Plays":  4,
         "Best Score":  60754610,
-        "Rank":  "445 / 1,657",
-        "% Top":  26.86
+        "Rank":  "456 / 1,691",
+        "% Top":  26.97
     },
     {
         "Machine \u0026#9650;":  "Flash",
@@ -225,10 +232,17 @@
     },
     {
         "Machine \u0026#9650;":  "Godzilla (Stern)",
-        "Plays":  9,
+        "Plays":  10,
         "Best Score":  494846370,
-        "Rank":  "47 / 983",
-        "% Top":  4.78
+        "Rank":  "48 / 1,033",
+        "% Top":  4.65
+    },
+    {
+        "Machine \u0026#9650;":  "Grand Prix",
+        "Plays":  1,
+        "Best Score":  19605910,
+        "Rank":  "55 / 146",
+        "% Top":  37.67
     },
     {
         "Machine \u0026#9650;":  "Guardians of the Galaxy",
@@ -304,8 +318,8 @@
         "Machine \u0026#9650;":  "Iron Maiden: Legacy of the Beast",
         "Plays":  3,
         "Best Score":  102224160,
-        "Rank":  "291 / 847",
-        "% Top":  34.36
+        "Rank":  "296 / 863",
+        "% Top":  34.3
     },
     {
         "Machine \u0026#9650;":  "Iron Man",
@@ -323,10 +337,10 @@
     },
     {
         "Machine \u0026#9650;":  "Jaws",
-        "Plays":  1,
-        "Best Score":  111813630,
-        "Rank":  "106 / 255",
-        "% Top":  41.57
+        "Plays":  2,
+        "Best Score":  359065760,
+        "Rank":  "18 / 289",
+        "% Top":  6.23
     },
     {
         "Machine \u0026#9650;":  "Jokerz!",
@@ -344,10 +358,10 @@
     },
     {
         "Machine \u0026#9650;":  "Jurassic Park (Stern)",
-        "Plays":  9,
+        "Plays":  10,
         "Best Score":  219019730,
-        "Rank":  "68 / 553",
-        "% Top":  12.3
+        "Rank":  "75 / 587",
+        "% Top":  12.78
     },
     {
         "Machine \u0026#9650;":  "King Pin (Gottlieb 1973)",
@@ -477,10 +491,10 @@
     },
     {
         "Machine \u0026#9650;":  "Road Show",
-        "Plays":  3,
+        "Plays":  4,
         "Best Score":  633152340,
-        "Rank":  "170 / 1,309",
-        "% Top":  12.99
+        "Rank":  "178 / 1,343",
+        "% Top":  13.25
     },
     {
         "Machine \u0026#9650;":  "Robo-War",
@@ -535,8 +549,8 @@
         "Machine \u0026#9650;":  "Star Trek (Stern)",
         "Plays":  2,
         "Best Score":  71088460,
-        "Rank":  "137 / 964",
-        "% Top":  14.21
+        "Rank":  "137 / 980",
+        "% Top":  13.98
     },
     {
         "Machine \u0026#9650;":  "Star Trek Next Generation",
@@ -568,10 +582,10 @@
     },
     {
         "Machine \u0026#9650;":  "Stranger Things",
-        "Plays":  3,
-        "Best Score":  331490310,
-        "Rank":  "18 / 361",
-        "% Top":  4.99
+        "Plays":  4,
+        "Best Score":  405125900,
+        "Rank":  "9 / 411",
+        "% Top":  2.19
     },
     {
         "Machine \u0026#9650;":  "Strikes and Spares",
@@ -596,10 +610,10 @@
     },
     {
         "Machine \u0026#9650;":  "The Addams Family",
-        "Plays":  8,
+        "Plays":  9,
         "Best Score":  126746010,
-        "Rank":  "312 / 2,510",
-        "% Top":  12.43
+        "Rank":  "316 / 2,544",
+        "% Top":  12.42
     },
     {
         "Machine \u0026#9650;":  "The Flintstones",
@@ -617,10 +631,10 @@
     },
     {
         "Machine \u0026#9650;":  "The Party Zone",
-        "Plays":  1,
-        "Best Score":  4832920,
-        "Rank":  "219 / 281",
-        "% Top":  77.94
+        "Plays":  2,
+        "Best Score":  61142890,
+        "Rank":  "22 / 315",
+        "% Top":  6.98
     },
     {
         "Machine \u0026#9650;":  "The Shadow",
@@ -666,10 +680,10 @@
     },
     {
         "Machine \u0026#9650;":  "Twilight Zone",
-        "Plays":  7,
+        "Plays":  8,
         "Best Score":  398442320,
-        "Rank":  "169 / 2,553",
-        "% Top":  6.62
+        "Rank":  "172 / 2,587",
+        "% Top":  6.65
     },
     {
         "Machine \u0026#9650;":  "TX-Sector",
@@ -687,10 +701,10 @@
     },
     {
         "Machine \u0026#9650;":  "White Water",
-        "Plays":  7,
+        "Plays":  8,
         "Best Score":  469964360,
-        "Rank":  "67 / 1,878",
-        "% Top":  3.57
+        "Rank":  "69 / 1,912",
+        "% Top":  3.61
     },
     {
         "Machine \u0026#9650;":  "Whoa Nellie!",

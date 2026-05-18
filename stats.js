@@ -28,7 +28,7 @@ export function createEmptyMachine(name, ms = {}) {
         no: ms.No ?? ms.no ?? null,
         appearances: getNumericField(ms, ['apper', 'appear'], 0),
         machinePlays: getNumericField(ms, ['play'], 0),
-        avgScore: getNumericField(ms, ['average'], null),
+        avgScore: getNumericField(ms, ['average', 'avg'], null),
         highScore: getNumericField(ms, ['high'], null),
         highPlayer,
         ...createEmptyPlayerStats()

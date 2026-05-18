@@ -70,11 +70,18 @@
         "% Top":  97.22
     },
     {
-        "Machine \u0026#9650;":  "Elvira\u0026#039;s House of Horrors",
+        "Machine \u0026#9650;":  "Dr. Dude And His Excellent Ray",
         "Plays":  1,
+        "Best Score":  2332320,
+        "Rank":  "73 / 201",
+        "% Top":  36.32
+    },
+    {
+        "Machine \u0026#9650;":  "Elvira\u0026#039;s House of Horrors",
+        "Plays":  2,
         "Best Score":  9849870,
-        "Rank":  "305 / 375",
-        "% Top":  81.33
+        "Rank":  "336 / 409",
+        "% Top":  82.15
     },
     {
         "Machine \u0026#9650;":  "Fathom",
@@ -92,10 +99,10 @@
     },
     {
         "Machine \u0026#9650;":  "Fish Tales",
-        "Plays":  1,
-        "Best Score":  4497020,
-        "Rank":  "1,615 / 1,657",
-        "% Top":  97.47
+        "Plays":  2,
+        "Best Score":  11504120,
+        "Rank":  "1,408 / 1,691",
+        "% Top":  83.26
     },
     {
         "Machine \u0026#9650;":  "Flash",
@@ -134,10 +141,17 @@
     },
     {
         "Machine \u0026#9650;":  "Godzilla (Stern)",
-        "Plays":  3,
+        "Plays":  4,
         "Best Score":  155442680,
-        "Rank":  "279 / 983",
-        "% Top":  28.38
+        "Rank":  "290 / 1,033",
+        "% Top":  28.07
+    },
+    {
+        "Machine \u0026#9650;":  "Grand Prix",
+        "Plays":  1,
+        "Best Score":  17272800,
+        "Rank":  "63 / 146",
+        "% Top":  43.15
     },
     {
         "Machine \u0026#9650;":  "Harlem Globetrotters On Tour",
@@ -185,8 +199,8 @@
         "Machine \u0026#9650;":  "Iron Maiden: Legacy of the Beast",
         "Plays":  1,
         "Best Score":  41141220,
-        "Rank":  "488 / 847",
-        "% Top":  57.62
+        "Rank":  "496 / 863",
+        "% Top":  57.47
     },
     {
         "Machine \u0026#9650;":  "Iron Man",
@@ -201,6 +215,13 @@
         "Best Score":  69032690,
         "Rank":  "76 / 194",
         "% Top":  39.18
+    },
+    {
+        "Machine \u0026#9650;":  "Jaws",
+        "Plays":  1,
+        "Best Score":  90559170,
+        "Rank":  "156 / 289",
+        "% Top":  53.98
     },
     {
         "Machine \u0026#9650;":  "Jokerz!",
@@ -218,10 +239,10 @@
     },
     {
         "Machine \u0026#9650;":  "Jurassic Park (Stern)",
-        "Plays":  4,
-        "Best Score":  58051720,
-        "Rank":  "287 / 553",
-        "% Top":  51.9
+        "Plays":  5,
+        "Best Score":  163383660,
+        "Rank":  "105 / 587",
+        "% Top":  17.89
     },
     {
         "Machine \u0026#9650;":  "Kings \u0026amp; Queens",
@@ -309,10 +330,10 @@
     },
     {
         "Machine \u0026#9650;":  "Road Show",
-        "Plays":  1,
+        "Plays":  2,
         "Best Score":  539628890,
-        "Rank":  "223 / 1,309",
-        "% Top":  17.04
+        "Rank":  "236 / 1,343",
+        "% Top":  17.57
     },
     {
         "Machine \u0026#9650;":  "Rocky and Bullwinkle",
@@ -339,8 +360,8 @@
         "Machine \u0026#9650;":  "Star Trek (Stern)",
         "Plays":  1,
         "Best Score":  46410750,
-        "Rank":  "287 / 964",
-        "% Top":  29.77
+        "Rank":  "287 / 980",
+        "% Top":  29.29
     },
     {
         "Machine \u0026#9650;":  "Star Wars Episode I",
@@ -358,10 +379,10 @@
     },
     {
         "Machine \u0026#9650;":  "Stranger Things",
-        "Plays":  1,
+        "Plays":  2,
         "Best Score":  58000790,
-        "Rank":  "246 / 361",
-        "% Top":  68.14
+        "Rank":  "283 / 411",
+        "% Top":  68.86
     },
     {
         "Machine \u0026#9650;":  "Tales of the Arabian Nights",
@@ -372,10 +393,10 @@
     },
     {
         "Machine \u0026#9650;":  "The Addams Family",
-        "Plays":  3,
+        "Plays":  4,
         "Best Score":  80492150,
-        "Rank":  "720 / 2,510",
-        "% Top":  28.69
+        "Rank":  "726 / 2,544",
+        "% Top":  28.54
     },
     {
         "Machine \u0026#9650;":  "The Getaway: High Speed II",
@@ -383,6 +404,13 @@
         "Best Score":  22757660,
         "Rank":  "1,217 / 1,569",
         "% Top":  77.57
+    },
+    {
+        "Machine \u0026#9650;":  "The Party Zone",
+        "Plays":  1,
+        "Best Score":  12622820,
+        "Rank":  "142 / 315",
+        "% Top":  45.08
     },
     {
         "Machine \u0026#9650;":  "The Shadow",
@@ -407,10 +435,10 @@
     },
     {
         "Machine \u0026#9650;":  "Twilight Zone",
-        "Plays":  3,
+        "Plays":  4,
         "Best Score":  244962724,
-        "Rank":  "476 / 2,553",
-        "% Top":  18.64
+        "Rank":  "482 / 2,587",
+        "% Top":  18.63
     },
     {
         "Machine \u0026#9650;":  "Warlok",
@@ -428,10 +456,10 @@
     },
     {
         "Machine \u0026#9650;":  "White Water",
-        "Plays":  3,
+        "Plays":  4,
         "Best Score":  338006230,
-        "Rank":  "146 / 1,878",
-        "% Top":  7.77
+        "Rank":  "150 / 1,912",
+        "% Top":  7.85
     },
     {
         "Machine \u0026#9650;":  "Willy Wonka \u0026amp; The Chocolate Factory",

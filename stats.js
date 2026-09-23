@@ -60,6 +60,10 @@ export function buildMachineData(playerDataById, machineStats) {
 
             m[p.id].plays = getNumericField(row, ['play'], 0);
             m[p.id].best = getNumericField(row, ['best', 'high'], 0);
+            const rawEvents = row['Events'];
+            m[p.id].events = Array.isArray(rawEvents) ? rawEvents
+                           : (rawEvents && typeof rawEvents === 'object' ? [rawEvents] : []);
+            m[p.id].machineId = row['MachineId'] || null;
         });
     });
 

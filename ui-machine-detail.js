@@ -47,6 +47,43 @@ export function renderMachineDetailPage(machines) {
     renderContent(machineParam);
   }
 
+  function buildHistoryHtml(players) {
+    const withHistory = players.filter(p => p.stats.events && p.stats.events.length > 0);
+    if (!withHistory.length) return '';
+
+    const blocks = withHistory.map(p => {
+      const events = p.stats.events;
+      const maxScore = Math.max(...events.map(e => e.score));
+      const rows = events.map(e => `
+        <tr${e.score === maxScore ? ' class="history-best"' : ''}>
+          <td>${e.year}</td>
+          <td>${e.league || '—'}</td>
+          <td>Meet ${e.meet}</td>
+          <td>${fmtNumber(e.score)}${e.score === maxScore ? ' 🏆' : ''}</td>
+          <td>${e.rank}</td>
+        </tr>
+      `).join('');
+      return `
+        <div class="history-player">
+          <h3 class="history-player-name">${p.name}</h3>
+          <div class="table-wrapper">
+            <table class="history-table">
+              <thead>
+                <tr><th>Year</th><th>League</th><th>Meet</th><th>Score</th><th>Rank</th></tr>
+              </thead>
+              <tbody>${rows}</tbody>
+            </table>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    return `
+      <h2>Score history</h2>
+      <div class="score-history">${blocks}</div>
+    `;
+  }
+
   function renderContent(machineName) {
     const m = findMachineByName(machines, machineName);
     if (!m) {
@@ -65,7 +102,7 @@ export function renderMachineDetailPage(machines) {
       const key = playerKeyFromName(name);
       return {
         name: name,
-        stats: m[key] || { plays: 0, best: 0 }
+        stats: m[key] || { plays: 0, best: 0, events: [] }
       };
     });
 
@@ -152,6 +189,8 @@ export function renderMachineDetailPage(machines) {
       <p class="note">
         Trophy icons mark where a player's best score matches the recorded high score for this machine.
       </p>
+
+      ${buildHistoryHtml(players)}
     `;
 
     makeTableSortable('machine-player-table', [1, 2, 3]);

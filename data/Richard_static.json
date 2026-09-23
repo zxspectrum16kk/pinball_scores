@@ -3,735 +3,2946 @@
         "Machine \u0026#9650;":  "AC/DC",
         "Plays":  1,
         "Best Score":  14429730,
-        "Rank":  "722 / 1,209",
-        "% Top":  59.72
+        "Rank":  "725 / 1,212",
+        "% Top":  59.82,
+        "MachineId":  153,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 2",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  14429730,
+                           "rank":  725
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Airborne",
         "Plays":  2,
         "Best Score":  127494730,
         "Rank":  "27 / 230",
-        "% Top":  11.74
+        "% Top":  11.74,
+        "MachineId":  101,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 2",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  34320770,
+                           "rank":  189
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 4",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  127494730,
+                           "rank":  27
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Apollo",
         "Plays":  1,
         "Best Score":  406,
         "Rank":  "35 / 35",
-        "% Top":  100
+        "% Top":  100,
+        "MachineId":  350,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 2",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  406,
+                           "rank":  35
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Attack from Mars",
         "Plays":  2,
         "Best Score":  13092449110,
         "Rank":  "13 / 1,625",
-        "% Top":  0.8
+        "% Top":  0.8,
+        "MachineId":  293,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 5",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  13092449110,
+                           "rank":  13
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 6",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  7079019740,
+                           "rank":  83
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Avatar",
         "Plays":  1,
         "Best Score":  11099400,
         "Rank":  "423 / 753",
-        "% Top":  56.18
+        "% Top":  56.18,
+        "MachineId":  50,
+        "Events":  [
+                       {
+                           "event":  "2026 Northern League - Meet 4",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  11099400,
+                           "rank":  423
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Banzai Run",
         "Plays":  4,
         "Best Score":  1532260,
         "Rank":  "155 / 573",
-        "% Top":  27.05
+        "% Top":  27.05,
+        "MachineId":  66,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 4",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  1532260,
+                           "rank":  155
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 4",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  1012950,
+                           "rank":  288
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 3",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  618740,
+                           "rank":  440
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 1",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  937450,
+                           "rank":  312
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Barracora",
         "Plays":  1,
         "Best Score":  1314650,
         "Rank":  "18 / 158",
-        "% Top":  11.39
+        "% Top":  11.39,
+        "MachineId":  133,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 1",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  1314650,
+                           "rank":  18
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Batman 66",
         "Plays":  3,
         "Best Score":  70351100,
         "Rank":  "235 / 435",
-        "% Top":  54.02
+        "% Top":  54.02,
+        "MachineId":  22,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 6",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  59997840,
+                           "rank":  252
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 5",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  20335290,
+                           "rank":  389
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 4",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  70351100,
+                           "rank":  235
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Baywatch",
         "Plays":  1,
         "Best Score":  931495520,
         "Rank":  "14 / 257",
-        "% Top":  5.45
+        "% Top":  5.45,
+        "MachineId":  191,
+        "Events":  [
+                       {
+                           "event":  "2025 Northern League - Meet 4",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  931495520,
+                           "rank":  14
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Black Knight",
         "Plays":  3,
         "Best Score":  304470,
-        "Rank":  "77 / 222",
-        "% Top":  34.68
+        "Rank":  "77 / 225",
+        "% Top":  34.22,
+        "MachineId":  215,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 4",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  69550,
+                           "rank":  202
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 4",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  169460,
+                           "rank":  138
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 3",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  304470,
+                           "rank":  77
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Blackwater 100",
         "Plays":  2,
         "Best Score":  1116480,
         "Rank":  "89 / 148",
-        "% Top":  60.14
+        "% Top":  60.14,
+        "MachineId":  265,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 5",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  744330,
+                           "rank":  128
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 6",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  1116480,
+                           "rank":  89
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Blue Chip",
         "Plays":  1,
         "Best Score":  163660,
         "Rank":  "58 / 73",
-        "% Top":  79.45
+        "% Top":  79.45,
+        "MachineId":  176,
+        "Events":  [
+                       {
+                           "event":  "2026 Northern League - Meet 4",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  163660,
+                           "rank":  58
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Bram Stoker\u0026#039;s Dracula",
         "Plays":  3,
         "Best Score":  52964010,
         "Rank":  "375 / 1,029",
-        "% Top":  36.44
+        "% Top":  36.44,
+        "MachineId":  248,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 2",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  52964010,
+                           "rank":  375
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 5",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  28539580,
+                           "rank":  597
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 4",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  36984070,
+                           "rank":  504
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Breakshot",
         "Plays":  2,
         "Best Score":  13634220,
         "Rank":  "25 / 189",
-        "% Top":  13.23
+        "% Top":  13.23,
+        "MachineId":  186,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 5",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  13634220,
+                           "rank":  25
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 6",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  1881420,
+                           "rank":  156
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Buckaroo",
         "Plays":  1,
         "Best Score":  979,
-        "Rank":  "34 / 78",
-        "% Top":  43.59
+        "Rank":  "35 / 110",
+        "% Top":  31.82,
+        "MachineId":  110,
+        "Events":  [
+                       {
+                           "event":  "2026 Northern League - Meet 4",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  979,
+                           "rank":  35
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Cactus Canyon",
         "Plays":  1,
         "Best Score":  6655060,
-        "Rank":  "330 / 437",
-        "% Top":  75.51
+        "Rank":  "354 / 469",
+        "% Top":  75.48,
+        "MachineId":  169,
+        "Events":  [
+                       {
+                           "event":  "2026 Northern League - Meet 2",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  6655060,
+                           "rank":  354
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Catacomb",
         "Plays":  1,
         "Best Score":  788510,
         "Rank":  "16 / 29",
-        "% Top":  55.17
+        "% Top":  55.17,
+        "MachineId":  406,
+        "Events":  [
+                       {
+                           "event":  "2026 Northern League - Meet 1",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  788510,
+                           "rank":  16
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Congo",
         "Plays":  2,
         "Best Score":  219108930,
         "Rank":  "230 / 352",
-        "% Top":  65.34
+        "% Top":  65.34,
+        "MachineId":  69,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 6",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  184805230,
+                           "rank":  250
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 5",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  219108930,
+                           "rank":  230
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "CSI: Crime Scene Investigation",
         "Plays":  1,
         "Best Score":  12818490,
         "Rank":  "44 / 144",
-        "% Top":  30.56
+        "% Top":  30.56,
+        "MachineId":  188,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 5",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  12818490,
+                           "rank":  44
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Deadpool",
         "Plays":  1,
         "Best Score":  88155570,
-        "Rank":  "263 / 613",
-        "% Top":  42.9
+        "Rank":  "277 / 645",
+        "% Top":  42.95,
+        "MachineId":  48,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 6",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  88155570,
+                           "rank":  277
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Dr. Dude And His Excellent Ray",
         "Plays":  1,
         "Best Score":  3041390,
         "Rank":  "54 / 201",
-        "% Top":  26.87
+        "% Top":  26.87,
+        "MachineId":  92,
+        "Events":  [
+                       {
+                           "event":  "2026 Northern League - Meet 5",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  3041390,
+                           "rank":  54
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Eight Ball Deluxe",
         "Plays":  1,
         "Best Score":  1442530,
         "Rank":  "14 / 455",
-        "% Top":  3.08
+        "% Top":  3.08,
+        "MachineId":  228,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 1",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  1442530,
+                           "rank":  14
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Elektra",
         "Plays":  1,
         "Best Score":  332060,
-        "Rank":  "93 / 126",
-        "% Top":  73.81
+        "Rank":  "94 / 128",
+        "% Top":  73.44,
+        "MachineId":  281,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 1",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  332060,
+                           "rank":  94
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Elvira\u0026#039;s House of Horrors",
         "Plays":  4,
         "Best Score":  159011970,
         "Rank":  "27 / 435",
-        "% Top":  6.21
+        "% Top":  6.21,
+        "MachineId":  320,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 6",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  74803890,
+                           "rank":  71
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 5",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  159011970,
+                           "rank":  27
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 4",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  142633620,
+                           "rank":  34
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 5",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  146529030,
+                           "rank":  32
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "F-14 Tomcat",
         "Plays":  1,
         "Best Score":  149990,
         "Rank":  "674 / 736",
-        "% Top":  91.58
+        "% Top":  91.58,
+        "MachineId":  278,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 2",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  149990,
+                           "rank":  674
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Fathom",
         "Plays":  1,
         "Best Score":  231480,
-        "Rank":  "303 / 478",
-        "% Top":  63.39
+        "Rank":  "306 / 482",
+        "% Top":  63.49,
+        "MachineId":  82,
+        "Events":  [
+                       {
+                           "event":  "2025 Northern League - Meet 1",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  231480,
+                           "rank":  306
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Fireball II",
         "Plays":  3,
         "Best Score":  543080,
-        "Rank":  "77 / 351",
-        "% Top":  21.94
+        "Rank":  "81 / 357",
+        "% Top":  22.69,
+        "MachineId":  62,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 1",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  543080,
+                           "rank":  81
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 1",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  500470,
+                           "rank":  97
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 2",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  333570,
+                           "rank":  163
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Fish Tales",
         "Plays":  4,
         "Best Score":  60754610,
-        "Rank":  "462 / 1,706",
-        "% Top":  27.08
+        "Rank":  "471 / 1,738",
+        "% Top":  27.1,
+        "MachineId":  253,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 6",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  60754610,
+                           "rank":  471
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 5",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  25006390,
+                           "rank":  1000
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 4",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  45682250,
+                           "rank":  645
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 5",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  8277460,
+                           "rank":  1556
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Flash",
         "Plays":  3,
         "Best Score":  420010,
         "Rank":  "24 / 527",
-        "% Top":  4.55
+        "% Top":  4.55,
+        "MachineId":  255,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 4",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  72810,
+                           "rank":  441
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 2",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  103050,
+                           "rank":  346
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 1",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  420010,
+                           "rank":  24
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Foo Fighters",
         "Plays":  1,
         "Best Score":  63789060,
         "Rank":  "119 / 301",
-        "% Top":  39.53
+        "% Top":  39.53,
+        "MachineId":  347,
+        "Events":  [
+                       {
+                           "event":  "2026 Northern League - Meet 3",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  63789060,
+                           "rank":  119
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Genie",
         "Plays":  1,
         "Best Score":  179840,
         "Rank":  "43 / 113",
-        "% Top":  38.05
+        "% Top":  38.05,
+        "MachineId":  76,
+        "Events":  [
+                       {
+                           "event":  "2025 Northern League - Meet 1",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  179840,
+                           "rank":  43
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Ghostbusters",
         "Plays":  5,
         "Best Score":  170342500,
         "Rank":  "100 / 671",
-        "% Top":  14.9
+        "% Top":  14.9,
+        "MachineId":  36,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 2",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  19913750,
+                           "rank":  511
+                       },
+                       {
+                           "event":  "2023 Northern League - Meet 6",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  52122240,
+                           "rank":  300
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 5",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  133937840,
+                           "rank":  139
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 2",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  78607090,
+                           "rank":  205
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 3",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  170342500,
+                           "rank":  100
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Gilligan\u0026#039;s Island",
         "Plays":  1,
         "Best Score":  4401670,
         "Rank":  "39 / 65",
-        "% Top":  60
+        "% Top":  60,
+        "MachineId":  57,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 4",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  4401670,
+                           "rank":  39
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Godzilla (Stern)",
         "Plays":  10,
         "Best Score":  494846370,
         "Rank":  "49 / 1,085",
-        "% Top":  4.52
+        "% Top":  4.52,
+        "MachineId":  360,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 3",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  79716000,
+                           "rank":  555
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 1",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  75009700,
+                           "rank":  571
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 5",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  494846370,
+                           "rank":  49
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 1",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  136935510,
+                           "rank":  364
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 2",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  17675300,
+                           "rank":  1028
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 4",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  231453570,
+                           "rank":  187
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 5",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  177800610,
+                           "rank":  259
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 2",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  14459970,
+                           "rank":  1046
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 3",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  9934020,
+                           "rank":  1073
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 5",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  289252650,
+                           "rank":  136
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Grand Prix",
         "Plays":  1,
         "Best Score":  19605910,
         "Rank":  "55 / 146",
-        "% Top":  37.67
+        "% Top":  37.67,
+        "MachineId":  47,
+        "Events":  [
+                       {
+                           "event":  "2026 Northern League - Meet 5",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  19605910,
+                           "rank":  55
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Guardians of the Galaxy",
         "Plays":  3,
         "Best Score":  107745880,
         "Rank":  "124 / 526",
-        "% Top":  23.57
+        "% Top":  23.57,
+        "MachineId":  208,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 2",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  107745880,
+                           "rank":  124
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 2",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  9085450,
+                           "rank":  452
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 3",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  56311960,
+                           "rank":  227
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Guns N\u0026#039; Roses (Data East)",
         "Plays":  2,
         "Best Score":  562810840,
         "Rank":  "53 / 117",
-        "% Top":  45.3
+        "% Top":  45.3,
+        "MachineId":  262,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 5",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  171834270,
+                           "rank":  110
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 6",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  562810840,
+                           "rank":  53
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Harlem Globetrotters On Tour",
         "Plays":  1,
         "Best Score":  183860,
         "Rank":  "52 / 111",
-        "% Top":  46.85
+        "% Top":  46.85,
+        "MachineId":  315,
+        "Events":  [
+                       {
+                           "event":  "2025 Northern League - Meet 1",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  183860,
+                           "rank":  52
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Harry Potter",
         "Plays":  1,
         "Best Score":  36912025,
         "Rank":  "47 / 72",
-        "% Top":  65.28
+        "% Top":  65.28,
+        "MachineId":  407,
+        "Events":  [
+                       {
+                           "event":  "2026 Northern League - Meet 2",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  36912025,
+                           "rank":  47
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Haunted House",
         "Plays":  3,
         "Best Score":  326450,
         "Rank":  "13 / 129",
-        "% Top":  10.08
+        "% Top":  10.08,
+        "MachineId":  335,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 4",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  326450,
+                           "rank":  13
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 4",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  70700,
+                           "rank":  107
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 3",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  154310,
+                           "rank":  47
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Heat Wave",
         "Plays":  2,
         "Best Score":  1269,
         "Rank":  "172 / 265",
-        "% Top":  64.91
+        "% Top":  64.91,
+        "MachineId":  15,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 2",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  802,
+                           "rank":  233
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 4",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  1269,
+                           "rank":  172
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "High Hand",
         "Plays":  1,
         "Best Score":  23320,
         "Rank":  "10 / 36",
-        "% Top":  27.78
+        "% Top":  27.78,
+        "MachineId":  409,
+        "Events":  [
+                       {
+                           "event":  "2026 Northern League - Meet 4",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  23320,
+                           "rank":  10
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Hot Line",
         "Plays":  1,
         "Best Score":  1654,
         "Rank":  "52 / 64",
-        "% Top":  81.25
+        "% Top":  81.25,
+        "MachineId":  364,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 4",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  1654,
+                           "rank":  52
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Indiana Jones (Williams)",
         "Plays":  4,
         "Best Score":  104944200,
         "Rank":  "441 / 1,095",
-        "% Top":  40.27
+        "% Top":  40.27,
+        "MachineId":  241,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 4",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  74584210,
+                           "rank":  605
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 4",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  38737610,
+                           "rank":  858
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 3",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  104944200,
+                           "rank":  441
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 1",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  77322530,
+                           "rank":  583
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Iron Maiden",
         "Plays":  1,
         "Best Score":  304139560,
         "Rank":  "3 / 62",
-        "% Top":  4.84
+        "% Top":  4.84,
+        "MachineId":  144,
+        "Events":  [
+                       {
+                           "event":  "2026 Northern League - Meet 3",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  304139560,
+                           "rank":  3
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Iron Maiden: Legacy of the Beast",
         "Plays":  3,
         "Best Score":  102224160,
         "Rank":  "305 / 893",
-        "% Top":  34.15
+        "% Top":  34.15,
+        "MachineId":  44,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 2",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  102224160,
+                           "rank":  305
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 2",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  24077860,
+                           "rank":  628
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 5",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  92945360,
+                           "rank":  326
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Iron Man",
         "Plays":  2,
         "Best Score":  6503320,
         "Rank":  "524 / 871",
-        "% Top":  60.16
+        "% Top":  60.16,
+        "MachineId":  243,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 4",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  4963200,
+                           "rank":  643
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 4",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  6503320,
+                           "rank":  524
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "James Bond 007",
         "Plays":  2,
         "Best Score":  49508260,
-        "Rank":  "98 / 194",
-        "% Top":  50.52
+        "Rank":  "112 / 226",
+        "% Top":  49.56,
+        "MachineId":  346,
+        "Events":  [
+                       {
+                           "event":  "2025 Northern League - Meet 3",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  9942160,
+                           "rank":  190
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 1",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  49508260,
+                           "rank":  112
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Jaws",
         "Plays":  2,
         "Best Score":  359065760,
-        "Rank":  "18 / 289",
-        "% Top":  6.23
+        "Rank":  "19 / 297",
+        "% Top":  6.4,
+        "MachineId":  374,
+        "Events":  [
+                       {
+                           "event":  "2025 Northern League - Meet 4",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  111813630,
+                           "rank":  130
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 5",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  359065760,
+                           "rank":  19
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Jokerz!",
         "Plays":  2,
         "Best Score":  764140,
         "Rank":  "62 / 100",
-        "% Top":  62
+        "% Top":  62,
+        "MachineId":  163,
+        "Events":  [
+                       {
+                           "event":  "2025 Northern League - Meet 3",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  764140,
+                           "rank":  62
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 1",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  651590,
+                           "rank":  68
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Jungle Lord",
         "Plays":  1,
         "Best Score":  167170,
         "Rank":  "195 / 363",
-        "% Top":  53.72
+        "% Top":  53.72,
+        "MachineId":  146,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 2",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  167170,
+                           "rank":  195
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Jurassic Park (Stern)",
         "Plays":  10,
         "Best Score":  219019730,
         "Rank":  "75 / 587",
-        "% Top":  12.78
+        "% Top":  12.78,
+        "MachineId":  74,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 4",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  59562100,
+                           "rank":  300
+                       },
+                       {
+                           "event":  "2023 Northern League - Meet 6",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  137346710,
+                           "rank":  131
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 2",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  51263170,
+                           "rank":  340
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 4",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  95809880,
+                           "rank":  197
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 5",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  35759300,
+                           "rank":  423
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 3",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  51588210,
+                           "rank":  339
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 4",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  103475280,
+                           "rank":  175
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 1",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  121981870,
+                           "rank":  150
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 4",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  219019730,
+                           "rank":  75
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 5",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  29505360,
+                           "rank":  468
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "King Pin (Gottlieb 1973)",
         "Plays":  1,
         "Best Score":  25240,
         "Rank":  "91 / 150",
-        "% Top":  60.67
+        "% Top":  60.67,
+        "MachineId":  155,
+        "Events":  [
+                       {
+                           "event":  "2026 Northern League - Meet 4",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  25240,
+                           "rank":  91
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Kings \u0026amp; Queens",
         "Plays":  2,
         "Best Score":  389,
         "Rank":  "51 / 62",
-        "% Top":  82.26
+        "% Top":  82.26,
+        "MachineId":  391,
+        "Events":  [
+                       {
+                           "event":  "2025 Northern League - Meet 3",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  347,
+                           "rank":  54
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 1",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  389,
+                           "rank":  51
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "KISS (Stern)",
         "Plays":  1,
         "Best Score":  92586780,
         "Rank":  "39 / 202",
-        "% Top":  19.31
+        "% Top":  19.31,
+        "MachineId":  201,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 6",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  92586780,
+                           "rank":  39
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Lethal Weapon 3",
         "Plays":  1,
         "Best Score":  89055630,
         "Rank":  "32 / 239",
-        "% Top":  13.39
+        "% Top":  13.39,
+        "MachineId":  283,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 3",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  89055630,
+                           "rank":  32
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Lord of the Rings",
         "Plays":  2,
         "Best Score":  11371790,
         "Rank":  "438 / 752",
-        "% Top":  58.24
+        "% Top":  58.24,
+        "MachineId":  296,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 3",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  4672610,
+                           "rank":  665
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 2",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  11371790,
+                           "rank":  438
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Lost World",
         "Plays":  1,
         "Best Score":  205520,
         "Rank":  "30 / 91",
-        "% Top":  32.97
+        "% Top":  32.97,
+        "MachineId":  33,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 1",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  205520,
+                           "rank":  30
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Medieval Madness",
         "Plays":  2,
         "Best Score":  28486900,
-        "Rank":  "425 / 1,606",
-        "% Top":  26.46
+        "Rank":  "425 / 1,608",
+        "% Top":  26.43,
+        "MachineId":  159,
+        "Events":  [
+                       {
+                           "event":  "2025 Northern League - Meet 1",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  28486900,
+                           "rank":  425
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 2",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  5390430,
+                           "rank":  1352
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Monte Carlo (Gottlieb)",
         "Plays":  2,
         "Best Score":  615280,
         "Rank":  "40 / 94",
-        "% Top":  42.55
+        "% Top":  42.55,
+        "MachineId":  337,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 4",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  470750,
+                           "rank":  51
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 3",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  615280,
+                           "rank":  40
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Mr. \u0026amp; Mrs. Pac-Man",
         "Plays":  1,
         "Best Score":  516330,
         "Rank":  "294 / 607",
-        "% Top":  48.43
+        "% Top":  48.43,
+        "MachineId":  84,
+        "Events":  [
+                       {
+                           "event":  "2025 Northern League - Meet 1",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  516330,
+                           "rank":  294
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Night Rider",
         "Plays":  2,
         "Best Score":  41830,
         "Rank":  "36 / 76",
-        "% Top":  47.37
+        "% Top":  47.37,
+        "MachineId":  384,
+        "Events":  [
+                       {
+                           "event":  "2025 Northern League - Meet 1",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  41830,
+                           "rank":  36
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 2",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  25500,
+                           "rank":  61
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Nine Ball",
         "Plays":  1,
         "Best Score":  524200,
         "Rank":  "30 / 101",
-        "% Top":  29.7
+        "% Top":  29.7,
+        "MachineId":  3,
+        "Events":  [
+                       {
+                           "event":  "2026 Northern League - Meet 1",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  524200,
+                           "rank":  30
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Paragon",
         "Plays":  4,
         "Best Score":  140720,
         "Rank":  "128 / 552",
-        "% Top":  23.19
+        "% Top":  23.19,
+        "MachineId":  24,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 4",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  104260,
+                           "rank":  204
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 1",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  104400,
+                           "rank":  203
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 1",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  35320,
+                           "rank":  462
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 2",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  140720,
+                           "rank":  128
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Phantom of the Opera",
         "Plays":  1,
         "Best Score":  2552000,
-        "Rank":  "10 / 35",
-        "% Top":  28.57
+        "Rank":  "14 / 39",
+        "% Top":  35.9,
+        "MachineId":  343,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 4",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  2552000,
+                           "rank":  14
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Playboy (Bally)",
         "Plays":  2,
         "Best Score":  610500,
         "Rank":  "6 / 186",
-        "% Top":  3.23
+        "% Top":  3.23,
+        "MachineId":  171,
+        "Events":  [
+                       {
+                           "event":  "2025 Northern League - Meet 1",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  461840,
+                           "rank":  12
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 2",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  610500,
+                           "rank":  6
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Police Force",
         "Plays":  3,
         "Best Score":  945150,
         "Rank":  "126 / 205",
-        "% Top":  61.46
+        "% Top":  61.46,
+        "MachineId":  222,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 4",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  945150,
+                           "rank":  126
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 3",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  770190,
+                           "rank":  146
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 1",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  810100,
+                           "rank":  143
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Pulp Fiction",
         "Plays":  3,
         "Best Score":  1279810,
         "Rank":  "32 / 234",
-        "% Top":  13.68
+        "% Top":  13.68,
+        "MachineId":  380,
+        "Events":  [
+                       {
+                           "event":  "2025 Northern League - Meet 1",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  1279810,
+                           "rank":  32
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 5",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  733840,
+                           "rank":  64
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 2",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  621080,
+                           "rank":  74
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Revenge from Mars",
         "Plays":  1,
         "Best Score":  32325460,
         "Rank":  "750 / 988",
-        "% Top":  75.91
+        "% Top":  75.91,
+        "MachineId":  151,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 4",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  32325460,
+                           "rank":  750
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Ripley\u0026#039;s Believe it or Not!",
         "Plays":  4,
         "Best Score":  26301680,
         "Rank":  "13 / 371",
-        "% Top":  3.5
+        "% Top":  3.5,
+        "MachineId":  287,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 2",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  11716840,
+                           "rank":  100
+                       },
+                       {
+                           "event":  "2023 Northern League - Meet 3",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  6772610,
+                           "rank":  199
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 2",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  18983180,
+                           "rank":  35
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 1",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  26301680,
+                           "rank":  13
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Road Show",
         "Plays":  4,
         "Best Score":  633152340,
         "Rank":  "179 / 1,382",
-        "% Top":  12.95
+        "% Top":  12.95,
+        "MachineId":  63,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 6",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  283173880,
+                           "rank":  507
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 5",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  209563280,
+                           "rank":  687
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 4",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  633152340,
+                           "rank":  179
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 5",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  567097780,
+                           "rank":  212
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Robo-War",
         "Plays":  1,
         "Best Score":  460150,
         "Rank":  "167 / 217",
-        "% Top":  76.96
+        "% Top":  76.96,
+        "MachineId":  128,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 6",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  460150,
+                           "rank":  167
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Rocky and Bullwinkle",
         "Plays":  4,
         "Best Score":  184255180,
         "Rank":  "62 / 573",
-        "% Top":  10.82
+        "% Top":  10.82,
+        "MachineId":  280,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 2",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  184255180,
+                           "rank":  62
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 5",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  40787050,
+                           "rank":  439
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 6",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  102879020,
+                           "rank":  179
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 4",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  58160810,
+                           "rank":  340
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Rush",
         "Plays":  2,
         "Best Score":  42455650,
-        "Rank":  "113 / 332",
-        "% Top":  34.04
+        "Rank":  "125 / 361",
+        "% Top":  34.63,
+        "MachineId":  341,
+        "Events":  [
+                       {
+                           "event":  "2025 Northern League - Meet 2",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  42455650,
+                           "rank":  125
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 3",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  28664010,
+                           "rank":  178
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Seawitch",
         "Plays":  1,
         "Best Score":  426590,
         "Rank":  "34 / 77",
-        "% Top":  44.16
+        "% Top":  44.16,
+        "MachineId":  68,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 1",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  426590,
+                           "rank":  34
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Sing Along",
         "Plays":  1,
         "Best Score":  1486,
         "Rank":  "186 / 391",
-        "% Top":  47.57
+        "% Top":  47.57,
+        "MachineId":  209,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 2",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  1486,
+                           "rank":  186
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Space Shuttle (Williams)",
         "Plays":  3,
         "Best Score":  1095830,
-        "Rank":  "29 / 155",
-        "% Top":  18.71
+        "Rank":  "32 / 161",
+        "% Top":  19.88,
+        "MachineId":  363,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 4",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  110720,
+                           "rank":  156
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 3",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  1095830,
+                           "rank":  32
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 1",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  550320,
+                           "rank":  74
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Spectrum",
         "Plays":  5,
         "Best Score":  484660,
         "Rank":  "63 / 287",
-        "% Top":  21.95
+        "% Top":  21.95,
+        "MachineId":  263,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 4",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  162100,
+                           "rank":  202
+                       },
+                       {
+                           "event":  "2023 Northern League - Meet 5",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  484660,
+                           "rank":  63
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 4",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  240890,
+                           "rank":  144
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 3",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  303510,
+                           "rank":  117
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 1",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  377480,
+                           "rank":  91
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Star Trek (Stern)",
         "Plays":  2,
         "Best Score":  71088460,
         "Rank":  "137 / 980",
-        "% Top":  13.98
+        "% Top":  13.98,
+        "MachineId":  189,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 1",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  71088460,
+                           "rank":  137
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 1",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  65818310,
+                           "rank":  169
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Star Trek Next Generation",
         "Plays":  1,
         "Best Score":  486954790,
-        "Rank":  "269 / 1,135",
-        "% Top":  23.7
+        "Rank":  "272 / 1,142",
+        "% Top":  23.82,
+        "MachineId":  51,
+        "Events":  [
+                       {
+                           "event":  "2026 Northern League - Meet 4",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  486954790,
+                           "rank":  272
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Star Wars Episode I",
         "Plays":  1,
         "Best Score":  43775800,
         "Rank":  "41 / 140",
-        "% Top":  29.29
+        "% Top":  29.29,
+        "MachineId":  205,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 5",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  43775800,
+                           "rank":  41
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Stargate",
         "Plays":  1,
         "Best Score":  380692900,
         "Rank":  "12 / 127",
-        "% Top":  9.45
+        "% Top":  9.45,
+        "MachineId":  40,
+        "Events":  [
+                       {
+                           "event":  "2025 Northern League - Meet 5",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  380692900,
+                           "rank":  12
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Strange World",
         "Plays":  1,
         "Best Score":  49250,
         "Rank":  "8 / 36",
-        "% Top":  22.22
+        "% Top":  22.22,
+        "MachineId":  410,
+        "Events":  [
+                       {
+                           "event":  "2026 Northern League - Meet 4",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  49250,
+                           "rank":  8
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Stranger Things",
         "Plays":  4,
         "Best Score":  405125900,
         "Rank":  "10 / 441",
-        "% Top":  2.27
+        "% Top":  2.27,
+        "MachineId":  323,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 6",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  115921080,
+                           "rank":  150
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 5",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  331490310,
+                           "rank":  23
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 4",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  178813170,
+                           "rank":  79
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 5",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  405125900,
+                           "rank":  10
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Strikes and Spares",
         "Plays":  1,
         "Best Score":  885700,
         "Rank":  "1 / 82",
-        "% Top":  1.22
+        "% Top":  1.22,
+        "MachineId":  97,
+        "Events":  [
+                       {
+                           "event":  "2026 Northern League - Meet 2",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  885700,
+                           "rank":  1
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Tales from the Crypt",
         "Plays":  2,
         "Best Score":  182450990,
         "Rank":  "84 / 356",
-        "% Top":  23.6
+        "% Top":  23.6,
+        "MachineId":  116,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 5",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  182450990,
+                           "rank":  84
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 6",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  90624100,
+                           "rank":  213
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Tales of the Arabian Nights",
         "Plays":  1,
         "Best Score":  7165460,
         "Rank":  "245 / 525",
-        "% Top":  46.67
+        "% Top":  46.67,
+        "MachineId":  203,
+        "Events":  [
+                       {
+                           "event":  "2025 Northern League - Meet 1",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  7165460,
+                           "rank":  245
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "The Addams Family",
         "Plays":  9,
         "Best Score":  126746010,
-        "Rank":  "324 / 2,599",
-        "% Top":  12.47
+        "Rank":  "324 / 2,606",
+        "% Top":  12.43,
+        "MachineId":  126,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 5",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  126746010,
+                           "rank":  324
+                       },
+                       {
+                           "event":  "2023 Northern League - Meet 6",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  16346250,
+                           "rank":  2246
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 1",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  122217910,
+                           "rank":  356
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 5",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  59668050,
+                           "rank":  1102
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 6",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  67955030,
+                           "rank":  961
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 1",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  107981020,
+                           "rank":  449
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 4",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  46883970,
+                           "rank":  1377
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 5",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  111060020,
+                           "rank":  429
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 5",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  64743060,
+                           "rank":  1001
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "The Flintstones",
         "Plays":  1,
         "Best Score":  549711060,
         "Rank":  "91 / 525",
-        "% Top":  17.33
+        "% Top":  17.33,
+        "MachineId":  145,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 6",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  549711060,
+                           "rank":  91
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "The Getaway: High Speed II",
         "Plays":  2,
         "Best Score":  47105340,
-        "Rank":  "700 / 1,635",
-        "% Top":  42.81
+        "Rank":  "711 / 1,667",
+        "% Top":  42.65,
+        "MachineId":  288,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 3",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  38510090,
+                           "rank":  860
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 5",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  47105340,
+                           "rank":  711
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "The Party Zone",
         "Plays":  2,
         "Best Score":  61142890,
         "Rank":  "22 / 315",
-        "% Top":  6.98
+        "% Top":  6.98,
+        "MachineId":  276,
+        "Events":  [
+                       {
+                           "event":  "2025 Northern League - Meet 4",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  4832920,
+                           "rank":  246
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 5",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  61142890,
+                           "rank":  22
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "The Shadow",
         "Plays":  3,
         "Best Score":  168950660,
         "Rank":  "550 / 1,218",
-        "% Top":  45.16
+        "% Top":  45.16,
+        "MachineId":  230,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 4",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  168950660,
+                           "rank":  550
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 4",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  118980660,
+                           "rank":  732
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 3",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  54650770,
+                           "rank":  1068
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "The Walking Dead",
         "Plays":  5,
         "Best Score":  84504420,
         "Rank":  "135 / 976",
-        "% Top":  13.83
+        "% Top":  13.83,
+        "MachineId":  132,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 6",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  84504420,
+                           "rank":  135
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 2",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  25342960,
+                           "rank":  530
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 5",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  18504960,
+                           "rank":  644
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 4",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  10459600,
+                           "rank":  832
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 5",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  65942590,
+                           "rank":  189
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "The Wizard of Oz",
         "Plays":  5,
         "Best Score":  286268,
-        "Rank":  "40 / 553",
-        "% Top":  7.23
+        "Rank":  "40 / 557",
+        "% Top":  7.18,
+        "MachineId":  297,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 2",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  146117,
+                           "rank":  102
+                       },
+                       {
+                           "event":  "2023 Northern League - Meet 4",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  286268,
+                           "rank":  40
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 4",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  208465,
+                           "rank":  55
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 2",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  33785,
+                           "rank":  330
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 3",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  30893,
+                           "rank":  353
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Theatre of Magic",
         "Plays":  2,
         "Best Score":  914688140,
         "Rank":  "103 / 675",
-        "% Top":  15.26
+        "% Top":  15.26,
+        "MachineId":  266,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 5",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  914688140,
+                           "rank":  103
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 6",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  913805910,
+                           "rank":  104
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Trade Winds (Williams)",
         "Plays":  1,
         "Best Score":  809,
         "Rank":  "28 / 36",
-        "% Top":  77.78
+        "% Top":  77.78,
+        "MachineId":  411,
+        "Events":  [
+                       {
+                           "event":  "2026 Northern League - Meet 4",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  809,
+                           "rank":  28
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "TRON",
         "Plays":  1,
         "Best Score":  10201030,
         "Rank":  "605 / 977",
-        "% Top":  61.92
+        "% Top":  61.92,
+        "MachineId":  115,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 2",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  10201030,
+                           "rank":  605
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Twilight Zone",
         "Plays":  8,
         "Best Score":  398442320,
         "Rank":  "179 / 2,664",
-        "% Top":  6.72
+        "% Top":  6.72,
+        "MachineId":  273,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 6",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  398442320,
+                           "rank":  179
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 5",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  230783080,
+                           "rank":  569
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 3",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  74178700,
+                           "rank":  1925
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 4",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  85574970,
+                           "rank":  1781
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 5",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  195978410,
+                           "rank":  729
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 1",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  132823270,
+                           "rank":  1180
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 2",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  240855010,
+                           "rank":  520
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 5",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  96007170,
+                           "rank":  1625
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "TX-Sector",
         "Plays":  1,
         "Best Score":  1012140,
         "Rank":  "160 / 280",
-        "% Top":  57.14
+        "% Top":  57.14,
+        "MachineId":  272,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 6",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  1012140,
+                           "rank":  160
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Whirlwind",
         "Plays":  1,
         "Best Score":  4123290,
         "Rank":  "107 / 492",
-        "% Top":  21.75
+        "% Top":  21.75,
+        "MachineId":  221,
+        "Events":  [
+                       {
+                           "event":  "2024 Northern League - Meet 2",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  4123290,
+                           "rank":  107
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "White Water",
         "Plays":  8,
         "Best Score":  469964360,
         "Rank":  "70 / 1,984",
-        "% Top":  3.53
+        "% Top":  3.53,
+        "MachineId":  7,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 6",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  83198820,
+                           "rank":  903
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 1",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  169419420,
+                           "rank":  435
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 5",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  290635190,
+                           "rank":  201
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 1",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  293601980,
+                           "rank":  197
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 4",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  307919180,
+                           "rank":  177
+                       },
+                       {
+                           "event":  "2025 Northern League - Meet 5",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  128777220,
+                           "rank":  609
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 2",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  2,
+                           "score":  469964360,
+                           "rank":  70
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 5",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  34531100,
+                           "rank":  1454
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Whoa Nellie!",
         "Plays":  2,
         "Best Score":  914,
         "Rank":  "190 / 252",
-        "% Top":  75.4
+        "% Top":  75.4,
+        "MachineId":  150,
+        "Events":  [
+                       {
+                           "event":  "2023 Northern League - Meet 5",
+                           "year":  2023,
+                           "league":  "Northern League",
+                           "meet":  5,
+                           "score":  914,
+                           "rank":  190
+                       },
+                       {
+                           "event":  "2024 Northern League - Meet 6",
+                           "year":  2024,
+                           "league":  "Northern League",
+                           "meet":  6,
+                           "score":  850,
+                           "rank":  199
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "Willy Wonka \u0026amp; The Chocolate Factory",
         "Plays":  2,
         "Best Score":  308010,
         "Rank":  "48 / 137",
-        "% Top":  35.04
+        "% Top":  35.04,
+        "MachineId":  357,
+        "Events":  [
+                       {
+                           "event":  "2025 Northern League - Meet 3",
+                           "year":  2025,
+                           "league":  "Northern League",
+                           "meet":  3,
+                           "score":  308010,
+                           "rank":  48
+                       },
+                       {
+                           "event":  "2026 Northern League - Meet 1",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  1,
+                           "score":  90840,
+                           "rank":  86
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "World Fair",
         "Plays":  1,
         "Best Score":  856,
         "Rank":  "31 / 65",
-        "% Top":  47.69
+        "% Top":  47.69,
+        "MachineId":  307,
+        "Events":  [
+                       {
+                           "event":  "2026 Northern League - Meet 4",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  856,
+                           "rank":  31
+                       }
+                   ]
     },
     {
         "Machine \u0026#9650;":  "X-Men",
         "Plays":  1,
         "Best Score":  69270270,
         "Rank":  "28 / 618",
-        "% Top":  4.53
+        "% Top":  4.53,
+        "MachineId":  157,
+        "Events":  [
+                       {
+                           "event":  "2026 Northern League - Meet 4",
+                           "year":  2026,
+                           "league":  "Northern League",
+                           "meet":  4,
+                           "score":  69270270,
+                           "rank":  28
+                       }
+                   ]
     }
 ]

@@ -27,6 +27,7 @@ import { renderPlayerProfilePage } from './ui-player-profile.js';
 import { initPlayerSelectionPage } from './ui-players.js';
 import { renderPlayerHeatmapPage } from './ui-heatmap.js';
 import { renderDifficultyPage } from './ui-difficulty.js';
+import { renderHomePage } from './ui-home.js';
 
 
 function loadAllData() {
@@ -70,6 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const hasCustomList = document.getElementById('machine-selector');
     const hasHeatmap = document.getElementById('heatmap-container');
     const hasDifficulty = document.getElementById('difficulty-ranking');
+    const hasHomeDashboard = document.getElementById('home-dashboard');
 
     // Load player config first
     fetchJson('data/players.json')
@@ -92,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 initPlayerSelectionPage();
             }
 
-            if (hasLeague || hasOverall || hasMachine || hasProfile || hasCustomList || hasHeatmap || hasDifficulty) {
+            if (hasLeague || hasOverall || hasMachine || hasProfile || hasCustomList || hasHeatmap || hasDifficulty || hasHomeDashboard) {
                 return loadAllData()
                     .then(({ machines, stats, failedPlayers }) => {
                         if (failedPlayers.length > 0) renderDataWarning(failedPlayers);
@@ -103,6 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         if (hasCustomList) renderCustomListPage(machines, stats);
                         if (hasHeatmap) renderPlayerHeatmapPage(machines, stats);
                         if (hasDifficulty) renderDifficultyPage(machines);
+                        if (hasHomeDashboard) renderHomePage(machines, stats);
                     })
                     .catch(err => {
                         console.error('Error loading score data:', err);

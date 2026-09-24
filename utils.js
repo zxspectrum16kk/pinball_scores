@@ -1,6 +1,22 @@
 // utils.js
 // Shared helper functions
 
+export const PLAYER_COLORS = [
+    '#0077cc',
+    '#2ecc71',
+    '#e67e22',
+    '#9b59b6',
+    '#e74c3c',
+    '#16a085',
+    '#f39c12',
+    '#2c3e50',
+];
+
+export function playerColor(allPlayers, playerName) {
+    const idx = allPlayers.indexOf(playerName);
+    return PLAYER_COLORS[idx >= 0 ? idx % PLAYER_COLORS.length : 0];
+}
+
 export function playerKeyFromName(name) {
     return name.toLowerCase();
 }

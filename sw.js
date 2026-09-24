@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pinball-scores-v36';
+const CACHE_NAME = 'pinball-scores-v39';
 const DATA_CACHE_NAME = 'pinball-data-v2';
 
 const ASSETS_TO_CACHE = [

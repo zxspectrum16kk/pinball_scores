@@ -1,8 +1,8 @@
 // ui-machine-detail.js
 // Machine detail page
 
-import { findMachineByName, fmtNumber, playerKeyFromName, makeTableSortable, getScoreClass } from './utils.js';
-import { getSelectedPlayers } from './data.js';
+import { findMachineByName, fmtNumber, playerKeyFromName, makeTableSortable, getScoreClass, playerColor } from './utils.js';
+import { getSelectedPlayers, ALL_PLAYERS } from './data.js';
 
 export function renderMachineDetailPage(machines) {
   const container = document.getElementById('machine-detail');
@@ -45,6 +45,32 @@ export function renderMachineDetailPage(machines) {
   if (machineParam) {
     select.value = machineParam;
     renderContent(machineParam);
+  }
+
+  function buildScoreGapChart(players, highScore) {
+    const withScores = players.filter(p => p.stats.best > 0);
+    if (!highScore || withScores.length === 0) return '';
+
+    const sorted = [...withScores].sort((a, b) => b.stats.best - a.stats.best);
+    const rows = sorted.map(p => {
+      const pct = (p.stats.best / highScore) * 100;
+      const color = playerColor(ALL_PLAYERS, p.name);
+      return `
+        <div class="sgap-row">
+          <span class="sgap-name">${p.name}</span>
+          <div class="sgap-bar-wrap">
+            <div class="sgap-bar" style="width:${Math.min(pct, 100).toFixed(1)}%; background:${color}"></div>
+          </div>
+          <span class="sgap-pct">${pct.toFixed(1)}%</span>
+          <span class="sgap-score">${fmtNumber(p.stats.best)}</span>
+        </div>`;
+    }).join('');
+
+    return `
+      <div class="sgap-chart">
+        <h3 class="sgap-title">Score comparison — % of high score</h3>
+        ${rows}
+      </div>`;
   }
 
   function buildRivalryHighlight(players) {
@@ -146,6 +172,7 @@ export function renderMachineDetailPage(machines) {
     const playerRowsHtml = players.map(p => {
       const plays = p.stats.plays || 0;
       const best = p.stats.best || 0;
+      const color = playerColor(ALL_PLAYERS, p.name);
 
       const percentOfHigh = (highScore && best)
         ? ((best / highScore) * 100).toFixed(1) + '%'
@@ -161,8 +188,8 @@ export function renderMachineDetailPage(machines) {
       const scoreAttr = cls ? `class="${cls}"` : '';
 
       return `
-        <tr>
-          <td>${p.name}</td>
+        <tr style="border-left:3px solid ${color}">
+          <td><span class="player-dot" style="background:${color}"></span>${p.name}</td>
           <td>${plays}</td>
           <td ${scoreAttr}>${best ? fmtNumber(best) : ''}${isLifetimeHigh ? trophy : ''}</td>
           <td>${percentOfHigh}</td>
@@ -202,6 +229,8 @@ export function renderMachineDetailPage(machines) {
           </div>
         </div>
       </div>
+
+      ${buildScoreGapChart(players, highScore)}
 
       <h2>Player stats</h2>
       <div class="table-wrapper">

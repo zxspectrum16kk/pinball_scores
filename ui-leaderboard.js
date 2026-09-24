@@ -1,8 +1,8 @@
 // ui-leaderboard.js
 // Leaderboard (overall) page
 
-import { playerKeyFromName, makeTableSortable } from './utils.js';
-import { getSelectedPlayers } from './data.js';
+import { playerKeyFromName, makeTableSortable, playerColor } from './utils.js';
+import { getSelectedPlayers, ALL_PLAYERS } from './data.js';
 
 export function renderLeaderboardChart(containerId, selectedPlayers, winsMap, contestedMap, stats) {
   const container = document.getElementById(containerId);
@@ -13,31 +13,59 @@ export function renderLeaderboardChart(containerId, selectedPlayers, winsMap, co
     return;
   }
 
-  const winsList = selectedPlayers.map(n => winsMap[n] || 0);
+  const winsList  = selectedPlayers.map(n => winsMap[n] || 0);
   const aboveList = selectedPlayers.map(n => (stats[n]?.aboveAvg) || 0);
   const playedList = selectedPlayers.map(n => (stats[n]?.machinesPlayed) || 0);
 
-  const maxWins = Math.max(...winsList, 1);
+  const maxWins  = Math.max(...winsList, 1);
   const maxAbove = Math.max(...aboveList, 1);
   const maxPlayed = Math.max(...playedList, 1);
 
-  let html = `<h2>Player Comparison</h2>`;
+  // Sort by wins for the podium
+  const ranked = [...selectedPlayers]
+    .map(n => ({ name: n, wins: winsMap[n] || 0, color: playerColor(ALL_PLAYERS, n) }))
+    .sort((a, b) => b.wins - a.wins);
 
-  selectedPlayers.forEach(name => {
+  // Podium layout: 2nd left, 1st centre, 3rd right
+  const podiumSlots = ranked.length >= 3
+    ? [ranked[1], ranked[0], ranked[2]]
+    : ranked.length === 2
+      ? [ranked[1], ranked[0]]
+      : [ranked[0]];
+
+  const placeLabel = { 0: '1st', 1: '2nd', 2: '3rd' };
+  const placeClass = { 0: 'podium-block--gold', 1: 'podium-block--silver', 2: 'podium-block--bronze' };
+
+  const podiumColsHtml = podiumSlots.map(p => {
+    const place = ranked.indexOf(p); // 0-indexed rank
+    const heightPx = Math.max(44, Math.round((p.wins / maxWins) * 110));
+    return `
+      <div class="podium-col">
+        <div class="podium-player-name" style="color:${p.color}">${p.name}</div>
+        <div class="podium-wins-count">${p.wins}<span class="podium-wins-label"> wins</span></div>
+        <div class="podium-block ${placeClass[place]}" style="height:${heightPx}px; background:${p.color}">
+          ${placeLabel[place]}
+        </div>
+      </div>`;
+  }).join('');
+
+  // Detailed per-player bar chart
+  const barsHtml = selectedPlayers.map(name => {
     const wins = winsMap[name] || 0;
     const contested = contestedMap[name] || 0;
     const winPct = contested > 0 ? ((wins / contested) * 100).toFixed(1) + '%' : '0%';
     const above = stats[name]?.aboveAvg || 0;
     const played = stats[name]?.machinesPlayed || 0;
+    const color = playerColor(ALL_PLAYERS, name);
 
-    html += `
-      <div class="chart-player-block">
-        <div class="chart-player-name">${name}</div>
+    return `
+      <div class="chart-player-block" style="border-left:4px solid ${color}">
+        <div class="chart-player-name" style="color:${color}">${name}</div>
 
         <div class="chart-row">
           <span class="chart-label">Wins / Win %</span>
           <div class="chart-bar-outer">
-            <div class="chart-bar-inner bar-wins" style="width:${(wins / maxWins) * 100}%"></div>
+            <div class="chart-bar-inner" style="width:${(wins / maxWins) * 100}%; background:${color}"></div>
           </div>
           <span class="chart-value">${wins} (${winPct})</span>
         </div>
@@ -45,7 +73,7 @@ export function renderLeaderboardChart(containerId, selectedPlayers, winsMap, co
         <div class="chart-row">
           <span class="chart-label">Above Avg</span>
           <div class="chart-bar-outer">
-            <div class="chart-bar-inner bar-above" style="width:${(above / maxAbove) * 100}%"></div>
+            <div class="chart-bar-inner" style="width:${(above / maxAbove) * 100}%; background:${color}; opacity:0.7"></div>
           </div>
           <span class="chart-value">${above}</span>
         </div>
@@ -53,15 +81,19 @@ export function renderLeaderboardChart(containerId, selectedPlayers, winsMap, co
         <div class="chart-row">
           <span class="chart-label">Machines Played</span>
           <div class="chart-bar-outer">
-            <div class="chart-bar-inner bar-played" style="width:${(played / maxPlayed) * 100}%"></div>
+            <div class="chart-bar-inner" style="width:${(played / maxPlayed) * 100}%; background:${color}; opacity:0.5"></div>
           </div>
           <span class="chart-value">${played}</span>
         </div>
-      </div>
-    `;
-  });
+      </div>`;
+  }).join('');
 
-  container.innerHTML = html;
+  container.innerHTML = `
+    <h2>Wins podium</h2>
+    <div class="podium">${podiumColsHtml}</div>
+    <h2 style="margin-top:28px">Breakdown</h2>
+    ${barsHtml}
+  `;
 }
 
 export function renderOverallPage(machines, stats) {
@@ -84,52 +116,32 @@ export function renderOverallPage(machines, stats) {
 
   machines.forEach(m => {
     const active = [];
-
     selectedPlayers.forEach(name => {
       const key = playerKeyFromName(name);
       const d = m[key];
-      if (d && d.plays > 0) {
-        active.push({ name, best: d.best || 0 });
-      }
+      if (d && d.plays > 0) active.push({ name, best: d.best || 0 });
     });
 
     if (active.length < 2) return;
 
+    active.forEach(a => { contestedMap[a.name] += 1; });
+
+    let maxScore = -1, maxName = '', tie = false;
     active.forEach(a => {
-      contestedMap[a.name] += 1;
+      if (a.best > maxScore) { maxScore = a.best; maxName = a.name; tie = false; }
+      else if (a.best === maxScore) { tie = true; }
     });
 
-    let maxScore = -1;
-    let maxName = '';
-    let tie = false;
-    active.forEach(a => {
-      if (a.best > maxScore) {
-        maxScore = a.best;
-        maxName = a.name;
-        tie = false;
-      } else if (a.best === maxScore) {
-        tie = true;
-      }
-    });
-
-    if (!tie && maxName && maxScore > 0) {
-      winsMap[maxName] += 1;
-    }
+    if (!tie && maxName && maxScore > 0) winsMap[maxName] += 1;
   });
 
   tbody.innerHTML = '';
 
-  let maxMachines = 0;
-  let maxWins = 0;
-  let maxWinPct = 0;
-  let maxAvgPer = 0;
-  let maxAbove = 0;
-  let maxHighs = 0;
+  let maxMachines = 0, maxWins = 0, maxWinPct = 0, maxAvgPer = 0, maxAbove = 0, maxHighs = 0;
 
   selectedPlayers.forEach(name => {
     const s = stats[name];
     if (!s) return;
-
     const wins = winsMap[name] || 0;
     const contested = contestedMap[name] || 0;
     const winPctVal = contested > 0 ? (wins / contested) * 100 : 0;
@@ -147,6 +159,7 @@ export function renderOverallPage(machines, stats) {
     const s = stats[name];
     if (!s) return;
 
+    const color = playerColor(ALL_PLAYERS, name);
     const machinesPlayed = s.machinesPlayed;
     const wins = winsMap[name] || 0;
     const contested = contestedMap[name] || 0;
@@ -155,19 +168,19 @@ export function renderOverallPage(machines, stats) {
     const avgPerVal = parseFloat(s.avgPer) || 0;
 
     const tr = document.createElement('tr');
+    tr.style.setProperty('--player-color', color);
     tr.innerHTML = `
-      <td class="rank-cell"></td>
-      <td>
-        <a href="index.html?player=${encodeURIComponent(name)}">
-          ${name}
-        </a>
+      <td class="rank-cell" data-label="Rank"></td>
+      <td data-label="Player">
+        <span class="player-dot" style="background:${color}"></span>
+        <a href="index.html?player=${encodeURIComponent(name)}">${name}</a>
       </td>
-      <td class="${machinesPlayed === maxMachines && maxMachines > 0 ? 'highlight-gold' : ''}">${machinesPlayed}</td>
-      <td class="${wins === maxWins && maxWins > 0 ? 'highlight-gold' : ''}">${wins}</td>
-      <td class="${winPctVal === maxWinPct && maxWinPct > 0 ? 'highlight-gold' : ''}">${winPct}</td>
-      <td class="${avgPerVal === maxAvgPer && maxAvgPer > 0 ? 'highlight-gold' : ''}">${s.avgPer}</td>
-      <td class="${s.aboveAvg === maxAbove && maxAbove > 0 ? 'highlight-gold' : ''}">${s.aboveAvg}</td>
-      <td class="${s.lifetimeHighs === maxHighs && maxHighs > 0 ? 'highlight-gold' : ''}">${s.lifetimeHighs}</td>
+      <td data-label="Machines" class="${machinesPlayed === maxMachines && maxMachines > 0 ? 'highlight-gold' : ''}">${machinesPlayed}</td>
+      <td data-label="Wins" class="${wins === maxWins && maxWins > 0 ? 'highlight-gold' : ''}">${wins}</td>
+      <td data-label="Win %" class="${winPctVal === maxWinPct && maxWinPct > 0 ? 'highlight-gold' : ''}">${winPct}</td>
+      <td data-label="Avg %" class="${avgPerVal === maxAvgPer && maxAvgPer > 0 ? 'highlight-gold' : ''}">${s.avgPer}</td>
+      <td data-label="Above Avg" class="${s.aboveAvg === maxAbove && maxAbove > 0 ? 'highlight-gold' : ''}">${s.aboveAvg}</td>
+      <td data-label="High Scores" class="${s.lifetimeHighs === maxHighs && maxHighs > 0 ? 'highlight-gold' : ''}">${s.lifetimeHighs}</td>
     `;
     tbody.appendChild(tr);
   });

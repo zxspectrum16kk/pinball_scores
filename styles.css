@@ -2564,3 +2564,453 @@ html[data-theme="dark"] .rivalry-highlight {
 html[data-theme="dark"] .skeleton-card {
     background: #1e2535;
 }
+
+/* ===========================
+   SCRAPE PROGRESS
+   =========================== */
+
+.scrape-heading {
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+}
+
+.scrape-bar-wrap {
+    background: #e0e4ec;
+    border-radius: 6px;
+    height: 8px;
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+
+.scrape-bar {
+    height: 100%;
+    background: #4a7de8;
+    border-radius: 6px;
+    transition: width 0.4s ease;
+}
+
+.scrape-bar-label {
+    font-size: 0.78rem;
+    color: var(--text-muted, #777);
+    margin-bottom: 12px;
+}
+
+.scrape-items {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.scrape-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 0;
+    font-size: 0.88rem;
+}
+
+.scrape-item--active {
+    font-weight: 600;
+    color: #4a7de8;
+}
+
+.scrape-icon {
+    font-size: 1rem;
+    width: 18px;
+    text-align: center;
+}
+
+.scrape-icon--done    { color: #2ecc71; }
+.scrape-icon--running { color: #4a7de8; animation: spin 1.2s linear infinite; display: inline-block; }
+.scrape-icon--failed  { color: #e74c3c; }
+.scrape-icon--pending { color: #aaa; }
+
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.scrape-item-name {
+    flex: 1;
+}
+
+.scrape-machine-count {
+    font-size: 0.8rem;
+    color: var(--text-muted, #777);
+}
+
+.scrape-error {
+    color: #e74c3c;
+    font-size: 0.85rem;
+    margin-top: 8px;
+}
+
+/* ===========================
+   DIFF PANEL
+   =========================== */
+
+.diff-panel {
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border-color, #ddd);
+}
+
+.diff-heading {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-muted, #777);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin: 0 0 10px;
+}
+
+.diff-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.diff-row {
+    background: var(--bg-card, #f8f9fc);
+    border: 1px solid var(--border-color, #e0e4ec);
+    border-radius: 8px;
+    padding: 10px 14px;
+}
+
+.diff-row-top {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.diff-player {
+    font-weight: 600;
+    font-size: 0.9rem;
+    min-width: 90px;
+}
+
+.diff-tag {
+    font-size: 0.75rem;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.diff-tag--new {
+    background: #e8f5e9;
+    color: #2e7d32;
+    border: 1px solid #a5d6a7;
+}
+
+.diff-tag--improved {
+    background: #e3f2fd;
+    color: #1565c0;
+    border: 1px solid #90caf9;
+}
+
+.diff-cov {
+    margin-left: auto;
+    font-size: 0.78rem;
+    color: var(--text-muted, #777);
+}
+
+.diff-details {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border-color, #eee);
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.diff-detail-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.82rem;
+    padding: 1px 0;
+}
+
+.diff-detail-row--new .diff-machine-name {
+    color: #2e7d32;
+}
+
+.diff-machine-name {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.diff-scores {
+    color: #1565c0;
+    white-space: nowrap;
+    margin-left: 12px;
+    font-size: 0.8rem;
+}
+
+.diff-detail-more {
+    font-size: 0.78rem;
+    color: var(--text-muted, #777);
+    padding-top: 2px;
+}
+
+html[data-theme="dark"] .scrape-bar-wrap {
+    background: #2a3148;
+}
+
+html[data-theme="dark"] .diff-row {
+    background: #1c2130;
+    border-color: #2a3148;
+}
+
+html[data-theme="dark"] .diff-tag--new {
+    background: #0d2a12;
+    color: #66bb6a;
+    border-color: #2e5e32;
+}
+
+html[data-theme="dark"] .diff-tag--improved {
+    background: #0a1e3a;
+    color: #64b5f6;
+    border-color: #1a4a7a;
+}
+
+html[data-theme="dark"] .diff-scores {
+    color: #64b5f6;
+}
+
+/* ===========================
+   PLAYER DOT
+   =========================== */
+
+.player-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 6px;
+    flex-shrink: 0;
+    vertical-align: middle;
+}
+
+/* ===========================
+   PODIUM
+   =========================== */
+
+.podium {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 0 0;
+    margin-bottom: 8px;
+}
+
+.podium-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 90px;
+    max-width: 130px;
+    flex: 1;
+}
+
+.podium-player-name {
+    font-weight: 700;
+    font-size: 0.95rem;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.podium-wins-count {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.podium-wins-label {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: var(--text-muted, #777);
+}
+
+.podium-block {
+    width: 100%;
+    border-radius: 6px 6px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 0.02em;
+    min-height: 44px;
+    transition: height 0.4s ease;
+}
+
+/* ===========================
+   SCORE GAP CHART
+   =========================== */
+
+.sgap-chart {
+    margin: 20px 0;
+    padding: 16px;
+    background: var(--bg-card, #f8f9fc);
+    border: 1px solid var(--border-color, #e0e4ec);
+    border-radius: 10px;
+}
+
+.sgap-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-muted, #666);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin: 0 0 12px;
+}
+
+.sgap-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 6px 0;
+    font-size: 0.88rem;
+}
+
+.sgap-name {
+    width: 70px;
+    flex-shrink: 0;
+    font-weight: 600;
+}
+
+.sgap-bar-wrap {
+    flex: 1;
+    height: 14px;
+    background: var(--bg-header, #eef1f7);
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.sgap-bar {
+    height: 100%;
+    border-radius: 7px;
+    transition: width 0.4s ease;
+    min-width: 2px;
+}
+
+.sgap-pct {
+    width: 44px;
+    text-align: right;
+    flex-shrink: 0;
+    font-variant-numeric: tabular-nums;
+    color: var(--text-muted, #777);
+    font-size: 0.8rem;
+}
+
+.sgap-score {
+    width: 88px;
+    text-align: right;
+    flex-shrink: 0;
+    font-variant-numeric: tabular-nums;
+    font-size: 0.82rem;
+}
+
+/* ===========================
+   LEADERBOARD TABLE — MOBILE CARD MODE
+   =========================== */
+
+@media (max-width: 600px) {
+    #leaderboard-chart {
+        overflow-x: hidden;
+    }
+
+    .podium {
+        gap: 4px;
+    }
+
+    .podium-col {
+        min-width: 70px;
+    }
+
+    .podium-player-name {
+        font-size: 0.8rem;
+    }
+
+    .podium-wins-count {
+        font-size: 1rem;
+    }
+
+    #overall-table thead {
+        display: none;
+    }
+
+    #overall-table,
+    #overall-table tbody,
+    #overall-table tr,
+    #overall-table td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #overall-table tr {
+        border: 1px solid var(--border, #e0e4ec);
+        border-left: 4px solid var(--player-color, #0077cc);
+        border-radius: 8px;
+        margin-bottom: 10px;
+        padding: 10px 12px;
+        background: var(--bg-card, #fff);
+    }
+
+    #overall-table td {
+        display: flex;
+        justify-content: space-between;
+        padding: 3px 0;
+        border: none;
+        font-size: 0.88rem;
+    }
+
+    #overall-table td.rank-cell {
+        display: none;
+    }
+
+    #overall-table td::before {
+        content: attr(data-label);
+        font-weight: 600;
+        color: var(--text-muted, #666);
+        margin-right: 8px;
+        flex-shrink: 0;
+    }
+
+    .sgap-name {
+        width: 56px;
+    }
+
+    .sgap-score {
+        display: none;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 4px 8px;
+    }
+
+    nav a {
+        font-size: 0.82rem;
+        padding: 4px 6px;
+    }
+}
+
+html[data-theme="dark"] .sgap-chart {
+    background: #1c2130;
+    border-color: #2a3148;
+}
+
+html[data-theme="dark"] .sgap-bar-wrap {
+    background: #2a3148;
+}
+
+html[data-theme="dark"] #overall-table tr {
+    background: #1c2130;
+    border-color: #2a3148;
+}

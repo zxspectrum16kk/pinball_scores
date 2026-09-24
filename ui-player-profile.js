@@ -1,7 +1,7 @@
 // ui-player-profile.js
 // Player profile page
 
-import { fmtNumber, playerKeyFromName, makeTableSortable } from './utils.js';
+import { fmtNumber, playerKeyFromName, makeTableSortable, playerColor } from './utils.js';
 import { ALL_PLAYERS } from './data.js';
 
 function computeConsistency(events) {
@@ -109,9 +109,10 @@ export function renderPlayerProfilePage(machines, stats) {
   const mp = s.machinesPlayed;
   const wins = s.wins;
   const winPctOverall = mp > 0 ? ((wins / mp) * 100).toFixed(1) + '%' : '0%';
+  const color = playerColor(ALL_PLAYERS, playerName);
 
   const summaryHtml = `
-    <h2>${playerName}</h2>
+    <h2 class="player-profile-heading" style="border-left:4px solid ${color}; padding-left:12px; color:${color}">${playerName}</h2>
     <div class="summary">
       <div class="summary-grid">
         <div class="summary-item">

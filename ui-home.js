@@ -1,17 +1,6 @@
 // ui-home.js
-import { fmtNumber, playerKeyFromName } from './utils.js';
-import { getSelectedPlayers, DATA_LAST_UPDATED } from './data.js';
-
-const PLAYER_COLORS = [
-  { main: '#0077cc' },
-  { main: '#2ecc71' },
-  { main: '#e67e22' },
-  { main: '#9b59b6' },
-  { main: '#e74c3c' },
-  { main: '#16a085' },
-  { main: '#f39c12' },
-  { main: '#2c3e50' },
-];
+import { fmtNumber, playerKeyFromName, PLAYER_COLORS, playerColor } from './utils.js';
+import { getSelectedPlayers, DATA_LAST_UPDATED, ALL_PLAYERS } from './data.js';
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
 
@@ -305,13 +294,13 @@ function renderDashboard(container, machines, stats, selectedPlayers, year) {
   const maxWins = activeStats[leader]?.wins || 0;
 
   // Group overview
-  const compBars = byWins.map((name, idx) => {
-    const color = PLAYER_COLORS[idx % PLAYER_COLORS.length];
+  const compBars = byWins.map((name) => {
+    const color = playerColor(ALL_PLAYERS, name);
     const w = maxWins > 0 ? ((activeStats[name].wins / maxWins) * 100).toFixed(1) : 0;
     return `<div class="comparison-row">
       <span class="comparison-label">${name}</span>
       <div class="comparison-bar-track">
-        <div class="comparison-bar-fill" data-bar-width="${w}" style="background:${color.main};width:0%"></div>
+        <div class="comparison-bar-fill" data-bar-width="${w}" style="background:${color};width:0%"></div>
       </div>
       <span class="comparison-bar-label">${activeStats[name].wins}</span>
     </div>`;
@@ -341,9 +330,9 @@ function renderDashboard(container, machines, stats, selectedPlayers, year) {
     </div>`;
 
   // Player cards
-  const playerCardsHtml = byWins.map((name, idx) => {
+  const playerCardsHtml = byWins.map((name) => {
     const p = { name, ...activeStats[name] };
-    const color = PLAYER_COLORS[idx % PLAYER_COLORS.length];
+    const color = playerColor(ALL_PLAYERS, name);
     const rank = rankMap.get(name);
     const key = playerKeyFromName(name);
     const playerBadges = badges.get(name) || [];
@@ -354,7 +343,7 @@ function renderDashboard(container, machines, stats, selectedPlayers, year) {
 
     // Sparkline
     const yearlyWins = computeYearlyWins(machines, name, selectedPlayers, allYears);
-    const sparkline = allYears.length >= 2 ? renderSparkline(allYears, yearlyWins, color.main) : '';
+    const sparkline = allYears.length >= 2 ? renderSparkline(allYears, yearlyWins, color) : '';
 
     // Recent form
     const form = computeRecentForm(machines, name);
@@ -405,7 +394,7 @@ function renderDashboard(container, machines, stats, selectedPlayers, year) {
             </div>
             <div class="standout-pct-group">
               <div class="standout-bar-wrap">
-                <div class="standout-bar-fill" style="width:${Math.min(s.pct, 100).toFixed(1)}%;background:${color.main}"></div>
+                <div class="standout-bar-fill" style="width:${Math.min(s.pct, 100).toFixed(1)}%;background:${color}"></div>
               </div>
               <span class="standout-pct ${s.pct >= 50 ? 'text-success' : 'text-warning'}">${s.pct.toFixed(1)}% of high</span>
             </div>
@@ -444,14 +433,14 @@ function renderDashboard(container, machines, stats, selectedPlayers, year) {
 
     return `
       <div class="player-section">
-        <div class="home-card player-card" style="border-top:3px solid ${color.main}">
+        <div class="home-card player-card" style="border-top:3px solid ${color}">
           <div class="pc-header">
             <a href="index.html?player=${encodeURIComponent(name)}" class="pc-name">${name}</a>
-            <span class="pc-rank" style="color:${color.main}">${rankStr} / GROUP</span>
+            <span class="pc-rank" style="color:${color}">${rankStr} / GROUP</span>
           </div>
           ${badgesHtml}
           <div class="pc-wins">
-            <span class="pc-wins-num" style="color:${color.main}" data-counter="${p.wins}">${p.wins}</span>
+            <span class="pc-wins-num" style="color:${color}" data-counter="${p.wins}">${p.wins}</span>
             <span class="pc-wins-label">group wins</span>
           </div>
           ${sparkline}
@@ -464,7 +453,7 @@ function renderDashboard(container, machines, stats, selectedPlayers, year) {
             <div title="Average of (player's best ÷ machine high score) across all machines played — how close they typically get to the record on each machine"><span class="stat-value">${p.avgPer}</span><span class="stat-label">avg % of record</span></div>
             <div title="Of contested machines (where at least one other selected player has also played), the percentage where this player has the highest score in the group"><span class="stat-value">${winRate}</span><span class="stat-label">win rate</span></div>
           </div>
-          <a href="index.html?player=${encodeURIComponent(name)}" class="explore-link" style="color:${color.main}">Explore ${name}'s scores →</a>
+          <a href="index.html?player=${encodeURIComponent(name)}" class="explore-link" style="color:${color}">Explore ${name}'s scores →</a>
         </div>
         ${standoutsHtml}${toughestHtml}${revisitHtml}
       </div>`;
@@ -477,15 +466,15 @@ function renderDashboard(container, machines, stats, selectedPlayers, year) {
     for (let i = 0; i < byWins.length; i++) {
       for (let j = i + 1; j < byWins.length; j++) {
         const pA = byWins[i], pB = byWins[j];
-        const cA = PLAYER_COLORS[i % PLAYER_COLORS.length], cB = PLAYER_COLORS[j % PLAYER_COLORS.length];
+        const cA = playerColor(ALL_PLAYERS, pA), cB = playerColor(ALL_PLAYERS, pB);
         const { winsA, winsB, ties } = computeH2H(machines, pA, pB, year);
         const total = winsA + winsB + ties;
         if (total === 0) {
           pairRows.push(`<div class="h2h-row">
             <div class="h2h-names">
-              <a href="index.html?player=${encodeURIComponent(pA)}" class="h2h-name" style="color:${cA.main}">${pA}</a>
+              <a href="index.html?player=${encodeURIComponent(pA)}" class="h2h-name" style="color:${cA}">${pA}</a>
               <span class="h2h-vs">vs</span>
-              <a href="index.html?player=${encodeURIComponent(pB)}" class="h2h-name" style="color:${cB.main}">${pB}</a>
+              <a href="index.html?player=${encodeURIComponent(pB)}" class="h2h-name" style="color:${cB}">${pB}</a>
             </div>
             <span class="h2h-no-data">No shared machines yet</span>
           </div>`);
@@ -495,18 +484,18 @@ function renderDashboard(container, machines, stats, selectedPlayers, year) {
         const pctB = ((winsB / total) * 100).toFixed(1);
         pairRows.push(`<div class="h2h-row">
           <div class="h2h-names">
-            <a href="index.html?player=${encodeURIComponent(pA)}" class="h2h-name ${winsA > winsB ? 'h2h-leading' : ''}" style="color:${cA.main}">${pA}</a>
+            <a href="index.html?player=${encodeURIComponent(pA)}" class="h2h-name ${winsA > winsB ? 'h2h-leading' : ''}" style="color:${cA}">${pA}</a>
             <span class="h2h-vs">vs</span>
-            <a href="index.html?player=${encodeURIComponent(pB)}" class="h2h-name ${winsB > winsA ? 'h2h-leading' : ''}" style="color:${cB.main}">${pB}</a>
+            <a href="index.html?player=${encodeURIComponent(pB)}" class="h2h-name ${winsB > winsA ? 'h2h-leading' : ''}" style="color:${cB}">${pB}</a>
           </div>
           <div class="h2h-bars">
-            <div class="h2h-bar-wrap"><div class="h2h-bar" data-bar-width="${pctA}" style="background:${cA.main};width:0%"></div></div>
+            <div class="h2h-bar-wrap"><div class="h2h-bar" data-bar-width="${pctA}" style="background:${cA};width:0%"></div></div>
             <div class="h2h-counts">
-              <span style="color:${cA.main}">${winsA}</span>
+              <span style="color:${cA}">${winsA}</span>
               ${ties > 0 ? `<span class="h2h-ties">${ties} tied</span>` : '<span class="h2h-ties">&ndash;</span>'}
-              <span style="color:${cB.main}">${winsB}</span>
+              <span style="color:${cB}">${winsB}</span>
             </div>
-            <div class="h2h-bar-wrap"><div class="h2h-bar" data-bar-width="${pctB}" style="background:${cB.main};width:0%"></div></div>
+            <div class="h2h-bar-wrap"><div class="h2h-bar" data-bar-width="${pctB}" style="background:${cB};width:0%"></div></div>
           </div>
           <div class="h2h-detail">${total} shared machine${total !== 1 ? 's' : ''}</div>
         </div>`);

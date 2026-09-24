@@ -13,8 +13,11 @@ const els = {
     btnScrapeSelected: document.getElementById('btn-scrape-selected'),
     scrapeStatus: document.getElementById('scrape-status'),
     stagedTableBody: document.querySelector('#staged-files-table tbody'),
-    btnPublish: document.getElementById('btn-publish')
+    btnPublish: document.getElementById('btn-publish'),
+    diffPanel: document.getElementById('diff-panel')
 };
+
+let scrapePoller = null;
 
 async function loadPlayers() {
     try {
@@ -25,7 +28,6 @@ async function loadPlayers() {
         renderScrapeList(players);
     } catch (err) {
         console.error("Failed to load players", err);
-        // Show error in table?
     }
 }
 
@@ -92,9 +94,86 @@ async function removePlayer(id) {
     }
 }
 
+function statusIcon(s) {
+    if (s === 'done')    return '<span class="scrape-icon scrape-icon--done">&#10003;</span>';
+    if (s === 'running') return '<span class="scrape-icon scrape-icon--running">&#8635;</span>';
+    if (s === 'failed')  return '<span class="scrape-icon scrape-icon--failed">&#10007;</span>';
+    return '<span class="scrape-icon scrape-icon--pending">&#9675;</span>';
+}
+
+function renderScrapeProgress(data) {
+    const items = data.items || [];
+    const completed = data.completed || 0;
+    const total = data.total || items.length || 1;
+    const pct = total > 0 ? Math.round((completed / total) * 100) : 0;
+
+    const isDone = data.status === 'complete';
+    const isFailed = data.status === 'failed';
+
+    const heading = isDone ? 'Scrape complete' : isFailed ? 'Scrape failed' : 'Scraping in progress...';
+
+    const itemRows = items.map(item => {
+        const isCurrent = data.current === item.name && item.status === 'running';
+        const machineInfo = item.status === 'done'
+            ? `<span class="scrape-machine-count">${item.machines} machines</span>`
+            : isCurrent && item.total > 0
+                ? `<span class="scrape-machine-count">${item.done} / ${item.total} machines</span>`
+                : '';
+        return `
+          <div class="scrape-item ${isCurrent ? 'scrape-item--active' : ''}">
+            ${statusIcon(item.status)}
+            <span class="scrape-item-name">${item.name}</span>
+            ${machineInfo}
+          </div>`;
+    }).join('');
+
+    els.scrapeStatus.innerHTML = `
+      <div class="scrape-heading">${heading}</div>
+      <div class="scrape-bar-wrap">
+        <div class="scrape-bar" style="width:${pct}%"></div>
+      </div>
+      <div class="scrape-bar-label">${completed} / ${total} completed</div>
+      <div class="scrape-items">${itemRows}</div>
+      ${isFailed && data.error ? `<div class="scrape-error">${data.error}</div>` : ''}
+    `;
+}
+
+function stopScrapePolling() {
+    if (scrapePoller) { clearInterval(scrapePoller); scrapePoller = null; }
+}
+
+async function pollScrapeStatus() {
+    try {
+        const res = await fetch(`${API_BASE}/scrape-status`, { cache: 'no-store' });
+        if (!res.ok) return;
+        const data = await res.json();
+
+        if (data.status === 'idle') { stopScrapePolling(); return; }
+
+        renderScrapeProgress(data);
+
+        if (data.status === 'complete' || data.status === 'failed') {
+            stopScrapePolling();
+            setBtnsDisabled(false);
+            if (data.status === 'complete') {
+                loadStagedFiles();
+                setTimeout(loadStagedFiles, 1500);
+            }
+        }
+    } catch (err) {
+        console.error("Status poll failed", err);
+    }
+}
+
+function setBtnsDisabled(disabled) {
+    els.btnScrapeAll.disabled = disabled;
+    els.btnScrapeSelected.disabled = disabled;
+}
+
 async function runScrape(targets) {
     els.scrapeStatus.style.display = 'block';
-    els.scrapeStatus.innerText = 'Scraping started... please wait...';
+    els.scrapeStatus.innerHTML = '<div class="scrape-heading">Starting scrape...</div>';
+    setBtnsDisabled(true);
 
     try {
         const res = await fetch(`${API_BASE}/scrape`, {
@@ -102,40 +181,91 @@ async function runScrape(targets) {
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ targets })
         });
-        let result = await res.json();
-        if (!Array.isArray(result)) result = [result];
+        const data = await res.json();
 
-        let msg = "Scrape Logic Complete:\n";
-        result.forEach(r => {
-            msg += `${r.Name}: ${r.Status} ${r.Error ? '(' + r.Error + ')' : ''}\n`;
-        });
-        els.scrapeStatus.innerText = msg;
-        // Aggressive polling to catch filesystem lag
-        loadStagedFiles();
-        setTimeout(loadStagedFiles, 1000);
-        setTimeout(loadStagedFiles, 3000);
+        if (data.status === 'already_running') {
+            els.scrapeStatus.innerHTML = '<div class="scrape-heading">A scrape is already running — see progress below.</div>';
+        }
+
+        // Start polling for live progress
+        stopScrapePolling();
+        await pollScrapeStatus();
+        scrapePoller = setInterval(pollScrapeStatus, 2000);
     } catch (err) {
-        els.scrapeStatus.innerText = "Error: " + err.message;
+        els.scrapeStatus.innerHTML = `<div class="scrape-heading scrape-error">Error: ${err.message}</div>`;
+        setBtnsDisabled(false);
     }
+}
+
+async function loadDiff() {
+    if (!els.diffPanel) return;
+    els.diffPanel.innerHTML = '<p class="note">Loading diff...</p>';
+    try {
+        const res = await fetch(`${API_BASE}/diff`, { cache: 'no-store' });
+        if (!res.ok) { els.diffPanel.innerHTML = ''; return; }
+        const diff = await res.json();
+        if (!diff || !diff.length) { els.diffPanel.innerHTML = '<p class="note">No diff data available.</p>'; return; }
+        renderDiff(diff);
+    } catch (err) {
+        els.diffPanel.innerHTML = '';
+    }
+}
+
+function renderDiff(diff) {
+    const rows = diff.map(d => {
+        const newTag  = d.newMachines > 0  ? `<span class="diff-tag diff-tag--new">+${d.newMachines} new</span>` : '';
+        const impTag  = d.improvedScores > 0 ? `<span class="diff-tag diff-tag--improved">&#8679; ${d.improvedScores} improved</span>` : '';
+        const covText = d.player !== 'MachineStats'
+            ? `<span class="diff-cov" title="Machines with event history">${d.eventCoverage}/${d.totalMachines} with events${d.coverageChange > 0 ? ' (+' + d.coverageChange + ')' : ''}</span>`
+            : `<span class="diff-cov">${d.totalMachines} machines</span>`;
+
+        let details = '';
+        if (d.improvedList && d.improvedList.length) {
+            const detailRows = d.improvedList.slice(0, 10).map(im =>
+                `<div class="diff-detail-row"><span class="diff-machine-name">${im.machine}</span><span class="diff-scores">${fmtNum(im.oldScore)} &rarr; ${fmtNum(im.newScore)}</span></div>`
+            ).join('');
+            const more = d.improvedList.length > 10 ? `<div class="diff-detail-more">+${d.improvedList.length - 10} more</div>` : '';
+            details = `<div class="diff-details">${detailRows}${more}</div>`;
+        }
+        if (d.newMachineList && d.newMachineList.length) {
+            const newRows = d.newMachineList.map(m => `<div class="diff-detail-row diff-detail-row--new"><span class="diff-machine-name">+ ${m}</span></div>`).join('');
+            details += `<div class="diff-details">${newRows}</div>`;
+        }
+
+        return `
+          <div class="diff-row">
+            <div class="diff-row-top">
+              <span class="diff-player">${d.player}</span>
+              ${newTag}${impTag}
+              ${covText}
+            </div>
+            ${details}
+          </div>`;
+    }).join('');
+
+    els.diffPanel.innerHTML = `
+      <h3 class="diff-heading">What&rsquo;s changing</h3>
+      <div class="diff-list">${rows}</div>
+    `;
+}
+
+function fmtNum(n) {
+    if (!n && n !== 0) return '—';
+    return Number(n).toLocaleString();
 }
 
 async function loadStagedFiles() {
     try {
         const res = await fetch(`${API_BASE}/staged`, { cache: 'no-store' });
-        if (!res.ok) return; // API might not be ready
+        if (!res.ok) return;
         let files = await res.json();
-
-        // Ensure array
         if (!Array.isArray(files)) files = [files].filter(f => f);
 
         els.stagedTableBody.innerHTML = '';
-        console.log("Staged files:", files);
 
         if (files && files.length > 0) {
             els.btnPublish.disabled = false;
-            // Sort by time desc
             files.sort((a, b) => new Date(b.LastWriteTime) - new Date(a.LastWriteTime));
-
             files.forEach(f => {
                 const tr = document.createElement('tr');
                 tr.innerHTML = `
@@ -145,9 +275,11 @@ async function loadStagedFiles() {
                 `;
                 els.stagedTableBody.appendChild(tr);
             });
+            loadDiff();
         } else {
             els.btnPublish.disabled = true;
             els.stagedTableBody.innerHTML = '<tr><td colspan="3" class="empty-state">No files staged. Scrape some data first.</td></tr>';
+            if (els.diffPanel) els.diffPanel.innerHTML = '';
         }
     } catch (err) {
         console.error("Failed to load staged files", err);
@@ -155,20 +287,35 @@ async function loadStagedFiles() {
 }
 
 async function publish() {
-    if (!confirm("Overwrite live data with staged files?")) return;
+    if (!confirm("Overwrite live data with staged files? A backup will be saved to data/backup/.")) return;
 
     try {
         const res = await fetch(`${API_BASE}/publish`, { method: 'POST' });
         const result = await res.json();
         alert(result.message);
-        els.stagedTableBody.innerHTML = ''; // Force clear immediately
-        // Aggressive polling to catch filesystem lag
+        if (els.diffPanel) els.diffPanel.innerHTML = '';
+        els.stagedTableBody.innerHTML = '';
         loadStagedFiles();
         setTimeout(loadStagedFiles, 1000);
         setTimeout(loadStagedFiles, 3000);
     } catch (err) {
         alert("Publish failed: " + err.message);
     }
+}
+
+// Check if a scrape was already running when we opened the page
+async function checkExistingProgress() {
+    try {
+        const res = await fetch(`${API_BASE}/scrape-status`, { cache: 'no-store' });
+        if (!res.ok) return;
+        const data = await res.json();
+        if (data.status === 'running') {
+            els.scrapeStatus.style.display = 'block';
+            setBtnsDisabled(true);
+            renderScrapeProgress(data);
+            scrapePoller = setInterval(pollScrapeStatus, 2000);
+        }
+    } catch {}
 }
 
 // Events
@@ -188,3 +335,4 @@ els.btnPublish.addEventListener('click', publish);
 // Init
 loadPlayers();
 loadStagedFiles();
+checkExistingProgress();

@@ -75,10 +75,10 @@
         <!-- Publish -->
         <div class="card admin-section">
             <div class="admin-header">
-                <h2>Review & Publish</h2>
+                <h2>Review &amp; Publish</h2>
                 <button id="btn-publish" class="primary" disabled>Publish Updates</button>
             </div>
-            <p class="note">Files currently in staging area (data/temp). Click Publish to make them live.</p>
+            <p class="note">Files currently in staging area (data/temp). Click Publish to make them live. A backup is saved to data/backup/ automatically.</p>
             <table id="staged-files-table" class="table-full-width">
                 <thead>
                     <tr>
@@ -89,6 +89,7 @@
                 </thead>
                 <tbody></tbody>
             </table>
+            <div id="diff-panel" class="diff-panel"></div>
         </div>
 
         <p class="note note-center">

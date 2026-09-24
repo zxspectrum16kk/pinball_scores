@@ -457,12 +457,12 @@ function renderDashboard(container, machines, stats, selectedPlayers, year) {
           ${sparkline}
           <div class="pc-divider"></div>
           <div class="player-stats-row">
-            <div><span class="stat-value" data-counter="${meetsAttended}">${meetsAttended}</span><span class="stat-label">meets attended</span></div>
-            <div><span class="stat-value" data-counter="${p.machinesPlayed}">${p.machinesPlayed}</span><span class="stat-label">machines played</span></div>
-            <div><span class="stat-value" data-counter="${p.aboveAvg}">${p.aboveAvg}</span><span class="stat-label">above average</span></div>
-            <div><span class="stat-value" data-counter="${p.lifetimeHighs}">${p.lifetimeHighs}</span><span class="stat-label">high scores</span></div>
-            <div><span class="stat-value">${p.avgPer}</span><span class="stat-label">avg performance</span></div>
-            <div><span class="stat-value">${winRate}</span><span class="stat-label">win rate</span></div>
+            <div title="Number of league meets this player has attended"><span class="stat-value" data-counter="${meetsAttended}">${meetsAttended}</span><span class="stat-label">meets attended</span></div>
+            <div title="Number of different machines played"><span class="stat-value" data-counter="${p.machinesPlayed}">${p.machinesPlayed}</span><span class="stat-label">machines played</span></div>
+            <div title="Machines where this player's best score beats the machine's league average score"><span class="stat-value" data-counter="${p.aboveAvg}">${p.aboveAvg}</span><span class="stat-label">above average</span></div>
+            <div title="Machines where this player holds the league all-time high score"><span class="stat-value" data-counter="${p.lifetimeHighs}">${p.lifetimeHighs}</span><span class="stat-label">high scores</span></div>
+            <div title="Average of (player's best ÷ machine high score) across all machines played — how close they typically get to the record on each machine"><span class="stat-value">${p.avgPer}</span><span class="stat-label">avg % of record</span></div>
+            <div title="Of contested machines (where at least one other selected player has also played), the percentage where this player has the highest score in the group"><span class="stat-value">${winRate}</span><span class="stat-label">win rate</span></div>
           </div>
           <a href="index.html?player=${encodeURIComponent(name)}" class="explore-link" style="color:${color.main}">Explore ${name}'s scores →</a>
         </div>

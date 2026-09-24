@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="Content-Language" content="en">
-  <title>Pinball Scores – Home</title>
+  <title>Pinball Scores â€“ Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="new_logo_more192x192.png">
   <link rel="stylesheet" href="styles.css">
@@ -24,9 +24,9 @@
       <a href="home.html" aria-current="page">Dashboard</a>
       <a href="index.html">Player Performance</a>
       <a href="machines.html">Machines</a>
-      <a href="custom_list.html">Custom List</a>
       <a href="overall.html">Leaderboard</a>
       <a href="difficulty.html">Machine Difficulty</a>
+      <a href="custom_list.html">Custom</a>
       <a href="players.html">Settings</a>
     </nav>
   </header>
@@ -42,7 +42,14 @@
       <div class="home-hero-deco" aria-hidden="true"></div>
     </div>
 
-    <div id="home-dashboard"></div>
+    <div id="home-dashboard">
+    <div class="skeleton-wrap">
+      <div class="skeleton-card skeleton-card--short"></div>
+      <div class="skeleton-card skeleton-card--tall"></div>
+      <div class="skeleton-card skeleton-card--tall"></div>
+      <div class="skeleton-card skeleton-card--medium"></div>
+    </div>
+  </div>
 
     <p class="note">
       Performance percentages compare a player's best score with the recorded machine high score.

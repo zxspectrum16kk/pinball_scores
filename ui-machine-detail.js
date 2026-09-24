@@ -47,6 +47,41 @@ export function renderMachineDetailPage(machines) {
     renderContent(machineParam);
   }
 
+  function buildRivalryHighlight(players) {
+    const withScores = players.filter(p => p.stats.best > 0);
+    if (withScores.length < 2) return '';
+
+    let minGap = Infinity, pair = null;
+    for (let i = 0; i < withScores.length; i++) {
+      for (let j = i + 1; j < withScores.length; j++) {
+        const a = withScores[i], b = withScores[j];
+        const higher = Math.max(a.stats.best, b.stats.best);
+        const gap = Math.abs(a.stats.best - b.stats.best) / higher;
+        if (gap < minGap) { minGap = gap; pair = [a, b]; }
+      }
+    }
+    if (!pair) return '';
+
+    const [p1, p2] = pair[0].stats.best >= pair[1].stats.best ? [pair[0], pair[1]] : [pair[1], pair[0]];
+    const diff = p1.stats.best - p2.stats.best;
+    const gapPct = (minGap * 100).toFixed(1);
+    const label = diff === 0
+      ? 'Exact tie on this machine'
+      : minGap < 0.02
+        ? `Virtual tie — ${fmtNumber(diff)} apart (${gapPct}%)`
+        : `${p1.name} leads ${p2.name} by ${fmtNumber(diff)} (${gapPct}%)`;
+
+    return `
+      <div class="rivalry-highlight">
+        <div class="rivalry-icon">&#9651;</div>
+        <div class="rivalry-body">
+          <div class="rivalry-title">Closest rivalry on this machine</div>
+          <div class="rivalry-names">${p1.name} <span class="rivalry-score">${fmtNumber(p1.stats.best)}</span> vs ${p2.name} <span class="rivalry-score">${fmtNumber(p2.stats.best)}</span></div>
+          <div class="rivalry-gap">${label}</div>
+        </div>
+      </div>`;
+  }
+
   function buildHistoryHtml(players) {
     const withHistory = players.filter(p => p.stats.events && p.stats.events.length > 0);
     if (!withHistory.length) return '';
@@ -189,6 +224,8 @@ export function renderMachineDetailPage(machines) {
       <p class="note">
         Trophy icons mark where a player's best score matches the recorded high score for this machine.
       </p>
+
+      ${buildRivalryHighlight(players)}
 
       ${buildHistoryHtml(players)}
     `;

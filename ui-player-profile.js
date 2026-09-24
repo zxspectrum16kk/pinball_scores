@@ -4,6 +4,26 @@
 import { fmtNumber, playerKeyFromName, makeTableSortable } from './utils.js';
 import { ALL_PLAYERS } from './data.js';
 
+function computeConsistency(events) {
+  if (!events || events.length < 3) return null;
+  const scores = events.map(e => e.score).filter(s => s > 0);
+  if (scores.length < 3) return null;
+  const mean = scores.reduce((a, b) => a + b, 0) / scores.length;
+  if (mean === 0) return null;
+  const variance = scores.reduce((sum, s) => sum + Math.pow(s - mean, 2), 0) / scores.length;
+  const cv = Math.sqrt(variance) / mean;
+  if (cv < 0.15) return 'consistent';
+  if (cv < 0.30) return 'variable';
+  return 'volatile';
+}
+
+function consistencyBadge(c) {
+  if (c === 'consistent') return `<span class="consistency consistency--consistent" title="Low score variance">Consistent</span>`;
+  if (c === 'variable')   return `<span class="consistency consistency--variable"   title="Moderate score variance">Variable</span>`;
+  if (c === 'volatile')   return `<span class="consistency consistency--volatile"   title="High score variance">Volatile</span>`;
+  return '';
+}
+
 function getTrend(events) {
   if (!events || events.length < 2) return null;
   const first = events[0].score;
@@ -188,6 +208,10 @@ export function renderPlayerProfilePage(machines, stats) {
       const percentOfHigh = (highScore && best) ? ((best / highScore) * 100).toFixed(1) + '%' : '';
       const aboveAvgFlag = (avgScore && best) ? (best > avgScore ? 'Above avg' : 'Below avg') : '';
       const isLifetimeHigh = !yearFilter && highScore && best === highScore;
+      const events = yearFilter
+        ? (m[key]?.events || []).filter(e => e.year === yearFilter)
+        : (m[key]?.events || []);
+      const consistency = consistencyBadge(computeConsistency(events));
 
       return `
         <tr>
@@ -198,6 +222,7 @@ export function renderPlayerProfilePage(machines, stats) {
           <td>${avgScore != null ? fmtNumber(avgScore) : ''}</td>
           <td>${aboveAvgFlag}</td>
           <td>${trendBadge(trend)}</td>
+          <td>${consistency}</td>
         </tr>
       `;
     }).join('');
@@ -214,6 +239,7 @@ export function renderPlayerProfilePage(machines, stats) {
               <th>Machine Avg</th>
               <th>Vs Average</th>
               <th>Trend</th>
+              <th>Consistency</th>
             </tr>
           </thead>
           <tbody>${rowsHtml}</tbody>

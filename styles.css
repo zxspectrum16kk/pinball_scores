@@ -1234,7 +1234,10 @@ html[data-theme="dark"] .home-card {
     font-size: 20px;
     font-weight: bold;
     color: #111;
+    text-decoration: none;
 }
+
+.pc-name:hover { text-decoration: underline; }
 
 html[data-theme="dark"] .pc-name {
     color: #e8eaf0;
@@ -1786,7 +1789,10 @@ html[data-theme="dark"] .stat-value {
 .h2h-name {
     font-weight: bold;
     font-size: 14px;
+    text-decoration: none;
 }
+
+.h2h-name:hover { text-decoration: underline; }
 
 .h2h-leading {
     font-size: 15px;
@@ -2302,3 +2308,259 @@ html[data-theme="dark"] .badge--orange {
 .stoggle-btn--active:hover { background: var(--accent); }
 
 html[data-theme="dark"] .stoggle-btn--active { color: #fff; }
+/* ===========================
+   HERO CARD (Season at a glance)
+   =========================== */
+
+.hero-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 20px 16px;
+    margin-bottom: 18px;
+}
+
+.hero-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 14px;
+}
+
+.hero-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.hero-updated {
+    font-size: 12px;
+    color: var(--text-muted);
+}
+
+.hero-stats {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.hero-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero-stat-num {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--accent);
+    line-height: 1.1;
+}
+
+.hero-stat-label {
+    font-size: 11px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-top: 2px;
+}
+
+/* ===========================
+   SPARKLINE
+   =========================== */
+
+.sparkline-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0 4px;
+    gap: 4px;
+}
+
+.sparkline-label {
+    font-size: 11px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+/* ===========================
+   FORM BADGE (Hot / Cold / Neutral)
+   =========================== */
+
+.form-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 8px;
+    border-radius: 99px;
+    font-size: 11px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    cursor: default;
+}
+
+.form-badge--hot {
+    background: #fef3e2;
+    color: #c0680a;
+    border-color: #fcd29b;
+}
+
+.form-badge--cold {
+    background: #e8f4fd;
+    color: #1565a8;
+    border-color: #b3d8f5;
+}
+
+.form-badge--neutral {
+    background: var(--bg-header);
+    color: var(--text-muted);
+    border-color: var(--border);
+}
+
+/* ===========================
+   CONSISTENCY BADGE (Player profile table)
+   =========================== */
+
+.consistency {
+    display: inline-block;
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.consistency--consistent {
+    background: #e8f8ef;
+    color: #1e7d42;
+}
+
+.consistency--variable {
+    background: #fff8e1;
+    color: #b07c00;
+}
+
+.consistency--volatile {
+    background: #fdecea;
+    color: #c0392b;
+}
+
+/* ===========================
+   RIVALRY HIGHLIGHT (Machine detail)
+   =========================== */
+
+.rivalry-highlight {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background: var(--bg-header);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin: 16px 0;
+}
+
+.rivalry-icon {
+    font-size: 18px;
+    color: var(--accent);
+    flex-shrink: 0;
+    margin-top: 1px;
+}
+
+.rivalry-title {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+    margin-bottom: 4px;
+}
+
+.rivalry-names {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.rivalry-score {
+    color: var(--accent);
+}
+
+.rivalry-gap {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: 3px;
+}
+
+/* ===========================
+   SKELETON LOADING
+   =========================== */
+
+@keyframes skeleton-pulse {
+    0%   { opacity: 1; }
+    50%  { opacity: 0.4; }
+    100% { opacity: 1; }
+}
+
+.skeleton-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 4px 0;
+}
+
+.skeleton-card {
+    background: var(--bg-header);
+    border-radius: 10px;
+    animation: skeleton-pulse 1.6s ease-in-out infinite;
+}
+
+.skeleton-card--tall   { height: 120px; }
+.skeleton-card--medium { height: 80px; }
+.skeleton-card--short  { height: 52px; }
+
+/* ===========================
+   DARK MODE — NEW COMPONENTS
+   =========================== */
+
+html[data-theme="dark"] .hero-card {
+    background: #1c2130;
+    border-color: #2a3148;
+}
+
+html[data-theme="dark"] .form-badge--hot {
+    background: #2a1800;
+    color: #f0a050;
+    border-color: #5a3010;
+}
+
+html[data-theme="dark"] .form-badge--cold {
+    background: #001828;
+    color: #60b0f0;
+    border-color: #1050a0;
+}
+
+html[data-theme="dark"] .consistency--consistent {
+    background: #0e2a18;
+    color: #4caf80;
+}
+
+html[data-theme="dark"] .consistency--variable {
+    background: #2a2000;
+    color: #d0a000;
+}
+
+html[data-theme="dark"] .consistency--volatile {
+    background: #2a0a08;
+    color: #e07060;
+}
+
+html[data-theme="dark"] .rivalry-highlight {
+    background: #1c2130;
+    border-color: #2a3148;
+}
+
+html[data-theme="dark"] .skeleton-card {
+    background: #1e2535;
+}

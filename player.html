@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="Content-Language" content="en">
-  <title>Pinball Scores – Player Profile</title>
+  <title>Pinball Scores â€“ Player Profile</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="new_logo_more192x192.png">
   <link rel="stylesheet" href="styles.css">
@@ -17,16 +17,16 @@
   <header>
     <div class="header-content">
       <img src="new_logo_more512x512.png" alt="Pinball Scores Logo" class="logo">
-      <h1>Pinball Scores – Player Profile</h1>
+      <h1>Pinball Scores â€“ Player Profile</h1>
     </div>
 
     <nav aria-label="Pinball Scores navigation">
       <a href="home.html">Dashboard</a>
       <a href="index.html">Player Performance</a>
       <a href="machines.html">Machines</a>
-      <a href="custom_list.html">Custom List</a>
       <a href="overall.html">Leaderboard</a>
       <a href="difficulty.html">Machine Difficulty</a>
+      <a href="custom_list.html">Custom</a>
       <a href="players.html">Settings</a>
     </nav>
   </header>
@@ -34,11 +34,17 @@
   <main>
 
     <div class="info">
-      <b>Note:</b> Player stats on this page are <i>overall</i> – they include all tracked opponents,
+      <b>Note:</b> Player stats on this page are <i>overall</i> â€“ they include all tracked opponents,
       not just the players currently enabled in <b>Settings</b>.
     </div>
 
-    <div id="player-profile"></div>
+    <div id="player-profile">
+    <div class="skeleton-wrap">
+      <div class="skeleton-card skeleton-card--short"></div>
+      <div class="skeleton-card skeleton-card--medium"></div>
+      <div class="skeleton-card skeleton-card--tall"></div>
+    </div>
+  </div>
 
     <p class="note">
       Data last updated: <span class="data-last-updated"></span>

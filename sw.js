@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pinball-scores-v39';
+const CACHE_NAME = 'pinball-scores-v54';
 const DATA_CACHE_NAME = 'pinball-data-v2';
 
 const ASSETS_TO_CACHE = [
@@ -38,6 +38,7 @@ const ASSETS_TO_CACHE = [
     './new_logo_more192x192.png',
     './new_logo_more512x512.png',
     './manifest.json',
+    './banner.jpg',
     './data/players.json'
 ];
 

@@ -362,8 +362,8 @@ function Get-StagedDiff {
 
         if (-not (Test-Path $tempFile)) { continue }
 
-        $tempData = @(Get-Content $tempFile -Raw | ConvertFrom-Json)
-        $liveData = if (Test-Path $liveFile) { @(Get-Content $liveFile -Raw | ConvertFrom-Json) } else { @() }
+        $tempData = @(Get-Content $tempFile -Raw | ConvertFrom-Json | ForEach-Object { $_ })
+        $liveData = if (Test-Path $liveFile) { @(Get-Content $liveFile -Raw | ConvertFrom-Json | ForEach-Object { $_ }) } else { @() }
 
         # Find the machine name field (header containing "Machine")
         $machineKey = $null
@@ -420,7 +420,7 @@ function Get-StagedDiff {
     $tempStats = Join-Path $TempDir "MachineStats_static.json"
     $liveStats = Join-Path $DataDir "MachineStats_static.json"
     if (Test-Path $tempStats) {
-        $tempStatsData = @(Get-Content $tempStats -Raw | ConvertFrom-Json)
+        $tempStatsData = @(Get-Content $tempStats -Raw | ConvertFrom-Json | ForEach-Object { $_ })
         $liveCount = if (Test-Path $liveStats) { @(Get-Content $liveStats -Raw | ConvertFrom-Json).Count } else { 0 }
         $diff += [ordered]@{
             player         = "MachineStats"

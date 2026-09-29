@@ -1,5 +1,5 @@
 ﻿{
-    "lastUpdated":  "2026-09-23",
+    "lastUpdated":  "2026-09-24",
     "players":  [
                     {
                         "id":  "craig",
@@ -30,6 +30,31 @@
                         "id":  "scott",
                         "label":  "Scott",
                         "file":  "data/Scott_static.json"
+                    },
+                    {
+                        "id":  "neil m",
+                        "label":  "Neil M",
+                        "file":  "data/Neil M_static.json"
+                    },
+                    {
+                        "id":  "david b",
+                        "label":  "David B",
+                        "file":  "data/David B_static.json"
+                    },
+                    {
+                        "id":  "steve h",
+                        "label":  "Steve H",
+                        "file":  "data/Steve H_static.json"
+                    },
+                    {
+                        "id":  "will j",
+                        "label":  "Will J",
+                        "file":  "data/Will J_static.json"
+                    },
+                    {
+                        "id":  "andy f",
+                        "label":  "Andy F",
+                        "file":  "data/Andy F_static.json"
                     }
                 ]
 }

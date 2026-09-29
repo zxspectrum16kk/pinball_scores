@@ -157,7 +157,7 @@ function renderSparkline(years, wins, color) {
   }).join('');
 
   return `<div class="sparkline-wrap">
-    <svg viewBox="0 0 ${totalW} ${totalH}" width="${totalW}" height="${totalH}">${bars}</svg>
+    <svg viewBox="0 0 ${totalW} ${totalH}" style="max-width:${totalW}px;width:100%;height:auto;display:block;">${bars}</svg>
     <div class="sparkline-label">Wins by season</div>
   </div>`;
 }
@@ -514,6 +514,48 @@ function renderDashboard(container, machines, stats, selectedPlayers, year) {
   }
 }
 
+// ── Matchplay widget ──────────────────────────────────────────────────────────
+
+async function renderMatchplayWidget(container) {
+  const el = document.createElement('div');
+  el.className = 'home-card matchplay-card';
+  el.innerHTML = '<p class="matchplay-loading">Loading Matchplay stats…</p>';
+  container.appendChild(el);
+
+  try {
+    const res = await fetch('/api/matchplay/38316');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const d = await res.json();
+    const r = d.rating || {};
+    const wins = r.winCount ?? 0;
+    const losses = r.lossCount ?? 0;
+    const total = r.resultCount ?? (wins + losses);
+    const eff = total > 0 ? Math.round((wins / total) * 100) : 0;
+    const delta = parseFloat(r.delta ?? 0);
+    const deltaSign = delta >= 0 ? '+' : '';
+    const deltaClass = delta >= 0 ? 'matchplay-delta--up' : 'matchplay-delta--down';
+
+    el.innerHTML = `
+      <div class="matchplay-header">
+        <h3 class="home-card-title">Matchplay Rating</h3>
+        <a class="matchplay-link" href="https://app.matchplay.events/users/38316" target="_blank" rel="noopener">matchplay.events ↗</a>
+      </div>
+      <div class="matchplay-body">
+        <div class="matchplay-rating">
+          <span class="matchplay-rating-num">${r.rating ?? '—'}</span>
+          <span class="matchplay-delta ${deltaClass}">${deltaSign}${delta.toFixed(1)}</span>
+        </div>
+        <div class="matchplay-stats">
+          <div class="matchplay-stat"><span class="matchplay-stat-val">${wins}</span><span class="matchplay-stat-lbl">Wins</span></div>
+          <div class="matchplay-stat"><span class="matchplay-stat-val">${losses}</span><span class="matchplay-stat-lbl">Losses</span></div>
+          <div class="matchplay-stat"><span class="matchplay-stat-val">${eff}%</span><span class="matchplay-stat-lbl">Efficiency</span></div>
+        </div>
+      </div>`;
+  } catch {
+    el.innerHTML = '<p class="matchplay-loading">Matchplay stats unavailable.</p>';
+  }
+}
+
 // ── Entry point ───────────────────────────────────────────────────────────────
 
 export function renderHomePage(machines, stats) {
@@ -535,10 +577,11 @@ export function renderHomePage(machines, stats) {
       <button class="stoggle-btn" data-year="${currentSeason}">${seasonLabel(currentSeason, true)}</button>
     </div>` : '';
 
-  container.innerHTML = heroHtml + toggleHtml + '<div id="dashboard-content"></div>';
+  container.innerHTML = heroHtml + toggleHtml + '<div id="dashboard-content"></div><div id="matchplay-wrap"></div>';
 
   let activeYear = null;
   renderDashboard(container, machines, stats, selectedPlayers, null);
+  renderMatchplayWidget(document.getElementById('matchplay-wrap'));
 
   container.querySelectorAll('.stoggle-btn').forEach(btn => {
     btn.addEventListener('click', () => {

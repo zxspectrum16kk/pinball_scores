@@ -1,0 +1,2040 @@
+﻿[
+    {
+        "Machine \u0026#9650;":  "AC/DC",
+        "Plays":  4,
+        "Best Score":  92336830,
+        "Rank":  "71 / 1,212",
+        "% Top":  5.86,
+        "MachineId":  153,
+        "Events":  [
+                       {
+                           "event":  "2018 London and South East League - Meet 2",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  19902940,
+                           "rank":  557
+                       },
+                       {
+                           "event":  "2019 London and South East League - Meet 4",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  4,
+                           "score":  71040040,
+                           "rank":  120
+                       },
+                       {
+                           "event":  "2019 London and South East League - Meet 6",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  89780120,
+                           "rank":  83
+                       },
+                       {
+                           "event":  "2020 London and South East League - Meet 1",
+                           "year":  2020,
+                           "league":  "London and South East League",
+                           "meet":  1,
+                           "score":  92336830,
+                           "rank":  71
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Aerosmith",
+        "Plays":  1,
+        "Best Score":  61436100,
+        "Rank":  "127 / 321",
+        "% Top":  39.56,
+        "MachineId":  223,
+        "Events":  [
+                       {
+                           "event":  "2019 London and South East League - Meet 4",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  4,
+                           "score":  61436100,
+                           "rank":  127
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Alien",
+        "Plays":  1,
+        "Best Score":  31037900,
+        "Rank":  "26 / 184",
+        "% Top":  14.13,
+        "MachineId":  137,
+        "Events":  [
+                       {
+                           "event":  "2019 London and South East League - Meet 2",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  31037900,
+                           "rank":  26
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Attack from Mars",
+        "Plays":  5,
+        "Best Score":  4720310660,
+        "Rank":  "207 / 1,625",
+        "% Top":  12.74,
+        "MachineId":  293,
+        "Events":  [
+                       {
+                           "event":  "2018 London and South East League - Meet 3",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  3,
+                           "score":  450604730,
+                           "rank":  1522
+                       },
+                       {
+                           "event":  "2018 London and South East League - Meet 6",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  850068840,
+                           "rank":  1291
+                       },
+                       {
+                           "event":  "2022 London and South East League - Meet 5",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  5,
+                           "score":  4720310660,
+                           "rank":  207
+                       },
+                       {
+                           "event":  "2025 London and South East League - Meet 5",
+                           "year":  2025,
+                           "league":  "London and South East League",
+                           "meet":  5,
+                           "score":  2440870110,
+                           "rank":  556
+                       },
+                       {
+                           "event":  "2026 London and South East League - Meet 4",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  4,
+                           "score":  3084960590,
+                           "rank":  418
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Avatar",
+        "Plays":  1,
+        "Best Score":  18209160,
+        "Rank":  "278 / 753",
+        "% Top":  36.92,
+        "MachineId":  50,
+        "Events":  [
+                       {
+                           "event":  "2019 London and South East League - Meet 2",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  18209160,
+                           "rank":  278
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Batman 66",
+        "Plays":  3,
+        "Best Score":  243119200,
+        "Rank":  "89 / 435",
+        "% Top":  20.46,
+        "MachineId":  22,
+        "Events":  [
+                       {
+                           "event":  "2018 London and South East League - Meet 6",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  243119200,
+                           "rank":  89
+                       },
+                       {
+                           "event":  "2019  League Finals",
+                           "year":  2019,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  123134960,
+                           "rank":  160
+                       },
+                       {
+                           "event":  "2019 London and South East League - Meet 5",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  5,
+                           "score":  194695720,
+                           "rank":  108
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Batman: The Dark Knight",
+        "Plays":  1,
+        "Best Score":  118307060,
+        "Rank":  "26 / 847",
+        "% Top":  3.07,
+        "MachineId":  127,
+        "Events":  [
+                       {
+                           "event":  "2019  League Finals",
+                           "year":  2019,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  118307060,
+                           "rank":  26
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Black Jack",
+        "Plays":  1,
+        "Best Score":  29780,
+        "Rank":  "238 / 272",
+        "% Top":  87.5,
+        "MachineId":  204,
+        "Events":  [
+                       {
+                           "event":  "2026 London and South East League - Meet 2",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  29780,
+                           "rank":  238
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Black Knight: Sword of Rage",
+        "Plays":  2,
+        "Best Score":  229310450,
+        "Rank":  "2 / 119",
+        "% Top":  1.68,
+        "MachineId":  321,
+        "Events":  [
+                       {
+                           "event":  "2022 London and South East League - Meet 3",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  3,
+                           "score":  229310450,
+                           "rank":  2
+                       },
+                       {
+                           "event":  "2022 London and South East League - Meet 5",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  5,
+                           "score":  175310450,
+                           "rank":  10
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Bride of Pinbot 2.0",
+        "Plays":  1,
+        "Best Score":  3252390,
+        "Rank":  "63 / 109",
+        "% Top":  57.8,
+        "MachineId":  81,
+        "Events":  [
+                       {
+                           "event":  "2019 London and South East League - Meet 6",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  3252390,
+                           "rank":  63
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Cactus Canyon",
+        "Plays":  1,
+        "Best Score":  8359390,
+        "Rank":  "310 / 469",
+        "% Top":  66.1,
+        "MachineId":  169,
+        "Events":  [
+                       {
+                           "event":  "2026 London and South East League - Meet 2",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  8359390,
+                           "rank":  310
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Champion Pub",
+        "Plays":  1,
+        "Best Score":  3662860,
+        "Rank":  "328 / 385",
+        "% Top":  85.19,
+        "MachineId":  147,
+        "Events":  [
+                       {
+                           "event":  "2018 London and South East League - Meet 3",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  3,
+                           "score":  3662860,
+                           "rank":  328
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Cosmic Gunfight",
+        "Plays":  1,
+        "Best Score":  246000,
+        "Rank":  "30 / 71",
+        "% Top":  42.25,
+        "MachineId":  11,
+        "Events":  [
+                       {
+                           "event":  "2026 London and South East League - Meet 2",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  246000,
+                           "rank":  30
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Deadpool",
+        "Plays":  3,
+        "Best Score":  240310050,
+        "Rank":  "91 / 645",
+        "% Top":  14.11,
+        "MachineId":  48,
+        "Events":  [
+                       {
+                           "event":  "2019 London and South East League - Meet 1",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  1,
+                           "score":  178022730,
+                           "rank":  123
+                       },
+                       {
+                           "event":  "2019 London and South East League - Meet 3",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  3,
+                           "score":  89771550,
+                           "rank":  275
+                       },
+                       {
+                           "event":  "2022 London and South East League - Meet 4",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  4,
+                           "score":  240310050,
+                           "rank":  91
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Dialed In!",
+        "Plays":  7,
+        "Best Score":  775570,
+        "Rank":  "46 / 653",
+        "% Top":  7.04,
+        "MachineId":  96,
+        "Events":  [
+                       {
+                           "event":  "2018 London and South East League - Meet 2",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  594350,
+                           "rank":  74
+                       },
+                       {
+                           "event":  "2018 London and South East League - Meet 5",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  5,
+                           "score":  305490,
+                           "rank":  209
+                       },
+                       {
+                           "event":  "2019  League Finals",
+                           "year":  2019,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  775570,
+                           "rank":  46
+                       },
+                       {
+                           "event":  "2019 London and South East League - Meet 3",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  3,
+                           "score":  530500,
+                           "rank":  99
+                       },
+                       {
+                           "event":  "2019 London and South East League - Meet 5",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  5,
+                           "score":  44960,
+                           "rank":  590
+                       },
+                       {
+                           "event":  "2022 London and South East League - Meet 3",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  3,
+                           "score":  730490,
+                           "rank":  50
+                       },
+                       {
+                           "event":  "2022 London and South East League - Meet 6",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  78560,
+                           "rank":  521
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Doctor Who",
+        "Plays":  1,
+        "Best Score":  69717340,
+        "Rank":  "222 / 544",
+        "% Top":  40.81,
+        "MachineId":  220,
+        "Events":  [
+                       {
+                           "event":  "2018 London and South East League - Meet 5",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  5,
+                           "score":  69717340,
+                           "rank":  222
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Doodle Bug",
+        "Plays":  1,
+        "Best Score":  113040,
+        "Rank":  "5 / 26",
+        "% Top":  19.23,
+        "MachineId":  396,
+        "Events":  [
+                       {
+                           "event":  "2025 London and South East League - Meet 6",
+                           "year":  2025,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  113040,
+                           "rank":  5
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Earthshaker",
+        "Plays":  2,
+        "Best Score":  5334730,
+        "Rank":  "65 / 564",
+        "% Top":  11.52,
+        "MachineId":  192,
+        "Events":  [
+                       {
+                           "event":  "2018 London and South East League - Meet 1",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  1,
+                           "score":  5334730,
+                           "rank":  65
+                       },
+                       {
+                           "event":  "2019 London and South East League - Meet 3",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  3,
+                           "score":  1681550,
+                           "rank":  362
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Eight Ball Deluxe",
+        "Plays":  1,
+        "Best Score":  1130710,
+        "Rank":  "35 / 455",
+        "% Top":  7.69,
+        "MachineId":  228,
+        "Events":  [
+                       {
+                           "event":  "2022 London and South East League - Meet 4",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  4,
+                           "score":  1130710,
+                           "rank":  35
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Elton John",
+        "Plays":  2,
+        "Best Score":  97310680,
+        "Rank":  "8 / 153",
+        "% Top":  5.23,
+        "MachineId":  371,
+        "Events":  [
+                       {
+                           "event":  "2025 London and South East League - Meet 5",
+                           "year":  2025,
+                           "league":  "London and South East League",
+                           "meet":  5,
+                           "score":  97310680,
+                           "rank":  8
+                       },
+                       {
+                           "event":  "2026 London and South East League - Meet 4",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  4,
+                           "score":  44301700,
+                           "rank":  33
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Elvira\u0026#039;s House of Horrors",
+        "Plays":  4,
+        "Best Score":  249770010,
+        "Rank":  "12 / 435",
+        "% Top":  2.76,
+        "MachineId":  320,
+        "Events":  [
+                       {
+                           "event":  "2022  League Finals",
+                           "year":  2022,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  11033270,
+                           "rank":  338
+                       },
+                       {
+                           "event":  "2022 London and South East League - Meet 3",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  3,
+                           "score":  72765000,
+                           "rank":  76
+                       },
+                       {
+                           "event":  "2022 London and South East League - Meet 5",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  5,
+                           "score":  51425490,
+                           "rank":  118
+                       },
+                       {
+                           "event":  "2026 London and South East League - Meet 6",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  249770010,
+                           "rank":  12
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Elvis",
+        "Plays":  2,
+        "Best Score":  189760860,
+        "Rank":  "7 / 178",
+        "% Top":  3.93,
+        "MachineId":  26,
+        "Events":  [
+                       {
+                           "event":  "2018 London and South East League - Meet 5",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  5,
+                           "score":  14845460,
+                           "rank":  106
+                       },
+                       {
+                           "event":  "2025 London and South East League - Meet 5",
+                           "year":  2025,
+                           "league":  "London and South East League",
+                           "meet":  5,
+                           "score":  189760860,
+                           "rank":  7
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Evil Dead",
+        "Plays":  1,
+        "Best Score":  64250440,
+        "Rank":  "20 / 72",
+        "% Top":  27.78,
+        "MachineId":  401,
+        "Events":  [
+                       {
+                           "event":  "2026 London and South East League - Meet 2",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  64250440,
+                           "rank":  20
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Flash Gordon",
+        "Plays":  1,
+        "Best Score":  319000,
+        "Rank":  "228 / 529",
+        "% Top":  43.1,
+        "MachineId":  75,
+        "Events":  [
+                       {
+                           "event":  "2018 London and South East League - Meet 3",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  3,
+                           "score":  319000,
+                           "rank":  228
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Game of Thrones",
+        "Plays":  1,
+        "Best Score":  891620260,
+        "Rank":  "26 / 516",
+        "% Top":  5.04,
+        "MachineId":  2,
+        "Events":  [
+                       {
+                           "event":  "2026 London and South East League - Meet 6",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  891620260,
+                           "rank":  26
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Genesis",
+        "Plays":  1,
+        "Best Score":  178240,
+        "Rank":  "117 / 130",
+        "% Top":  90,
+        "MachineId":  71,
+        "Events":  [
+                       {
+                           "event":  "2022  League Finals",
+                           "year":  2022,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  178240,
+                           "rank":  117
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Ghostbusters",
+        "Plays":  3,
+        "Best Score":  135994130,
+        "Rank":  "136 / 671",
+        "% Top":  20.27,
+        "MachineId":  36,
+        "Events":  [
+                       {
+                           "event":  "2018 London and South East League - Meet 2",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  31900860,
+                           "rank":  414
+                       },
+                       {
+                           "event":  "2019 London and South East League - Meet 1",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  1,
+                           "score":  135994130,
+                           "rank":  136
+                       },
+                       {
+                           "event":  "2026 London and South East League - Meet 6",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  77314000,
+                           "rank":  207
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Godzilla (Stern)",
+        "Plays":  2,
+        "Best Score":  126341230,
+        "Rank":  "389 / 1,085",
+        "% Top":  35.85,
+        "MachineId":  360,
+        "Events":  [
+                       {
+                           "event":  "2022 London and South East League - Meet 1",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  1,
+                           "score":  98913690,
+                           "rank":  478
+                       },
+                       {
+                           "event":  "2022 London and South East League - Meet 3",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  3,
+                           "score":  126341230,
+                           "rank":  389
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Guardians of the Galaxy",
+        "Plays":  2,
+        "Best Score":  112011540,
+        "Rank":  "119 / 526",
+        "% Top":  22.62,
+        "MachineId":  208,
+        "Events":  [
+                       {
+                           "event":  "2019  League Finals",
+                           "year":  2019,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  25159990,
+                           "rank":  340
+                       },
+                       {
+                           "event":  "2019 London and South East League - Meet 1",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  1,
+                           "score":  112011540,
+                           "rank":  119
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Halloween",
+        "Plays":  2,
+        "Best Score":  18900670,
+        "Rank":  "75 / 153",
+        "% Top":  49.02,
+        "MachineId":  334,
+        "Events":  [
+                       {
+                           "event":  "2022 London and South East League - Meet 6",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  18900670,
+                           "rank":  75
+                       },
+                       {
+                           "event":  "2025 London and South East League - Meet 5",
+                           "year":  2025,
+                           "league":  "London and South East League",
+                           "meet":  5,
+                           "score":  15795370,
+                           "rank":  84
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Harry Potter",
+        "Plays":  1,
+        "Best Score":  149224070,
+        "Rank":  "13 / 72",
+        "% Top":  18.06,
+        "MachineId":  407,
+        "Events":  [
+                       {
+                           "event":  "2026 London and South East League - Meet 4",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  4,
+                           "score":  149224070,
+                           "rank":  13
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Indiana Jones (Williams)",
+        "Plays":  1,
+        "Best Score":  135751910,
+        "Rank":  "340 / 1,095",
+        "% Top":  31.05,
+        "MachineId":  241,
+        "Events":  [
+                       {
+                           "event":  "2019  League Finals",
+                           "year":  2019,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  135751910,
+                           "rank":  340
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Indianapolis 500",
+        "Plays":  1,
+        "Best Score":  128745450,
+        "Rank":  "335 / 586",
+        "% Top":  57.17,
+        "MachineId":  23,
+        "Events":  [
+                       {
+                           "event":  "2019  League Finals",
+                           "year":  2019,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  128745450,
+                           "rank":  335
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Iron Maiden: Legacy of the Beast",
+        "Plays":  8,
+        "Best Score":  274190410,
+        "Rank":  "55 / 893",
+        "% Top":  6.16,
+        "MachineId":  44,
+        "Events":  [
+                       {
+                           "event":  "2018 London and South East League - Meet 6",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  14288440,
+                           "rank":  746
+                       },
+                       {
+                           "event":  "2019 London and South East League - Meet 1",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  1,
+                           "score":  102987830,
+                           "rank":  301
+                       },
+                       {
+                           "event":  "2019 London and South East League - Meet 5",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  5,
+                           "score":  85895400,
+                           "rank":  346
+                       },
+                       {
+                           "event":  "2020 London and South East League - Meet 1",
+                           "year":  2020,
+                           "league":  "London and South East League",
+                           "meet":  1,
+                           "score":  204315300,
+                           "rank":  109
+                       },
+                       {
+                           "event":  "2022 London and South East League - Meet 2",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  274190410,
+                           "rank":  55
+                       },
+                       {
+                           "event":  "2022 London and South East League - Meet 5",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  5,
+                           "score":  20850850,
+                           "rank":  667
+                       },
+                       {
+                           "event":  "2026  Regional Finals Round Two",
+                           "year":  2026,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  8390770,
+                           "rank":  829
+                       },
+                       {
+                           "event":  "2026 London and South East League - Meet 6",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  11775670,
+                           "rank":  778
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Iron Man",
+        "Plays":  2,
+        "Best Score":  32239220,
+        "Rank":  "31 / 871",
+        "% Top":  3.56,
+        "MachineId":  243,
+        "Events":  [
+                       {
+                           "event":  "2020 London and South East League - Meet 1",
+                           "year":  2020,
+                           "league":  "London and South East League",
+                           "meet":  1,
+                           "score":  32239220,
+                           "rank":  31
+                       },
+                       {
+                           "event":  "2026 London and South East League - Meet 2",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  14434070,
+                           "rank":  205
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Jackbot",
+        "Plays":  1,
+        "Best Score":  570655180,
+        "Rank":  "130 / 215",
+        "% Top":  60.47,
+        "MachineId":  117,
+        "Events":  [
+                       {
+                           "event":  "2026 London and South East League - Meet 2",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  570655180,
+                           "rank":  130
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "James Bond 007 (60th Anniversary)",
+        "Plays":  2,
+        "Best Score":  168525110,
+        "Rank":  "5 / 34",
+        "% Top":  14.71,
+        "MachineId":  395,
+        "Events":  [
+                       {
+                           "event":  "2025 London and South East League - Meet 6",
+                           "year":  2025,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  168525110,
+                           "rank":  5
+                       },
+                       {
+                           "event":  "2026  Regional Finals Round One",
+                           "year":  2026,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  1962,
+                           "rank":  33
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Jaws",
+        "Plays":  2,
+        "Best Score":  104525560,
+        "Rank":  "140 / 297",
+        "% Top":  47.14,
+        "MachineId":  374,
+        "Events":  [
+                       {
+                           "event":  "2026 London and South East League - Meet 2",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  102141530,
+                           "rank":  143
+                       },
+                       {
+                           "event":  "2026 London and South East League - Meet 4",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  4,
+                           "score":  104525560,
+                           "rank":  140
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "John Wick",
+        "Plays":  1,
+        "Best Score":  2158360,
+        "Rank":  "52 / 55",
+        "% Top":  94.55,
+        "MachineId":  385,
+        "Events":  [
+                       {
+                           "event":  "2025 London and South East League - Meet 6",
+                           "year":  2025,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  2158360,
+                           "rank":  52
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Jurassic Park (Stern)",
+        "Plays":  1,
+        "Best Score":  390109720,
+        "Rank":  "24 / 587",
+        "% Top":  4.09,
+        "MachineId":  74,
+        "Events":  [
+                       {
+                           "event":  "2022 London and South East League - Meet 1",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  1,
+                           "score":  390109720,
+                           "rank":  24
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "King Kong",
+        "Plays":  2,
+        "Best Score":  154167950,
+        "Rank":  "23 / 131",
+        "% Top":  17.56,
+        "MachineId":  394,
+        "Events":  [
+                       {
+                           "event":  "2025 London and South East League - Meet 6",
+                           "year":  2025,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  154167950,
+                           "rank":  23
+                       },
+                       {
+                           "event":  "2026 London and South East League - Meet 4",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  4,
+                           "score":  131702900,
+                           "rank":  29
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Led Zeppelin",
+        "Plays":  1,
+        "Best Score":  270110370,
+        "Rank":  "4 / 114",
+        "% Top":  3.51,
+        "MachineId":  309,
+        "Events":  [
+                       {
+                           "event":  "2022 London and South East League - Meet 1",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  1,
+                           "score":  270110370,
+                           "rank":  4
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Medieval Madness",
+        "Plays":  3,
+        "Best Score":  48190220,
+        "Rank":  "147 / 1,608",
+        "% Top":  9.14,
+        "MachineId":  159,
+        "Events":  [
+                       {
+                           "event":  "2019 London and South East League - Meet 1",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  1,
+                           "score":  4168430,
+                           "rank":  1454
+                       },
+                       {
+                           "event":  "2022 London and South East League - Meet 2",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  3635930,
+                           "rank":  1489
+                       },
+                       {
+                           "event":  "2025 London and South East League - Meet 5",
+                           "year":  2025,
+                           "league":  "London and South East League",
+                           "meet":  5,
+                           "score":  48190220,
+                           "rank":  147
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Metallica",
+        "Plays":  5,
+        "Best Score":  320410720,
+        "Rank":  "6 / 1,030",
+        "% Top":  0.58,
+        "MachineId":  4,
+        "Events":  [
+                       {
+                           "event":  "2019 London and South East League - Meet 4",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  4,
+                           "score":  12737370,
+                           "rank":  549
+                       },
+                       {
+                           "event":  "2022 London and South East League - Meet 2",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  320410720,
+                           "rank":  6
+                       },
+                       {
+                           "event":  "2022 London and South East League - Meet 5",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  5,
+                           "score":  17833040,
+                           "rank":  461
+                       },
+                       {
+                           "event":  "2025 London and South East League - Meet 5",
+                           "year":  2025,
+                           "league":  "London and South East League",
+                           "meet":  5,
+                           "score":  91716600,
+                           "rank":  60
+                       },
+                       {
+                           "event":  "2026 London and South East League - Meet 6",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  83587370,
+                           "rank":  65
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Metallica Remastered",
+        "Plays":  2,
+        "Best Score":  225681760,
+        "Rank":  "6 / 62",
+        "% Top":  9.68,
+        "MachineId":  393,
+        "Events":  [
+                       {
+                           "event":  "2025 London and South East League - Meet 6",
+                           "year":  2025,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  225681760,
+                           "rank":  6
+                       },
+                       {
+                           "event":  "2026 London and South East League - Meet 4",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  4,
+                           "score":  113912930,
+                           "rank":  14
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Meteor",
+        "Plays":  1,
+        "Best Score":  73950,
+        "Rank":  "104 / 118",
+        "% Top":  88.14,
+        "MachineId":  93,
+        "Events":  [
+                       {
+                           "event":  "2019 London and South East League - Meet 5",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  5,
+                           "score":  73950,
+                           "rank":  104
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Monster Bash",
+        "Plays":  3,
+        "Best Score":  49720990,
+        "Rank":  "199 / 927",
+        "% Top":  21.47,
+        "MachineId":  140,
+        "Events":  [
+                       {
+                           "event":  "2019 London and South East League - Meet 4",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  4,
+                           "score":  17094390,
+                           "rank":  539
+                       },
+                       {
+                           "event":  "2022 London and South East League - Meet 6",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  49720990,
+                           "rank":  199
+                       },
+                       {
+                           "event":  "2025 London and South East League - Meet 6",
+                           "year":  2025,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  5374160,
+                           "rank":  794
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Mousin\u0026#039; Around!",
+        "Plays":  1,
+        "Best Score":  6310450,
+        "Rank":  "17 / 117",
+        "% Top":  14.53,
+        "MachineId":  331,
+        "Events":  [
+                       {
+                           "event":  "2022 London and South East League - Meet 4",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  4,
+                           "score":  6310450,
+                           "rank":  17
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Nine Ball",
+        "Plays":  1,
+        "Best Score":  929890,
+        "Rank":  "10 / 101",
+        "% Top":  9.9,
+        "MachineId":  3,
+        "Events":  [
+                       {
+                           "event":  "2020 London and South East League - Meet 1",
+                           "year":  2020,
+                           "league":  "London and South East League",
+                           "meet":  1,
+                           "score":  929890,
+                           "rank":  10
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "No Fear: Dangerous Sports",
+        "Plays":  1,
+        "Best Score":  876421090,
+        "Rank":  "113 / 530",
+        "% Top":  21.32,
+        "MachineId":  38,
+        "Events":  [
+                       {
+                           "event":  "2019 London and South East League - Meet 6",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  876421090,
+                           "rank":  113
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Paragon",
+        "Plays":  1,
+        "Best Score":  31290,
+        "Rank":  "485 / 552",
+        "% Top":  87.86,
+        "MachineId":  24,
+        "Events":  [
+                       {
+                           "event":  "2022  League Finals",
+                           "year":  2022,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  31290,
+                           "rank":  485
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Pulp Fiction",
+        "Plays":  2,
+        "Best Score":  426110,
+        "Rank":  "100 / 234",
+        "% Top":  42.74,
+        "MachineId":  380,
+        "Events":  [
+                       {
+                           "event":  "2025 London and South East League - Meet 6",
+                           "year":  2025,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  193610,
+                           "rank":  161
+                       },
+                       {
+                           "event":  "2026 London and South East League - Meet 4",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  4,
+                           "score":  426110,
+                           "rank":  100
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Quicksilver",
+        "Plays":  1,
+        "Best Score":  1838020,
+        "Rank":  "2 / 39",
+        "% Top":  5.13,
+        "MachineId":  319,
+        "Events":  [
+                       {
+                           "event":  "2022 London and South East League - Meet 2",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  1838020,
+                           "rank":  2
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Revenge from Mars",
+        "Plays":  1,
+        "Best Score":  37325780,
+        "Rank":  "687 / 988",
+        "% Top":  69.53,
+        "MachineId":  151,
+        "Events":  [
+                       {
+                           "event":  "2022  League Finals",
+                           "year":  2022,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  37325780,
+                           "rank":  687
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Road Show",
+        "Plays":  2,
+        "Best Score":  134585760,
+        "Rank":  "958 / 1,382",
+        "% Top":  69.32,
+        "MachineId":  63,
+        "Events":  [
+                       {
+                           "event":  "2018 London and South East League - Meet 1",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  1,
+                           "score":  110464760,
+                           "rank":  1081
+                       },
+                       {
+                           "event":  "2018 London and South East League - Meet 2",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  134585760,
+                           "rank":  958
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Robo-War",
+        "Plays":  1,
+        "Best Score":  442450,
+        "Rank":  "174 / 217",
+        "% Top":  80.18,
+        "MachineId":  128,
+        "Events":  [
+                       {
+                           "event":  "2026 London and South East League - Meet 4",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  4,
+                           "score":  442450,
+                           "rank":  174
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Rocky and Bullwinkle",
+        "Plays":  1,
+        "Best Score":  210840320,
+        "Rank":  "35 / 573",
+        "% Top":  6.11,
+        "MachineId":  280,
+        "Events":  [
+                       {
+                           "event":  "2019 London and South East League - Meet 4",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  4,
+                           "score":  210840320,
+                           "rank":  35
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Rollercoaster Tycoon",
+        "Plays":  1,
+        "Best Score":  1126680,
+        "Rank":  "284 / 293",
+        "% Top":  96.93,
+        "MachineId":  122,
+        "Events":  [
+                       {
+                           "event":  "2018 London and South East League - Meet 1",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  1,
+                           "score":  1126680,
+                           "rank":  284
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Solar Fire",
+        "Plays":  1,
+        "Best Score":  667170,
+        "Rank":  "4 / 60",
+        "% Top":  6.67,
+        "MachineId":  326,
+        "Events":  [
+                       {
+                           "event":  "2026 London and South East League - Meet 2",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  667170,
+                           "rank":  4
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Spider-Man",
+        "Plays":  2,
+        "Best Score":  67210500,
+        "Rank":  "330 / 1,183",
+        "% Top":  27.9,
+        "MachineId":  290,
+        "Events":  [
+                       {
+                           "event":  "2022  League Finals",
+                           "year":  2022,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  16855600,
+                           "rank":  907
+                       },
+                       {
+                           "event":  "2026 London and South East League - Meet 6",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  67210500,
+                           "rank":  330
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Spooky",
+        "Plays":  1,
+        "Best Score":  2500400,
+        "Rank":  "20 / 44",
+        "% Top":  45.45,
+        "MachineId":  27,
+        "Events":  [
+                       {
+                           "event":  "2019 London and South East League - Meet 2",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  2500400,
+                           "rank":  20
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Star Trek (Stern)",
+        "Plays":  1,
+        "Best Score":  69079180,
+        "Rank":  "148 / 980",
+        "% Top":  15.1,
+        "MachineId":  189,
+        "Events":  [
+                       {
+                           "event":  "2019 London and South East League - Meet 3",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  3,
+                           "score":  69079180,
+                           "rank":  148
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Star Trek Next Generation",
+        "Plays":  1,
+        "Best Score":  924720140,
+        "Rank":  "112 / 1,142",
+        "% Top":  9.81,
+        "MachineId":  51,
+        "Events":  [
+                       {
+                           "event":  "2026 London and South East League - Meet 4",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  4,
+                           "score":  924720140,
+                           "rank":  112
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Star Wars: Fall of the Empire",
+        "Plays":  1,
+        "Best Score":  247400590,
+        "Rank":  "2 / 41",
+        "% Top":  4.88,
+        "MachineId":  402,
+        "Events":  [
+                       {
+                           "event":  "2026 London and South East League - Meet 2",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  247400590,
+                           "rank":  2
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Stranger Things",
+        "Plays":  2,
+        "Best Score":  250720310,
+        "Rank":  "41 / 441",
+        "% Top":  9.3,
+        "MachineId":  323,
+        "Events":  [
+                       {
+                           "event":  "2022 London and South East League - Meet 1",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  1,
+                           "score":  250720310,
+                           "rank":  41
+                       },
+                       {
+                           "event":  "2026 London and South East League - Meet 6",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  54564540,
+                           "rank":  306
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Tales of the Arabian Nights",
+        "Plays":  1,
+        "Best Score":  12709730,
+        "Rank":  "125 / 525",
+        "% Top":  23.81,
+        "MachineId":  203,
+        "Events":  [
+                       {
+                           "event":  "2019 London and South East League - Meet 2",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  12709730,
+                           "rank":  125
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Taxi",
+        "Plays":  1,
+        "Best Score":  1194200,
+        "Rank":  "230 / 571",
+        "% Top":  40.28,
+        "MachineId":  131,
+        "Events":  [
+                       {
+                           "event":  "2022 London and South East League - Meet 4",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  4,
+                           "score":  1194200,
+                           "rank":  230
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "The Addams Family",
+        "Plays":  2,
+        "Best Score":  214077950,
+        "Rank":  "81 / 2,606",
+        "% Top":  3.11,
+        "MachineId":  126,
+        "Events":  [
+                       {
+                           "event":  "2018 London and South East League - Meet 1",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  1,
+                           "score":  214077950,
+                           "rank":  81
+                       },
+                       {
+                           "event":  "2018 London and South East League - Meet 2",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  43544730,
+                           "rank":  1456
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "The Flintstones",
+        "Plays":  1,
+        "Best Score":  195534440,
+        "Rank":  "339 / 525",
+        "% Top":  64.57,
+        "MachineId":  145,
+        "Events":  [
+                       {
+                           "event":  "2026 London and South East League - Meet 6",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  195534440,
+                           "rank":  339
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "The Getaway: High Speed II",
+        "Plays":  1,
+        "Best Score":  20304110,
+        "Rank":  "1,382 / 1,667",
+        "% Top":  82.9,
+        "MachineId":  288,
+        "Events":  [
+                       {
+                           "event":  "2022  League Finals",
+                           "year":  2022,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  20304110,
+                           "rank":  1382
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "The Mandalorian",
+        "Plays":  1,
+        "Best Score":  52259540,
+        "Rank":  "134 / 301",
+        "% Top":  44.52,
+        "MachineId":  311,
+        "Events":  [
+                       {
+                           "event":  "2022 London and South East League - Meet 1",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  1,
+                           "score":  52259540,
+                           "rank":  134
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "The Shadow",
+        "Plays":  3,
+        "Best Score":  575380040,
+        "Rank":  "70 / 1,218",
+        "% Top":  5.75,
+        "MachineId":  230,
+        "Events":  [
+                       {
+                           "event":  "2019 London and South East League - Meet 5",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  5,
+                           "score":  575380040,
+                           "rank":  70
+                       },
+                       {
+                           "event":  "2019 London and South East League - Meet 6",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  410380040,
+                           "rank":  158
+                       },
+                       {
+                           "event":  "2022 London and South East League - Meet 2",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  480290720,
+                           "rank":  112
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "The Simpsons Pinball Party",
+        "Plays":  2,
+        "Best Score":  27310120,
+        "Rank":  "63 / 679",
+        "% Top":  9.28,
+        "MachineId":  229,
+        "Events":  [
+                       {
+                           "event":  "2018 London and South East League - Meet 5",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  5,
+                           "score":  1100730,
+                           "rank":  656
+                       },
+                       {
+                           "event":  "2022 London and South East League - Meet 6",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  27310120,
+                           "rank":  63
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "The Uncanny X-Men",
+        "Plays":  1,
+        "Best Score":  257706540,
+        "Rank":  "5 / 122",
+        "% Top":  4.1,
+        "MachineId":  382,
+        "Events":  [
+                       {
+                           "event":  "2025 London and South East League - Meet 6",
+                           "year":  2025,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  257706540,
+                           "rank":  5
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "The Walking Dead",
+        "Plays":  4,
+        "Best Score":  176039740,
+        "Rank":  "31 / 976",
+        "% Top":  3.18,
+        "MachineId":  132,
+        "Events":  [
+                       {
+                           "event":  "2018 London and South East League - Meet 3",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  3,
+                           "score":  33773270,
+                           "rank":  413
+                       },
+                       {
+                           "event":  "2018 London and South East League - Meet 6",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  176039740,
+                           "rank":  31
+                       },
+                       {
+                           "event":  "2020 London and South East League - Meet 1",
+                           "year":  2020,
+                           "league":  "London and South East League",
+                           "meet":  1,
+                           "score":  148404680,
+                           "rank":  47
+                       },
+                       {
+                           "event":  "2026 London and South East League - Meet 6",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  101720630,
+                           "rank":  95
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "The Who\u0026#039;s Tommy Pinball Wizard",
+        "Plays":  1,
+        "Best Score":  109020650,
+        "Rank":  "191 / 278",
+        "% Top":  68.71,
+        "MachineId":  142,
+        "Events":  [
+                       {
+                           "event":  "2018 London and South East League - Meet 5",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  5,
+                           "score":  109020650,
+                           "rank":  191
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "The Wizard of Oz",
+        "Plays":  1,
+        "Best Score":  36247,
+        "Rank":  "316 / 557",
+        "% Top":  56.73,
+        "MachineId":  297,
+        "Events":  [
+                       {
+                           "event":  "2025 London and South East League - Meet 5",
+                           "year":  2025,
+                           "league":  "London and South East League",
+                           "meet":  5,
+                           "score":  36247,
+                           "rank":  316
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Total Nuclear Annihilation",
+        "Plays":  4,
+        "Best Score":  1872160,
+        "Rank":  "9 / 262",
+        "% Top":  3.44,
+        "MachineId":  16,
+        "Events":  [
+                       {
+                           "event":  "2018 London and South East League - Meet 6",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  504302,
+                           "rank":  105
+                       },
+                       {
+                           "event":  "2022 London and South East League - Meet 3",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  3,
+                           "score":  1872160,
+                           "rank":  9
+                       },
+                       {
+                           "event":  "2022 London and South East League - Meet 4",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  4,
+                           "score":  1540312,
+                           "rank":  14
+                       },
+                       {
+                           "event":  "2026 London and South East League - Meet 4",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  4,
+                           "score":  1176440,
+                           "rank":  25
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Twilight Zone",
+        "Plays":  5,
+        "Best Score":  240780100,
+        "Rank":  "521 / 2,664",
+        "% Top":  19.56,
+        "MachineId":  273,
+        "Events":  [
+                       {
+                           "event":  "2018 London and South East League - Meet 1",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  1,
+                           "score":  180986860,
+                           "rank":  816
+                       },
+                       {
+                           "event":  "2018 London and South East League - Meet 3",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  3,
+                           "score":  37032710,
+                           "rank":  2429
+                       },
+                       {
+                           "event":  "2019 London and South East League - Meet 6",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  98489250,
+                           "rank":  1581
+                       },
+                       {
+                           "event":  "2022 London and South East League - Meet 6",
+                           "year":  2022,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  199220310,
+                           "rank":  716
+                       },
+                       {
+                           "event":  "2026 London and South East League - Meet 6",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  6,
+                           "score":  240780100,
+                           "rank":  521
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Whirlwind",
+        "Plays":  1,
+        "Best Score":  1686980,
+        "Rank":  "329 / 492",
+        "% Top":  66.87,
+        "MachineId":  221,
+        "Events":  [
+                       {
+                           "event":  "2026 London and South East League - Meet 2",
+                           "year":  2026,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  1686980,
+                           "rank":  329
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Whoa Nellie!",
+        "Plays":  2,
+        "Best Score":  3517,
+        "Rank":  "11 / 252",
+        "% Top":  4.37,
+        "MachineId":  150,
+        "Events":  [
+                       {
+                           "event":  "2018 London and South East League - Meet 2",
+                           "year":  2018,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  3517,
+                           "rank":  11
+                       },
+                       {
+                           "event":  "2019 London and South East League - Meet 3",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  3,
+                           "score":  1839,
+                           "rank":  81
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Willy Wonka \u0026amp; The Chocolate Factory",
+        "Plays":  1,
+        "Best Score":  1052400,
+        "Rank":  "17 / 137",
+        "% Top":  12.41,
+        "MachineId":  357,
+        "Events":  [
+                       {
+                           "event":  "2025 London and South East League - Meet 5",
+                           "year":  2025,
+                           "league":  "London and South East League",
+                           "meet":  5,
+                           "score":  1052400,
+                           "rank":  17
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "World Poker Tour",
+        "Plays":  1,
+        "Best Score":  36866310,
+        "Rank":  "32 / 234",
+        "% Top":  13.68,
+        "MachineId":  291,
+        "Events":  [
+                       {
+                           "event":  "2019 London and South East League - Meet 2",
+                           "year":  2019,
+                           "league":  "London and South East League",
+                           "meet":  2,
+                           "score":  36866310,
+                           "rank":  32
+                       }
+                   ]
+    }
+]

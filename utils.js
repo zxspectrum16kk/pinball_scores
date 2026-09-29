@@ -10,6 +10,9 @@ export const PLAYER_COLORS = [
     '#16a085',
     '#f39c12',
     '#2c3e50',
+    '#d81b7a',
+    '#795548',
+    '#00897b',
 ];
 
 export function playerColor(allPlayers, playerName) {

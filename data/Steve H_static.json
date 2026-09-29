@@ -1,0 +1,2632 @@
+﻿[
+    {
+        "Machine \u0026#9650;":  "AC/DC",
+        "Plays":  2,
+        "Best Score":  45578870,
+        "Rank":  "239 / 1,212",
+        "% Top":  19.72,
+        "MachineId":  153,
+        "Events":  [
+                       {
+                           "event":  "2025 Midlands League - Meet 1",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  35943210,
+                           "rank":  315
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 5",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  45578870,
+                           "rank":  239
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Aerobatics",
+        "Plays":  4,
+        "Best Score":  2041000,
+        "Rank":  "106 / 367",
+        "% Top":  28.88,
+        "MachineId":  247,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 4",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  696200,
+                           "rank":  325
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 4",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  2041000,
+                           "rank":  106
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 2",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  1393400,
+                           "rank":  191
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 4",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  1656400,
+                           "rank":  151
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Aladdin\u0026#039;s Castle",
+        "Plays":  1,
+        "Best Score":  44140,
+        "Rank":  "92 / 217",
+        "% Top":  42.4,
+        "MachineId":  149,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 5",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  44140,
+                           "rank":  92
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Avengers: Infinity Quest",
+        "Plays":  1,
+        "Best Score":  29445540,
+        "Rank":  "91 / 170",
+        "% Top":  53.53,
+        "MachineId":  322,
+        "Events":  [
+                       {
+                           "event":  "2024 Midlands League - Meet 6",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  29445540,
+                           "rank":  91
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Banzai Run",
+        "Plays":  3,
+        "Best Score":  989940,
+        "Rank":  "299 / 573",
+        "% Top":  52.18,
+        "MachineId":  66,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 1",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  583330,
+                           "rank":  451
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 2",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  526960,
+                           "rank":  469
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 6",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  989940,
+                           "rank":  299
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Batman (Data East)",
+        "Plays":  1,
+        "Best Score":  4118620,
+        "Rank":  "21 / 33",
+        "% Top":  63.64,
+        "MachineId":  317,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 6",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  4118620,
+                           "rank":  21
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Batman 66",
+        "Plays":  1,
+        "Best Score":  73824820,
+        "Rank":  "228 / 435",
+        "% Top":  52.41,
+        "MachineId":  22,
+        "Events":  [
+                       {
+                           "event":  "2025 Midlands League - Meet 1",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  73824820,
+                           "rank":  228
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Black Jack",
+        "Plays":  1,
+        "Best Score":  26670,
+        "Rank":  "245 / 272",
+        "% Top":  90.07,
+        "MachineId":  204,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 5",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  26670,
+                           "rank":  245
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Black Knight 2000",
+        "Plays":  1,
+        "Best Score":  1418480,
+        "Rank":  "130 / 330",
+        "% Top":  39.39,
+        "MachineId":  91,
+        "Events":  [
+                       {
+                           "event":  "2026 Midlands League - Meet 6",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  1418480,
+                           "rank":  130
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Black Rose",
+        "Plays":  1,
+        "Best Score":  7807530,
+        "Rank":  "241 / 384",
+        "% Top":  62.76,
+        "MachineId":  233,
+        "Events":  [
+                       {
+                           "event":  "2024 Midlands League - Meet 5",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  7807530,
+                           "rank":  241
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Blackout",
+        "Plays":  1,
+        "Best Score":  388230,
+        "Rank":  "11 / 25",
+        "% Top":  44,
+        "MachineId":  408,
+        "Events":  [
+                       {
+                           "event":  "2026 Midlands League - Meet 2",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  388230,
+                           "rank":  11
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Bram Stoker\u0026#039;s Dracula",
+        "Plays":  2,
+        "Best Score":  84650550,
+        "Rank":  "244 / 1,029",
+        "% Top":  23.71,
+        "MachineId":  248,
+        "Events":  [
+                       {
+                           "event":  "2026 Midlands League - Meet 1",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  84650550,
+                           "rank":  244
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 6",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  52796060,
+                           "rank":  377
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Cactus Canyon",
+        "Plays":  3,
+        "Best Score":  17372870,
+        "Rank":  "161 / 469",
+        "% Top":  34.33,
+        "MachineId":  169,
+        "Events":  [
+                       {
+                           "event":  "2025 Midlands League - Meet 1",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  13735820,
+                           "rank":  200
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 6",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  16437830,
+                           "rank":  170
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 6",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  17372870,
+                           "rank":  161
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Captain Fantastic",
+        "Plays":  1,
+        "Best Score":  44740,
+        "Rank":  "55 / 79",
+        "% Top":  69.62,
+        "MachineId":  304,
+        "Events":  [
+                       {
+                           "event":  "2025 Midlands League - Meet 5",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  44740,
+                           "rank":  55
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Centaur",
+        "Plays":  2,
+        "Best Score":  181600,
+        "Rank":  "346 / 446",
+        "% Top":  77.58,
+        "MachineId":  13,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 1",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  100570,
+                           "rank":  419
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 2",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  181600,
+                           "rank":  346
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Circus",
+        "Plays":  4,
+        "Best Score":  245210,
+        "Rank":  "55 / 283",
+        "% Top":  19.43,
+        "MachineId":  53,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 4",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  155440,
+                           "rank":  121
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 4",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  174530,
+                           "rank":  100
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 2",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  71590,
+                           "rank":  241
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 4",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  245210,
+                           "rank":  55
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Creature from the Black Lagoon",
+        "Plays":  2,
+        "Best Score":  116060090,
+        "Rank":  "285 / 1,498",
+        "% Top":  19.03,
+        "MachineId":  89,
+        "Events":  [
+                       {
+                           "event":  "2024 Midlands League - Meet 5",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  116060090,
+                           "rank":  285
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 5",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  104210450,
+                           "rank":  340
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Deadpool",
+        "Plays":  8,
+        "Best Score":  344455020,
+        "Rank":  "55 / 645",
+        "% Top":  8.53,
+        "MachineId":  48,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 3",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  3,
+                           "score":  133944260,
+                           "rank":  183
+                       },
+                       {
+                           "event":  "2023 Midlands League - Meet 5",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  15015490,
+                           "rank":  594
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 3",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  3,
+                           "score":  109413990,
+                           "rank":  227
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 5",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  12718730,
+                           "rank":  606
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 3",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  3,
+                           "score":  344455020,
+                           "rank":  55
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 4",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  15240970,
+                           "rank":  592
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 6",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  112831030,
+                           "rank":  219
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 1",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  135607530,
+                           "rank":  180
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Defender",
+        "Plays":  1,
+        "Best Score":  552880,
+        "Rank":  "89 / 364",
+        "% Top":  24.45,
+        "MachineId":  225,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 5",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  552880,
+                           "rank":  89
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Diner",
+        "Plays":  1,
+        "Best Score":  4018800,
+        "Rank":  "85 / 214",
+        "% Top":  39.72,
+        "MachineId":  102,
+        "Events":  [
+                       {
+                           "event":  "2026 Midlands League - Meet 6",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  4018800,
+                           "rank":  85
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Doctor Who",
+        "Plays":  1,
+        "Best Score":  14999740,
+        "Rank":  "417 / 544",
+        "% Top":  76.65,
+        "MachineId":  220,
+        "Events":  [
+                       {
+                           "event":  "2025 Midlands League - Meet 6",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  14999740,
+                           "rank":  417
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Eight Ball",
+        "Plays":  1,
+        "Best Score":  24750,
+        "Rank":  "160 / 163",
+        "% Top":  98.16,
+        "MachineId":  198,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 5",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  24750,
+                           "rank":  160
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Eight Ball Champ",
+        "Plays":  1,
+        "Best Score":  505180,
+        "Rank":  "112 / 195",
+        "% Top":  57.44,
+        "MachineId":  59,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 5",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  505180,
+                           "rank":  112
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Elvira and The Party Monsters",
+        "Plays":  2,
+        "Best Score":  3194390,
+        "Rank":  "26 / 118",
+        "% Top":  22.03,
+        "MachineId":  282,
+        "Events":  [
+                       {
+                           "event":  "2025 Midlands League - Meet 3",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  3,
+                           "score":  3194390,
+                           "rank":  26
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 6",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  2203500,
+                           "rank":  42
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Elvira\u0026#039;s House of Horrors",
+        "Plays":  3,
+        "Best Score":  43007190,
+        "Rank":  "140 / 435",
+        "% Top":  32.18,
+        "MachineId":  320,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 6",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  43007190,
+                           "rank":  140
+                       },
+                       {
+                           "event":  "2024  Regional Finals Round Three",
+                           "year":  2024,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  38496450,
+                           "rank":  163
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 3",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  3,
+                           "score":  16672330,
+                           "rank":  294
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Elvis",
+        "Plays":  1,
+        "Best Score":  5855000,
+        "Rank":  "146 / 178",
+        "% Top":  82.02,
+        "MachineId":  26,
+        "Events":  [
+                       {
+                           "event":  "2026 Midlands League - Meet 5",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  5855000,
+                           "rank":  146
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "F-14 Tomcat",
+        "Plays":  1,
+        "Best Score":  605560,
+        "Rank":  "325 / 736",
+        "% Top":  44.16,
+        "MachineId":  278,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 5",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  605560,
+                           "rank":  325
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Farfalla",
+        "Plays":  4,
+        "Best Score":  1244290,
+        "Rank":  "21 / 180",
+        "% Top":  11.67,
+        "MachineId":  183,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 4",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  590800,
+                           "rank":  67
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 4",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  1103280,
+                           "rank":  27
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 2",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  718620,
+                           "rank":  47
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 4",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  1244290,
+                           "rank":  21
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Fathom",
+        "Plays":  5,
+        "Best Score":  549540,
+        "Rank":  "144 / 482",
+        "% Top":  29.88,
+        "MachineId":  82,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 1",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  428830,
+                           "rank":  188
+                       },
+                       {
+                           "event":  "2023 Midlands League - Meet 6",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  325900,
+                           "rank":  243
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 3",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  3,
+                           "score":  76520,
+                           "rank":  461
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 4",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  144990,
+                           "rank":  397
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 5",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  549540,
+                           "rank":  144
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Firepower",
+        "Plays":  2,
+        "Best Score":  57900,
+        "Rank":  "103 / 156",
+        "% Top":  66.03,
+        "MachineId":  32,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 3",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  3,
+                           "score":  57900,
+                           "rank":  103
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 1",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  40990,
+                           "rank":  126
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Fish Tales",
+        "Plays":  5,
+        "Best Score":  70043980,
+        "Rank":  "388 / 1,738",
+        "% Top":  22.32,
+        "MachineId":  253,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 1",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  36922470,
+                           "rank":  772
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 2",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  23214630,
+                           "rank":  1040
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 3",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  3,
+                           "score":  50846760,
+                           "rank":  572
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 4",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  12639840,
+                           "rank":  1400
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 1",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  70043980,
+                           "rank":  388
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Flash Gordon",
+        "Plays":  5,
+        "Best Score":  455890,
+        "Rank":  "149 / 529",
+        "% Top":  28.17,
+        "MachineId":  75,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 3",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  3,
+                           "score":  237390,
+                           "rank":  316
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 1",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  97800,
+                           "rank":  492
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 6",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  295710,
+                           "rank":  250
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 5",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  345600,
+                           "rank":  211
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 5",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  455890,
+                           "rank":  149
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Foo Fighters",
+        "Plays":  5,
+        "Best Score":  235210980,
+        "Rank":  "18 / 301",
+        "% Top":  5.98,
+        "MachineId":  347,
+        "Events":  [
+                       {
+                           "event":  "2024 Midlands League - Meet 5",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  6502800,
+                           "rank":  282
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 1",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  56112560,
+                           "rank":  136
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 5",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  235210980,
+                           "rank":  18
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 6",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  56468960,
+                           "rank":  135
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 5",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  30051760,
+                           "rank":  200
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Galactic Tank Force",
+        "Plays":  1,
+        "Best Score":  528766880,
+        "Rank":  "9 / 87",
+        "% Top":  10.34,
+        "MachineId":  388,
+        "Events":  [
+                       {
+                           "event":  "2025 Midlands League - Meet 3",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  3,
+                           "score":  528766880,
+                           "rank":  9
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Game of Thrones",
+        "Plays":  1,
+        "Best Score":  15448220,
+        "Rank":  "408 / 516",
+        "% Top":  79.07,
+        "MachineId":  2,
+        "Events":  [
+                       {
+                           "event":  "2026 Midlands League - Meet 1",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  15448220,
+                           "rank":  408
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Godzilla (Stern)",
+        "Plays":  9,
+        "Best Score":  317176420,
+        "Rank":  "119 / 1,085",
+        "% Top":  10.97,
+        "MachineId":  360,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 5",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  19980900,
+                           "rank":  1005
+                       },
+                       {
+                           "event":  "2023 Midlands League - Meet 6",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  41053830,
+                           "rank":  795
+                       },
+                       {
+                           "event":  "2024  Regional Finals Round Four",
+                           "year":  2024,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  179930630,
+                           "rank":  256
+                       },
+                       {
+                           "event":  "2024  Regional Finals Round Four",
+                           "year":  2024,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  278611850,
+                           "rank":  141
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 3",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  3,
+                           "score":  109735000,
+                           "rank":  446
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 5",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  106624700,
+                           "rank":  455
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 4",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  148609780,
+                           "rank":  329
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 2",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  317176420,
+                           "rank":  119
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 5",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  172382350,
+                           "rank":  271
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Gorgar",
+        "Plays":  2,
+        "Best Score":  156980,
+        "Rank":  "86 / 241",
+        "% Top":  35.68,
+        "MachineId":  60,
+        "Events":  [
+                       {
+                           "event":  "2024 Midlands League - Meet 1",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  156980,
+                           "rank":  86
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 1",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  45170,
+                           "rank":  232
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Guardians of the Galaxy",
+        "Plays":  4,
+        "Best Score":  263117920,
+        "Rank":  "43 / 526",
+        "% Top":  8.17,
+        "MachineId":  208,
+        "Events":  [
+                       {
+                           "event":  "2024 Midlands League - Meet 5",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  95890750,
+                           "rank":  140
+                       },
+                       {
+                           "event":  "2025  Regional Finals Round Five",
+                           "year":  2025,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  263117920,
+                           "rank":  43
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 2",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  54207000,
+                           "rank":  232
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 6",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  82516530,
+                           "rank":  167
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "High Speed",
+        "Plays":  1,
+        "Best Score":  979360,
+        "Rank":  "53 / 142",
+        "% Top":  37.32,
+        "MachineId":  202,
+        "Events":  [
+                       {
+                           "event":  "2026 Midlands League - Meet 5",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  979360,
+                           "rank":  53
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Iron Maiden: Legacy of the Beast",
+        "Plays":  1,
+        "Best Score":  35250290,
+        "Rank":  "550 / 893",
+        "% Top":  61.59,
+        "MachineId":  44,
+        "Events":  [
+                       {
+                           "event":  "2025 Midlands League - Meet 4",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  35250290,
+                           "rank":  550
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Iron Man",
+        "Plays":  2,
+        "Best Score":  6358590,
+        "Rank":  "532 / 871",
+        "% Top":  61.08,
+        "MachineId":  243,
+        "Events":  [
+                       {
+                           "event":  "2024 Midlands League - Meet 3",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  3,
+                           "score":  4922780,
+                           "rank":  646
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 4",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  6358590,
+                           "rank":  532
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "James Bond 007",
+        "Plays":  1,
+        "Best Score":  278992500,
+        "Rank":  "21 / 226",
+        "% Top":  9.29,
+        "MachineId":  346,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 6",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  278992500,
+                           "rank":  21
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Jaws",
+        "Plays":  4,
+        "Best Score":  299810280,
+        "Rank":  "29 / 297",
+        "% Top":  9.76,
+        "MachineId":  374,
+        "Events":  [
+                       {
+                           "event":  "2024  Regional Finals Round Six",
+                           "year":  2024,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  113228430,
+                           "rank":  128
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 1",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  92811660,
+                           "rank":  158
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 3",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  3,
+                           "score":  84551410,
+                           "rank":  176
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 2",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  299810280,
+                           "rank":  29
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Johnny Mnemonic",
+        "Plays":  2,
+        "Best Score":  1281399000,
+        "Rank":  "109 / 387",
+        "% Top":  28.17,
+        "MachineId":  154,
+        "Events":  [
+                       {
+                           "event":  "2025 Midlands League - Meet 1",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  364183460,
+                           "rank":  325
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 2",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  1281399000,
+                           "rank":  109
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Junk Yard",
+        "Plays":  1,
+        "Best Score":  6780480,
+        "Rank":  "196 / 415",
+        "% Top":  47.23,
+        "MachineId":  264,
+        "Events":  [
+                       {
+                           "event":  "2026 Midlands League - Meet 6",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  6780480,
+                           "rank":  196
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Jurassic Park (Stern)",
+        "Plays":  1,
+        "Best Score":  10303590,
+        "Rank":  "575 / 587",
+        "% Top":  97.96,
+        "MachineId":  74,
+        "Events":  [
+                       {
+                           "event":  "2025 Midlands League - Meet 1",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  10303590,
+                           "rank":  575
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "King Kong",
+        "Plays":  2,
+        "Best Score":  221387930,
+        "Rank":  "15 / 131",
+        "% Top":  11.45,
+        "MachineId":  394,
+        "Events":  [
+                       {
+                           "event":  "2025  Regional Finals Round Two",
+                           "year":  2025,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  212908420,
+                           "rank":  16
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 1",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  221387930,
+                           "rank":  15
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "KISS",
+        "Plays":  1,
+        "Best Score":  47780,
+        "Rank":  "78 / 80",
+        "% Top":  97.5,
+        "MachineId":  67,
+        "Events":  [
+                       {
+                           "event":  "2026 Midlands League - Meet 4",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  47780,
+                           "rank":  78
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Lethal Weapon 3",
+        "Plays":  2,
+        "Best Score":  39870530,
+        "Rank":  "135 / 239",
+        "% Top":  56.49,
+        "MachineId":  283,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 3",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  3,
+                           "score":  18740430,
+                           "rank":  202
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 1",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  39870530,
+                           "rank":  135
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Medieval Madness",
+        "Plays":  3,
+        "Best Score":  56987600,
+        "Rank":  "82 / 1,608",
+        "% Top":  5.1,
+        "MachineId":  159,
+        "Events":  [
+                       {
+                           "event":  "2024 Midlands League - Meet 5",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  10323960,
+                           "rank":  1060
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 6",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  9158500,
+                           "rank":  1125
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 5",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  56987600,
+                           "rank":  82
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Monster Bash",
+        "Plays":  1,
+        "Best Score":  5765870,
+        "Rank":  "781 / 927",
+        "% Top":  84.25,
+        "MachineId":  140,
+        "Events":  [
+                       {
+                           "event":  "2025 Midlands League - Meet 1",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  5765870,
+                           "rank":  781
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Mr. \u0026amp; Mrs. Pac-Man",
+        "Plays":  8,
+        "Best Score":  1291280,
+        "Rank":  "37 / 607",
+        "% Top":  6.1,
+        "MachineId":  84,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 3",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  3,
+                           "score":  611370,
+                           "rank":  226
+                       },
+                       {
+                           "event":  "2023 Midlands League - Meet 4",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  769130,
+                           "rank":  145
+                       },
+                       {
+                           "event":  "2023 Midlands League - Meet 5",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  787360,
+                           "rank":  138
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 1",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  532830,
+                           "rank":  283
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 4",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  282420,
+                           "rank":  496
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 2",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  1291280,
+                           "rank":  37
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 2",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  746420,
+                           "rank":  155
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 4",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  550110,
+                           "rank":  270
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Nascar",
+        "Plays":  1,
+        "Best Score":  27440090,
+        "Rank":  "28 / 115",
+        "% Top":  24.35,
+        "MachineId":  175,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 5",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  27440090,
+                           "rank":  28
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Nautilus",
+        "Plays":  4,
+        "Best Score":  4451400,
+        "Rank":  "40 / 263",
+        "% Top":  15.21,
+        "MachineId":  31,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 4",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  4451400,
+                           "rank":  40
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 4",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  2182600,
+                           "rank":  154
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 2",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  3129500,
+                           "rank":  99
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 4",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  3541700,
+                           "rank":  74
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Night Moves",
+        "Plays":  2,
+        "Best Score":  1874520,
+        "Rank":  "70 / 198",
+        "% Top":  35.35,
+        "MachineId":  193,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 4",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  1582910,
+                           "rank":  86
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 4",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  1874520,
+                           "rank":  70
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "No Fear: Dangerous Sports",
+        "Plays":  2,
+        "Best Score":  645932330,
+        "Rank":  "207 / 530",
+        "% Top":  39.06,
+        "MachineId":  38,
+        "Events":  [
+                       {
+                           "event":  "2024  Regional Finals Round Five",
+                           "year":  2024,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  464204480,
+                           "rank":  315
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 3",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  3,
+                           "score":  645932330,
+                           "rank":  207
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "No Good Gofers",
+        "Plays":  1,
+        "Best Score":  3728940,
+        "Rank":  "243 / 345",
+        "% Top":  70.43,
+        "MachineId":  182,
+        "Events":  [
+                       {
+                           "event":  "2026 Midlands League - Meet 6",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  3728940,
+                           "rank":  243
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Paragon",
+        "Plays":  2,
+        "Best Score":  133730,
+        "Rank":  "141 / 552",
+        "% Top":  25.54,
+        "MachineId":  24,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 1",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  123630,
+                           "rank":  159
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 2",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  133730,
+                           "rank":  141
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Pirates of the Caribbean (JJ)",
+        "Plays":  1,
+        "Best Score":  129414,
+        "Rank":  "20 / 103",
+        "% Top":  19.42,
+        "MachineId":  158,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 6",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  129414,
+                           "rank":  20
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Pokémon",
+        "Plays":  1,
+        "Best Score":  56845270,
+        "Rank":  "10 / 23",
+        "% Top":  43.48,
+        "MachineId":  413,
+        "Events":  [
+                       {
+                           "event":  "2026 Midlands League - Meet 5",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  56845270,
+                           "rank":  10
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Post Time",
+        "Plays":  1,
+        "Best Score":  30250,
+        "Rank":  "26 / 58",
+        "% Top":  44.83,
+        "MachineId":  332,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 5",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  30250,
+                           "rank":  26
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Radical!",
+        "Plays":  1,
+        "Best Score":  2465920,
+        "Rank":  "101 / 146",
+        "% Top":  69.18,
+        "MachineId":  164,
+        "Events":  [
+                       {
+                           "event":  "2024 Midlands League - Meet 6",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  2465920,
+                           "rank":  101
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Revenge from Mars",
+        "Plays":  2,
+        "Best Score":  68722080,
+        "Rank":  "422 / 988",
+        "% Top":  42.71,
+        "MachineId":  151,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 3",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  3,
+                           "score":  68722080,
+                           "rank":  422
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 1",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  26827230,
+                           "rank":  807
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Robocop",
+        "Plays":  3,
+        "Best Score":  1695520,
+        "Rank":  "35 / 202",
+        "% Top":  17.33,
+        "MachineId":  25,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 4",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  1695520,
+                           "rank":  35
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 2",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  1077100,
+                           "rank":  90
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 4",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  1057360,
+                           "rank":  94
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Rollergames",
+        "Plays":  2,
+        "Best Score":  12810800,
+        "Rank":  "4 / 159",
+        "% Top":  2.52,
+        "MachineId":  242,
+        "Events":  [
+                       {
+                           "event":  "2024  Regional Finals Round Two",
+                           "year":  2024,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  2061310,
+                           "rank":  66
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 6",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  12810800,
+                           "rank":  4
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Scared Stiff",
+        "Plays":  4,
+        "Best Score":  16537020,
+        "Rank":  "75 / 903",
+        "% Top":  8.31,
+        "MachineId":  129,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 1",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  3033390,
+                           "rank":  628
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 2",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  11552580,
+                           "rank":  138
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 6",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  16537020,
+                           "rank":  75
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 5",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  9251000,
+                           "rank":  209
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Shrek",
+        "Plays":  1,
+        "Best Score":  11131400,
+        "Rank":  "82 / 138",
+        "% Top":  59.42,
+        "MachineId":  88,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 3",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  3,
+                           "score":  11131400,
+                           "rank":  82
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Space Station",
+        "Plays":  2,
+        "Best Score":  1851160,
+        "Rank":  "79 / 363",
+        "% Top":  21.76,
+        "MachineId":  185,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 1",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  1480350,
+                           "rank":  127
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 2",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  1851160,
+                           "rank":  79
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Spider-Man",
+        "Plays":  5,
+        "Best Score":  82573660,
+        "Rank":  "233 / 1,183",
+        "% Top":  19.7,
+        "MachineId":  290,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 4",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  82573660,
+                           "rank":  233
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 4",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  58826390,
+                           "rank":  401
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 2",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  44011490,
+                           "rank":  556
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 1",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  65153500,
+                           "rank":  349
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 4",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  54614520,
+                           "rank":  433
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Star Trek (Stern)",
+        "Plays":  4,
+        "Best Score":  24870130,
+        "Rank":  "541 / 980",
+        "% Top":  55.2,
+        "MachineId":  189,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 5",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  9515490,
+                           "rank":  816
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 1",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  24870130,
+                           "rank":  541
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 4",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  7920190,
+                           "rank":  867
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 1",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  14737240,
+                           "rank":  713
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Star Trek Next Generation",
+        "Plays":  3,
+        "Best Score":  499624550,
+        "Rank":  "264 / 1,142",
+        "% Top":  23.12,
+        "MachineId":  51,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 3",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  3,
+                           "score":  499624550,
+                           "rank":  264
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 1",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  167334660,
+                           "rank":  785
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 2",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  338747020,
+                           "rank":  433
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Star Wars (Data East)",
+        "Plays":  1,
+        "Best Score":  24269790,
+        "Rank":  "220 / 271",
+        "% Top":  81.18,
+        "MachineId":  199,
+        "Events":  [
+                       {
+                           "event":  "2024 Midlands League - Meet 4",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  24269790,
+                           "rank":  220
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Star Wars (Stern)",
+        "Plays":  1,
+        "Best Score":  130497120,
+        "Rank":  "215 / 327",
+        "% Top":  65.75,
+        "MachineId":  270,
+        "Events":  [
+                       {
+                           "event":  "2026 Midlands League - Meet 1",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  130497120,
+                           "rank":  215
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Stranger Things",
+        "Plays":  1,
+        "Best Score":  61630610,
+        "Rank":  "280 / 441",
+        "% Top":  63.49,
+        "MachineId":  323,
+        "Events":  [
+                       {
+                           "event":  "2024 Midlands League - Meet 6",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  61630610,
+                           "rank":  280
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Taxi",
+        "Plays":  1,
+        "Best Score":  1563220,
+        "Rank":  "141 / 571",
+        "% Top":  24.69,
+        "MachineId":  131,
+        "Events":  [
+                       {
+                           "event":  "2026 Midlands League - Meet 6",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  1563220,
+                           "rank":  141
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "The Addams Family",
+        "Plays":  4,
+        "Best Score":  86355370,
+        "Rank":  "665 / 2,606",
+        "% Top":  25.52,
+        "MachineId":  126,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 1",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  10774520,
+                           "rank":  2410
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 2",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  76341420,
+                           "rank":  814
+                       },
+                       {
+                           "event":  "2025  Regional Finals Round Four",
+                           "year":  2025,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  86355370,
+                           "rank":  665
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 6",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  67408300,
+                           "rank":  969
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "The Amazing Spider-Man (Gottlieb)",
+        "Plays":  1,
+        "Best Score":  62120,
+        "Rank":  "17 / 19",
+        "% Top":  89.47,
+        "MachineId":  412,
+        "Events":  [
+                       {
+                           "event":  "2026 Midlands League - Meet 4",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  62120,
+                           "rank":  17
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "The Avengers",
+        "Plays":  4,
+        "Best Score":  9403660,
+        "Rank":  "90 / 290",
+        "% Top":  31.03,
+        "MachineId":  168,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 3",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  3,
+                           "score":  9297450,
+                           "rank":  91
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 3",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  3,
+                           "score":  7307150,
+                           "rank":  111
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 4",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  9403660,
+                           "rank":  90
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 2",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  3179560,
+                           "rank":  203
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "The Beatles",
+        "Plays":  1,
+        "Best Score":  1638160,
+        "Rank":  "22 / 64",
+        "% Top":  34.38,
+        "MachineId":  139,
+        "Events":  [
+                       {
+                           "event":  "2025 Midlands League - Meet 5",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  1638160,
+                           "rank":  22
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "The Flintstones",
+        "Plays":  1,
+        "Best Score":  317385780,
+        "Rank":  "225 / 525",
+        "% Top":  42.86,
+        "MachineId":  145,
+        "Events":  [
+                       {
+                           "event":  "2024 Midlands League - Meet 5",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  317385780,
+                           "rank":  225
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "The Getaway: High Speed II",
+        "Plays":  1,
+        "Best Score":  60272250,
+        "Rank":  "561 / 1,667",
+        "% Top":  33.65,
+        "MachineId":  288,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 5",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  60272250,
+                           "rank":  561
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "The Mandalorian",
+        "Plays":  1,
+        "Best Score":  30153530,
+        "Rank":  "212 / 301",
+        "% Top":  70.43,
+        "MachineId":  311,
+        "Events":  [
+                       {
+                           "event":  "2026 Midlands League - Meet 2",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  30153530,
+                           "rank":  212
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "The Munsters",
+        "Plays":  1,
+        "Best Score":  12589030,
+        "Rank":  "38 / 95",
+        "% Top":  40,
+        "MachineId":  70,
+        "Events":  [
+                       {
+                           "event":  "2026 Midlands League - Meet 2",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  12589030,
+                           "rank":  38
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "The Walking Dead",
+        "Plays":  1,
+        "Best Score":  42964030,
+        "Rank":  "331 / 976",
+        "% Top":  33.91,
+        "MachineId":  132,
+        "Events":  [
+                       {
+                           "event":  "2024 Midlands League - Meet 3",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  3,
+                           "score":  42964030,
+                           "rank":  331
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "The Who\u0026#039;s Tommy Pinball Wizard",
+        "Plays":  2,
+        "Best Score":  202347040,
+        "Rank":  "107 / 278",
+        "% Top":  38.49,
+        "MachineId":  142,
+        "Events":  [
+                       {
+                           "event":  "2024 Midlands League - Meet 1",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  202347040,
+                           "rank":  107
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 3",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  3,
+                           "score":  109202190,
+                           "rank":  190
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Theatre of Magic",
+        "Plays":  1,
+        "Best Score":  380323280,
+        "Rank":  "359 / 675",
+        "% Top":  53.19,
+        "MachineId":  266,
+        "Events":  [
+                       {
+                           "event":  "2024 Midlands League - Meet 6",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  380323280,
+                           "rank":  359
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Transformers",
+        "Plays":  1,
+        "Best Score":  10288080,
+        "Rank":  "92 / 156",
+        "% Top":  58.97,
+        "MachineId":  292,
+        "Events":  [
+                       {
+                           "event":  "2024 Midlands League - Meet 6",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  10288080,
+                           "rank":  92
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Transporter the Rescue",
+        "Plays":  2,
+        "Best Score":  833190,
+        "Rank":  "78 / 102",
+        "% Top":  76.47,
+        "MachineId":  134,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 1",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  833190,
+                           "rank":  78
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 2",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  372030,
+                           "rank":  98
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Twilight Zone",
+        "Plays":  4,
+        "Best Score":  365269440,
+        "Rank":  "217 / 2,664",
+        "% Top":  8.15,
+        "MachineId":  273,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 1",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  108423270,
+                           "rank":  1456
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 2",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  160756290,
+                           "rank":  961
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 3",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  3,
+                           "score":  365269440,
+                           "rank":  217
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 6",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  260112270,
+                           "rank":  445
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Whirlwind",
+        "Plays":  2,
+        "Best Score":  2277390,
+        "Rank":  "259 / 492",
+        "% Top":  52.64,
+        "MachineId":  221,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 1",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  1,
+                           "score":  2277390,
+                           "rank":  259
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 2",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  1082130,
+                           "rank":  418
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "White Water",
+        "Plays":  1,
+        "Best Score":  29750990,
+        "Rank":  "1,530 / 1,984",
+        "% Top":  77.12,
+        "MachineId":  7,
+        "Events":  [
+                       {
+                           "event":  "2026 Midlands League - Meet 6",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  29750990,
+                           "rank":  1530
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Wizard!",
+        "Plays":  4,
+        "Best Score":  100690,
+        "Rank":  "35 / 229",
+        "% Top":  15.28,
+        "MachineId":  216,
+        "Events":  [
+                       {
+                           "event":  "2023 Midlands League - Meet 4",
+                           "year":  2023,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  26930,
+                           "rank":  217
+                       },
+                       {
+                           "event":  "2024 Midlands League - Meet 4",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  100690,
+                           "rank":  35
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 2",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  67890,
+                           "rank":  105
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 4",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  70880,
+                           "rank":  94
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "World Poker Tour",
+        "Plays":  2,
+        "Best Score":  15761520,
+        "Rank":  "95 / 234",
+        "% Top":  40.6,
+        "MachineId":  291,
+        "Events":  [
+                       {
+                           "event":  "2024 Midlands League - Meet 3",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  3,
+                           "score":  15761520,
+                           "rank":  95
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 4",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  9753680,
+                           "rank":  151
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "WrestleMania",
+        "Plays":  2,
+        "Best Score":  25373200,
+        "Rank":  "25 / 51",
+        "% Top":  49.02,
+        "MachineId":  397,
+        "Events":  [
+                       {
+                           "event":  "2025 Midlands League - Meet 4",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  4,
+                           "score":  25373200,
+                           "rank":  25
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 2",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  2,
+                           "score":  23257220,
+                           "rank":  27
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Xenon",
+        "Plays":  4,
+        "Best Score":  252070,
+        "Rank":  "169 / 342",
+        "% Top":  49.42,
+        "MachineId":  252,
+        "Events":  [
+                       {
+                           "event":  "2024 Midlands League - Meet 5",
+                           "year":  2024,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  252070,
+                           "rank":  169
+                       },
+                       {
+                           "event":  "2025  Regional Finals Round Six",
+                           "year":  2025,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  81590,
+                           "rank":  312
+                       },
+                       {
+                           "event":  "2025 Midlands League - Meet 6",
+                           "year":  2025,
+                           "league":  "Midlands League",
+                           "meet":  6,
+                           "score":  90130,
+                           "rank":  306
+                       },
+                       {
+                           "event":  "2026 Midlands League - Meet 5",
+                           "year":  2026,
+                           "league":  "Midlands League",
+                           "meet":  5,
+                           "score":  116590,
+                           "rank":  292
+                       }
+                   ]
+    }
+]

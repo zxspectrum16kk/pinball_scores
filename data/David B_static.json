@@ -1,0 +1,2468 @@
+﻿[
+    {
+        "Machine \u0026#9650;":  "AC/DC",
+        "Plays":  4,
+        "Best Score":  23307410,
+        "Rank":  "480 / 1,212",
+        "% Top":  39.6,
+        "MachineId":  153,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 6",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  21607080,
+                           "rank":  517
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 1",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  12287920,
+                           "rank":  823
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 6",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  8652750,
+                           "rank":  1004
+                       },
+                       {
+                           "event":  "2026  Regional Finals Round Three",
+                           "year":  2026,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  23307410,
+                           "rank":  480
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Attack from Mars",
+        "Plays":  1,
+        "Best Score":  5908447840,
+        "Rank":  "128 / 1,625",
+        "% Top":  7.88,
+        "MachineId":  293,
+        "Events":  [
+                       {
+                           "event":  "2026 East Anglian League - Meet 5",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  5908447840,
+                           "rank":  128
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Bad Cats",
+        "Plays":  1,
+        "Best Score":  11402210,
+        "Rank":  "3 / 97",
+        "% Top":  3.09,
+        "MachineId":  219,
+        "Events":  [
+                       {
+                           "event":  "2026 East Anglian League - Meet 3",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  11402210,
+                           "rank":  3
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Barracora",
+        "Plays":  1,
+        "Best Score":  435240,
+        "Rank":  "75 / 158",
+        "% Top":  47.47,
+        "MachineId":  133,
+        "Events":  [
+                       {
+                           "event":  "2025 East Anglian League - Meet 2",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  435240,
+                           "rank":  75
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Baywatch",
+        "Plays":  1,
+        "Best Score":  550641360,
+        "Rank":  "55 / 257",
+        "% Top":  21.4,
+        "MachineId":  191,
+        "Events":  [
+                       {
+                           "event":  "2025  Regional Finals Round One",
+                           "year":  2025,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  550641360,
+                           "rank":  55
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Big Buck Hunter Pro",
+        "Plays":  2,
+        "Best Score":  10525270,
+        "Rank":  "29 / 162",
+        "% Top":  17.9,
+        "MachineId":  85,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 4",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  8363280,
+                           "rank":  47
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 1",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  10525270,
+                           "rank":  29
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Black Hole",
+        "Plays":  1,
+        "Best Score":  135820,
+        "Rank":  "25 / 63",
+        "% Top":  39.68,
+        "MachineId":  181,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 1",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  135820,
+                           "rank":  25
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Black Knight",
+        "Plays":  3,
+        "Best Score":  494270,
+        "Rank":  "38 / 225",
+        "% Top":  16.89,
+        "MachineId":  215,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 6",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  494270,
+                           "rank":  38
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 6",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  54340,
+                           "rank":  211
+                       },
+                       {
+                           "event":  "2026  Regional Finals Round Three",
+                           "year":  2026,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  203730,
+                           "rank":  110
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Black Knight: Sword of Rage",
+        "Plays":  2,
+        "Best Score":  26040860,
+        "Rank":  "66 / 119",
+        "% Top":  55.46,
+        "MachineId":  321,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 4",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  26040860,
+                           "rank":  66
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 1",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  20042270,
+                           "rank":  69
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Black Rose: Skull and Bones",
+        "Plays":  1,
+        "Best Score":  120229130,
+        "Rank":  "11 / 25",
+        "% Top":  44,
+        "MachineId":  365,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 3",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  120229130,
+                           "rank":  11
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Blackwater 100",
+        "Plays":  1,
+        "Best Score":  1573900,
+        "Rank":  "45 / 148",
+        "% Top":  30.41,
+        "MachineId":  265,
+        "Events":  [
+                       {
+                           "event":  "2026 East Anglian League - Meet 4",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  1573900,
+                           "rank":  45
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Bram Stoker\u0026#039;s Dracula",
+        "Plays":  1,
+        "Best Score":  46514508,
+        "Rank":  "423 / 1,029",
+        "% Top":  41.11,
+        "MachineId":  248,
+        "Events":  [
+                       {
+                           "event":  "2024  Regional Finals Round Three",
+                           "year":  2024,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  46514508,
+                           "rank":  423
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Bride of Pinbot",
+        "Plays":  1,
+        "Best Score":  4484450,
+        "Rank":  "254 / 577",
+        "% Top":  44.02,
+        "MachineId":  289,
+        "Events":  [
+                       {
+                           "event":  "2026 East Anglian League - Meet 3",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  4484450,
+                           "rank":  254
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Centaur",
+        "Plays":  2,
+        "Best Score":  324170,
+        "Rank":  "245 / 446",
+        "% Top":  54.93,
+        "MachineId":  13,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 1",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  321600,
+                           "rank":  246
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 6",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  324170,
+                           "rank":  245
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Champion Pub",
+        "Plays":  1,
+        "Best Score":  18647390,
+        "Rank":  "106 / 385",
+        "% Top":  27.53,
+        "MachineId":  147,
+        "Events":  [
+                       {
+                           "event":  "2025 East Anglian League - Meet 3",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  18647390,
+                           "rank":  106
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Corvette",
+        "Plays":  3,
+        "Best Score":  1024440470,
+        "Rank":  "28 / 327",
+        "% Top":  8.56,
+        "MachineId":  19,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 5",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  1024440470,
+                           "rank":  28
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 2",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  166457400,
+                           "rank":  243
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 6",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  61461560,
+                           "rank":  302
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Creature from the Black Lagoon",
+        "Plays":  3,
+        "Best Score":  274713460,
+        "Rank":  "55 / 1,498",
+        "% Top":  3.67,
+        "MachineId":  89,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 1",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  93352500,
+                           "rank":  392
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 2",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  274713460,
+                           "rank":  55
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 5",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  40337590,
+                           "rank":  973
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Cross Town",
+        "Plays":  1,
+        "Best Score":  449,
+        "Rank":  "16 / 22",
+        "% Top":  72.73,
+        "MachineId":  381,
+        "Events":  [
+                       {
+                           "event":  "2025 East Anglian League - Meet 2",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  449,
+                           "rank":  16
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Deadpool",
+        "Plays":  1,
+        "Best Score":  262841040,
+        "Rank":  "82 / 645",
+        "% Top":  12.71,
+        "MachineId":  48,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 3",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  262841040,
+                           "rank":  82
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Dialed In!",
+        "Plays":  3,
+        "Best Score":  402120,
+        "Rank":  "147 / 653",
+        "% Top":  22.51,
+        "MachineId":  96,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 4",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  402120,
+                           "rank":  147
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 1",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  233780,
+                           "rank":  291
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 3",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  262820,
+                           "rank":  258
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Diner",
+        "Plays":  4,
+        "Best Score":  4869850,
+        "Rank":  "61 / 214",
+        "% Top":  28.5,
+        "MachineId":  102,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 5",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  1316080,
+                           "rank":  190
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 5",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  990580,
+                           "rank":  203
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 2",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  4869850,
+                           "rank":  61
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 6",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  2819060,
+                           "rank":  126
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Dirty Harry",
+        "Plays":  2,
+        "Best Score":  240354400,
+        "Rank":  "229 / 467",
+        "% Top":  49.04,
+        "MachineId":  162,
+        "Events":  [
+                       {
+                           "event":  "2025 East Anglian League - Meet 4",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  240354400,
+                           "rank":  229
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 4",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  191379730,
+                           "rank":  291
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Doctor Who",
+        "Plays":  1,
+        "Best Score":  423494290,
+        "Rank":  "25 / 544",
+        "% Top":  4.6,
+        "MachineId":  220,
+        "Events":  [
+                       {
+                           "event":  "2026 East Anglian League - Meet 2",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  423494290,
+                           "rank":  25
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Dungeons \u0026amp; Dragons: The Tyrant\u0026#039;s Eye",
+        "Plays":  1,
+        "Best Score":  70624300,
+        "Rank":  "35 / 51",
+        "% Top":  68.63,
+        "MachineId":  400,
+        "Events":  [
+                       {
+                           "event":  "2026 East Anglian League - Meet 1",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  70624300,
+                           "rank":  35
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Eight Ball Champ",
+        "Plays":  1,
+        "Best Score":  797390,
+        "Rank":  "61 / 195",
+        "% Top":  31.28,
+        "MachineId":  59,
+        "Events":  [
+                       {
+                           "event":  "2025 East Anglian League - Meet 2",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  797390,
+                           "rank":  61
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Eight Ball Deluxe",
+        "Plays":  2,
+        "Best Score":  1961890,
+        "Rank":  "6 / 455",
+        "% Top":  1.32,
+        "MachineId":  228,
+        "Events":  [
+                       {
+                           "event":  "2025 East Anglian League - Meet 3",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  1961890,
+                           "rank":  6
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 1",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  1348310,
+                           "rank":  18
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Elton John",
+        "Plays":  4,
+        "Best Score":  40222450,
+        "Rank":  "37 / 153",
+        "% Top":  24.18,
+        "MachineId":  371,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 6",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  12971830,
+                           "rank":  99
+                       },
+                       {
+                           "event":  "2025  Regional Finals Round One",
+                           "year":  2025,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  13212980,
+                           "rank":  96
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 6",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  12458000,
+                           "rank":  100
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 1",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  40222450,
+                           "rank":  37
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Elvira and The Party Monsters",
+        "Plays":  1,
+        "Best Score":  448310,
+        "Rank":  "113 / 118",
+        "% Top":  95.76,
+        "MachineId":  282,
+        "Events":  [
+                       {
+                           "event":  "2026 East Anglian League - Meet 1",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  448310,
+                           "rank":  113
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "F-14 Tomcat",
+        "Plays":  2,
+        "Best Score":  719420,
+        "Rank":  "252 / 736",
+        "% Top":  34.24,
+        "MachineId":  278,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 3",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  719420,
+                           "rank":  252
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 4",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  171950,
+                           "rank":  653
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Fireball II",
+        "Plays":  1,
+        "Best Score":  490300,
+        "Rank":  "101 / 357",
+        "% Top":  28.29,
+        "MachineId":  62,
+        "Events":  [
+                       {
+                           "event":  "2026 East Anglian League - Meet 2",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  490300,
+                           "rank":  101
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Firepower",
+        "Plays":  1,
+        "Best Score":  156000,
+        "Rank":  "33 / 156",
+        "% Top":  21.15,
+        "MachineId":  32,
+        "Events":  [
+                       {
+                           "event":  "2025 East Anglian League - Meet 2",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  156000,
+                           "rank":  33
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Fish Tales",
+        "Plays":  3,
+        "Best Score":  106656960,
+        "Rank":  "213 / 1,738",
+        "% Top":  12.26,
+        "MachineId":  253,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 2",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  37339420,
+                           "rank":  766
+                       },
+                       {
+                           "event":  "2024 East Anglian League - Meet 4",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  106656960,
+                           "rank":  213
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 5",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  14615400,
+                           "rank":  1328
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Flash",
+        "Plays":  2,
+        "Best Score":  141810,
+        "Rank":  "237 / 527",
+        "% Top":  44.97,
+        "MachineId":  255,
+        "Events":  [
+                       {
+                           "event":  "2025 East Anglian League - Meet 1",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  141810,
+                           "rank":  237
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 4",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  137740,
+                           "rank":  250
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Foo Fighters",
+        "Plays":  1,
+        "Best Score":  126337990,
+        "Rank":  "45 / 301",
+        "% Top":  14.95,
+        "MachineId":  347,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 1",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  126337990,
+                           "rank":  45
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Funhouse",
+        "Plays":  3,
+        "Best Score":  17414410,
+        "Rank":  "13 / 375",
+        "% Top":  3.47,
+        "MachineId":  87,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 5",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  3221350,
+                           "rank":  201
+                       },
+                       {
+                           "event":  "2024 East Anglian League - Meet 6",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  2126200,
+                           "rank":  265
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 5",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  17414410,
+                           "rank":  13
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Game of Thrones",
+        "Plays":  1,
+        "Best Score":  83551180,
+        "Rank":  "245 / 516",
+        "% Top":  47.48,
+        "MachineId":  2,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 2",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  83551180,
+                           "rank":  245
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Genesis",
+        "Plays":  3,
+        "Best Score":  278660,
+        "Rank":  "85 / 130",
+        "% Top":  65.38,
+        "MachineId":  71,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 5",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  93480,
+                           "rank":  130
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 5",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  278660,
+                           "rank":  85
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 6",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  242750,
+                           "rank":  99
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Gorgar",
+        "Plays":  2,
+        "Best Score":  238480,
+        "Rank":  "33 / 241",
+        "% Top":  13.69,
+        "MachineId":  60,
+        "Events":  [
+                       {
+                           "event":  "2025 East Anglian League - Meet 1",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  107170,
+                           "rank":  148
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 4",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  238480,
+                           "rank":  33
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Guardians of the Galaxy",
+        "Plays":  2,
+        "Best Score":  547063740,
+        "Rank":  "11 / 526",
+        "% Top":  2.09,
+        "MachineId":  208,
+        "Events":  [
+                       {
+                           "event":  "2025  Regional Finals Round Two",
+                           "year":  2025,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  94249990,
+                           "rank":  143
+                       },
+                       {
+                           "event":  "2025  Regional Finals Round Three",
+                           "year":  2025,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  547063740,
+                           "rank":  11
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "High Speed",
+        "Plays":  2,
+        "Best Score":  1559200,
+        "Rank":  "27 / 142",
+        "% Top":  19.01,
+        "MachineId":  202,
+        "Events":  [
+                       {
+                           "event":  "2025 East Anglian League - Meet 4",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  635180,
+                           "rank":  73
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 4",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  1559200,
+                           "rank":  27
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Hotdoggin\u0026#039;",
+        "Plays":  1,
+        "Best Score":  562020,
+        "Rank":  "2 / 21",
+        "% Top":  9.52,
+        "MachineId":  403,
+        "Events":  [
+                       {
+                           "event":  "2026 East Anglian League - Meet 2",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  562020,
+                           "rank":  2
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Houdini: Master of Mystery",
+        "Plays":  1,
+        "Best Score":  629241,
+        "Rank":  "21 / 83",
+        "% Top":  25.3,
+        "MachineId":  316,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 4",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  629241,
+                           "rank":  21
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Iron Man",
+        "Plays":  1,
+        "Best Score":  2789080,
+        "Rank":  "827 / 871",
+        "% Top":  94.95,
+        "MachineId":  243,
+        "Events":  [
+                       {
+                           "event":  "2026 East Anglian League - Meet 1",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  2789080,
+                           "rank":  827
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Jackbot",
+        "Plays":  2,
+        "Best Score":  821047260,
+        "Rank":  "87 / 215",
+        "% Top":  40.47,
+        "MachineId":  117,
+        "Events":  [
+                       {
+                           "event":  "2025 East Anglian League - Meet 1",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  474493230,
+                           "rank":  153
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 4",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  821047260,
+                           "rank":  87
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Jaws",
+        "Plays":  3,
+        "Best Score":  251524730,
+        "Rank":  "44 / 297",
+        "% Top":  14.81,
+        "MachineId":  374,
+        "Events":  [
+                       {
+                           "event":  "2025 East Anglian League - Meet 3",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  60560140,
+                           "rank":  216
+                       },
+                       {
+                           "event":  "2026  Regional Finals Round Four",
+                           "year":  2026,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  251524730,
+                           "rank":  44
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 1",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  139159940,
+                           "rank":  108
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "John Wick",
+        "Plays":  1,
+        "Best Score":  32324020,
+        "Rank":  "17 / 55",
+        "% Top":  30.91,
+        "MachineId":  385,
+        "Events":  [
+                       {
+                           "event":  "2025 East Anglian League - Meet 3",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  32324020,
+                           "rank":  17
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Junk Yard",
+        "Plays":  2,
+        "Best Score":  7097330,
+        "Rank":  "187 / 415",
+        "% Top":  45.06,
+        "MachineId":  264,
+        "Events":  [
+                       {
+                           "event":  "2025 East Anglian League - Meet 2",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  1851980,
+                           "rank":  348
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 5",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  7097330,
+                           "rank":  187
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Jurassic Park (Data East)",
+        "Plays":  3,
+        "Best Score":  593643250,
+        "Rank":  "1 / 138",
+        "% Top":  0.72,
+        "MachineId":  246,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 5",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  238871340,
+                           "rank":  6
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 2",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  187065200,
+                           "rank":  16
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 5",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  593643250,
+                           "rank":  1
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Laser Cue",
+        "Plays":  2,
+        "Best Score":  337040,
+        "Rank":  "35 / 135",
+        "% Top":  25.93,
+        "MachineId":  254,
+        "Events":  [
+                       {
+                           "event":  "2026 East Anglian League - Meet 2",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  89400,
+                           "rank":  111
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 6",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  337040,
+                           "rank":  35
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Legends of Valhalla",
+        "Plays":  1,
+        "Best Score":  1855790,
+        "Rank":  "44 / 52",
+        "% Top":  84.62,
+        "MachineId":  358,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 2",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  1855790,
+                           "rank":  44
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Locomotion",
+        "Plays":  2,
+        "Best Score":  245430,
+        "Rank":  "18 / 47",
+        "% Top":  38.3,
+        "MachineId":  373,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 5",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  67200,
+                           "rank":  47
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 5",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  245430,
+                           "rank":  18
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Medieval Madness",
+        "Plays":  7,
+        "Best Score":  39816000,
+        "Rank":  "234 / 1,608",
+        "% Top":  14.55,
+        "MachineId":  159,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 2",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  39816000,
+                           "rank":  234
+                       },
+                       {
+                           "event":  "2024 East Anglian League - Meet 6",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  27529230,
+                           "rank":  451
+                       },
+                       {
+                           "event":  "2025  Regional Finals Round Three",
+                           "year":  2025,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  1954490,
+                           "rank":  1558
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 3",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  11683460,
+                           "rank":  987
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 6",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  13794450,
+                           "rank":  880
+                       },
+                       {
+                           "event":  "2026  Regional Finals Round Four Tiebreaker",
+                           "year":  2026,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  10441030,
+                           "rank":  1052
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 1",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  6077040,
+                           "rank":  1304
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Metallica",
+        "Plays":  1,
+        "Best Score":  2970520,
+        "Rank":  "993 / 1,030",
+        "% Top":  96.41,
+        "MachineId":  4,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 4",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  2970520,
+                           "rank":  993
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Monster Bash",
+        "Plays":  1,
+        "Best Score":  26205780,
+        "Rank":  "402 / 927",
+        "% Top":  43.37,
+        "MachineId":  140,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 4",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  26205780,
+                           "rank":  402
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Mousin\u0026#039; Around!",
+        "Plays":  3,
+        "Best Score":  5887660,
+        "Rank":  "19 / 117",
+        "% Top":  16.24,
+        "MachineId":  331,
+        "Events":  [
+                       {
+                           "event":  "2025 East Anglian League - Meet 3",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  5887660,
+                           "rank":  19
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 5",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  3251930,
+                           "rank":  48
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 2",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  5437770,
+                           "rank":  22
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Nascar",
+        "Plays":  1,
+        "Best Score":  33178740,
+        "Rank":  "16 / 115",
+        "% Top":  13.91,
+        "MachineId":  175,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 2",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  33178740,
+                           "rank":  16
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "NBA (Stern)",
+        "Plays":  1,
+        "Best Score":  7690740,
+        "Rank":  "2 / 20",
+        "% Top":  10,
+        "MachineId":  369,
+        "Events":  [
+                       {
+                           "event":  "2026 East Anglian League - Meet 3",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  7690740,
+                           "rank":  2
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Nine Ball",
+        "Plays":  1,
+        "Best Score":  482530,
+        "Rank":  "33 / 101",
+        "% Top":  32.67,
+        "MachineId":  3,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 1",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  482530,
+                           "rank":  33
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Nip-It",
+        "Plays":  1,
+        "Best Score":  125690,
+        "Rank":  "1 / 121",
+        "% Top":  0.83,
+        "MachineId":  256,
+        "Events":  [
+                       {
+                           "event":  "2026 East Anglian League - Meet 2",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  125690,
+                           "rank":  1
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "No Fear: Dangerous Sports",
+        "Plays":  2,
+        "Best Score":  545047110,
+        "Rank":  "264 / 530",
+        "% Top":  49.81,
+        "MachineId":  38,
+        "Events":  [
+                       {
+                           "event":  "2025 East Anglian League - Meet 3",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  545047110,
+                           "rank":  264
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 4",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  147446410,
+                           "rank":  511
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Oktoberfest",
+        "Plays":  3,
+        "Best Score":  334612,
+        "Rank":  "21 / 68",
+        "% Top":  30.88,
+        "MachineId":  368,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 4",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  161106,
+                           "rank":  35
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 1",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  167309,
+                           "rank":  33
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 3",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  334612,
+                           "rank":  21
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Old Chicago",
+        "Plays":  1,
+        "Best Score":  83760,
+        "Rank":  "2 / 21",
+        "% Top":  9.52,
+        "MachineId":  405,
+        "Events":  [
+                       {
+                           "event":  "2026 East Anglian League - Meet 2",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  83760,
+                           "rank":  2
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Paragon",
+        "Plays":  1,
+        "Best Score":  55120,
+        "Rank":  "383 / 552",
+        "% Top":  69.38,
+        "MachineId":  24,
+        "Events":  [
+                       {
+                           "event":  "2025 East Anglian League - Meet 2",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  55120,
+                           "rank":  383
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Party Animal",
+        "Plays":  2,
+        "Best Score":  1022210,
+        "Rank":  "9 / 72",
+        "% Top":  12.5,
+        "MachineId":  237,
+        "Events":  [
+                       {
+                           "event":  "2025 East Anglian League - Meet 4",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  181220,
+                           "rank":  64
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 4",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  1022210,
+                           "rank":  9
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Pool Sharks",
+        "Plays":  1,
+        "Best Score":  4943160,
+        "Rank":  "14 / 56",
+        "% Top":  25,
+        "MachineId":  125,
+        "Events":  [
+                       {
+                           "event":  "2025 East Anglian League - Meet 2",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  4943160,
+                           "rank":  14
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Popeye Saves The Earth",
+        "Plays":  1,
+        "Best Score":  228950020,
+        "Rank":  "9 / 78",
+        "% Top":  11.54,
+        "MachineId":  95,
+        "Events":  [
+                       {
+                           "event":  "2026 East Anglian League - Meet 3",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  228950020,
+                           "rank":  9
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Pulp Fiction",
+        "Plays":  1,
+        "Best Score":  743440,
+        "Rank":  "63 / 234",
+        "% Top":  26.92,
+        "MachineId":  380,
+        "Events":  [
+                       {
+                           "event":  "2026 East Anglian League - Meet 1",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  743440,
+                           "rank":  63
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Road Show",
+        "Plays":  4,
+        "Best Score":  432174890,
+        "Rank":  "337 / 1,382",
+        "% Top":  24.38,
+        "MachineId":  63,
+        "Events":  [
+                       {
+                           "event":  "2024  Regional Finals Round Two",
+                           "year":  2024,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  117939400,
+                           "rank":  1044
+                       },
+                       {
+                           "event":  "2024 East Anglian League - Meet 1",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  432174890,
+                           "rank":  337
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 2",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  279712300,
+                           "rank":  514
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 5",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  51570730,
+                           "rank":  1337
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Rush",
+        "Plays":  1,
+        "Best Score":  79384480,
+        "Rank":  "69 / 361",
+        "% Top":  19.11,
+        "MachineId":  341,
+        "Events":  [
+                       {
+                           "event":  "2025 East Anglian League - Meet 4",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  79384480,
+                           "rank":  69
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Scared Stiff",
+        "Plays":  3,
+        "Best Score":  4512960,
+        "Rank":  "478 / 903",
+        "% Top":  52.93,
+        "MachineId":  129,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 6",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  1269460,
+                           "rank":  856
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 6",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  767800,
+                           "rank":  883
+                       },
+                       {
+                           "event":  "2026  Regional Finals Round Four",
+                           "year":  2026,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  4512960,
+                           "rank":  478
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Seawitch",
+        "Plays":  1,
+        "Best Score":  176390,
+        "Rank":  "64 / 77",
+        "% Top":  83.12,
+        "MachineId":  68,
+        "Events":  [
+                       {
+                           "event":  "2026 East Anglian League - Meet 1",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  176390,
+                           "rank":  64
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Special Force",
+        "Plays":  1,
+        "Best Score":  3550750,
+        "Rank":  "1 / 23",
+        "% Top":  4.35,
+        "MachineId":  349,
+        "Events":  [
+                       {
+                           "event":  "2025 East Anglian League - Meet 4",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  3550750,
+                           "rank":  1
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Spider-Man",
+        "Plays":  3,
+        "Best Score":  150034730,
+        "Rank":  "71 / 1,183",
+        "% Top":  6,
+        "MachineId":  290,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 4",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  90106350,
+                           "rank":  193
+                       },
+                       {
+                           "event":  "2025  Regional Finals Round Three",
+                           "year":  2025,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  11572890,
+                           "rank":  1012
+                       },
+                       {
+                           "event":  "2025  Regional Finals Round Two",
+                           "year":  2025,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  150034730,
+                           "rank":  71
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Star Trek (Stern)",
+        "Plays":  1,
+        "Best Score":  66063740,
+        "Rank":  "168 / 980",
+        "% Top":  17.14,
+        "MachineId":  189,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 3",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  66063740,
+                           "rank":  168
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Star Trek Next Generation",
+        "Plays":  4,
+        "Best Score":  1082281020,
+        "Rank":  "79 / 1,142",
+        "% Top":  6.92,
+        "MachineId":  51,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 2",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  258406860,
+                           "rank":  576
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 6",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  1082281020,
+                           "rank":  79
+                       },
+                       {
+                           "event":  "2026  Regional Finals Round Three",
+                           "year":  2026,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  678352890,
+                           "rank":  180
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 3",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  339154180,
+                           "rank":  432
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Star Wars (2012 ROM)",
+        "Plays":  1,
+        "Best Score":  33392410,
+        "Rank":  "70 / 158",
+        "% Top":  44.3,
+        "MachineId":  43,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 3",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  33392410,
+                           "rank":  70
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Stranger Things",
+        "Plays":  2,
+        "Best Score":  237456980,
+        "Rank":  "46 / 441",
+        "% Top":  10.43,
+        "MachineId":  323,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 2",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  237456980,
+                           "rank":  46
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 1",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  109699300,
+                           "rank":  158
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Tales of the Arabian Nights",
+        "Plays":  2,
+        "Best Score":  6559540,
+        "Rank":  "268 / 525",
+        "% Top":  51.05,
+        "MachineId":  203,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 6",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  6559540,
+                           "rank":  268
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 6",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  846900,
+                           "rank":  514
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Target Alpha",
+        "Plays":  1,
+        "Best Score":  61310,
+        "Rank":  "5 / 21",
+        "% Top":  23.81,
+        "MachineId":  404,
+        "Events":  [
+                       {
+                           "event":  "2026 East Anglian League - Meet 2",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  61310,
+                           "rank":  5
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Taxi",
+        "Plays":  2,
+        "Best Score":  3769890,
+        "Rank":  "19 / 571",
+        "% Top":  3.33,
+        "MachineId":  131,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 5",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  1620400,
+                           "rank":  132
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 5",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  3769890,
+                           "rank":  19
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Teenage Mutant Ninja Turtles (Stern)",
+        "Plays":  2,
+        "Best Score":  1628950,
+        "Rank":  "150 / 180",
+        "% Top":  83.33,
+        "MachineId":  310,
+        "Events":  [
+                       {
+                           "event":  "2025 East Anglian League - Meet 1",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  1541160,
+                           "rank":  154
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 3",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  1628950,
+                           "rank":  150
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "The Addams Family",
+        "Plays":  4,
+        "Best Score":  49930120,
+        "Rank":  "1,305 / 2,606",
+        "% Top":  50.08,
+        "MachineId":  126,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 6",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  23173340,
+                           "rank":  2047
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 6",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  49930120,
+                           "rank":  1305
+                       },
+                       {
+                           "event":  "2026  Regional Finals Round Four",
+                           "year":  2026,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  20748360,
+                           "rank":  2108
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 3",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  34046220,
+                           "rank":  1712
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "The Avengers",
+        "Plays":  1,
+        "Best Score":  1558460,
+        "Rank":  "269 / 290",
+        "% Top":  92.76,
+        "MachineId":  168,
+        "Events":  [
+                       {
+                           "event":  "2025 East Anglian League - Meet 3",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  1558460,
+                           "rank":  269
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "The Getaway: High Speed II",
+        "Plays":  3,
+        "Best Score":  37520340,
+        "Rank":  "889 / 1,667",
+        "% Top":  53.33,
+        "MachineId":  288,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 3",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  24036800,
+                           "rank":  1236
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 4",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  20270320,
+                           "rank":  1383
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 5",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  37520340,
+                           "rank":  889
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "The Who\u0026#039;s Tommy Pinball Wizard",
+        "Plays":  2,
+        "Best Score":  115784780,
+        "Rank":  "183 / 278",
+        "% Top":  65.83,
+        "MachineId":  142,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 6",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  115784780,
+                           "rank":  183
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 6",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  11786680,
+                           "rank":  276
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "The Wizard of Oz",
+        "Plays":  1,
+        "Best Score":  165934,
+        "Rank":  "82 / 557",
+        "% Top":  14.72,
+        "MachineId":  297,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 6",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  165934,
+                           "rank":  82
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Theatre of Magic",
+        "Plays":  3,
+        "Best Score":  944214360,
+        "Rank":  "93 / 675",
+        "% Top":  13.78,
+        "MachineId":  266,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 1",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  673687440,
+                           "rank":  194
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 5",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  944214360,
+                           "rank":  93
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 5",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  246830940,
+                           "rank":  476
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Total Nuclear Annihilation",
+        "Plays":  3,
+        "Best Score":  331611,
+        "Rank":  "158 / 262",
+        "% Top":  60.31,
+        "MachineId":  16,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 2",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  97260,
+                           "rank":  237
+                       },
+                       {
+                           "event":  "2024 East Anglian League - Meet 3",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  331611,
+                           "rank":  158
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 6",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  226650,
+                           "rank":  183
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "TRON",
+        "Plays":  1,
+        "Best Score":  14749250,
+        "Rank":  "415 / 977",
+        "% Top":  42.48,
+        "MachineId":  115,
+        "Events":  [
+                       {
+                           "event":  "2026 East Anglian League - Meet 6",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  14749250,
+                           "rank":  415
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Twilight Zone",
+        "Plays":  2,
+        "Best Score":  816722280,
+        "Rank":  "28 / 2,664",
+        "% Top":  1.05,
+        "MachineId":  273,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 4",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  816722280,
+                           "rank":  28
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 3",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  219298850,
+                           "rank":  614
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Venom",
+        "Plays":  2,
+        "Best Score":  130002320,
+        "Rank":  "8 / 38",
+        "% Top":  21.05,
+        "MachineId":  359,
+        "Events":  [
+                       {
+                           "event":  "2024  Regional Finals Round Four",
+                           "year":  2024,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  33296920,
+                           "rank":  32
+                       },
+                       {
+                           "event":  "2024 East Anglian League - Meet 2",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  2,
+                           "score":  130002320,
+                           "rank":  8
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Viking",
+        "Plays":  1,
+        "Best Score":  1410350,
+        "Rank":  "1 / 2",
+        "% Top":  50,
+        "MachineId":  355,
+        "Events":  [
+                       {
+                           "event":  "2025  Regional Finals Round One Tiebreaker",
+                           "year":  2025,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  1410350,
+                           "rank":  1
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "Whirlwind",
+        "Plays":  5,
+        "Best Score":  3436260,
+        "Rank":  "156 / 492",
+        "% Top":  31.71,
+        "MachineId":  221,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 5",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  3377850,
+                           "rank":  164
+                       },
+                       {
+                           "event":  "2025  Regional Finals Round Two",
+                           "year":  2025,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  466340,
+                           "rank":  482
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 3",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  1653180,
+                           "rank":  337
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 5",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  2091750,
+                           "rank":  278
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 6",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  3436260,
+                           "rank":  156
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "White Water",
+        "Plays":  6,
+        "Best Score":  483244780,
+        "Rank":  "66 / 1,984",
+        "% Top":  3.33,
+        "MachineId":  7,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 3",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  139257450,
+                           "rank":  564
+                       },
+                       {
+                           "event":  "2024 East Anglian League - Meet 5",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  257703740,
+                           "rank":  231
+                       },
+                       {
+                           "event":  "2025  Regional Finals Round One",
+                           "year":  2025,
+                           "league":  "",
+                           "meet":  0,
+                           "score":  175173810,
+                           "rank":  413
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 1",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  53002660,
+                           "rank":  1197
+                       },
+                       {
+                           "event":  "2025 East Anglian League - Meet 5",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  483244780,
+                           "rank":  66
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 6",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  6,
+                           "score":  256001270,
+                           "rank":  233
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "World Cup Soccer",
+        "Plays":  2,
+        "Best Score":  453520640,
+        "Rank":  "245 / 554",
+        "% Top":  44.22,
+        "MachineId":  160,
+        "Events":  [
+                       {
+                           "event":  "2024 East Anglian League - Meet 1",
+                           "year":  2024,
+                           "league":  "East Anglian League",
+                           "meet":  1,
+                           "score":  453520640,
+                           "rank":  245
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 5",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  5,
+                           "score":  363956350,
+                           "rank":  326
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "X-Men",
+        "Plays":  1,
+        "Best Score":  2606660,
+        "Rank":  "594 / 618",
+        "% Top":  96.12,
+        "MachineId":  157,
+        "Events":  [
+                       {
+                           "event":  "2025 East Anglian League - Meet 3",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  3,
+                           "score":  2606660,
+                           "rank":  594
+                       }
+                   ]
+    },
+    {
+        "Machine \u0026#9650;":  "X\u0026#039;s \u0026amp; O\u0026#039;s",
+        "Plays":  2,
+        "Best Score":  706790,
+        "Rank":  "33 / 153",
+        "% Top":  21.57,
+        "MachineId":  268,
+        "Events":  [
+                       {
+                           "event":  "2025 East Anglian League - Meet 4",
+                           "year":  2025,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  706790,
+                           "rank":  33
+                       },
+                       {
+                           "event":  "2026 East Anglian League - Meet 4",
+                           "year":  2026,
+                           "league":  "East Anglian League",
+                           "meet":  4,
+                           "score":  245420,
+                           "rank":  102
+                       }
+                   ]
+    }
+]

@@ -1,11 +1,6 @@
 // Player Performance Heat Map Page
 import { ALL_PLAYERS, getSelectedPlayers } from './data.js';
-import { fmtNumber, makeTableSortable } from './utils.js';
-
-// Helper function to convert player name to key
-function playerKeyFromName(name) {
-  return name.toLowerCase().replace(/\s+/g, '');
-}
+import { fmtNumber, makeTableSortable, playerKeyFromName } from './utils.js';
 
 export function renderPlayerHeatmapPage(machines, stats) {
   const container = document.getElementById('heatmap-container');

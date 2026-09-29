@@ -27,6 +27,10 @@ body {
     color: #222;
 }
 
+main.page-wide {
+    max-width: 1600px;
+}
+
 h1,
 h2 {
     margin-top: 0;
@@ -324,6 +328,15 @@ tbody td.sorted-col {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+
+/* Prevent league-table columns being squeezed on desktop */
+#league-table th:not(:first-child) {
+    min-width: 90px;
+    white-space: nowrap;
+}
+#league-table th:last-child {
+    min-width: 60px;
 }
 
 /* Numeric alignment */
@@ -1105,6 +1118,228 @@ tbody tr.unplayed-row td {
 /* ===========================
    HOME DASHBOARD
    =========================== */
+
+/* Page banner — dashboard top graphic strip */
+.page-banner {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0;
+    margin-bottom: 0;
+    height: 120px;
+    background: url('banner.jpg') center/cover no-repeat #05101e;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
+}
+
+.page-banner-deco,
+.page-banner-inner {
+    display: none;
+}
+
+.page-banner-caption {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    padding: 6px 4px 2px;
+}
+
+.page-banner-caption .page-banner-sub {
+    font-size: 12px;
+    color: #666;
+    letter-spacing: 0;
+    text-transform: none;
+    font-weight: normal;
+}
+
+html[data-theme="dark"] .page-banner-caption .page-banner-sub {
+    color: #8899aa;
+}
+
+/* Light mode: add a subtle bottom border to separate banner caption from nav */
+.page-banner-caption {
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 4px;
+}
+
+html[data-theme="dark"] .page-banner-caption {
+    border-bottom-color: #1e2d40;
+}
+
+/* Matchplay widget card */
+.matchplay-card {
+    margin-top: 20px;
+}
+
+.matchplay-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.matchplay-link {
+    font-size: 12px;
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.matchplay-link:hover { text-decoration: underline; }
+
+.matchplay-body {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.matchplay-rating {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.matchplay-rating-num {
+    font-size: 42px;
+    font-weight: 900;
+    color: var(--accent);
+    line-height: 1;
+}
+
+.matchplay-delta {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.matchplay-delta--up   { color: #2ecc71; }
+.matchplay-delta--down { color: #e74c3c; }
+
+.matchplay-stats {
+    display: flex;
+    gap: 20px;
+}
+
+.matchplay-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.matchplay-stat-val {
+    font-size: 22px;
+    font-weight: 700;
+    color: #111;
+}
+
+html[data-theme="dark"] .matchplay-stat-val { color: #e8eaf0; }
+
+.matchplay-stat-lbl {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888;
+}
+
+.matchplay-loading {
+    color: #888;
+    font-size: 13px;
+    margin: 0;
+}
+
+/* When the banner is the header itself */
+.banner-header {
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.banner-header nav {
+    padding: 8px 0 0;
+}
+
+.page-banner-deco {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.page-banner-inner {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 32px;
+    gap: 16px;
+}
+
+.page-banner-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.page-banner-title {
+    font-size: 20px;
+    font-weight: 800;
+    color: #111;
+    letter-spacing: 0.5px;
+    line-height: 1;
+}
+
+html[data-theme="dark"] .page-banner-title {
+    color: #e8eaf0;
+}
+
+.page-banner-sub {
+    font-size: 12px;
+    color: rgba(160, 210, 255, 0.65);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.page-banner-logo-wrap {
+    position: relative;
+    flex-shrink: 0;
+    width: 90px;
+    height: 90px;
+}
+
+.page-banner-logo-wrap::before {
+    content: '';
+    position: absolute;
+    inset: -18px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(0, 160, 255, 0.25) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.page-banner-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: relative;
+    z-index: 1;
+    filter: drop-shadow(0 0 10px rgba(0, 140, 255, 0.4));
+}
+
+@media (max-width: 600px) {
+    .page-banner {
+        height: 82px;
+    }
+    .page-banner-inner {
+        padding: 0 18px;
+    }
+    .page-banner-logo-wrap {
+        width: 62px;
+        height: 62px;
+    }
+    .page-banner-sub {
+        display: none;
+    }
+}
 
 .home-hero {
     position: relative;
@@ -2377,6 +2612,8 @@ html[data-theme="dark"] .stoggle-btn--active { color: #fff; }
     align-items: flex-start;
     margin: 10px 0 4px;
     gap: 4px;
+    width: 100%;
+    overflow: hidden;
 }
 
 .sparkline-label {

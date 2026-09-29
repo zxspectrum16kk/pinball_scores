@@ -1,7 +1,7 @@
 {
   "name": "Pinball Scores",
   "short_name": "Pinball",
-  "start_url": "./index.html",
+  "start_url": "./home.html",
   "display": "standalone",
   "background_color": "#f9fafe",
   "theme_color": "#0077cc",
